@@ -1,0 +1,22 @@
+مجلد: images/gallery/education/private/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  education_private_01.webp
+  education_private_02.webp
+  education_private_03.webp
+  education_private_04.webp
+  education_private_05.webp
+  education_private_06.webp
+  education_private_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

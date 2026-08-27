@@ -1,0 +1,22 @@
+مجلد: images/pages/ai/band/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1000 بكسل   (نسبة 16:10)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  ai_band_01.webp
+  ai_band_02.webp
+  ai_band_03.webp
+  ai_band_04.webp
+  ai_band_05.webp
+  ai_band_06.webp
+  ai_band_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

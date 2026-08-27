@@ -1,0 +1,22 @@
+مجلد: images/gallery/calligraphy/handmade/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  calligraphy_handmade_01.webp
+  calligraphy_handmade_02.webp
+  calligraphy_handmade_03.webp
+  calligraphy_handmade_04.webp
+  calligraphy_handmade_05.webp
+  calligraphy_handmade_06.webp
+  calligraphy_handmade_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

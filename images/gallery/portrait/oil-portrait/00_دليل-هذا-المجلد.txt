@@ -1,0 +1,22 @@
+مجلد: images/gallery/portrait/oil-portrait/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  portrait_oil_portrait_01.webp
+  portrait_oil_portrait_02.webp
+  portrait_oil_portrait_03.webp
+  portrait_oil_portrait_04.webp
+  portrait_oil_portrait_05.webp
+  portrait_oil_portrait_06.webp
+  portrait_oil_portrait_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

@@ -1,0 +1,22 @@
+مجلد: images/pages/calligraphy/band/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1000 بكسل   (نسبة 16:10)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  calligraphy_band_01.webp
+  calligraphy_band_02.webp
+  calligraphy_band_03.webp
+  calligraphy_band_04.webp
+  calligraphy_band_05.webp
+  calligraphy_band_06.webp
+  calligraphy_band_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

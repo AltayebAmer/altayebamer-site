@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Essays on art, calligraphy, horses, AI and creativity.">
+<meta property="og:title" content="Journal — Altayeb Amer">
+<meta property="og:description" content="Essays on art, calligraphy, horses, AI and creativity.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>Journal — Altayeb Amer</title>
+<link rel="canonical" href="https://altayebamer.com/journal/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#050504">
+<meta name="author" content="Altayeb Amer">
+<meta property="og:site_name" content="Altayeb Amer">
+<meta property="og:url" content="https://altayebamer.com/journal/">
+<meta property="og:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Altayeb Amer — Visual Artist, Dubai">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AE">
+<meta name="twitter:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta name="twitter:title" content="Journal — Altayeb Amer">
+<meta name="twitter:description" content="Essays on art, calligraphy, horses, AI and creativity by Altayeb Amer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&family=EB+Garamond:ital@1&family=IBM+Plex+Arabic:wght@200;300&display=swap" rel="stylesheet">
+<style>
+:root{--void:#050504;--gold:#C8A96E;--gold-dim:rgba(200,169,110,.35);--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:auto}
+
+#cur{opacity:0;position:fixed;width:5px;height:5px;background:rgba(200,169,110,.7);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.ink-splash{position:fixed;border-radius:50%;pointer-events:none;z-index:9998;width:120px;height:120px;background:radial-gradient(circle,rgba(200,169,110,.22)0%,transparent 72%);transform:translate(-50%,-50%) scale(0);animation:splash .75s cubic-bezier(.15,1,.3,1) forwards}
+@keyframes splash{0%{transform:translate(-50%,-50%) scale(0);opacity:1}65%{opacity:.7;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.4)}}
+
+#lang-btn{position:fixed;top:1.55rem;left:1.6rem;z-index:8000;width:40px;height:40px;border-radius:50%;border:1px solid transparent;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity .5s,border-color .4s;background:transparent}
+#lang-btn.near{opacity:.45;border-color:rgba(200,169,110,.2)}
+#lang-btn:hover{opacity:1!important;border-color:var(--gold)!important}
+#lang-btn span{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(200,169,110,.5);transition:color .4s;user-select:none}
+#lang-btn:hover span{color:var(--gold)}
+#ink-veil{position:fixed;inset:0;z-index:8500;pointer-events:none;overflow:hidden}
+#ink-blob{position:absolute;border-radius:50%;background:var(--void);transform:translate(-50%,-50%) scale(0);will-change:transform}
+#ink-blob.grow{width:300vmax;height:300vmax;transform:translate(-50%,-50%) scale(1);transition:transform .95s cubic-bezier(.22,1,.36,1)}
+#ink-blob.shrink{transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.4,0,.6,1)}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:700;padding:1.6rem 2.5rem 1.6rem 5.5rem;display:flex;align-items:center;justify-content:flex-end;gap:2.5rem;background:linear-gradient(to bottom,rgba(5,5,4,.8)0%,transparent 100%)}
+nav a{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:.25em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+nav a:hover,nav a.active{color:var(--gold)}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 2rem}
+
+/* HEADER */
+.page-header{padding:10rem 0 5rem;text-align:center;position:relative}
+.page-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 60%,rgba(200,169,110,.055)0%,transparent 70%);pointer-events:none}
+.tag{font-family:'Cinzel',serif;font-size:.63rem;letter-spacing:.5em;text-transform:uppercase;color:rgba(200,169,110,.4);margin-bottom:1.5rem}
+.h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,6vw,5rem);font-weight:300;color:var(--ivory);line-height:1.1;margin-bottom:1.2rem}
+[data-lang="ar"] .h1{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+.rule{width:80px;height:1px;background:linear-gradient(to right,transparent,var(--gold),transparent);margin:0 auto 1.5rem}
+.sub{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;font-style:italic;color:rgba(200,169,110,.55)}
+
+/* FEATURED ARTICLE (Article 1) */
+.featured{
+  display:grid;grid-template-columns:1fr 1fr;gap:3rem;
+  border:1px solid rgba(200,169,110,.15);padding:3rem;margin-bottom:4rem;
+  cursor:auto;transition:border-color .4s;position:relative;overflow:hidden;
+}
+.featured::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 0% 0%,rgba(200,169,110,.04)0%,transparent 60%);opacity:0;transition:opacity .4s}
+.featured:hover{border-color:rgba(200,169,110,.3)}
+.featured:hover::before{opacity:1}
+.featured-meta{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem}
+.article-num{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.4em;color:rgba(200,169,110,.4)}
+.article-cat{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);background:rgba(200,169,110,.08);padding:.3rem .7rem;border:1px solid rgba(200,169,110,.15)}
+.featured-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.5rem);font-weight:300;color:var(--ivory);line-height:1.2;margin-bottom:1.2rem}
+[data-lang="ar"] .featured-title{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+.featured-excerpt{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(200,169,110,.55);line-height:1.85;margin-bottom:2rem}
+[data-lang="ar"] .featured-excerpt{font-family:'IBM Plex Arabic',sans-serif;font-style:normal;font-weight:200;font-size:.92rem}
+.read-btn{display:inline-flex;align-items:center;gap:.6rem;font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(200,169,110,.3);padding-bottom:.3rem;transition:border-color .3s}
+.read-btn:hover{border-color:var(--gold)}
+.read-btn .arr{transition:transform .3s}
+.read-btn:hover .arr{transform:translateX(4px)}
+
+.featured-visual{display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid rgba(200,169,110,.1);padding:3rem;position:relative}
+.visual-ornament{font-family:'Cormorant Garamond',serif;font-size:8rem;line-height:1;color:rgba(200,169,110,.08);font-style:italic;text-align:center;user-select:none}
+.visual-date{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.35em;color:rgba(200,169,110,.25);text-transform:uppercase;margin-top:1rem}
+
+/* GRID ARTICLES */
+.articles-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:6rem}
+.article-card{border:1px solid rgba(200,169,110,.1);padding:2rem;cursor:auto;transition:border-color .4s,transform .4s;position:relative;overflow:hidden}
+.article-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s cubic-bezier(.4,0,.2,1)}
+.article-card:hover{border-color:rgba(200,169,110,.3);transform:translateY(-3px)}
+.article-card:hover::after{transform:scaleX(1)}
+.card-meta{display:flex;align-items:center;gap:.8rem;margin-bottom:1.2rem;flex-wrap:wrap}
+.card-num{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.35em;color:rgba(200,169,110,.3)}
+.card-cat{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);background:rgba(200,169,110,.06);padding:.25rem .6rem}
+.card-title{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:300;color:var(--ivory);line-height:1.3;margin-bottom:.9rem}
+[data-lang="ar"] .card-title{font-family:'IBM Plex Arabic',sans-serif;font-weight:200;font-size:1.1rem}
+.card-excerpt{font-family:'Cormorant Garamond',serif;font-size:.9rem;font-style:italic;color:rgba(200,169,110,.45);line-height:1.75;margin-bottom:1.5rem}
+[data-lang="ar"] .card-excerpt{font-family:'IBM Plex Arabic',sans-serif;font-style:normal;font-weight:200;font-size:.82rem}
+.card-link{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);opacity:.6;transition:opacity .3s}
+.article-card:hover .card-link{opacity:1}
+
+/* ARTICLE OVERLAY */
+.article-overlay{
+  position:fixed;inset:0;z-index:9000;background:rgba(5,5,4,.97);
+  overflow-y:auto;opacity:0;pointer-events:none;transition:opacity .4s;
+}
+.article-overlay.open{opacity:1;pointer-events:auto}
+.overlay-close{
+  position:fixed;top:2rem;right:2rem;z-index:9001;
+  width:44px;height:44px;border:1px solid rgba(200,169,110,.3);
+  display:flex;align-items:center;justify-content:center;
+  cursor:auto;color:var(--gold);font-size:1.2rem;transition:border-color .3s;background:rgba(5,5,4,.8);
+}
+.overlay-close:hover{border-color:var(--gold)}
+.article-content{max-width:680px;margin:0 auto;padding:8rem 2rem 6rem}
+.article-content .a-tag{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.45em;text-transform:uppercase;color:var(--gold);opacity:.6;margin-bottom:1.5rem}
+.article-content .a-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,3.5rem);font-weight:300;color:var(--ivory);line-height:1.15;margin-bottom:2rem}
+[data-lang="ar"] .article-content .a-title{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+.article-content .a-rule{width:60px;height:1px;background:var(--gold);opacity:.4;margin-bottom:2.5rem}
+.article-content .a-body{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:rgba(240,235,225,.75);line-height:2;font-style:italic}
+[data-lang="ar"] .article-content .a-body{font-family:'IBM Plex Arabic',sans-serif;font-style:normal;font-weight:200;font-size:1rem;line-height:2}
+.article-content .a-body p{margin-bottom:1.8rem}
+.article-content .a-body h3{font-family:'Cinzel',serif;font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin:2.5rem 0 1rem;font-style:normal;font-weight:400}
+.article-content .a-body blockquote{border-left:2px solid var(--gold);padding-left:1.5rem;margin:2rem 0;color:var(--gold);font-size:1.15rem}
+[data-lang="ar"] .article-content .a-body blockquote{border-left:none;border-right:2px solid var(--gold);padding-left:0;padding-right:1.5rem}
+
+/* FOOTER */
+footer{border-top:1px solid rgba(200,169,110,.08);padding:2.5rem 0}
+.footer-inner{display:flex;align-items:center;justify-content:center;gap:.5rem;flex-wrap:wrap;font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.3em;color:var(--ivory2);text-transform:uppercase}
+.footer-inner a{color:var(--ivory2);text-decoration:none;transition:color .3s}
+.footer-inner a:hover{color:var(--gold)}
+.footer-sep{color:rgba(200,169,110,.25)}
+
+/* BILINGUAL */
+.t-en{display:inline}.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body{direction:rtl}
+[data-lang="ar"] .t-ar{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+[data-lang="ar"] .article-content .a-body blockquote{border-left:none;border-right:2px solid var(--gold);padding-left:0;padding-right:1.5rem}
+
+@media(max-width:768px){
+  .featured{grid-template-columns:1fr}
+  .featured-visual{display:none}
+  .articles-grid{grid-template-columns:1fr}
+  nav{padding:1.2rem 1.2rem 1.2rem 5rem;gap:1.5rem;overflow-x:auto}
+  nav a{font-size:.62rem}
+}
+
+/* restore visible cursor + correct affordances */
+a,button,summary,[role=button],.faq-q,.spec-item,.channel,.send-btn,.cta-btn,.wcell,.qbox{cursor:pointer}
+input,textarea,select{cursor:text}
+select{cursor:pointer}
+
+/* ═══ ARABIC TYPOGRAPHY FIX v2 ═══
+   العربية خط متّصل: لا تباعد حروف، ولا Uppercase، وخط عربي حقيقي.
+   الأرضية المطلقة max() تمنع أي نص عربي من النزول تحت حدّ المقروئية،
+   دون أن تُضخّم العناوين الكبيرة (1em يبقى كما هو إن كان أكبر).
+   Arabic: connected script — never letter-space; absolute floor via max(). */
+html[data-lang="ar"] .t-ar,
+html[data-lang="ar"] .ar-font,
+html[data-lang="ar"] [lang="ar"]{
+  font-family:'IBM Plex Arabic',system-ui,sans-serif !important;
+  letter-spacing:normal !important;
+  word-spacing:normal !important;
+  text-transform:none !important;
+  font-size:max(1.02rem,1em);
+  line-height:1.85;
+}
+/* عناصر الواجهة الصغيرة: أرضية أعلى قليلاً + وزن أوضح */
+html[data-lang="ar"] nav a,
+html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .band-tag,
+html[data-lang="ar"] .sec-title,html[data-lang="ar"] .section-title,
+html[data-lang="ar"] .works-title,html[data-lang="ar"] .connect-title,
+html[data-lang="ar"] .q-author,html[data-lang="ar"] .q-author-ar,
+html[data-lang="ar"] .footer-inner,html[data-lang="ar"] .jrn-cat,html[data-lang="ar"] .jrn-tag,
+html[data-lang="ar"] .stat-label,html[data-lang="ar"] .spec-note,html[data-lang="ar"] .offer-num,
+html[data-lang="ar"] .step-title,html[data-lang="ar"] .channel-name,html[data-lang="ar"] .form-label,
+html[data-lang="ar"] .cf-label,html[data-lang="ar"] .work-cap,html[data-lang="ar"] .mv-num{
+  font-size:max(1.02rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  line-height:1.8;
+}
+/* أزرار وروابط: مساحة نقر مريحة */
+html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+html[data-lang="ar"] .filter-btn,html[data-lang="ar"] .send-btn,
+html[data-lang="ar"] .works-all,html[data-lang="ar"] .specblock-visit,
+html[data-lang="ar"] .specblock-viewall,html[data-lang="ar"] .read-btn{
+  font-size:max(1.05rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  padding:.95rem 1.9rem;
+}
+html[data-lang="ar"] nav a{font-weight:400}
+/* شاشات كبيرة (٢٧ إنش فأكثر) */
+@media(min-width:1600px){
+  nav a{font-size:.78rem}
+  .cta,.cta-btn,.cv-btn,.band-enter,.statement-readmore,.send-btn{font-size:.72rem;padding:1rem 2rem}
+  html[data-lang="ar"] nav a{font-size:1.12rem !important}
+  html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .sec-title,
+  html[data-lang="ar"] .section-title,html[data-lang="ar"] .works-title{font-size:1.12rem !important}
+  html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+  html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+  html[data-lang="ar"] .send-btn,html[data-lang="ar"] .works-all,
+  html[data-lang="ar"] .specblock-visit,html[data-lang="ar"] .specblock-viewall{
+    font-size:1.18rem !important;padding:1.1rem 2.2rem;
+  }
+}
+
+/* عناوين عربية: سطر واحد متّزن، ولفٌّ أنيق عند الضرورة */
+[data-lang="ar"] .band-title-ar,
+[data-lang="ar"] .h1,[data-lang="ar"] h1,
+[data-lang="ar"] .cta-heading,[data-lang="ar"] .mv-title{
+  text-wrap:balance;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  max-width:22ch;
+  margin-inline:auto;
+}
+[data-lang="ar"] .band-title-ar{line-height:1.35}
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+</style>
+</head>
+<body>
+<div id="cur"></div>
+<div id="ink-veil"><div id="ink-blob"></div></div>
+<div id="lang-btn"><span id="lang-glyph">ض</span></div>
+
+<!-- ARTICLE OVERLAY -->
+<div class="article-overlay" id="article-overlay">
+  <button class="overlay-close" id="overlay-close" aria-label="Close">✕</button>
+  <div class="article-content" id="article-content"></div>
+</div>
+
+<nav id="nav">
+  <a href="../index.html"><span class="t-en">Home</span><span class="t-ar">الرئيسية</span></a>
+  <a href="../about/index.html"><span class="t-en">About</span><span class="t-ar">عن الفنان</span></a>
+  <a href="../statement/index.html"><span class="t-en">Statement</span><span class="t-ar">البيان الفني</span></a>
+  <a href="index.html" class="active"><span class="t-en">Journal</span><span class="t-ar">المجلة</span></a>
+  <a href="../commission/index.html"><span class="t-en">Commission</span><span class="t-ar">طلب عمل</span></a>
+  <a href="../contact/index.html"><span class="t-en">Contact</span><span class="t-ar">تواصل</span></a>
+</nav>
+
+<main>
+  <div class="wrap">
+    <header class="page-header">
+      <p class="tag"><span class="t-en">Writings & Reflections</span><span class="t-ar">كتابات وتأملات</span></p>
+      <h1 class="h1"><span class="t-en">Journal</span><span class="t-ar">المجلة</span></h1>
+      <div class="rule"></div>
+      <p class="sub"><span class="t-en">The artist's mind in words</span><span class="t-ar">عقل الفنان في كلمات</span></p>
+    </header>
+
+    <!-- FEATURED — Article 1: Overview -->
+    <article class="featured" data-article="0">
+      <div>
+        <div class="featured-meta">
+          <span class="article-num">I</span>
+          <span class="article-cat"><span class="t-en">Overview</span><span class="t-ar">نظرة شاملة</span></span>
+        </div>
+        <h2 class="featured-title">
+          <span class="t-en">Seven Worlds, One Soul: The Philosophy of Creative Beyond</span>
+          <span class="t-ar">سبعة عوالم، روح واحدة: فلسفة كريتيف بيوند</span>
+        </h2>
+        <p class="featured-excerpt">
+          <span class="t-en">For three decades, one artist has moved between calligraphy, portraiture, equestrian art, artificial intelligence, design, photography, and education — not as separate disciplines, but as a single unified language. This is the story of Creative Beyond.</span>
+          <span class="t-ar">لثلاثة عقود، تنقّل فنان واحد بين الحروفية والبورتريه وفن الخيل والذكاء الاصطناعي والتصميم والتصوير والتعليم — ليس كتخصصات منفصلة، بل كلغة واحدة موحّدة. هذه هي قصة كريتيف بيوند.</span>
+        </p>
+        <a class="read-btn" href="#" data-article="0">
+          <span class="t-en">Read Article</span>
+          <span class="t-ar">اقرأ المقال</span>
+          <span class="arr">→</span>
+        </a>
+      </div>
+      <div class="featured-visual">
+        <div class="visual-ornament">✦</div>
+        <p class="visual-date"><span class="t-en">Creative Beyond · Est. 1995</span><span class="t-ar">كريتيف بيوند · منذ ١٩٩٥</span></p>
+      </div>
+    </article>
+
+    <!-- ARTICLES GRID -->
+    <div class="articles-grid">
+      <!-- Article 2: Calligraphy -->
+      <article class="article-card" data-article="1">
+        <div class="card-meta">
+          <span class="card-num">II</span>
+          <span class="card-cat"><span class="t-en">Calligraphy</span><span class="t-ar">الحروفية</span></span>
+        </div>
+        <h3 class="card-title"><span class="t-en">The Letter That Escapes the Word</span><span class="t-ar">الحرف الذي يهرب من الكلمة</span></h3>
+        <p class="card-excerpt"><span class="t-en">On the contemporary Arabic Hurufiyya movement — where ancient script becomes living visual art, and space itself becomes part of the composition.</span><span class="t-ar">عن حركة الحروفية العربية المعاصرة — حيث يتحول الخط القديم إلى فن بصري حي، والفضاء نفسه يصبح جزءاً من التكوين.</span></p>
+        <span class="card-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </article>
+
+      <!-- Article 3: Horses -->
+      <article class="article-card" data-article="2">
+        <div class="card-meta">
+          <span class="card-num">III</span>
+          <span class="card-cat"><span class="t-en">Horses</span><span class="t-ar">الخيل</span></span>
+        </div>
+        <h3 class="card-title"><span class="t-en">In the Eyes of Horses</span><span class="t-ar">في عيون الخيل</span></h3>
+        <p class="card-excerpt"><span class="t-en">The Arabian horse is not a subject — it is a spirit. On painting purebred Arabians and the invisible dialogue between artist and animal that makes each portrait unique.</span><span class="t-ar">الحصان العربي ليس موضوعاً — بل هو روح. عن رسم الخيل العربية الأصيلة والحوار غير المرئي بين الفنان والحيوان.</span></p>
+        <span class="card-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </article>
+
+      <!-- Article 4: AI -->
+      <article class="article-card" data-article="3">
+        <div class="card-meta">
+          <span class="card-num">IV</span>
+          <span class="card-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></span>
+        </div>
+        <h3 class="card-title"><span class="t-en">100,000 Prompts and What I Learned</span><span class="t-ar">مئة ألف أمر وما تعلمته</span></h3>
+        <p class="card-excerpt"><span class="t-en">After over 100,000 AI prompts, the question isn't whether machines can make art — it's whether artists can use machines to make something more human.</span><span class="t-ar">بعد أكثر من مئة ألف برومبت، السؤال ليس هل يمكن للآلات صنع الفن — بل هل يمكن للفنانين استخدامها لصنع شيء أكثر إنسانية.</span></p>
+        <span class="card-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </article>
+
+      <!-- Article 5: Design -->
+      <article class="article-card" data-article="4">
+        <div class="card-meta">
+          <span class="card-num">V</span>
+          <span class="card-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></span>
+        </div>
+        <h3 class="card-title"><span class="t-en">Beauty That Serves Meaning</span><span class="t-ar">الجمال الذي يخدم المعنى</span></h3>
+        <p class="card-excerpt"><span class="t-en">Twenty years in visual design and advertising taught me one thing: design that disconnects from art becomes decoration. Design rooted in art becomes communication.</span><span class="t-ar">عشرون عاماً في التصميم البصري والإعلان علّمتني شيئاً واحداً: التصميم المنفصل عن الفن يصبح زخرفة. التصميم المتجذّر في الفن يصبح تواصلاً.</span></p>
+        <span class="card-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </article>
+
+      <!-- Article 6: Portrait -->
+      <article class="article-card" data-article="5">
+        <div class="card-meta">
+          <span class="card-num">VI</span>
+          <span class="card-cat"><span class="t-en">Portrait</span><span class="t-ar">البورتريه</span></span>
+        </div>
+        <h3 class="card-title"><span class="t-en">The Face Is a Mirror</span><span class="t-ar">الوجه مرآة</span></h3>
+        <p class="card-excerpt"><span class="t-en">On the art of portraiture — reading the silence behind the eyes, translating emotion into line and tone, and why every face is the most complex landscape an artist can paint.</span><span class="t-ar">عن فن البورتريه — قراءة الصمت خلف العيون وترجمة المشاعر إلى خط وظل، ولماذا كل وجه هو أكثر المناظر الطبيعية تعقيداً يمكن للفنان رسمها.</span></p>
+        <span class="card-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </article>
+
+      <!-- Article 7: Education -->
+      <article class="article-card" data-article="6">
+        <div class="card-meta">
+          <span class="card-num">VII</span>
+          <span class="card-cat"><span class="t-en">Education</span><span class="t-ar">التعليم</span></span>
+        </div>
+        <h3 class="card-title"><span class="t-en">Passing the Flame</span><span class="t-ar">تمرير اللهب</span></h3>
+        <p class="card-excerpt"><span class="t-en">Teaching calligraphy is not the transfer of a skill. It is the transmission of a way of seeing — and the greatest lesson is learning that what you give returns to you doubled.</span><span class="t-ar">تعليم الخط ليس نقل مهارة. إنه نقل طريقة رؤية — وأعظم درس هو تعلّم أن ما تعطيه يعود إليك مضاعفاً.</span></p>
+        <span class="card-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </article>
+
+      <!-- Article 8: Photography -->
+      <article class="article-card" data-article="7">
+        <div class="card-meta">
+          <span class="card-num">VIII</span>
+          <span class="card-cat"><span class="t-en">Photography</span><span class="t-ar">الفنون التطبيقية</span></span>
+        </div>
+        <h3 class="card-title"><span class="t-en">The Moment Does Not Repeat</span><span class="t-ar">اللحظة لا تتكرر</span></h3>
+        <p class="card-excerpt"><span class="t-en">Photography is not the capture of light — it is the capture of time before it escapes. On thirty years of seeing the world through a lens and what the camera teaches the painter's eye.</span><span class="t-ar">التصوير ليس التقاطاً للضوء — بل التقاطٌ للزمن قبل أن يفرّ. عن ثلاثين عاماً من رؤية العالم عبر العدسة وما تعلّمه الكاميرا لعين الرسام.</span></p>
+        <span class="card-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </article>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <a href="../index.html#top"><span class="t-en">Altayeb Amer</span><span class="t-ar">الطيب عامر</span></a>
+      <span class="footer-sep">·</span>
+      <a href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">Creative Beyond</a>
+      <span class="footer-sep">·</span>
+      <span class="t-en">Dubai</span><span class="t-ar">دبي</span>
+      <span class="footer-sep">·</span>
+      <span>© <span id="yr"></span></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+const cur=document.getElementById('cur');
+// Cursor — hide on touch devices
+const isTouch = window.matchMedia('(pointer: coarse)').matches;
+if (isTouch) { cur.style.display = 'none'; }
+document.addEventListener('mousemove', e => {
+  cur.style.left = e.clientX + 'px';
+  cur.style.top  = e.clientY + 'px';
+  cur.style.opacity = '1';
+});
+// ink-splash on click (mouse) and touchend (touch)
+function spawnSplash(x, y) {
+  const s = document.createElement('div');
+  s.className = 'ink-splash';
+  s.style.left = x + 'px';
+  s.style.top  = y + 'px';
+  document.body.appendChild(s);
+  setTimeout(() => s.remove(), 850);
+}
+document.addEventListener('click', e => {
+  if (e.target.closest('#lang-btn')) return;
+  spawnSplash(e.clientX, e.clientY);
+});
+// Touch: no persistent dot — splash only, no cursor
+document.addEventListener('touchend', e => {
+  if (e.target.closest('#lang-btn')) return;
+  const t = e.changedTouches[0];
+  spawnSplash(t.clientX, t.clientY);
+}, {passive: true});
+document.addEventListener('click',e=>{if(e.target.closest('#lang-btn')||e.target.closest('#article-overlay'))return;const s=document.createElement('div');s.className='ink-splash';s.style.left=e.clientX+'px';s.style.top=e.clientY+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),800);});
+const langBtn=document.getElementById('lang-btn'),langGlyph=document.getElementById('lang-glyph');
+const inkBlob=document.getElementById('ink-blob'),htmlEl=document.documentElement;
+let lang=(window.__AA_LANG||'en');
+document.addEventListener('mousemove',e=>{const r=langBtn.getBoundingClientRect();langBtn.classList.toggle('near',Math.hypot(e.clientX-(r.left+r.width/2),e.clientY-(r.top+r.height/2))<150);});
+langBtn.addEventListener('click',e=>{e.stopPropagation();const r=langBtn.getBoundingClientRect();const ox=r.left+r.width/2,oy=r.top+r.height/2;inkBlob.style.left=ox+'px';inkBlob.style.top=oy+'px';inkBlob.style.transition='none';inkBlob.style.transform='translate(-50%,-50%) scale(0)';requestAnimationFrame(()=>requestAnimationFrame(()=>{inkBlob.classList.add('grow');setTimeout(()=>{lang=lang==='en'?'ar':'en';htmlEl.setAttribute('data-lang',lang);htmlEl.setAttribute('lang',lang);htmlEl.setAttribute('dir',lang==='ar'?'rtl':'ltr');langGlyph.textContent=lang==='en'?'ض':'A';inkBlob.classList.remove('grow');inkBlob.classList.add('shrink');setTimeout(()=>{inkBlob.classList.remove('shrink');inkBlob.style.transform='translate(-50%,-50%) scale(0)';},750);},480);}));});
+
+// Articles data
+const ARTICLES = [
+  {
+    cat_en:'Overview', cat_ar:'نظرة شاملة',
+    title_en:'Seven Worlds, One Soul: The Philosophy of Creative Beyond',
+    title_ar:'سبعة عوالم، روح واحدة: فلسفة كريتيف بيوند',
+    body_en:`<p>For three decades, Altayeb Amer has inhabited a space most artists never reach: the convergence of multiple disciplines into a singular, coherent vision. What outsiders might call versatility, he calls necessity — the natural expansion of a restless creative spirit that cannot be contained within a single medium.</p>
+    <h3>Seven Disciplines, One Language</h3>
+    <p>The seven worlds of Creative Beyond — Arabic calligraphy, equestrian portraiture, AI-driven art, visual design, fine art portraits, photography, and art education — are not separate pursuits. They are seven facets of the same diamond, each reflecting light from a different angle.</p>
+    <blockquote>"I do not paint calligraphy on Monday and design logos on Tuesday. Every day, I am the same artist — the medium simply changes."</blockquote>
+    <h3>Dubai as Canvas</h3>
+    <p>Based in Dubai, the city itself has become central to this artistic philosophy. A place where ancient culture and hyper-modern ambition coexist, Dubai mirrors Altayeb Amer's own creative tension: honoring the depth of Arabic visual heritage while embracing the technologies and aesthetics of tomorrow.</p>
+    <h3>Creative Beyond</h3>
+    <p>The name Creative Beyond is not marketing — it is a manifesto. To go beyond the expected, beyond the comfortable, beyond the boundaries that limit most creative careers. After thirty years, this remains the driving principle of every work produced under this name.</p>`,
+    body_ar:`<p>لثلاثة عقود، سكن الطيب عامر مساحةً لا يصلها معظم الفنانين: تقاطع تخصصات متعددة في رؤية واحدة متماسكة. ما يسمّيه الآخرون تنوعاً، يسمّيه هو ضرورة — التوسع الطبيعي لروح إبداعية لا تهدأ ولا يحتويها وسيط واحد.</p>
+    <h3>سبعة تخصصات، لغة واحدة</h3>
+    <p>عوالم كريتيف بيوند السبعة — الحروفية العربية ورسم الخيل والفن بالذكاء الاصطناعي والتصميم البصري والبورتريه الفني والتصوير والتعليم — ليست مسارات منفصلة. إنها سبعة أوجه للماسة ذاتها، يعكس كل منها الضوء من زاوية مختلفة.</p>
+    <blockquote>"لا أرسم الحروفية يوم الاثنين وأصمم الشعارات يوم الثلاثاء. كل يوم، أنا الفنان ذاته — الوسيط هو الذي يتغير."</blockquote>
+    <h3>دبي كلوحة</h3>
+    <p>يعيش في دبي، المدينة التي أصبحت جزءاً محورياً من هذه الفلسفة الفنية. مكان تتعايش فيه الثقافة العريقة والطموح الفائق الحداثة، دبي تعكس التوتر الإبداعي الخاص بالطيب عامر: تكريم عمق الإرث البصري العربي مع احتضان تقنيات وجماليات الغد.</p>
+    <h3>كريتيف بيوند</h3>
+    <p>الاسم "كريتيف بيوند" ليس تسويقاً — بل هو بيان. التجاوز، تجاوز المتوقع والمريح والحدود التي تقيّد معظم المسارات الإبداعية. بعد ثلاثين عاماً، يبقى هذا المبدأ المحرّك لكل عمل يُنجز تحت هذا الاسم.</p>`
+  },
+  {
+    cat_en:'Calligraphy',cat_ar:'الحروفية',
+    title_en:'The Letter That Escapes the Word',
+    title_ar:'الحرف الذي يهرب من الكلمة',
+    body_en:`<p>There is a moment in the creation of every Hurufiyya work when the letter ceases to be language and becomes something else entirely — a shape, a movement, an architectural element that inhabits space rather than defines it.</p>
+    <h3>The Hurufiyya Movement</h3>
+    <p>Contemporary Arabic calligraphy — or Hurufiyya — represents one of the most vital visual art movements of the twentieth and twenty-first centuries. Drawing from a script tradition over 1,400 years old, Hurufiyya artists liberate the letter from its linguistic function and explore its pure visual potential.</p>
+    <blockquote>"The letter is not a container for meaning. It is meaning itself — visual, spatial, emotional, independent of any word it might form."</blockquote>
+    <h3>The Discipline of Freedom</h3>
+    <p>Mastering calligraphy takes years of precise, disciplined practice. Learning the classical scripts — Naskh, Thuluth, Diwani, Kufic — builds a foundation that makes genuine freedom possible. You cannot break rules you do not know. You cannot transcend forms you have not mastered. The discipline creates the freedom.</p>
+    <h3>Space as Medium</h3>
+    <p>In Hurufiyya work, the empty space between letters is as important as the letters themselves. The negative space breathes. It gives the composition rhythm, weight, and silence — the silence that allows the viewer to listen to what the letter is saying beyond its literal meaning.</p>`,
+    body_ar:`<p>في إبداع كل لوحة حروفية، ثمة لحظة يتوقف فيها الحرف عن كونه لغة ويصبح شيئاً آخر كلياً — شكلاً، حركةً، عنصراً معمارياً يسكن الفضاء بدلاً من أن يحدّده.</p>
+    <h3>حركة الحروفية</h3>
+    <p>الخط العربي المعاصر — أو الحروفية — يمثّل أحد أكثر حركات الفن البصري حيويةً في القرنين العشرين والحادي والعشرين. مستمدةً من تقليد كتابي يمتد أكثر من ألف وأربعمئة عام، يحرّر فنانو الحروفية الحرفَ من وظيفته اللغوية ويستكشفون إمكانياته البصرية الخالصة.</p>
+    <blockquote>"الحرف ليس وعاءً للمعنى. هو المعنى ذاته — بصرياً وفضائياً وعاطفياً، مستقلاً عن أي كلمة قد يشكّلها."</blockquote>
+    <h3>انضباط الحرية</h3>
+    <p>إتقان الخط يستغرق سنوات من التدريب الدقيق المنضبط. تعلّم الخطوط الكلاسيكية — النسخ والثلث والديواني والكوفي — يبني أساساً يجعل الحرية الحقيقية ممكنة. لا يمكنك كسر قواعد لا تعرفها. لا يمكنك تجاوز أشكال لم تتقنها. الانضباط يخلق الحرية.</p>`
+  },
+  {
+    cat_en:'Horses',cat_ar:'الخيل',
+    title_en:'In the Eyes of Horses',
+    title_ar:'في عيون الخيل',
+    body_en:`<p>The Arabian horse has been the subject of poets, warriors, and artists for millennia. To paint one is to enter a relationship — not with an animal, but with a civilization's deepest expression of beauty, power, and grace.</p>
+    <h3>The Silent Conversation</h3>
+    <p>Before a single mark is made on canvas, there is a period of observation that cannot be rushed. The horse's posture, the way light falls across its coat, the particular intelligence in its eyes — all of this must be absorbed before it can be rendered. The painting begins not with the brush, but with the gaze.</p>
+    <blockquote>"In the eyes of horses you read a poem written without words. The Arabian horse does not yield to the hand — it chooses the heart worthy of its stillness."</blockquote>
+    <h3>Technique and Soul</h3>
+    <p>The technical challenges of equestrian portraiture are considerable: the musculature beneath moving skin, the impossible sheen of a well-groomed coat, the complex spatial relationships of a horse in motion or repose. But technique alone produces anatomy. It takes something else — call it empathy, call it attention — to produce a portrait that breathes.</p>`,
+    body_ar:`<p>كان الحصان العربي موضوعاً للشعراء والمحاربين والفنانين على مدى آلاف السنين. رسمه يعني الدخول في علاقة — ليس مع حيوان، بل مع أعمق تعبير لحضارة عن الجمال والقوة والرشاقة.</p>
+    <h3>الحوار الصامت</h3>
+    <p>قبل وضع أي أثر على القماش، ثمة مرحلة مراقبة لا يمكن الإسراع فيها. وقفة الحصان وطريقة سقوط الضوء على فروته والذكاء المميز في عينيه — كل هذا يجب استيعابه قبل أن يُترجم. اللوحة لا تبدأ بالفرشاة، بل بالنظرة.</p>
+    <blockquote>"في عيون الخيل تقرأ قصيدة لا تُكتب بالكلمات. الحصان العربي لا يستسلم لليد — بل يختار القلب المستحق لسكونه."</blockquote>`
+  },
+  {
+    cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',
+    title_en:'100,000 Prompts and What I Learned',
+    title_ar:'مئة ألف أمر وما تعلمته',
+    body_en:`<p>The number 100,000 is not boastful — it is confessional. It represents the scale of experimentation required before one can speak honestly about what AI can and cannot do in the service of art.</p>
+    <h3>The Question Everyone Gets Wrong</h3>
+    <p>The debate about AI and creativity is usually framed as a question of replacement: will AI replace artists? This is the wrong question. The right question is: what does AI reveal about human creativity that we could not see before?</p>
+    <blockquote>"The algorithm predicts; the artist surprises himself. That surprise is the soul. AI generates what it has seen. The artist creates what has never been seen."</blockquote>
+    <h3>The Artist's Advantage</h3>
+    <p>After one hundred thousand prompts, what became clear is this: AI excels at recombination. It can synthesize the visual language of every artist who has ever created a digitized work. What it cannot do is be wrong in the right way — the beautiful mistake, the accidental discovery, the brushstroke that goes somewhere unexpected and arrives at truth. That capacity for productive error is distinctly human.</p>
+    <h3>A New Tool, Ancient Purpose</h3>
+    <p>Every era creates its own brush. The artist's task is to find the soul within it. AI is the most powerful brush ever placed in a human hand. The question of what to paint with it remains entirely ours to answer.</p>`,
+    body_ar:`<p>رقم مئة ألف ليس تفاخراً — إنه اعتراف. إنه يمثّل حجم التجريب المطلوب قبل أن يتحدث المرء بصدق عما يستطيع الذكاء الاصطناعي وما لا يستطيعه في خدمة الفن.</p>
+    <h3>السؤال الذي يخطئه الجميع</h3>
+    <p>النقاش حول الذكاء الاصطناعي والإبداع يُصاغ عادةً كسؤال عن الاستبدال: هل سيستبدل الذكاء الاصطناعي الفنانين؟ هذا هو السؤال الخاطئ. السؤال الصحيح هو: ماذا يكشف الذكاء الاصطناعي عن الإبداع البشري مما لم نكن نراه من قبل؟</p>
+    <blockquote>"الخوارزمية تتنبأ؛ الفنان يفاجئ نفسه. تلك المفاجأة هي الروح. الذكاء الاصطناعي يولّد ما رأى. الفنان يخلق ما لم يُرَ بعد."</blockquote>`
+  },
+  {
+    cat_en:'Design',cat_ar:'التصميم',
+    title_en:'Beauty That Serves Meaning',
+    title_ar:'الجمال الذي يخدم المعنى',
+    body_en:`<p>Twenty years in visual design and advertising have taught me a truth that took too long to articulate: design that disconnects from art becomes decoration. Design rooted in art becomes communication.</p>
+    <h3>The False Divide</h3>
+    <p>The design industry often treats art and commercial design as separate worlds — fine art for galleries, graphic design for clients. This division is artificial and ultimately harmful to both. The best visual design in history has always been made by artists who happened to have clients, not by technicians who happened to be paid.</p>
+    <blockquote>"Every era creates its own brush. The artist's task is to find the soul within it — whether that brush is a calligraphy reed or a digital stylus or an AI interface."</blockquote>
+    <h3>The Twenty-Year Education</h3>
+    <p>Two decades of brand identity work, advertising campaigns, and visual communication have been an education in restraint. The temptation to decorate is always present. The discipline is to serve — to make the message clear, the emotion precise, the meaning unmistakable. When design achieves this, it becomes invisible in the best possible way: the viewer sees the message, not the design.</p>`,
+    body_ar:`<p>علّمتني عشرون عاماً في التصميم البصري والإعلان حقيقة استغرقت وقتاً طويلاً للتعبير عنها: التصميم المنفصل عن الفن يصبح زخرفة. التصميم المتجذّر في الفن يصبح تواصلاً.</p>
+    <h3>الفجوة المصطنعة</h3>
+    <p>كثيراً ما تُعامل صناعة التصميم الفنَ والتصميم التجاري كعالمين منفصلين — الفن الجميل للمعارض والتصميم الغرافيكي للعملاء. هذا الفصل اصطناعي وضار في نهاية المطاف لكليهما. أفضل التصميم البصري في التاريخ صنعه دائماً فنانون صادف أن لديهم عملاء، لا تقنيون صادف أنهم يتقاضون أجراً.</p>`
+  },
+  {
+    cat_en:'Portrait',cat_ar:'البورتريه',
+    title_en:'The Face Is a Mirror',
+    title_ar:'الوجه مرآة',
+    body_en:`<p>A portrait is not the face. It is the silence behind the face that agrees to be seen.</p>
+    <h3>What the Camera Cannot Do</h3>
+    <p>Photography captures a moment. Painting captures a truth. The difference is not technical — it is intentional. A photograph records what was in front of the lens at a particular fraction of a second. A painted portrait synthesizes years of observation, emotional intelligence, and visual decision-making into a single image that may reveal more about its subject than the subject knows about themselves.</p>
+    <blockquote>"The brush reads what the eye cannot see. The painted face is not a reproduction of a person — it is an interpretation of a soul."</blockquote>
+    <h3>The Ethics of Seeing</h3>
+    <p>Portraiture carries an ethical dimension that other art forms do not. To paint a person is to claim a kind of knowledge about them. The responsibility this creates is immense — and it is this responsibility, more than any technical skill, that separates a portrait that endures from one that merely resembles.</p>`,
+    body_ar:`<p>البورتريه ليس الوجه. هو الصمت خلف الوجه الذي يوافق على أن يُرى.</p>
+    <h3>ما لا تستطيع الكاميرا فعله</h3>
+    <p>التصوير يلتقط لحظة. الرسم يلتقط حقيقة. الفرق ليس تقنياً — بل مقصوداً. الصورة الفوتوغرافية تسجّل ما كان أمام العدسة في كسر معين من الثانية. البورتريه المرسوم يُجمّع سنوات من المراقبة والذكاء العاطفي وقرارات بصرية في صورة واحدة قد تكشف عن موضوعها أكثر مما يعرفه الموضوع نفسه.</p>
+    <blockquote>"الريشة تقرأ ما لا تراه العين. الوجه المرسوم ليس استنساخاً لشخص — بل تفسيراً لروح."</blockquote>`
+  },
+  {
+    cat_en:'Education',cat_ar:'التعليم',
+    title_en:'Passing the Flame',
+    title_ar:'تمرير اللهب',
+    body_en:`<p>There is an old metaphor for teaching: the lighting of one flame from another. The image suggests that knowledge is not diminished by being shared — it multiplies.</p>
+    <h3>What Teaching Teaches</h3>
+    <p>Every artist who has taught knows the paradox: you learn more from your students than they learn from you. Not about technique — you know more about that — but about the freshness of seeing. Students approach the blank page without the weight of accumulated habit. Their questions expose assumptions you forgot you were making.</p>
+    <blockquote>"Teaching calligraphy is not transmitting a skill — it is passing a flame without extinguishing your own. Every student who learns the letter adds one more voice to a conversation that began centuries ago."</blockquote>
+    <h3>The Calligraphy Atelier</h3>
+    <p>The atelier model — small groups, sustained practice, direct transmission from master to student — remains the most effective way to learn calligraphy. The script is too subtle, the pressures too precise, the aesthetic judgments too nuanced to be learned from a book or a video. It requires the physical presence of someone who knows, watching and correcting in real time.</p>`,
+    body_ar:`<p>ثمة استعارة قديمة للتعليم: إضاءة لهب من لهب آخر. الصورة تُشير إلى أن المعرفة لا تتناقص بالمشاركة — بل تتضاعف.</p>
+    <h3>ما يعلّمه التعليم</h3>
+    <p>كل فنان علّم يعرف المفارقة: تتعلم من طلابك أكثر مما يتعلمون منك. ليس في التقنية — أنت تعرف أكثر في ذلك — بل في طزاجة الرؤية. يقترب الطلاب من الصفحة الفارغة دون ثقل العادة المتراكمة. أسئلتهم تكشف افتراضات نسيت أنك تفترضها.</p>
+    <blockquote>"تعليم الخط ليس نقل مهارة — بل هو تمرير لهب دون إطفاء لهبك. كل طالب يتعلم الحرف يضيف صوتاً جديداً إلى حوار بدأ منذ قرون."</blockquote>`
+  },
+  {
+    cat_en:'Photography',cat_ar:'التصوير',
+    title_en:'The Moment Does Not Repeat',
+    title_ar:'اللحظة لا تتكرر',
+    body_en:`<p>Photography is not the capture of light. It is the capture of time before it escapes. The lens knows this — even when the photographer forgets.</p>
+    <h3>The Painter's Eye Behind the Lens</h3>
+    <p>A painter who photographs does not see the world the way a pure photographer does. Years of compositional training, of thinking in terms of light and shadow and mass and weight, change the way the eye frames reality. The camera becomes a sketch tool — fast, immediate, capable of catching what the hand and brush would need hours to render.</p>
+    <blockquote>"The moment does not repeat itself — the lens knows this. Photography is not the capture of light — it is the capture of time before it escapes."</blockquote>
+    <h3>The Patience of the Real</h3>
+    <p>The greatest photographs are not taken — they are waited for. This patience is something that painting teaches better than any photography course: the knowledge that the right light, the right angle, the right emotional temperature of a scene cannot be forced. It must be recognized in the instant it appears. Thirty years of painting have been thirty years of learning to wait for that instant — and to act without hesitation when it arrives.</p>`,
+    body_ar:`<p>التصوير ليس التقاطاً للضوء. بل هو التقاطٌ للزمن قبل أن يفرّ. العدسة تعرف ذلك — حتى حين ينسى المصور.</p>
+    <h3>عين الرسام خلف العدسة</h3>
+    <p>الرسام الذي يصوّر لا يرى العالم كما يراه المصور الخالص. سنوات من التدريب على التكوين، والتفكير من حيث الضوء والظل والكتلة والوزن، تُغيّر طريقة إطار العين للواقع. الكاميرا تصبح أداة رسم — سريعة فورية قادرة على اصطياد ما تحتاجه اليد والفرشاة ساعات لتصويره.</p>
+    <blockquote>"اللحظة لا تتكرر — العدسة تعرف ذلك. التصوير ليس التقاطاً للضوء — بل هو التقاطٌ للزمن قبل أن يفرَّ."</blockquote>`
+  }
+,
+  {
+    cat_en:'On Art', cat_ar:'عن الفن',
+    title_en:'The Thirty-Year Mistake I Would Make Again',
+    title_ar:'الخطأ الذي استمر ثلاثين عاماً وسأكرره',
+    excerpt_en:'I never decided to become an artist. I simply never stopped.',
+    excerpt_ar:'لم أقرر أبداً أن أصبح فناناً. ببساطة لم أتوقف.',
+    body_en:`<p>People ask me when I decided to become an artist. I tell them: I never decided — I simply never stopped. There was no singular moment of revelation. Just a slow, stubborn refusal to be anything else.</p>
+<h3>The Permission No One Gives You</h3>
+<p>No institution, credential, gallery, or award gives you permission to call yourself an artist. The permission is given by the act of making. You make something. It exists. You are therefore a maker. The rest is other people's bureaucracy.</p>
+<blockquote>"The artist who spends energy defending their choice to be an artist has less energy left for the art itself. Stop defending. Start working."</blockquote>
+<h3>What Three Decades Teach</h3>
+<p>They teach you that fear never fully leaves. That the blank canvas at sixty carries the same terror as at twenty — just a different quality of terror, more familiar, almost companionable. They teach you that the artists who last are not the most talented — they are the most stubbornly committed to showing up.</p>`,
+    body_ar:`<p>يسألني الناس متى قررت أن أصبح فناناً. أقول: لم أقرر أبداً — ببساطة لم أتوقف. لم يكن هناك لحظة وحي واحدة. فقط رفض بطيء عنيد أن أكون أي شيء آخر.</p>
+<h3>الإذن الذي لا يمنحك إياه أحد</h3>
+<p>لا مؤسسة ولا وثيقة ولا جائزة معرض تمنحك إذن تسمية نفسك فناناً. الإذن يمنحه فعل الصنع. تصنع شيئاً. يوجد. أنت إذاً صانع. الباقي مجرد بيروقراطية الآخرين.</p>
+<blockquote>"الفنان الذي يُنفق طاقته في الدفاع عن اختياره أن يكون فناناً، يبقى له طاقة أقل للفن ذاته. توقف عن الدفاع. ابدأ العمل."</blockquote>
+<h3>ما تعلّمه ثلاثة عقود</h3>
+<p>تعلّمك أن الخوف لا يرحل أبداً. أن اللوحة الفارغة عند الستين تحمل الرعب ذاته الذي حملته عند العشرين — فقط بجودة مختلفة من الرعب، أكثر ألفةً. وتعلّمك أن الفنانين الذين يستمرون ليسوا الأكثر موهبة — بل الأكثر التزاماً عنيداً بالحضور والعمل.</p>`
+  },
+  {
+    cat_en:'On Art', cat_ar:'عن الفن',
+    title_en:'Why I Never Work in a Clean Studio',
+    title_ar:'لماذا لا أعمل أبداً في مرسم نظيف',
+    excerpt_en:'My studio is a record. Every stain tells a story of what came before.',
+    excerpt_ar:'مرسمي سجلٌّ. كل بقعة طلاء تحكي قصة ما سبق.',
+    body_en:`<p>Every few months, someone photographs their studio — immaculate, curated, every brush in its place — and posts it with the caption "ready to create." I have never once felt ready to create in a space like that.</p>
+<h3>The Archaeology of the Studio</h3>
+<p>My studio is a record. Every paint-stained surface tells a story of what came before. The smear of gold ochre on the table is from the calligraphy piece I could not finish for two weeks. I do not clean these away. They are the archive.</p>
+<blockquote>"A clean studio belongs to someone who has not yet started. A dirty studio belongs to someone who cannot stop."</blockquote>
+<h3>The Presence of Past Work</h3>
+<p>When I sit down to work, I want the residue of previous decisions around me. The visual weight of past choices — their failures and their moments of grace — creates a pressure that sharpens the current work. You cannot be careless when your past mistakes are watching.</p>`,
+    body_ar:`<p>كل بضعة أشهر، يصوّر أحدهم مرسمه — نظيفاً مرتّباً — وينشره بتعليق "مستعد للإبداع". لم أشعر ولو مرة واحدة بأنني مستعد للإبداع في مكان كهذا.</p>
+<h3>أثريولوجيا المرسم</h3>
+<p>مرسمي سجلٌّ. كل سطح ملطّخ بالطلاء يحكي قصة ما سبق. البقعة الذهبية على الطاولة من لوحة الحروفية التي لم أستطع إنهاءها لأسبوعين. لا أُزيل هذه الآثار. هي الأرشيف.</p>
+<blockquote>"المرسم النظيف يخصّ من لم يبدأ بعد. المرسم القذر يخصّ من لا يستطيع أن يتوقف."</blockquote>
+<h3>حضور الأعمال الماضية</h3>
+<p>حين أجلس للعمل، أريد بقايا القرارات السابقة من حولي. الثقل البصري للاختيارات الماضية — إخفاقاتها ولحظات نعمتها — يخلق ضغطاً يشحذ العمل الحالي. لا يمكنك التهاون حين تراقبك أخطاؤك الماضية.</p>`
+  },
+  {
+    cat_en:'On Art', cat_ar:'عن الفن',
+    title_en:'The Body in Art: What the Hand Knows',
+    title_ar:'الجسد في الفن: ما تعرفه اليد',
+    excerpt_en:'After thirty years, I trust the hand more than the conscious mind.',
+    excerpt_ar:'بعد ثلاثين عاماً، أثق باليد أكثر من ثقتي بعقلي الواعي.',
+    body_en:`<p>There is a kind of knowledge that lives in the hand and does not easily translate into language. After thirty years of practice, I have learned to trust this knowledge more than almost any other — including the judgments of my conscious mind.</p>
+<h3>Muscle Memory Is Not Memory</h3>
+<p>What we call muscle memory is not memory in the ordinary sense. It is something more like intelligence — a form of problem-solving that bypasses the analytical mind and operates directly between perception and action. The calligrapher's hand that finds the correct pressure without calculation.</p>
+<blockquote>"The hand is not a tool of the mind. It is a co-mind — a second intelligence that learns faster, forgets less, and lies rarely."</blockquote>
+<h3>What Interrupts It</h3>
+<p>The enemy of hand-knowledge is self-consciousness. The moment I begin to think too explicitly about what the hand is doing, the quality of the mark degrades. The best studio sessions are those where conscious thought becomes minimal — where hand and eye operate in their own private conversation.</p>`,
+    body_ar:`<p>ثمة نوع من المعرفة يسكن اليد ولا يُترجم بسهولة إلى لغة. بعد ثلاثين عاماً من الممارسة، تعلّمت أن أثق بهذه المعرفة أكثر من أي شيء آخر تقريباً — بما في ذلك أحكام عقلي الواعي.</p>
+<h3>الذاكرة العضلية ليست ذاكرة</h3>
+<p>ما نسميه الذاكرة العضلية ليست ذاكرة بالمعنى المعتاد. هي أشبه بالذكاء — شكل من أشكال حل المشكلات يتجاوز العقل التحليلي ويعمل مباشرة بين الإدراك والفعل.</p>
+<blockquote>"اليد ليست أداة للعقل. هي عقل مشترك — ذكاء ثانٍ يتعلم أسرع، وينسى أقل، ونادراً ما يكذب."</blockquote>
+<h3>ما يعطّله</h3>
+<p>عدو معرفة اليد هو الوعي الذاتي المفرط. في اللحظة التي أبدأ فيها التفكير بوضوح شديد في ما تفعله اليد، تتراجع جودة الأثر. أفضل جلسات العمل هي تلك التي يصبح فيها التفكير الواعي في حده الأدنى.</p>`
+  },
+  {
+    cat_en:'On Art', cat_ar:'عن الفن',
+    title_en:'On Failure: The Work That Went Wrong',
+    title_ar:'عن الإخفاق: العمل الذي ذهب خطأً',
+    excerpt_en:'I have destroyed more work than most people will ever make.',
+    excerpt_ar:'دمّرت من الأعمال أكثر مما سيصنعه معظم الناس.',
+    body_en:`<p>I have destroyed more work than most people will ever make. Not in anger — but in a cold, considered judgment that the work had failed to become what it was trying to be.</p>
+<h3>The Failure You Cannot Fix</h3>
+<p>There are failures that can be corrected: a wrong color, a weak composition. But there is another category: the work that is not technically wrong but spiritually absent. The technically proficient painting that says nothing. This failure cannot be fixed, because what is missing was never in the technique to begin with.</p>
+<blockquote>"The work that lies flat — not ugly, not broken, just absent — is the most honest failure. It tells you exactly what you were not prepared to bring to it."</blockquote>
+<h3>What Failure Gives</h3>
+<p>A destroyed work is not entirely lost. Every piece I have torn or painted over has left a deposit — a residue of knowledge about what did not work, and why. Failure, attended to rather than avoided, is the primary curriculum of the serious artist.</p>`,
+    body_ar:`<p>دمّرت من الأعمال أكثر مما سيصنعه معظم الناس في حياتهم. ليس بغضب — بل بحكم بارد متأمّل بأن العمل فشل في أن يصبح ما كان يحاول أن يكونه.</p>
+<h3>الإخفاق الذي لا يمكن تصحيحه</h3>
+<p>ثمة إخفاقات يمكن تصحيحها: لون خاطئ، تكوين ضعيف. لكن ثمة فئة أخرى: العمل الذي ليس خاطئاً تقنياً لكنه غائب روحياً. اللوحة المتقنة تقنياً التي لا تقول شيئاً.</p>
+<blockquote>"العمل الذي يرقد مسطّحاً — ليس قبيحاً، ليس مكسوراً، فقط غائباً — هو الإخفاق الأصدق. يخبرك بدقة ما لم تكن مستعداً لتحضره إليه."</blockquote>
+<h3>ما يمنحه الإخفاق</h3>
+<p>العمل المدمَّر لا يضيع كلياً. كل قطعة مزّقتها تركت رواسب — بقايا معرفة عما لم ينجح ولماذا. الإخفاق، حين تتعامل معه بدل تجنّبه، هو المنهج الدراسي الأساسي للفنان الجاد.</p>`
+  },
+  {
+    cat_en:'On Art', cat_ar:'عن الفن',
+    title_en:'What I See When I Look at Old Masters',
+    title_ar:'ما أراه حين أنظر إلى القدامى العظماء',
+    excerpt_en:'I do not look at old paintings for inspiration. I look for the decisions.',
+    excerpt_ar:'لا أنظر إلى اللوحات القديمة بحثاً عن الإلهام. أنظر إلى القرارات.',
+    body_en:`<p>Museums make me uncomfortable. Not because of the crowds or the silence — but because of the specific quality of attention that standing in front of great old work demands. It is not comfortable attention. It is demanding and humbling.</p>
+<h3>What I Actually Look At</h3>
+<p>I do not look at old paintings for inspiration. I look for the decisions — particularly the decisions that could have gone differently. The passage in a Rembrandt where the paint is thickest is always instructive: that is where he was fighting hardest, where the surface records not genius but struggle. I find enormous comfort in that.</p>
+<blockquote>"Every great painting contains, if you look long enough, the evidence of its own difficulty. The masters did not find it easy. They found it inevitable."</blockquote>`,
+    body_ar:`<p>تُزعجني المتاحف. ليس بسبب الحشود أو الصمت — بل بسبب الجودة المحددة من الانتباه التي يتطلبها الوقوف أمام العمل العظيم القديم. ليس انتباهاً مريحاً. بل انتباه مطالِب ومُتواضِع.</p>
+<h3>ما أنظر إليه فعلاً</h3>
+<p>لا أنظر إلى اللوحات القديمة بحثاً عن الإلهام. أنظر إلى القرارات — تحديداً القرارات التي كان يمكن أن تسير بشكل مختلف. المقطع في لوحة رامبرانت حيث الطلاء أكثف دائماً تعليمي: هناك حيث كان يقاتل بأشد ما يكون.</p>
+<blockquote>"كل لوحة عظيمة تحتوي، إذا نظرت طويلاً بما يكفي، على دليل صعوبتها الخاصة. العظماء لم يجدوها سهلة. وجدوها حتمية."</blockquote>`
+  },
+  {
+    cat_en:'On Art', cat_ar:'عن الفن',
+    title_en:'The Gallery Wall and the Living Room Wall',
+    title_ar:'جدار المعرض وجدار الصالة',
+    excerpt_en:'Art in a museum converses with history. Art in a home converses with life.',
+    excerpt_ar:'الفن في المتحف يحاور التاريخ. الفن في البيت يحاور الحياة.',
+    body_en:`<p>I have been asked many times whether art belongs in museums or in homes. The question assumes they are mutually exclusive. They are simply different conversations — and both, in their different ways, are necessary.</p>
+<h3>The Living Room Test</h3>
+<p>The test I care most about is simple: can this work live with someone? Not just be appreciated in a gallery for thirty seconds, but genuinely coexist with the dailiness of a human life? If a piece passes this test — if it can bear repeated, informal, unguarded attention — then it has something genuinely alive in it.</p>
+<blockquote>"Art in a museum is art in conversation with history. Art in a home is art in conversation with life. I have made work for both conversations, and I find the second one harder to win."</blockquote>`,
+    body_ar:`<p>سُئلت مرات كثيرة إذا كان الفن ينتمي إلى المتاحف أم إلى البيوت. السؤال يفترض أنهما متنافيان. هما ببساطة محادثتان مختلفتان — وكلتاهما ضروريتان.</p>
+<h3>اختبار الصالة</h3>
+<p>الاختبار الذي يهمني أكثر بسيط: هل يستطيع هذا العمل أن يعيش مع أحدهم؟ ليس أن يُقدَّر في معرض لثلاثين ثانية، بل أن يتعايش حقاً مع يومية حياة بشرية؟ إذا اجتاز العمل هذا الاختبار، فهو يحمل شيئاً حياً فعلاً.</p>
+<blockquote>"الفن في متحف هو فن في محادثة مع التاريخ. الفن في بيت هو فن في محادثة مع الحياة. صنعت أعمالاً للمحادثتين، وأجد الثانية أصعب في الفوز."</blockquote>`
+  }
+];
+
+// Article overlay
+const overlay = document.getElementById('article-overlay');
+const content = document.getElementById('article-content');
+const lang_getter = () => document.documentElement.getAttribute('data-lang') || 'en';
+
+function openArticle(idx) {
+  const a = ARTICLES[idx];
+  const L = lang_getter();
+  content.innerHTML = `
+    <p class="a-tag">${L==='ar'?a.cat_ar:a.cat_en}</p>
+    <h2 class="a-title">${L==='ar'?a.title_ar:a.title_en}</h2>
+    <div class="a-rule"></div>
+    <div class="a-body">${L==='ar'?a.body_ar:a.body_en}</div>
+  `;
+  overlay.classList.add('open');
+  overlay.scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+}
+
+document.querySelectorAll('[data-article]').forEach(el => {
+  el.addEventListener('click', e => {
+    e.preventDefault();
+    openArticle(parseInt(el.dataset.article));
+  });
+});
+
+document.getElementById('overlay-close').addEventListener('click', () => {
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+});
+
+overlay.addEventListener('click', e => { if(e.target===overlay){overlay.classList.remove('open');document.body.style.overflow='';} });
+document.addEventListener('keydown', e => { if(e.key==='Escape'){overlay.classList.remove('open');document.body.style.overflow='';} });
+
+document.getElementById('nav').style.opacity='1';document.getElementById('nav').style.pointerEvents='auto';
+</script>
+
+<script>
+/* حفظ اللغة + تمريرها عبر الروابط (يعمل حتى على file:// حيث يُعزل localStorage) */
+(function(){
+  var d=document.documentElement;
+  var g=document.getElementById("lang-glyph");
+  function cur(){return d.getAttribute("data-lang")||"en";}
+  if(g) g.textContent = cur()==="ar" ? "A" : "ض";
+  function save(){ try{ localStorage.setItem("aa_lang",cur()); }catch(e){} }
+  save();
+  try{ new MutationObserver(save).observe(d,{attributes:true,attributeFilter:["data-lang"]}); }catch(e){}
+  /* مرّر اللغة في كل رابط داخلي */
+  document.addEventListener("click",function(e){
+    var a=e.target.closest && e.target.closest("a[href]");
+    if(!a) return;
+    var h=a.getAttribute("href")||"";
+    if(/^(https?:|mailto:|tel:|#|javascript:)/i.test(h)) return;
+    if(a.target==="_blank") return;
+    var l=cur();
+    var hash=""; var base=h;
+    var hi=h.indexOf("#"); if(hi>=0){ base=h.slice(0,hi); hash=h.slice(hi); }
+    base=base.replace(/([?&])lang=(ar|en)&?/,"$1").replace(/[?&]$/,"");
+    base += (base.indexOf("?")>=0?"&":"?")+"lang="+l;
+    a.setAttribute("href",base+hash);
+  },true);
+})();
+</script>
+</body>
+</html>

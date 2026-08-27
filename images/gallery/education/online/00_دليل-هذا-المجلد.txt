@@ -1,0 +1,22 @@
+مجلد: images/gallery/education/online/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  education_online_01.webp
+  education_online_02.webp
+  education_online_03.webp
+  education_online_04.webp
+  education_online_05.webp
+  education_online_06.webp
+  education_online_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

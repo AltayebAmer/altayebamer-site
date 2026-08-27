@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /altayeb-cms-v5.html
+Disallow: /images/GUIDE.html
+
+Sitemap: https://altayebamer.com/sitemap.xml

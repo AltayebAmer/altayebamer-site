@@ -1,0 +1,22 @@
+مجلد: images/about/portrait/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1200×1600 بكسل   (نسبة 3:4)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  about_portrait_01.webp
+  about_portrait_02.webp
+  about_portrait_03.webp
+  about_portrait_04.webp
+  about_portrait_05.webp
+  about_portrait_06.webp
+  about_portrait_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

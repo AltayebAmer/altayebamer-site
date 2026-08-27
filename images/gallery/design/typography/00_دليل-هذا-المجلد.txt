@@ -1,0 +1,22 @@
+مجلد: images/gallery/design/typography/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  design_typography_01.webp
+  design_typography_02.webp
+  design_typography_03.webp
+  design_typography_04.webp
+  design_typography_05.webp
+  design_typography_06.webp
+  design_typography_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

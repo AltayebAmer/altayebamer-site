@@ -1,0 +1,471 @@
+group,file,placeholder,description
+calligraphy_handmade,images/gallery/calligraphy/handmade/calligraphy_handmade_01.webp,https://picsum.photos/seed/5000/1600/1000,Handmade | اليدوي — 1
+calligraphy_handmade,images/gallery/calligraphy/handmade/calligraphy_handmade_02.webp,https://picsum.photos/seed/5001/1600/1000,Handmade | اليدوي — 2
+calligraphy_handmade,images/gallery/calligraphy/handmade/calligraphy_handmade_03.webp,https://picsum.photos/seed/5002/1600/1000,Handmade | اليدوي — 3
+calligraphy_handmade,images/gallery/calligraphy/handmade/calligraphy_handmade_04.webp,https://picsum.photos/seed/5003/1600/1000,Handmade | اليدوي — 4
+calligraphy_handmade,images/gallery/calligraphy/handmade/calligraphy_handmade_05.webp,https://picsum.photos/seed/5004/1600/1000,Handmade | اليدوي — 5
+calligraphy_handmade,images/gallery/calligraphy/handmade/calligraphy_handmade_06.webp,https://picsum.photos/seed/5005/1600/1000,Handmade | اليدوي — 6
+calligraphy_handmade,images/gallery/calligraphy/handmade/calligraphy_handmade_07.webp,https://picsum.photos/seed/5006/1600/1000,Handmade | اليدوي — 7
+calligraphy_digital,images/gallery/calligraphy/digital/calligraphy_digital_01.webp,https://picsum.photos/seed/5007/1600/1000,Digital | الرقمي — 1
+calligraphy_digital,images/gallery/calligraphy/digital/calligraphy_digital_02.webp,https://picsum.photos/seed/5008/1600/1000,Digital | الرقمي — 2
+calligraphy_digital,images/gallery/calligraphy/digital/calligraphy_digital_03.webp,https://picsum.photos/seed/5009/1600/1000,Digital | الرقمي — 3
+calligraphy_digital,images/gallery/calligraphy/digital/calligraphy_digital_04.webp,https://picsum.photos/seed/5010/1600/1000,Digital | الرقمي — 4
+calligraphy_digital,images/gallery/calligraphy/digital/calligraphy_digital_05.webp,https://picsum.photos/seed/5011/1600/1000,Digital | الرقمي — 5
+calligraphy_digital,images/gallery/calligraphy/digital/calligraphy_digital_06.webp,https://picsum.photos/seed/5012/1600/1000,Digital | الرقمي — 6
+calligraphy_digital,images/gallery/calligraphy/digital/calligraphy_digital_07.webp,https://picsum.photos/seed/5013/1600/1000,Digital | الرقمي — 7
+calligraphy_ai,images/gallery/calligraphy/ai/calligraphy_ai_01.webp,https://picsum.photos/seed/5014/1600/1000,AI Calligraphy | بالذكاء الاصطناعي — 1
+calligraphy_ai,images/gallery/calligraphy/ai/calligraphy_ai_02.webp,https://picsum.photos/seed/5015/1600/1000,AI Calligraphy | بالذكاء الاصطناعي — 2
+calligraphy_ai,images/gallery/calligraphy/ai/calligraphy_ai_03.webp,https://picsum.photos/seed/5016/1600/1000,AI Calligraphy | بالذكاء الاصطناعي — 3
+calligraphy_ai,images/gallery/calligraphy/ai/calligraphy_ai_04.webp,https://picsum.photos/seed/5017/1600/1000,AI Calligraphy | بالذكاء الاصطناعي — 4
+calligraphy_ai,images/gallery/calligraphy/ai/calligraphy_ai_05.webp,https://picsum.photos/seed/5018/1600/1000,AI Calligraphy | بالذكاء الاصطناعي — 5
+calligraphy_ai,images/gallery/calligraphy/ai/calligraphy_ai_06.webp,https://picsum.photos/seed/5019/1600/1000,AI Calligraphy | بالذكاء الاصطناعي — 6
+calligraphy_ai,images/gallery/calligraphy/ai/calligraphy_ai_07.webp,https://picsum.photos/seed/5020/1600/1000,AI Calligraphy | بالذكاء الاصطناعي — 7
+calligraphy_kufic,images/gallery/calligraphy/kufic/calligraphy_kufic_01.webp,https://picsum.photos/seed/5021/1600/1000,Kufic Script | الخط الكوفي — 1
+calligraphy_kufic,images/gallery/calligraphy/kufic/calligraphy_kufic_02.webp,https://picsum.photos/seed/5022/1600/1000,Kufic Script | الخط الكوفي — 2
+calligraphy_kufic,images/gallery/calligraphy/kufic/calligraphy_kufic_03.webp,https://picsum.photos/seed/5023/1600/1000,Kufic Script | الخط الكوفي — 3
+calligraphy_kufic,images/gallery/calligraphy/kufic/calligraphy_kufic_04.webp,https://picsum.photos/seed/5024/1600/1000,Kufic Script | الخط الكوفي — 4
+calligraphy_kufic,images/gallery/calligraphy/kufic/calligraphy_kufic_05.webp,https://picsum.photos/seed/5025/1600/1000,Kufic Script | الخط الكوفي — 5
+calligraphy_kufic,images/gallery/calligraphy/kufic/calligraphy_kufic_06.webp,https://picsum.photos/seed/5026/1600/1000,Kufic Script | الخط الكوفي — 6
+calligraphy_kufic,images/gallery/calligraphy/kufic/calligraphy_kufic_07.webp,https://picsum.photos/seed/5027/1600/1000,Kufic Script | الخط الكوفي — 7
+calligraphy_thuluth,images/gallery/calligraphy/thuluth/calligraphy_thuluth_01.webp,https://picsum.photos/seed/5028/1600/1000,Thuluth Script | خط الثلث — 1
+calligraphy_thuluth,images/gallery/calligraphy/thuluth/calligraphy_thuluth_02.webp,https://picsum.photos/seed/5029/1600/1000,Thuluth Script | خط الثلث — 2
+calligraphy_thuluth,images/gallery/calligraphy/thuluth/calligraphy_thuluth_03.webp,https://picsum.photos/seed/5030/1600/1000,Thuluth Script | خط الثلث — 3
+calligraphy_thuluth,images/gallery/calligraphy/thuluth/calligraphy_thuluth_04.webp,https://picsum.photos/seed/5031/1600/1000,Thuluth Script | خط الثلث — 4
+calligraphy_thuluth,images/gallery/calligraphy/thuluth/calligraphy_thuluth_05.webp,https://picsum.photos/seed/5032/1600/1000,Thuluth Script | خط الثلث — 5
+calligraphy_thuluth,images/gallery/calligraphy/thuluth/calligraphy_thuluth_06.webp,https://picsum.photos/seed/5033/1600/1000,Thuluth Script | خط الثلث — 6
+calligraphy_thuluth,images/gallery/calligraphy/thuluth/calligraphy_thuluth_07.webp,https://picsum.photos/seed/5034/1600/1000,Thuluth Script | خط الثلث — 7
+calligraphy_diwani,images/gallery/calligraphy/diwani/calligraphy_diwani_01.webp,https://picsum.photos/seed/5035/1600/1000,Diwani Script | الخط الديواني — 1
+calligraphy_diwani,images/gallery/calligraphy/diwani/calligraphy_diwani_02.webp,https://picsum.photos/seed/5036/1600/1000,Diwani Script | الخط الديواني — 2
+calligraphy_diwani,images/gallery/calligraphy/diwani/calligraphy_diwani_03.webp,https://picsum.photos/seed/5037/1600/1000,Diwani Script | الخط الديواني — 3
+calligraphy_diwani,images/gallery/calligraphy/diwani/calligraphy_diwani_04.webp,https://picsum.photos/seed/5038/1600/1000,Diwani Script | الخط الديواني — 4
+calligraphy_diwani,images/gallery/calligraphy/diwani/calligraphy_diwani_05.webp,https://picsum.photos/seed/5039/1600/1000,Diwani Script | الخط الديواني — 5
+calligraphy_diwani,images/gallery/calligraphy/diwani/calligraphy_diwani_06.webp,https://picsum.photos/seed/5040/1600/1000,Diwani Script | الخط الديواني — 6
+calligraphy_diwani,images/gallery/calligraphy/diwani/calligraphy_diwani_07.webp,https://picsum.photos/seed/5041/1600/1000,Diwani Script | الخط الديواني — 7
+calligraphy_mixed,images/gallery/calligraphy/mixed/calligraphy_mixed_01.webp,https://picsum.photos/seed/5042/1600/1000,Mixed Media | وسائط مختلطة — 1
+calligraphy_mixed,images/gallery/calligraphy/mixed/calligraphy_mixed_02.webp,https://picsum.photos/seed/5043/1600/1000,Mixed Media | وسائط مختلطة — 2
+calligraphy_mixed,images/gallery/calligraphy/mixed/calligraphy_mixed_03.webp,https://picsum.photos/seed/5044/1600/1000,Mixed Media | وسائط مختلطة — 3
+calligraphy_mixed,images/gallery/calligraphy/mixed/calligraphy_mixed_04.webp,https://picsum.photos/seed/5045/1600/1000,Mixed Media | وسائط مختلطة — 4
+calligraphy_mixed,images/gallery/calligraphy/mixed/calligraphy_mixed_05.webp,https://picsum.photos/seed/5046/1600/1000,Mixed Media | وسائط مختلطة — 5
+calligraphy_mixed,images/gallery/calligraphy/mixed/calligraphy_mixed_06.webp,https://picsum.photos/seed/5047/1600/1000,Mixed Media | وسائط مختلطة — 6
+calligraphy_mixed,images/gallery/calligraphy/mixed/calligraphy_mixed_07.webp,https://picsum.photos/seed/5048/1600/1000,Mixed Media | وسائط مختلطة — 7
+horses_ai_horses,images/gallery/horses/ai-horses/horses_ai_horses_01.webp,https://picsum.photos/seed/5049/1600/1000,AI Horses | بالذكاء الاصطناعي — 1
+horses_ai_horses,images/gallery/horses/ai-horses/horses_ai_horses_02.webp,https://picsum.photos/seed/5050/1600/1000,AI Horses | بالذكاء الاصطناعي — 2
+horses_ai_horses,images/gallery/horses/ai-horses/horses_ai_horses_03.webp,https://picsum.photos/seed/5051/1600/1000,AI Horses | بالذكاء الاصطناعي — 3
+horses_ai_horses,images/gallery/horses/ai-horses/horses_ai_horses_04.webp,https://picsum.photos/seed/5052/1600/1000,AI Horses | بالذكاء الاصطناعي — 4
+horses_ai_horses,images/gallery/horses/ai-horses/horses_ai_horses_05.webp,https://picsum.photos/seed/5053/1600/1000,AI Horses | بالذكاء الاصطناعي — 5
+horses_ai_horses,images/gallery/horses/ai-horses/horses_ai_horses_06.webp,https://picsum.photos/seed/5054/1600/1000,AI Horses | بالذكاء الاصطناعي — 6
+horses_ai_horses,images/gallery/horses/ai-horses/horses_ai_horses_07.webp,https://picsum.photos/seed/5055/1600/1000,AI Horses | بالذكاء الاصطناعي — 7
+horses_oil,images/gallery/horses/oil/horses_oil_01.webp,https://picsum.photos/seed/5056/1600/1000,Oil on Canvas | زيتي على قماش — 1
+horses_oil,images/gallery/horses/oil/horses_oil_02.webp,https://picsum.photos/seed/5057/1600/1000,Oil on Canvas | زيتي على قماش — 2
+horses_oil,images/gallery/horses/oil/horses_oil_03.webp,https://picsum.photos/seed/5058/1600/1000,Oil on Canvas | زيتي على قماش — 3
+horses_oil,images/gallery/horses/oil/horses_oil_04.webp,https://picsum.photos/seed/5059/1600/1000,Oil on Canvas | زيتي على قماش — 4
+horses_oil,images/gallery/horses/oil/horses_oil_05.webp,https://picsum.photos/seed/5060/1600/1000,Oil on Canvas | زيتي على قماش — 5
+horses_oil,images/gallery/horses/oil/horses_oil_06.webp,https://picsum.photos/seed/5061/1600/1000,Oil on Canvas | زيتي على قماش — 6
+horses_oil,images/gallery/horses/oil/horses_oil_07.webp,https://picsum.photos/seed/5062/1600/1000,Oil on Canvas | زيتي على قماش — 7
+horses_mixed,images/gallery/horses/mixed/horses_mixed_01.webp,https://picsum.photos/seed/5063/1600/1000,Mixed Media | وسائط مختلطة — 1
+horses_mixed,images/gallery/horses/mixed/horses_mixed_02.webp,https://picsum.photos/seed/5064/1600/1000,Mixed Media | وسائط مختلطة — 2
+horses_mixed,images/gallery/horses/mixed/horses_mixed_03.webp,https://picsum.photos/seed/5065/1600/1000,Mixed Media | وسائط مختلطة — 3
+horses_mixed,images/gallery/horses/mixed/horses_mixed_04.webp,https://picsum.photos/seed/5066/1600/1000,Mixed Media | وسائط مختلطة — 4
+horses_mixed,images/gallery/horses/mixed/horses_mixed_05.webp,https://picsum.photos/seed/5067/1600/1000,Mixed Media | وسائط مختلطة — 5
+horses_mixed,images/gallery/horses/mixed/horses_mixed_06.webp,https://picsum.photos/seed/5068/1600/1000,Mixed Media | وسائط مختلطة — 6
+horses_mixed,images/gallery/horses/mixed/horses_mixed_07.webp,https://picsum.photos/seed/5069/1600/1000,Mixed Media | وسائط مختلطة — 7
+horses_sketch,images/gallery/horses/sketch/horses_sketch_01.webp,https://picsum.photos/seed/5070/1600/1000,Sketch | رسم تخطيطي — 1
+horses_sketch,images/gallery/horses/sketch/horses_sketch_02.webp,https://picsum.photos/seed/5071/1600/1000,Sketch | رسم تخطيطي — 2
+horses_sketch,images/gallery/horses/sketch/horses_sketch_03.webp,https://picsum.photos/seed/5072/1600/1000,Sketch | رسم تخطيطي — 3
+horses_sketch,images/gallery/horses/sketch/horses_sketch_04.webp,https://picsum.photos/seed/5073/1600/1000,Sketch | رسم تخطيطي — 4
+horses_sketch,images/gallery/horses/sketch/horses_sketch_05.webp,https://picsum.photos/seed/5074/1600/1000,Sketch | رسم تخطيطي — 5
+horses_sketch,images/gallery/horses/sketch/horses_sketch_06.webp,https://picsum.photos/seed/5075/1600/1000,Sketch | رسم تخطيطي — 6
+horses_sketch,images/gallery/horses/sketch/horses_sketch_07.webp,https://picsum.photos/seed/5076/1600/1000,Sketch | رسم تخطيطي — 7
+horses_watercolor,images/gallery/horses/watercolor/horses_watercolor_01.webp,https://picsum.photos/seed/5077/1600/1000,Watercolor | ألوان مائية — 1
+horses_watercolor,images/gallery/horses/watercolor/horses_watercolor_02.webp,https://picsum.photos/seed/5078/1600/1000,Watercolor | ألوان مائية — 2
+horses_watercolor,images/gallery/horses/watercolor/horses_watercolor_03.webp,https://picsum.photos/seed/5079/1600/1000,Watercolor | ألوان مائية — 3
+horses_watercolor,images/gallery/horses/watercolor/horses_watercolor_04.webp,https://picsum.photos/seed/5080/1600/1000,Watercolor | ألوان مائية — 4
+horses_watercolor,images/gallery/horses/watercolor/horses_watercolor_05.webp,https://picsum.photos/seed/5081/1600/1000,Watercolor | ألوان مائية — 5
+horses_watercolor,images/gallery/horses/watercolor/horses_watercolor_06.webp,https://picsum.photos/seed/5082/1600/1000,Watercolor | ألوان مائية — 6
+horses_watercolor,images/gallery/horses/watercolor/horses_watercolor_07.webp,https://picsum.photos/seed/5083/1600/1000,Watercolor | ألوان مائية — 7
+horses_digital,images/gallery/horses/digital/horses_digital_01.webp,https://picsum.photos/seed/5084/1600/1000,Digital Painting | رسم رقمي — 1
+horses_digital,images/gallery/horses/digital/horses_digital_02.webp,https://picsum.photos/seed/5085/1600/1000,Digital Painting | رسم رقمي — 2
+horses_digital,images/gallery/horses/digital/horses_digital_03.webp,https://picsum.photos/seed/5086/1600/1000,Digital Painting | رسم رقمي — 3
+horses_digital,images/gallery/horses/digital/horses_digital_04.webp,https://picsum.photos/seed/5087/1600/1000,Digital Painting | رسم رقمي — 4
+horses_digital,images/gallery/horses/digital/horses_digital_05.webp,https://picsum.photos/seed/5088/1600/1000,Digital Painting | رسم رقمي — 5
+horses_digital,images/gallery/horses/digital/horses_digital_06.webp,https://picsum.photos/seed/5089/1600/1000,Digital Painting | رسم رقمي — 6
+horses_digital,images/gallery/horses/digital/horses_digital_07.webp,https://picsum.photos/seed/5090/1600/1000,Digital Painting | رسم رقمي — 7
+horses_bronze,images/gallery/horses/bronze/horses_bronze_01.webp,https://picsum.photos/seed/5091/1600/1000,Sculpture Study | دراسة نحتية — 1
+horses_bronze,images/gallery/horses/bronze/horses_bronze_02.webp,https://picsum.photos/seed/5092/1600/1000,Sculpture Study | دراسة نحتية — 2
+horses_bronze,images/gallery/horses/bronze/horses_bronze_03.webp,https://picsum.photos/seed/5093/1600/1000,Sculpture Study | دراسة نحتية — 3
+horses_bronze,images/gallery/horses/bronze/horses_bronze_04.webp,https://picsum.photos/seed/5094/1600/1000,Sculpture Study | دراسة نحتية — 4
+horses_bronze,images/gallery/horses/bronze/horses_bronze_05.webp,https://picsum.photos/seed/5095/1600/1000,Sculpture Study | دراسة نحتية — 5
+horses_bronze,images/gallery/horses/bronze/horses_bronze_06.webp,https://picsum.photos/seed/5096/1600/1000,Sculpture Study | دراسة نحتية — 6
+horses_bronze,images/gallery/horses/bronze/horses_bronze_07.webp,https://picsum.photos/seed/5097/1600/1000,Sculpture Study | دراسة نحتية — 7
+ai_abstract,images/gallery/ai/abstract/ai_abstract_01.webp,https://picsum.photos/seed/5098/1600/1000,Abstract | تجريدي — 1
+ai_abstract,images/gallery/ai/abstract/ai_abstract_02.webp,https://picsum.photos/seed/5099/1600/1000,Abstract | تجريدي — 2
+ai_abstract,images/gallery/ai/abstract/ai_abstract_03.webp,https://picsum.photos/seed/5100/1600/1000,Abstract | تجريدي — 3
+ai_abstract,images/gallery/ai/abstract/ai_abstract_04.webp,https://picsum.photos/seed/5101/1600/1000,Abstract | تجريدي — 4
+ai_abstract,images/gallery/ai/abstract/ai_abstract_05.webp,https://picsum.photos/seed/5102/1600/1000,Abstract | تجريدي — 5
+ai_abstract,images/gallery/ai/abstract/ai_abstract_06.webp,https://picsum.photos/seed/5103/1600/1000,Abstract | تجريدي — 6
+ai_abstract,images/gallery/ai/abstract/ai_abstract_07.webp,https://picsum.photos/seed/5104/1600/1000,Abstract | تجريدي — 7
+ai_concept,images/gallery/ai/concept/ai_concept_01.webp,https://picsum.photos/seed/5105/1600/1000,Concept Art | فن مفاهيمي — 1
+ai_concept,images/gallery/ai/concept/ai_concept_02.webp,https://picsum.photos/seed/5106/1600/1000,Concept Art | فن مفاهيمي — 2
+ai_concept,images/gallery/ai/concept/ai_concept_03.webp,https://picsum.photos/seed/5107/1600/1000,Concept Art | فن مفاهيمي — 3
+ai_concept,images/gallery/ai/concept/ai_concept_04.webp,https://picsum.photos/seed/5108/1600/1000,Concept Art | فن مفاهيمي — 4
+ai_concept,images/gallery/ai/concept/ai_concept_05.webp,https://picsum.photos/seed/5109/1600/1000,Concept Art | فن مفاهيمي — 5
+ai_concept,images/gallery/ai/concept/ai_concept_06.webp,https://picsum.photos/seed/5110/1600/1000,Concept Art | فن مفاهيمي — 6
+ai_concept,images/gallery/ai/concept/ai_concept_07.webp,https://picsum.photos/seed/5111/1600/1000,Concept Art | فن مفاهيمي — 7
+ai_calligraphy_fusion,images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_01.webp,https://picsum.photos/seed/5112/1600/1000,AI × Calligraphy | دمج مع الخط العربي — 1
+ai_calligraphy_fusion,images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_02.webp,https://picsum.photos/seed/5113/1600/1000,AI × Calligraphy | دمج مع الخط العربي — 2
+ai_calligraphy_fusion,images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_03.webp,https://picsum.photos/seed/5114/1600/1000,AI × Calligraphy | دمج مع الخط العربي — 3
+ai_calligraphy_fusion,images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_04.webp,https://picsum.photos/seed/5115/1600/1000,AI × Calligraphy | دمج مع الخط العربي — 4
+ai_calligraphy_fusion,images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_05.webp,https://picsum.photos/seed/5116/1600/1000,AI × Calligraphy | دمج مع الخط العربي — 5
+ai_calligraphy_fusion,images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_06.webp,https://picsum.photos/seed/5117/1600/1000,AI × Calligraphy | دمج مع الخط العربي — 6
+ai_calligraphy_fusion,images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_07.webp,https://picsum.photos/seed/5118/1600/1000,AI × Calligraphy | دمج مع الخط العربي — 7
+ai_portrait_ai,images/gallery/ai/portrait-ai/ai_portrait_ai_01.webp,https://picsum.photos/seed/5119/1600/1000,AI Portraits | بورتريهات بالذكاء الاصطناعي — 1
+ai_portrait_ai,images/gallery/ai/portrait-ai/ai_portrait_ai_02.webp,https://picsum.photos/seed/5120/1600/1000,AI Portraits | بورتريهات بالذكاء الاصطناعي — 2
+ai_portrait_ai,images/gallery/ai/portrait-ai/ai_portrait_ai_03.webp,https://picsum.photos/seed/5121/1600/1000,AI Portraits | بورتريهات بالذكاء الاصطناعي — 3
+ai_portrait_ai,images/gallery/ai/portrait-ai/ai_portrait_ai_04.webp,https://picsum.photos/seed/5122/1600/1000,AI Portraits | بورتريهات بالذكاء الاصطناعي — 4
+ai_portrait_ai,images/gallery/ai/portrait-ai/ai_portrait_ai_05.webp,https://picsum.photos/seed/5123/1600/1000,AI Portraits | بورتريهات بالذكاء الاصطناعي — 5
+ai_portrait_ai,images/gallery/ai/portrait-ai/ai_portrait_ai_06.webp,https://picsum.photos/seed/5124/1600/1000,AI Portraits | بورتريهات بالذكاء الاصطناعي — 6
+ai_portrait_ai,images/gallery/ai/portrait-ai/ai_portrait_ai_07.webp,https://picsum.photos/seed/5125/1600/1000,AI Portraits | بورتريهات بالذكاء الاصطناعي — 7
+ai_surreal,images/gallery/ai/surreal/ai_surreal_01.webp,https://picsum.photos/seed/5126/1600/1000,Surrealism | سريالي — 1
+ai_surreal,images/gallery/ai/surreal/ai_surreal_02.webp,https://picsum.photos/seed/5127/1600/1000,Surrealism | سريالي — 2
+ai_surreal,images/gallery/ai/surreal/ai_surreal_03.webp,https://picsum.photos/seed/5128/1600/1000,Surrealism | سريالي — 3
+ai_surreal,images/gallery/ai/surreal/ai_surreal_04.webp,https://picsum.photos/seed/5129/1600/1000,Surrealism | سريالي — 4
+ai_surreal,images/gallery/ai/surreal/ai_surreal_05.webp,https://picsum.photos/seed/5130/1600/1000,Surrealism | سريالي — 5
+ai_surreal,images/gallery/ai/surreal/ai_surreal_06.webp,https://picsum.photos/seed/5131/1600/1000,Surrealism | سريالي — 6
+ai_surreal,images/gallery/ai/surreal/ai_surreal_07.webp,https://picsum.photos/seed/5132/1600/1000,Surrealism | سريالي — 7
+ai_architecture,images/gallery/ai/architecture/ai_architecture_01.webp,https://picsum.photos/seed/5133/1600/1000,AI Architecture | عمارة بالذكاء الاصطناعي — 1
+ai_architecture,images/gallery/ai/architecture/ai_architecture_02.webp,https://picsum.photos/seed/5134/1600/1000,AI Architecture | عمارة بالذكاء الاصطناعي — 2
+ai_architecture,images/gallery/ai/architecture/ai_architecture_03.webp,https://picsum.photos/seed/5135/1600/1000,AI Architecture | عمارة بالذكاء الاصطناعي — 3
+ai_architecture,images/gallery/ai/architecture/ai_architecture_04.webp,https://picsum.photos/seed/5136/1600/1000,AI Architecture | عمارة بالذكاء الاصطناعي — 4
+ai_architecture,images/gallery/ai/architecture/ai_architecture_05.webp,https://picsum.photos/seed/5137/1600/1000,AI Architecture | عمارة بالذكاء الاصطناعي — 5
+ai_architecture,images/gallery/ai/architecture/ai_architecture_06.webp,https://picsum.photos/seed/5138/1600/1000,AI Architecture | عمارة بالذكاء الاصطناعي — 6
+ai_architecture,images/gallery/ai/architecture/ai_architecture_07.webp,https://picsum.photos/seed/5139/1600/1000,AI Architecture | عمارة بالذكاء الاصطناعي — 7
+ai_experimental,images/gallery/ai/experimental/ai_experimental_01.webp,https://picsum.photos/seed/5140/1600/1000,Experimental | تجريبي — 1
+ai_experimental,images/gallery/ai/experimental/ai_experimental_02.webp,https://picsum.photos/seed/5141/1600/1000,Experimental | تجريبي — 2
+ai_experimental,images/gallery/ai/experimental/ai_experimental_03.webp,https://picsum.photos/seed/5142/1600/1000,Experimental | تجريبي — 3
+ai_experimental,images/gallery/ai/experimental/ai_experimental_04.webp,https://picsum.photos/seed/5143/1600/1000,Experimental | تجريبي — 4
+ai_experimental,images/gallery/ai/experimental/ai_experimental_05.webp,https://picsum.photos/seed/5144/1600/1000,Experimental | تجريبي — 5
+ai_experimental,images/gallery/ai/experimental/ai_experimental_06.webp,https://picsum.photos/seed/5145/1600/1000,Experimental | تجريبي — 6
+ai_experimental,images/gallery/ai/experimental/ai_experimental_07.webp,https://picsum.photos/seed/5146/1600/1000,Experimental | تجريبي — 7
+design_brand,images/gallery/design/brand/design_brand_01.webp,https://picsum.photos/seed/5147/1600/1000,Brand Identity | هوية بصرية — 1
+design_brand,images/gallery/design/brand/design_brand_02.webp,https://picsum.photos/seed/5148/1600/1000,Brand Identity | هوية بصرية — 2
+design_brand,images/gallery/design/brand/design_brand_03.webp,https://picsum.photos/seed/5149/1600/1000,Brand Identity | هوية بصرية — 3
+design_brand,images/gallery/design/brand/design_brand_04.webp,https://picsum.photos/seed/5150/1600/1000,Brand Identity | هوية بصرية — 4
+design_brand,images/gallery/design/brand/design_brand_05.webp,https://picsum.photos/seed/5151/1600/1000,Brand Identity | هوية بصرية — 5
+design_brand,images/gallery/design/brand/design_brand_06.webp,https://picsum.photos/seed/5152/1600/1000,Brand Identity | هوية بصرية — 6
+design_brand,images/gallery/design/brand/design_brand_07.webp,https://picsum.photos/seed/5153/1600/1000,Brand Identity | هوية بصرية — 7
+design_advertising,images/gallery/design/advertising/design_advertising_01.webp,https://picsum.photos/seed/5154/1600/1000,Advertising | دعاية وإعلان — 1
+design_advertising,images/gallery/design/advertising/design_advertising_02.webp,https://picsum.photos/seed/5155/1600/1000,Advertising | دعاية وإعلان — 2
+design_advertising,images/gallery/design/advertising/design_advertising_03.webp,https://picsum.photos/seed/5156/1600/1000,Advertising | دعاية وإعلان — 3
+design_advertising,images/gallery/design/advertising/design_advertising_04.webp,https://picsum.photos/seed/5157/1600/1000,Advertising | دعاية وإعلان — 4
+design_advertising,images/gallery/design/advertising/design_advertising_05.webp,https://picsum.photos/seed/5158/1600/1000,Advertising | دعاية وإعلان — 5
+design_advertising,images/gallery/design/advertising/design_advertising_06.webp,https://picsum.photos/seed/5159/1600/1000,Advertising | دعاية وإعلان — 6
+design_advertising,images/gallery/design/advertising/design_advertising_07.webp,https://picsum.photos/seed/5160/1600/1000,Advertising | دعاية وإعلان — 7
+design_editorial,images/gallery/design/editorial/design_editorial_01.webp,https://picsum.photos/seed/5161/1600/1000,Editorial | تصميم تحريري — 1
+design_editorial,images/gallery/design/editorial/design_editorial_02.webp,https://picsum.photos/seed/5162/1600/1000,Editorial | تصميم تحريري — 2
+design_editorial,images/gallery/design/editorial/design_editorial_03.webp,https://picsum.photos/seed/5163/1600/1000,Editorial | تصميم تحريري — 3
+design_editorial,images/gallery/design/editorial/design_editorial_04.webp,https://picsum.photos/seed/5164/1600/1000,Editorial | تصميم تحريري — 4
+design_editorial,images/gallery/design/editorial/design_editorial_05.webp,https://picsum.photos/seed/5165/1600/1000,Editorial | تصميم تحريري — 5
+design_editorial,images/gallery/design/editorial/design_editorial_06.webp,https://picsum.photos/seed/5166/1600/1000,Editorial | تصميم تحريري — 6
+design_editorial,images/gallery/design/editorial/design_editorial_07.webp,https://picsum.photos/seed/5167/1600/1000,Editorial | تصميم تحريري — 7
+design_packaging,images/gallery/design/packaging/design_packaging_01.webp,https://picsum.photos/seed/5168/1600/1000,Packaging | تغليف — 1
+design_packaging,images/gallery/design/packaging/design_packaging_02.webp,https://picsum.photos/seed/5169/1600/1000,Packaging | تغليف — 2
+design_packaging,images/gallery/design/packaging/design_packaging_03.webp,https://picsum.photos/seed/5170/1600/1000,Packaging | تغليف — 3
+design_packaging,images/gallery/design/packaging/design_packaging_04.webp,https://picsum.photos/seed/5171/1600/1000,Packaging | تغليف — 4
+design_packaging,images/gallery/design/packaging/design_packaging_05.webp,https://picsum.photos/seed/5172/1600/1000,Packaging | تغليف — 5
+design_packaging,images/gallery/design/packaging/design_packaging_06.webp,https://picsum.photos/seed/5173/1600/1000,Packaging | تغليف — 6
+design_packaging,images/gallery/design/packaging/design_packaging_07.webp,https://picsum.photos/seed/5174/1600/1000,Packaging | تغليف — 7
+design_web,images/gallery/design/web/design_web_01.webp,https://picsum.photos/seed/5175/1600/1000,Web Design | تصميم مواقع — 1
+design_web,images/gallery/design/web/design_web_02.webp,https://picsum.photos/seed/5176/1600/1000,Web Design | تصميم مواقع — 2
+design_web,images/gallery/design/web/design_web_03.webp,https://picsum.photos/seed/5177/1600/1000,Web Design | تصميم مواقع — 3
+design_web,images/gallery/design/web/design_web_04.webp,https://picsum.photos/seed/5178/1600/1000,Web Design | تصميم مواقع — 4
+design_web,images/gallery/design/web/design_web_05.webp,https://picsum.photos/seed/5179/1600/1000,Web Design | تصميم مواقع — 5
+design_web,images/gallery/design/web/design_web_06.webp,https://picsum.photos/seed/5180/1600/1000,Web Design | تصميم مواقع — 6
+design_web,images/gallery/design/web/design_web_07.webp,https://picsum.photos/seed/5181/1600/1000,Web Design | تصميم مواقع — 7
+design_typography,images/gallery/design/typography/design_typography_01.webp,https://picsum.photos/seed/5182/1600/1000,Typography | الطباعة والخطوط — 1
+design_typography,images/gallery/design/typography/design_typography_02.webp,https://picsum.photos/seed/5183/1600/1000,Typography | الطباعة والخطوط — 2
+design_typography,images/gallery/design/typography/design_typography_03.webp,https://picsum.photos/seed/5184/1600/1000,Typography | الطباعة والخطوط — 3
+design_typography,images/gallery/design/typography/design_typography_04.webp,https://picsum.photos/seed/5185/1600/1000,Typography | الطباعة والخطوط — 4
+design_typography,images/gallery/design/typography/design_typography_05.webp,https://picsum.photos/seed/5186/1600/1000,Typography | الطباعة والخطوط — 5
+design_typography,images/gallery/design/typography/design_typography_06.webp,https://picsum.photos/seed/5187/1600/1000,Typography | الطباعة والخطوط — 6
+design_typography,images/gallery/design/typography/design_typography_07.webp,https://picsum.photos/seed/5188/1600/1000,Typography | الطباعة والخطوط — 7
+design_motion,images/gallery/design/motion/design_motion_01.webp,https://picsum.photos/seed/5189/1600/1000,Motion Graphics | موشن غرافيك — 1
+design_motion,images/gallery/design/motion/design_motion_02.webp,https://picsum.photos/seed/5190/1600/1000,Motion Graphics | موشن غرافيك — 2
+design_motion,images/gallery/design/motion/design_motion_03.webp,https://picsum.photos/seed/5191/1600/1000,Motion Graphics | موشن غرافيك — 3
+design_motion,images/gallery/design/motion/design_motion_04.webp,https://picsum.photos/seed/5192/1600/1000,Motion Graphics | موشن غرافيك — 4
+design_motion,images/gallery/design/motion/design_motion_05.webp,https://picsum.photos/seed/5193/1600/1000,Motion Graphics | موشن غرافيك — 5
+design_motion,images/gallery/design/motion/design_motion_06.webp,https://picsum.photos/seed/5194/1600/1000,Motion Graphics | موشن غرافيك — 6
+design_motion,images/gallery/design/motion/design_motion_07.webp,https://picsum.photos/seed/5195/1600/1000,Motion Graphics | موشن غرافيك — 7
+portrait_realistic,images/gallery/portrait/realistic/portrait_realistic_01.webp,https://picsum.photos/seed/5196/1600/1000,Realistic | واقعي — 1
+portrait_realistic,images/gallery/portrait/realistic/portrait_realistic_02.webp,https://picsum.photos/seed/5197/1600/1000,Realistic | واقعي — 2
+portrait_realistic,images/gallery/portrait/realistic/portrait_realistic_03.webp,https://picsum.photos/seed/5198/1600/1000,Realistic | واقعي — 3
+portrait_realistic,images/gallery/portrait/realistic/portrait_realistic_04.webp,https://picsum.photos/seed/5199/1600/1000,Realistic | واقعي — 4
+portrait_realistic,images/gallery/portrait/realistic/portrait_realistic_05.webp,https://picsum.photos/seed/5200/1600/1000,Realistic | واقعي — 5
+portrait_realistic,images/gallery/portrait/realistic/portrait_realistic_06.webp,https://picsum.photos/seed/5201/1600/1000,Realistic | واقعي — 6
+portrait_realistic,images/gallery/portrait/realistic/portrait_realistic_07.webp,https://picsum.photos/seed/5202/1600/1000,Realistic | واقعي — 7
+portrait_expressive,images/gallery/portrait/expressive/portrait_expressive_01.webp,https://picsum.photos/seed/5203/1600/1000,Expressive | تعبيري — 1
+portrait_expressive,images/gallery/portrait/expressive/portrait_expressive_02.webp,https://picsum.photos/seed/5204/1600/1000,Expressive | تعبيري — 2
+portrait_expressive,images/gallery/portrait/expressive/portrait_expressive_03.webp,https://picsum.photos/seed/5205/1600/1000,Expressive | تعبيري — 3
+portrait_expressive,images/gallery/portrait/expressive/portrait_expressive_04.webp,https://picsum.photos/seed/5206/1600/1000,Expressive | تعبيري — 4
+portrait_expressive,images/gallery/portrait/expressive/portrait_expressive_05.webp,https://picsum.photos/seed/5207/1600/1000,Expressive | تعبيري — 5
+portrait_expressive,images/gallery/portrait/expressive/portrait_expressive_06.webp,https://picsum.photos/seed/5208/1600/1000,Expressive | تعبيري — 6
+portrait_expressive,images/gallery/portrait/expressive/portrait_expressive_07.webp,https://picsum.photos/seed/5209/1600/1000,Expressive | تعبيري — 7
+portrait_cultural,images/gallery/portrait/cultural/portrait_cultural_01.webp,https://picsum.photos/seed/5210/1600/1000,Cultural Identity | هوية ثقافية — 1
+portrait_cultural,images/gallery/portrait/cultural/portrait_cultural_02.webp,https://picsum.photos/seed/5211/1600/1000,Cultural Identity | هوية ثقافية — 2
+portrait_cultural,images/gallery/portrait/cultural/portrait_cultural_03.webp,https://picsum.photos/seed/5212/1600/1000,Cultural Identity | هوية ثقافية — 3
+portrait_cultural,images/gallery/portrait/cultural/portrait_cultural_04.webp,https://picsum.photos/seed/5213/1600/1000,Cultural Identity | هوية ثقافية — 4
+portrait_cultural,images/gallery/portrait/cultural/portrait_cultural_05.webp,https://picsum.photos/seed/5214/1600/1000,Cultural Identity | هوية ثقافية — 5
+portrait_cultural,images/gallery/portrait/cultural/portrait_cultural_06.webp,https://picsum.photos/seed/5215/1600/1000,Cultural Identity | هوية ثقافية — 6
+portrait_cultural,images/gallery/portrait/cultural/portrait_cultural_07.webp,https://picsum.photos/seed/5216/1600/1000,Cultural Identity | هوية ثقافية — 7
+portrait_charcoal,images/gallery/portrait/charcoal/portrait_charcoal_01.webp,https://picsum.photos/seed/5217/1600/1000,Charcoal | فحم — 1
+portrait_charcoal,images/gallery/portrait/charcoal/portrait_charcoal_02.webp,https://picsum.photos/seed/5218/1600/1000,Charcoal | فحم — 2
+portrait_charcoal,images/gallery/portrait/charcoal/portrait_charcoal_03.webp,https://picsum.photos/seed/5219/1600/1000,Charcoal | فحم — 3
+portrait_charcoal,images/gallery/portrait/charcoal/portrait_charcoal_04.webp,https://picsum.photos/seed/5220/1600/1000,Charcoal | فحم — 4
+portrait_charcoal,images/gallery/portrait/charcoal/portrait_charcoal_05.webp,https://picsum.photos/seed/5221/1600/1000,Charcoal | فحم — 5
+portrait_charcoal,images/gallery/portrait/charcoal/portrait_charcoal_06.webp,https://picsum.photos/seed/5222/1600/1000,Charcoal | فحم — 6
+portrait_charcoal,images/gallery/portrait/charcoal/portrait_charcoal_07.webp,https://picsum.photos/seed/5223/1600/1000,Charcoal | فحم — 7
+portrait_oil_portrait,images/gallery/portrait/oil-portrait/portrait_oil_portrait_01.webp,https://picsum.photos/seed/5224/1600/1000,Oil Portrait | زيتي — 1
+portrait_oil_portrait,images/gallery/portrait/oil-portrait/portrait_oil_portrait_02.webp,https://picsum.photos/seed/5225/1600/1000,Oil Portrait | زيتي — 2
+portrait_oil_portrait,images/gallery/portrait/oil-portrait/portrait_oil_portrait_03.webp,https://picsum.photos/seed/5226/1600/1000,Oil Portrait | زيتي — 3
+portrait_oil_portrait,images/gallery/portrait/oil-portrait/portrait_oil_portrait_04.webp,https://picsum.photos/seed/5227/1600/1000,Oil Portrait | زيتي — 4
+portrait_oil_portrait,images/gallery/portrait/oil-portrait/portrait_oil_portrait_05.webp,https://picsum.photos/seed/5228/1600/1000,Oil Portrait | زيتي — 5
+portrait_oil_portrait,images/gallery/portrait/oil-portrait/portrait_oil_portrait_06.webp,https://picsum.photos/seed/5229/1600/1000,Oil Portrait | زيتي — 6
+portrait_oil_portrait,images/gallery/portrait/oil-portrait/portrait_oil_portrait_07.webp,https://picsum.photos/seed/5230/1600/1000,Oil Portrait | زيتي — 7
+portrait_digital_portrait,images/gallery/portrait/digital-portrait/portrait_digital_portrait_01.webp,https://picsum.photos/seed/5231/1600/1000,Digital Portrait | رقمي — 1
+portrait_digital_portrait,images/gallery/portrait/digital-portrait/portrait_digital_portrait_02.webp,https://picsum.photos/seed/5232/1600/1000,Digital Portrait | رقمي — 2
+portrait_digital_portrait,images/gallery/portrait/digital-portrait/portrait_digital_portrait_03.webp,https://picsum.photos/seed/5233/1600/1000,Digital Portrait | رقمي — 3
+portrait_digital_portrait,images/gallery/portrait/digital-portrait/portrait_digital_portrait_04.webp,https://picsum.photos/seed/5234/1600/1000,Digital Portrait | رقمي — 4
+portrait_digital_portrait,images/gallery/portrait/digital-portrait/portrait_digital_portrait_05.webp,https://picsum.photos/seed/5235/1600/1000,Digital Portrait | رقمي — 5
+portrait_digital_portrait,images/gallery/portrait/digital-portrait/portrait_digital_portrait_06.webp,https://picsum.photos/seed/5236/1600/1000,Digital Portrait | رقمي — 6
+portrait_digital_portrait,images/gallery/portrait/digital-portrait/portrait_digital_portrait_07.webp,https://picsum.photos/seed/5237/1600/1000,Digital Portrait | رقمي — 7
+portrait_commission,images/gallery/portrait/commission/portrait_commission_01.webp,https://picsum.photos/seed/5238/1600/1000,Commissioned Works | أعمال بطلب خاص — 1
+portrait_commission,images/gallery/portrait/commission/portrait_commission_02.webp,https://picsum.photos/seed/5239/1600/1000,Commissioned Works | أعمال بطلب خاص — 2
+portrait_commission,images/gallery/portrait/commission/portrait_commission_03.webp,https://picsum.photos/seed/5240/1600/1000,Commissioned Works | أعمال بطلب خاص — 3
+portrait_commission,images/gallery/portrait/commission/portrait_commission_04.webp,https://picsum.photos/seed/5241/1600/1000,Commissioned Works | أعمال بطلب خاص — 4
+portrait_commission,images/gallery/portrait/commission/portrait_commission_05.webp,https://picsum.photos/seed/5242/1600/1000,Commissioned Works | أعمال بطلب خاص — 5
+portrait_commission,images/gallery/portrait/commission/portrait_commission_06.webp,https://picsum.photos/seed/5243/1600/1000,Commissioned Works | أعمال بطلب خاص — 6
+portrait_commission,images/gallery/portrait/commission/portrait_commission_07.webp,https://picsum.photos/seed/5244/1600/1000,Commissioned Works | أعمال بطلب خاص — 7
+education_calligraphy_workshop,images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_01.webp,https://picsum.photos/seed/5245/1600/1000,Calligraphy Workshop | ورشة خط عربي — 1
+education_calligraphy_workshop,images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_02.webp,https://picsum.photos/seed/5246/1600/1000,Calligraphy Workshop | ورشة خط عربي — 2
+education_calligraphy_workshop,images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_03.webp,https://picsum.photos/seed/5247/1600/1000,Calligraphy Workshop | ورشة خط عربي — 3
+education_calligraphy_workshop,images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_04.webp,https://picsum.photos/seed/5248/1600/1000,Calligraphy Workshop | ورشة خط عربي — 4
+education_calligraphy_workshop,images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_05.webp,https://picsum.photos/seed/5249/1600/1000,Calligraphy Workshop | ورشة خط عربي — 5
+education_calligraphy_workshop,images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_06.webp,https://picsum.photos/seed/5250/1600/1000,Calligraphy Workshop | ورشة خط عربي — 6
+education_calligraphy_workshop,images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_07.webp,https://picsum.photos/seed/5251/1600/1000,Calligraphy Workshop | ورشة خط عربي — 7
+education_painting_workshop,images/gallery/education/painting-workshop/education_painting_workshop_01.webp,https://picsum.photos/seed/5252/1600/1000,Painting Workshop | ورشة رسم — 1
+education_painting_workshop,images/gallery/education/painting-workshop/education_painting_workshop_02.webp,https://picsum.photos/seed/5253/1600/1000,Painting Workshop | ورشة رسم — 2
+education_painting_workshop,images/gallery/education/painting-workshop/education_painting_workshop_03.webp,https://picsum.photos/seed/5254/1600/1000,Painting Workshop | ورشة رسم — 3
+education_painting_workshop,images/gallery/education/painting-workshop/education_painting_workshop_04.webp,https://picsum.photos/seed/5255/1600/1000,Painting Workshop | ورشة رسم — 4
+education_painting_workshop,images/gallery/education/painting-workshop/education_painting_workshop_05.webp,https://picsum.photos/seed/5256/1600/1000,Painting Workshop | ورشة رسم — 5
+education_painting_workshop,images/gallery/education/painting-workshop/education_painting_workshop_06.webp,https://picsum.photos/seed/5257/1600/1000,Painting Workshop | ورشة رسم — 6
+education_painting_workshop,images/gallery/education/painting-workshop/education_painting_workshop_07.webp,https://picsum.photos/seed/5258/1600/1000,Painting Workshop | ورشة رسم — 7
+education_ai_workshop,images/gallery/education/ai-workshop/education_ai_workshop_01.webp,https://picsum.photos/seed/5259/1600/1000,AI Workshop | ورشة ذكاء اصطناعي — 1
+education_ai_workshop,images/gallery/education/ai-workshop/education_ai_workshop_02.webp,https://picsum.photos/seed/5260/1600/1000,AI Workshop | ورشة ذكاء اصطناعي — 2
+education_ai_workshop,images/gallery/education/ai-workshop/education_ai_workshop_03.webp,https://picsum.photos/seed/5261/1600/1000,AI Workshop | ورشة ذكاء اصطناعي — 3
+education_ai_workshop,images/gallery/education/ai-workshop/education_ai_workshop_04.webp,https://picsum.photos/seed/5262/1600/1000,AI Workshop | ورشة ذكاء اصطناعي — 4
+education_ai_workshop,images/gallery/education/ai-workshop/education_ai_workshop_05.webp,https://picsum.photos/seed/5263/1600/1000,AI Workshop | ورشة ذكاء اصطناعي — 5
+education_ai_workshop,images/gallery/education/ai-workshop/education_ai_workshop_06.webp,https://picsum.photos/seed/5264/1600/1000,AI Workshop | ورشة ذكاء اصطناعي — 6
+education_ai_workshop,images/gallery/education/ai-workshop/education_ai_workshop_07.webp,https://picsum.photos/seed/5265/1600/1000,AI Workshop | ورشة ذكاء اصطناعي — 7
+education_kids,images/gallery/education/kids/education_kids_01.webp,https://picsum.photos/seed/5266/1600/1000,Kids Program | برنامج الأطفال — 1
+education_kids,images/gallery/education/kids/education_kids_02.webp,https://picsum.photos/seed/5267/1600/1000,Kids Program | برنامج الأطفال — 2
+education_kids,images/gallery/education/kids/education_kids_03.webp,https://picsum.photos/seed/5268/1600/1000,Kids Program | برنامج الأطفال — 3
+education_kids,images/gallery/education/kids/education_kids_04.webp,https://picsum.photos/seed/5269/1600/1000,Kids Program | برنامج الأطفال — 4
+education_kids,images/gallery/education/kids/education_kids_05.webp,https://picsum.photos/seed/5270/1600/1000,Kids Program | برنامج الأطفال — 5
+education_kids,images/gallery/education/kids/education_kids_06.webp,https://picsum.photos/seed/5271/1600/1000,Kids Program | برنامج الأطفال — 6
+education_kids,images/gallery/education/kids/education_kids_07.webp,https://picsum.photos/seed/5272/1600/1000,Kids Program | برنامج الأطفال — 7
+education_private,images/gallery/education/private/education_private_01.webp,https://picsum.photos/seed/5273/1600/1000,Private Lessons | دروس خاصة — 1
+education_private,images/gallery/education/private/education_private_02.webp,https://picsum.photos/seed/5274/1600/1000,Private Lessons | دروس خاصة — 2
+education_private,images/gallery/education/private/education_private_03.webp,https://picsum.photos/seed/5275/1600/1000,Private Lessons | دروس خاصة — 3
+education_private,images/gallery/education/private/education_private_04.webp,https://picsum.photos/seed/5276/1600/1000,Private Lessons | دروس خاصة — 4
+education_private,images/gallery/education/private/education_private_05.webp,https://picsum.photos/seed/5277/1600/1000,Private Lessons | دروس خاصة — 5
+education_private,images/gallery/education/private/education_private_06.webp,https://picsum.photos/seed/5278/1600/1000,Private Lessons | دروس خاصة — 6
+education_private,images/gallery/education/private/education_private_07.webp,https://picsum.photos/seed/5279/1600/1000,Private Lessons | دروس خاصة — 7
+education_online,images/gallery/education/online/education_online_01.webp,https://picsum.photos/seed/5280/1600/1000,Online Courses | دورات عن بعد — 1
+education_online,images/gallery/education/online/education_online_02.webp,https://picsum.photos/seed/5281/1600/1000,Online Courses | دورات عن بعد — 2
+education_online,images/gallery/education/online/education_online_03.webp,https://picsum.photos/seed/5282/1600/1000,Online Courses | دورات عن بعد — 3
+education_online,images/gallery/education/online/education_online_04.webp,https://picsum.photos/seed/5283/1600/1000,Online Courses | دورات عن بعد — 4
+education_online,images/gallery/education/online/education_online_05.webp,https://picsum.photos/seed/5284/1600/1000,Online Courses | دورات عن بعد — 5
+education_online,images/gallery/education/online/education_online_06.webp,https://picsum.photos/seed/5285/1600/1000,Online Courses | دورات عن بعد — 6
+education_online,images/gallery/education/online/education_online_07.webp,https://picsum.photos/seed/5286/1600/1000,Online Courses | دورات عن بعد — 7
+education_masterclass,images/gallery/education/masterclass/education_masterclass_01.webp,https://picsum.photos/seed/5287/1600/1000,Masterclass | ماستر كلاس — 1
+education_masterclass,images/gallery/education/masterclass/education_masterclass_02.webp,https://picsum.photos/seed/5288/1600/1000,Masterclass | ماستر كلاس — 2
+education_masterclass,images/gallery/education/masterclass/education_masterclass_03.webp,https://picsum.photos/seed/5289/1600/1000,Masterclass | ماستر كلاس — 3
+education_masterclass,images/gallery/education/masterclass/education_masterclass_04.webp,https://picsum.photos/seed/5290/1600/1000,Masterclass | ماستر كلاس — 4
+education_masterclass,images/gallery/education/masterclass/education_masterclass_05.webp,https://picsum.photos/seed/5291/1600/1000,Masterclass | ماستر كلاس — 5
+education_masterclass,images/gallery/education/masterclass/education_masterclass_06.webp,https://picsum.photos/seed/5292/1600/1000,Masterclass | ماستر كلاس — 6
+education_masterclass,images/gallery/education/masterclass/education_masterclass_07.webp,https://picsum.photos/seed/5293/1600/1000,Masterclass | ماستر كلاس — 7
+photography_photography,images/gallery/photography/photography/photography_photography_01.webp,https://picsum.photos/seed/5294/1600/1000,Photography | تصوير فوتوغرافي — 1
+photography_photography,images/gallery/photography/photography/photography_photography_02.webp,https://picsum.photos/seed/5295/1600/1000,Photography | تصوير فوتوغرافي — 2
+photography_photography,images/gallery/photography/photography/photography_photography_03.webp,https://picsum.photos/seed/5296/1600/1000,Photography | تصوير فوتوغرافي — 3
+photography_photography,images/gallery/photography/photography/photography_photography_04.webp,https://picsum.photos/seed/5297/1600/1000,Photography | تصوير فوتوغرافي — 4
+photography_photography,images/gallery/photography/photography/photography_photography_05.webp,https://picsum.photos/seed/5298/1600/1000,Photography | تصوير فوتوغرافي — 5
+photography_photography,images/gallery/photography/photography/photography_photography_06.webp,https://picsum.photos/seed/5299/1600/1000,Photography | تصوير فوتوغرافي — 6
+photography_photography,images/gallery/photography/photography/photography_photography_07.webp,https://picsum.photos/seed/5300/1600/1000,Photography | تصوير فوتوغرافي — 7
+photography_decor,images/gallery/photography/decor/photography_decor_01.webp,https://picsum.photos/seed/5301/1600/1000,Interior & Decor | الديكور — 1
+photography_decor,images/gallery/photography/decor/photography_decor_02.webp,https://picsum.photos/seed/5302/1600/1000,Interior & Decor | الديكور — 2
+photography_decor,images/gallery/photography/decor/photography_decor_03.webp,https://picsum.photos/seed/5303/1600/1000,Interior & Decor | الديكور — 3
+photography_decor,images/gallery/photography/decor/photography_decor_04.webp,https://picsum.photos/seed/5304/1600/1000,Interior & Decor | الديكور — 4
+photography_decor,images/gallery/photography/decor/photography_decor_05.webp,https://picsum.photos/seed/5305/1600/1000,Interior & Decor | الديكور — 5
+photography_decor,images/gallery/photography/decor/photography_decor_06.webp,https://picsum.photos/seed/5306/1600/1000,Interior & Decor | الديكور — 6
+photography_decor,images/gallery/photography/decor/photography_decor_07.webp,https://picsum.photos/seed/5307/1600/1000,Interior & Decor | الديكور — 7
+photography_jewelry,images/gallery/photography/jewelry/photography_jewelry_01.webp,https://picsum.photos/seed/5308/1600/1000,Jewelry Design | تصميم المجوهرات — 1
+photography_jewelry,images/gallery/photography/jewelry/photography_jewelry_02.webp,https://picsum.photos/seed/5309/1600/1000,Jewelry Design | تصميم المجوهرات — 2
+photography_jewelry,images/gallery/photography/jewelry/photography_jewelry_03.webp,https://picsum.photos/seed/5310/1600/1000,Jewelry Design | تصميم المجوهرات — 3
+photography_jewelry,images/gallery/photography/jewelry/photography_jewelry_04.webp,https://picsum.photos/seed/5311/1600/1000,Jewelry Design | تصميم المجوهرات — 4
+photography_jewelry,images/gallery/photography/jewelry/photography_jewelry_05.webp,https://picsum.photos/seed/5312/1600/1000,Jewelry Design | تصميم المجوهرات — 5
+photography_jewelry,images/gallery/photography/jewelry/photography_jewelry_06.webp,https://picsum.photos/seed/5313/1600/1000,Jewelry Design | تصميم المجوهرات — 6
+photography_jewelry,images/gallery/photography/jewelry/photography_jewelry_07.webp,https://picsum.photos/seed/5314/1600/1000,Jewelry Design | تصميم المجوهرات — 7
+photography_webdesign,images/gallery/photography/webdesign/photography_webdesign_01.webp,https://picsum.photos/seed/5315/1600/1000,Web Design | تصميم المواقع — 1
+photography_webdesign,images/gallery/photography/webdesign/photography_webdesign_02.webp,https://picsum.photos/seed/5316/1600/1000,Web Design | تصميم المواقع — 2
+photography_webdesign,images/gallery/photography/webdesign/photography_webdesign_03.webp,https://picsum.photos/seed/5317/1600/1000,Web Design | تصميم المواقع — 3
+photography_webdesign,images/gallery/photography/webdesign/photography_webdesign_04.webp,https://picsum.photos/seed/5318/1600/1000,Web Design | تصميم المواقع — 4
+photography_webdesign,images/gallery/photography/webdesign/photography_webdesign_05.webp,https://picsum.photos/seed/5319/1600/1000,Web Design | تصميم المواقع — 5
+photography_webdesign,images/gallery/photography/webdesign/photography_webdesign_06.webp,https://picsum.photos/seed/5320/1600/1000,Web Design | تصميم المواقع — 6
+photography_webdesign,images/gallery/photography/webdesign/photography_webdesign_07.webp,https://picsum.photos/seed/5321/1600/1000,Web Design | تصميم المواقع — 7
+photography_backgrounds,images/gallery/photography/backgrounds/photography_backgrounds_01.webp,https://picsum.photos/seed/5322/1600/1000,Background Design | تصميم الخلفيات — 1
+photography_backgrounds,images/gallery/photography/backgrounds/photography_backgrounds_02.webp,https://picsum.photos/seed/5323/1600/1000,Background Design | تصميم الخلفيات — 2
+photography_backgrounds,images/gallery/photography/backgrounds/photography_backgrounds_03.webp,https://picsum.photos/seed/5324/1600/1000,Background Design | تصميم الخلفيات — 3
+photography_backgrounds,images/gallery/photography/backgrounds/photography_backgrounds_04.webp,https://picsum.photos/seed/5325/1600/1000,Background Design | تصميم الخلفيات — 4
+photography_backgrounds,images/gallery/photography/backgrounds/photography_backgrounds_05.webp,https://picsum.photos/seed/5326/1600/1000,Background Design | تصميم الخلفيات — 5
+photography_backgrounds,images/gallery/photography/backgrounds/photography_backgrounds_06.webp,https://picsum.photos/seed/5327/1600/1000,Background Design | تصميم الخلفيات — 6
+photography_backgrounds,images/gallery/photography/backgrounds/photography_backgrounds_07.webp,https://picsum.photos/seed/5328/1600/1000,Background Design | تصميم الخلفيات — 7
+photography_3d,images/gallery/photography/3d/photography_3d_01.webp,https://picsum.photos/seed/5329/1600/1000,3D Design | تصميم ثلاثي الأبعاد — 1
+photography_3d,images/gallery/photography/3d/photography_3d_02.webp,https://picsum.photos/seed/5330/1600/1000,3D Design | تصميم ثلاثي الأبعاد — 2
+photography_3d,images/gallery/photography/3d/photography_3d_03.webp,https://picsum.photos/seed/5331/1600/1000,3D Design | تصميم ثلاثي الأبعاد — 3
+photography_3d,images/gallery/photography/3d/photography_3d_04.webp,https://picsum.photos/seed/5332/1600/1000,3D Design | تصميم ثلاثي الأبعاد — 4
+photography_3d,images/gallery/photography/3d/photography_3d_05.webp,https://picsum.photos/seed/5333/1600/1000,3D Design | تصميم ثلاثي الأبعاد — 5
+photography_3d,images/gallery/photography/3d/photography_3d_06.webp,https://picsum.photos/seed/5334/1600/1000,3D Design | تصميم ثلاثي الأبعاد — 6
+photography_3d,images/gallery/photography/3d/photography_3d_07.webp,https://picsum.photos/seed/5335/1600/1000,3D Design | تصميم ثلاثي الأبعاد — 7
+photography_exhibition,images/gallery/photography/exhibition/photography_exhibition_01.webp,https://picsum.photos/seed/5336/1600/1000,Exhibition Stand | أجنحة المعارض — 1
+photography_exhibition,images/gallery/photography/exhibition/photography_exhibition_02.webp,https://picsum.photos/seed/5337/1600/1000,Exhibition Stand | أجنحة المعارض — 2
+photography_exhibition,images/gallery/photography/exhibition/photography_exhibition_03.webp,https://picsum.photos/seed/5338/1600/1000,Exhibition Stand | أجنحة المعارض — 3
+photography_exhibition,images/gallery/photography/exhibition/photography_exhibition_04.webp,https://picsum.photos/seed/5339/1600/1000,Exhibition Stand | أجنحة المعارض — 4
+photography_exhibition,images/gallery/photography/exhibition/photography_exhibition_05.webp,https://picsum.photos/seed/5340/1600/1000,Exhibition Stand | أجنحة المعارض — 5
+photography_exhibition,images/gallery/photography/exhibition/photography_exhibition_06.webp,https://picsum.photos/seed/5341/1600/1000,Exhibition Stand | أجنحة المعارض — 6
+photography_exhibition,images/gallery/photography/exhibition/photography_exhibition_07.webp,https://picsum.photos/seed/5342/1600/1000,Exhibition Stand | أجنحة المعارض — 7
+calligraphy_band,images/pages/calligraphy/band/calligraphy_band_01.webp,https://picsum.photos/seed/7000/1600/1000,شريط صفحة calligraphy — 1
+calligraphy_band,images/pages/calligraphy/band/calligraphy_band_02.webp,https://picsum.photos/seed/7001/1600/1000,شريط صفحة calligraphy — 2
+calligraphy_band,images/pages/calligraphy/band/calligraphy_band_03.webp,https://picsum.photos/seed/7002/1600/1000,شريط صفحة calligraphy — 3
+calligraphy_band,images/pages/calligraphy/band/calligraphy_band_04.webp,https://picsum.photos/seed/7003/1600/1000,شريط صفحة calligraphy — 4
+calligraphy_band,images/pages/calligraphy/band/calligraphy_band_05.webp,https://picsum.photos/seed/7004/1600/1000,شريط صفحة calligraphy — 5
+calligraphy_band,images/pages/calligraphy/band/calligraphy_band_06.webp,https://picsum.photos/seed/7005/1600/1000,شريط صفحة calligraphy — 6
+calligraphy_band,images/pages/calligraphy/band/calligraphy_band_07.webp,https://picsum.photos/seed/7006/1600/1000,شريط صفحة calligraphy — 7
+horses_band,images/pages/horses/band/horses_band_01.webp,https://picsum.photos/seed/7007/1600/1000,شريط صفحة horses — 1
+horses_band,images/pages/horses/band/horses_band_02.webp,https://picsum.photos/seed/7008/1600/1000,شريط صفحة horses — 2
+horses_band,images/pages/horses/band/horses_band_03.webp,https://picsum.photos/seed/7009/1600/1000,شريط صفحة horses — 3
+ai_band,images/pages/ai/band/ai_band_01.webp,https://picsum.photos/seed/7010/1600/1000,شريط صفحة ai — 1
+ai_band,images/pages/ai/band/ai_band_02.webp,https://picsum.photos/seed/7011/1600/1000,شريط صفحة ai — 2
+ai_band,images/pages/ai/band/ai_band_03.webp,https://picsum.photos/seed/7012/1600/1000,شريط صفحة ai — 3
+design_band,images/pages/design/band/design_band_01.webp,https://picsum.photos/seed/7013/1600/1000,شريط صفحة design — 1
+design_band,images/pages/design/band/design_band_02.webp,https://picsum.photos/seed/7014/1600/1000,شريط صفحة design — 2
+design_band,images/pages/design/band/design_band_03.webp,https://picsum.photos/seed/7015/1600/1000,شريط صفحة design — 3
+portrait_band,images/pages/portrait/band/portrait_band_01.webp,https://picsum.photos/seed/7016/1600/1000,شريط صفحة portrait — 1
+portrait_band,images/pages/portrait/band/portrait_band_02.webp,https://picsum.photos/seed/7017/1600/1000,شريط صفحة portrait — 2
+portrait_band,images/pages/portrait/band/portrait_band_03.webp,https://picsum.photos/seed/7018/1600/1000,شريط صفحة portrait — 3
+education_band,images/pages/education/band/education_band_01.webp,https://picsum.photos/seed/7019/1600/1000,شريط صفحة education — 1
+education_band,images/pages/education/band/education_band_02.webp,https://picsum.photos/seed/7020/1600/1000,شريط صفحة education — 2
+education_band,images/pages/education/band/education_band_03.webp,https://picsum.photos/seed/7021/1600/1000,شريط صفحة education — 3
+photography_band,images/pages/photography/band/photography_band_01.webp,https://picsum.photos/seed/7022/1600/1000,شريط صفحة photography — 1
+photography_band,images/pages/photography/band/photography_band_02.webp,https://picsum.photos/seed/7023/1600/1000,شريط صفحة photography — 2
+photography_band,images/pages/photography/band/photography_band_03.webp,https://picsum.photos/seed/7024/1600/1000,شريط صفحة photography — 3
+photography_band,images/pages/photography/band/photography_band_04.webp,https://picsum.photos/seed/7025/1600/1000,شريط صفحة photography — 4
+photography_band,images/pages/photography/band/photography_band_05.webp,https://picsum.photos/seed/7026/1600/1000,شريط صفحة photography — 5
+photography_band,images/pages/photography/band/photography_band_06.webp,https://picsum.photos/seed/7027/1600/1000,شريط صفحة photography — 6
+photography_band,images/pages/photography/band/photography_band_07.webp,https://picsum.photos/seed/7028/1600/1000,شريط صفحة photography — 7
+index_hero,images/pages/index/hero/index_hero_01.webp,https://picsum.photos/seed/7029/1600/1000,هيرو الرئيسية — شريحة 1
+index_hero,images/pages/index/hero/index_hero_02.webp,https://picsum.photos/seed/7030/1600/1000,هيرو الرئيسية — شريحة 2
+index_hero,images/pages/index/hero/index_hero_03.webp,https://picsum.photos/seed/7031/1600/1000,هيرو الرئيسية — شريحة 3
+index_hero,images/pages/index/hero/index_hero_04.webp,https://picsum.photos/seed/7032/1600/1000,هيرو الرئيسية — شريحة 4
+index_hero,images/pages/index/hero/index_hero_05.webp,https://picsum.photos/seed/7033/1600/1000,هيرو الرئيسية — شريحة 5
+index_hero,images/pages/index/hero/index_hero_06.webp,https://picsum.photos/seed/7034/1600/1000,هيرو الرئيسية — شريحة 6
+index_hero,images/pages/index/hero/index_hero_07.webp,https://picsum.photos/seed/7035/1600/1000,هيرو الرئيسية — شريحة 7
+index_band,images/pages/index/band/index_band_01.webp,https://picsum.photos/seed/7036/1600/1000,شريط الرئيسية — 1
+index_band,images/pages/index/band/index_band_02.webp,https://picsum.photos/seed/7037/1600/1000,شريط الرئيسية — 2
+index_band,images/pages/index/band/index_band_03.webp,https://picsum.photos/seed/7038/1600/1000,شريط الرئيسية — 3
+index_band,images/pages/index/band/index_band_04.webp,https://picsum.photos/seed/7039/1600/1000,شريط الرئيسية — 4
+index_band,images/pages/index/band/index_band_05.webp,https://picsum.photos/seed/7040/1600/1000,شريط الرئيسية — 5
+index_band,images/pages/index/band/index_band_06.webp,https://picsum.photos/seed/7041/1600/1000,شريط الرئيسية — 6
+index_band,images/pages/index/band/index_band_07.webp,https://picsum.photos/seed/7042/1600/1000,شريط الرئيسية — 7
+statement_ai_hero,images/statement/ai/statement_ai_hero_01.webp,https://picsum.photos/seed/9000/1600/1000,هيرو البيان ai — شريحة 1
+statement_ai_hero,images/statement/ai/statement_ai_hero_02.webp,https://picsum.photos/seed/9001/1600/1000,هيرو البيان ai — شريحة 2
+statement_ai_hero,images/statement/ai/statement_ai_hero_03.webp,https://picsum.photos/seed/9002/1600/1000,هيرو البيان ai — شريحة 3
+statement_ai_hero,images/statement/ai/statement_ai_hero_04.webp,https://picsum.photos/seed/9003/1600/1000,هيرو البيان ai — شريحة 4
+statement_ai_hero,images/statement/ai/statement_ai_hero_05.webp,https://picsum.photos/seed/9004/1600/1000,هيرو البيان ai — شريحة 5
+statement_ai_hero,images/statement/ai/statement_ai_hero_06.webp,https://picsum.photos/seed/9005/1600/1000,هيرو البيان ai — شريحة 6
+statement_ai_hero,images/statement/ai/statement_ai_hero_07.webp,https://picsum.photos/seed/9006/1600/1000,هيرو البيان ai — شريحة 7
+statement_calligraphy_hero,images/statement/calligraphy/statement_calligraphy_hero_01.webp,https://picsum.photos/seed/9007/1600/1000,هيرو البيان calligraphy — شريحة 1
+statement_calligraphy_hero,images/statement/calligraphy/statement_calligraphy_hero_02.webp,https://picsum.photos/seed/9008/1600/1000,هيرو البيان calligraphy — شريحة 2
+statement_calligraphy_hero,images/statement/calligraphy/statement_calligraphy_hero_03.webp,https://picsum.photos/seed/9009/1600/1000,هيرو البيان calligraphy — شريحة 3
+statement_calligraphy_hero,images/statement/calligraphy/statement_calligraphy_hero_04.webp,https://picsum.photos/seed/9010/1600/1000,هيرو البيان calligraphy — شريحة 4
+statement_calligraphy_hero,images/statement/calligraphy/statement_calligraphy_hero_05.webp,https://picsum.photos/seed/9011/1600/1000,هيرو البيان calligraphy — شريحة 5
+statement_calligraphy_hero,images/statement/calligraphy/statement_calligraphy_hero_06.webp,https://picsum.photos/seed/9012/1600/1000,هيرو البيان calligraphy — شريحة 6
+statement_calligraphy_hero,images/statement/calligraphy/statement_calligraphy_hero_07.webp,https://picsum.photos/seed/9013/1600/1000,هيرو البيان calligraphy — شريحة 7
+statement_design_hero,images/statement/design/statement_design_hero_01.webp,https://picsum.photos/seed/9014/1600/1000,هيرو البيان design — شريحة 1
+statement_design_hero,images/statement/design/statement_design_hero_02.webp,https://picsum.photos/seed/9015/1600/1000,هيرو البيان design — شريحة 2
+statement_design_hero,images/statement/design/statement_design_hero_03.webp,https://picsum.photos/seed/9016/1600/1000,هيرو البيان design — شريحة 3
+statement_design_hero,images/statement/design/statement_design_hero_04.webp,https://picsum.photos/seed/9017/1600/1000,هيرو البيان design — شريحة 4
+statement_design_hero,images/statement/design/statement_design_hero_05.webp,https://picsum.photos/seed/9018/1600/1000,هيرو البيان design — شريحة 5
+statement_design_hero,images/statement/design/statement_design_hero_06.webp,https://picsum.photos/seed/9019/1600/1000,هيرو البيان design — شريحة 6
+statement_design_hero,images/statement/design/statement_design_hero_07.webp,https://picsum.photos/seed/9020/1600/1000,هيرو البيان design — شريحة 7
+statement_education_hero,images/statement/education/statement_education_hero_01.webp,https://picsum.photos/seed/9021/1600/1000,هيرو البيان education — شريحة 1
+statement_education_hero,images/statement/education/statement_education_hero_02.webp,https://picsum.photos/seed/9022/1600/1000,هيرو البيان education — شريحة 2
+statement_education_hero,images/statement/education/statement_education_hero_03.webp,https://picsum.photos/seed/9023/1600/1000,هيرو البيان education — شريحة 3
+statement_education_hero,images/statement/education/statement_education_hero_04.webp,https://picsum.photos/seed/9024/1600/1000,هيرو البيان education — شريحة 4
+statement_education_hero,images/statement/education/statement_education_hero_05.webp,https://picsum.photos/seed/9025/1600/1000,هيرو البيان education — شريحة 5
+statement_education_hero,images/statement/education/statement_education_hero_06.webp,https://picsum.photos/seed/9026/1600/1000,هيرو البيان education — شريحة 6
+statement_education_hero,images/statement/education/statement_education_hero_07.webp,https://picsum.photos/seed/9027/1600/1000,هيرو البيان education — شريحة 7
+statement_horses_hero,images/statement/horses/statement_horses_hero_01.webp,https://picsum.photos/seed/9028/1600/1000,هيرو البيان horses — شريحة 1
+statement_horses_hero,images/statement/horses/statement_horses_hero_02.webp,https://picsum.photos/seed/9029/1600/1000,هيرو البيان horses — شريحة 2
+statement_horses_hero,images/statement/horses/statement_horses_hero_03.webp,https://picsum.photos/seed/9030/1600/1000,هيرو البيان horses — شريحة 3
+statement_horses_hero,images/statement/horses/statement_horses_hero_04.webp,https://picsum.photos/seed/9031/1600/1000,هيرو البيان horses — شريحة 4
+statement_horses_hero,images/statement/horses/statement_horses_hero_05.webp,https://picsum.photos/seed/9032/1600/1000,هيرو البيان horses — شريحة 5
+statement_horses_hero,images/statement/horses/statement_horses_hero_06.webp,https://picsum.photos/seed/9033/1600/1000,هيرو البيان horses — شريحة 6
+statement_horses_hero,images/statement/horses/statement_horses_hero_07.webp,https://picsum.photos/seed/9034/1600/1000,هيرو البيان horses — شريحة 7
+statement_photography_hero,images/statement/photography/statement_photography_hero_01.webp,https://picsum.photos/seed/9035/1600/1000,هيرو البيان photography — شريحة 1
+statement_photography_hero,images/statement/photography/statement_photography_hero_02.webp,https://picsum.photos/seed/9036/1600/1000,هيرو البيان photography — شريحة 2
+statement_photography_hero,images/statement/photography/statement_photography_hero_03.webp,https://picsum.photos/seed/9037/1600/1000,هيرو البيان photography — شريحة 3
+statement_photography_hero,images/statement/photography/statement_photography_hero_04.webp,https://picsum.photos/seed/9038/1600/1000,هيرو البيان photography — شريحة 4
+statement_photography_hero,images/statement/photography/statement_photography_hero_05.webp,https://picsum.photos/seed/9039/1600/1000,هيرو البيان photography — شريحة 5
+statement_photography_hero,images/statement/photography/statement_photography_hero_06.webp,https://picsum.photos/seed/9040/1600/1000,هيرو البيان photography — شريحة 6
+statement_photography_hero,images/statement/photography/statement_photography_hero_07.webp,https://picsum.photos/seed/9041/1600/1000,هيرو البيان photography — شريحة 7
+statement_portrait_hero,images/statement/portrait/statement_portrait_hero_01.webp,https://picsum.photos/seed/9042/1600/1000,هيرو البيان portrait — شريحة 1
+statement_portrait_hero,images/statement/portrait/statement_portrait_hero_02.webp,https://picsum.photos/seed/9043/1600/1000,هيرو البيان portrait — شريحة 2
+statement_portrait_hero,images/statement/portrait/statement_portrait_hero_03.webp,https://picsum.photos/seed/9044/1600/1000,هيرو البيان portrait — شريحة 3
+statement_portrait_hero,images/statement/portrait/statement_portrait_hero_04.webp,https://picsum.photos/seed/9045/1600/1000,هيرو البيان portrait — شريحة 4
+statement_portrait_hero,images/statement/portrait/statement_portrait_hero_05.webp,https://picsum.photos/seed/9046/1600/1000,هيرو البيان portrait — شريحة 5
+statement_portrait_hero,images/statement/portrait/statement_portrait_hero_06.webp,https://picsum.photos/seed/9047/1600/1000,هيرو البيان portrait — شريحة 6
+statement_portrait_hero,images/statement/portrait/statement_portrait_hero_07.webp,https://picsum.photos/seed/9048/1600/1000,هيرو البيان portrait — شريحة 7
+statement_main_hero,images/statement/main/statement_main_hero_01.webp,https://picsum.photos/seed/9049/1600/1000,هيرو البيان main — شريحة 1
+statement_main_hero,images/statement/main/statement_main_hero_02.webp,https://picsum.photos/seed/9050/1600/1000,هيرو البيان main — شريحة 2
+statement_main_hero,images/statement/main/statement_main_hero_03.webp,https://picsum.photos/seed/9051/1600/1000,هيرو البيان main — شريحة 3
+statement_main_hero,images/statement/main/statement_main_hero_04.webp,https://picsum.photos/seed/9052/1600/1000,هيرو البيان main — شريحة 4
+statement_main_hero,images/statement/main/statement_main_hero_05.webp,https://picsum.photos/seed/9053/1600/1000,هيرو البيان main — شريحة 5
+statement_main_hero,images/statement/main/statement_main_hero_06.webp,https://picsum.photos/seed/9054/1600/1000,هيرو البيان main — شريحة 6
+statement_main_hero,images/statement/main/statement_main_hero_07.webp,https://picsum.photos/seed/9055/1600/1000,هيرو البيان main — شريحة 7
+about_portrait,images/about/portrait/about_portrait_01.webp,BASE64#about_portrait#1,شريحة بورتريه — 1
+about_portrait,images/about/portrait/about_portrait_02.webp,BASE64#about_portrait#2,شريحة بورتريه — 2
+about_portrait,images/about/portrait/about_portrait_03.webp,BASE64#about_portrait#3,شريحة بورتريه — 3
+about_portrait,images/about/portrait/about_portrait_04.webp,BASE64#about_portrait#4,شريحة بورتريه — 4
+about_portrait,images/about/portrait/about_portrait_05.webp,BASE64#about_portrait#5,شريحة بورتريه — 5
+about_portrait,images/about/portrait/about_portrait_06.webp,BASE64#about_portrait#6,شريحة بورتريه — 6
+about_portrait,images/about/portrait/about_portrait_07.webp,BASE64#about_portrait#7,شريحة بورتريه — 7
+about_workshop,images/about/workshop/about_workshop_01.webp,BASE64#about_workshop#1,صورة ورشة — 1
+about_workshop,images/about/workshop/about_workshop_02.webp,BASE64#about_workshop#2,صورة ورشة — 2
+about_workshop,images/about/workshop/about_workshop_03.webp,BASE64#about_workshop#3,صورة ورشة — 3
+about_workshop,images/about/workshop/about_workshop_04.webp,BASE64#about_workshop#4,صورة ورشة — 4
+about_workshop,images/about/workshop/about_workshop_05.webp,BASE64#about_workshop#5,صورة ورشة — 5
+about_workshop,images/about/workshop/about_workshop_06.webp,BASE64#about_workshop#6,صورة ورشة — 6
+about_workshop,images/about/workshop/about_workshop_07.webp,BASE64#about_workshop#7,صورة ورشة — 7
+about_workshop,images/about/workshop/about_workshop_08.webp,BASE64#about_workshop#8,صورة ورشة — 8
+about_workshop,images/about/workshop/about_workshop_09.webp,BASE64#about_workshop#9,صورة ورشة — 9
+about_workshop,images/about/workshop/about_workshop_10.webp,BASE64#about_workshop#10,صورة ورشة — 10
+about_workshop,images/about/workshop/about_workshop_11.webp,BASE64#about_workshop#11,صورة ورشة — 11
+about_workshop,images/about/workshop/about_workshop_12.webp,BASE64#about_workshop#12,صورة ورشة — 12
+about_workshop,images/about/workshop/about_workshop_13.webp,BASE64#about_workshop#13,صورة ورشة — 13
+about_workshop,images/about/workshop/about_workshop_14.webp,BASE64#about_workshop#14,صورة ورشة — 14
+about_workshop,images/about/workshop/about_workshop_15.webp,BASE64#about_workshop#15,صورة ورشة — 15
+about_workshop,images/about/workshop/about_workshop_16.webp,BASE64#about_workshop#16,صورة ورشة — 16
+about_workshop,images/about/workshop/about_workshop_17.webp,BASE64#about_workshop#17,صورة ورشة — 17
+about_workshop,images/about/workshop/about_workshop_18.webp,BASE64#about_workshop#18,صورة ورشة — 18
+about_workshop,images/about/workshop/about_workshop_19.webp,BASE64#about_workshop#19,صورة ورشة — 19
+about_workshop,images/about/workshop/about_workshop_20.webp,BASE64#about_workshop#20,صورة ورشة — 20
+about_workshop,images/about/workshop/about_workshop_21.webp,BASE64#about_workshop#21,صورة ورشة — 21

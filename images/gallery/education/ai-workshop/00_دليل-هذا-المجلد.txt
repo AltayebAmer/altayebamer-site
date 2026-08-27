@@ -1,0 +1,22 @@
+مجلد: images/gallery/education/ai-workshop/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  education_ai_workshop_01.webp
+  education_ai_workshop_02.webp
+  education_ai_workshop_03.webp
+  education_ai_workshop_04.webp
+  education_ai_workshop_05.webp
+  education_ai_workshop_06.webp
+  education_ai_workshop_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

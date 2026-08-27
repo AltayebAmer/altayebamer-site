@@ -1,0 +1,22 @@
+مجلد: images/gallery/calligraphy/kufic/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  calligraphy_kufic_01.webp
+  calligraphy_kufic_02.webp
+  calligraphy_kufic_03.webp
+  calligraphy_kufic_04.webp
+  calligraphy_kufic_05.webp
+  calligraphy_kufic_06.webp
+  calligraphy_kufic_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

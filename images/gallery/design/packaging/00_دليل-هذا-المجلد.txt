@@ -1,0 +1,22 @@
+مجلد: images/gallery/design/packaging/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  design_packaging_01.webp
+  design_packaging_02.webp
+  design_packaging_03.webp
+  design_packaging_04.webp
+  design_packaging_05.webp
+  design_packaging_06.webp
+  design_packaging_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

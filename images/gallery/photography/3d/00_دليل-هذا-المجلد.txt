@@ -1,0 +1,22 @@
+مجلد: images/gallery/photography/3d/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  photography_3d_01.webp
+  photography_3d_02.webp
+  photography_3d_03.webp
+  photography_3d_04.webp
+  photography_3d_05.webp
+  photography_3d_06.webp
+  photography_3d_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

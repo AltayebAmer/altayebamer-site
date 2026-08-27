@@ -1,0 +1,22 @@
+مجلد: images/gallery/photography/backgrounds/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  photography_backgrounds_01.webp
+  photography_backgrounds_02.webp
+  photography_backgrounds_03.webp
+  photography_backgrounds_04.webp
+  photography_backgrounds_05.webp
+  photography_backgrounds_06.webp
+  photography_backgrounds_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

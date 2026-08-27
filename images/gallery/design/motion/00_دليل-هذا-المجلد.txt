@@ -1,0 +1,22 @@
+مجلد: images/gallery/design/motion/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  design_motion_01.webp
+  design_motion_02.webp
+  design_motion_03.webp
+  design_motion_04.webp
+  design_motion_05.webp
+  design_motion_06.webp
+  design_motion_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

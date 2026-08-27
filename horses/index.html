@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Original paintings of purebred Arabian horses by Altayeb Amer.">
+<meta property="og:title" content="Arabian Horse Art — Altayeb Amer">
+<meta property="og:description" content="Original paintings of purebred Arabian horses by Altayeb Amer.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>Arabian Horses Art — Altayeb Amer</title>
+<link rel="canonical" href="https://altayebamer.com/horses/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#050504">
+<meta name="author" content="Altayeb Amer">
+<meta property="og:site_name" content="Altayeb Amer">
+<meta property="og:url" content="https://altayebamer.com/horses/">
+<meta property="og:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Altayeb Amer — Visual Artist, Dubai">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AE">
+<meta name="twitter:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta name="twitter:title" content="Arabian Horses Art — Altayeb Amer">
+<meta name="twitter:description" content="Original paintings of purebred Arabian horses by Altayeb Amer, Dubai.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&family=IBM+Plex+Arabic:wght@200;300&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+:root{--void:#050504;--gold:#C8A96E;--acc:#D4A853;--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:auto}
+
+/* CURSOR */
+#cur{opacity:0;position:fixed;width:5px;height:5px;background:rgba(212,168,83,.7);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.ink-splash{position:fixed;border-radius:50%;pointer-events:none;z-index:9998;width:120px;height:120px;background:radial-gradient(circle,rgba(212,168,83,.18)0%,transparent 72%);transform:translate(-50%,-50%) scale(0);animation:splash .75s cubic-bezier(.15,1,.3,1) forwards}
+@keyframes splash{0%{transform:translate(-50%,-50%) scale(0);opacity:1}65%{opacity:.7;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.4)}}
+
+/* LANG BTN */
+#lang-btn{position:fixed;top:1.55rem;left:1.6rem;z-index:8000;width:40px;height:40px;border-radius:50%;border:1px solid transparent;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity .5s,border-color .4s;background:transparent}
+#lang-btn.near{opacity:.45;border-color:rgba(212,168,83,.2)}
+#lang-btn:hover{opacity:1!important;border-color:var(--acc)!important}
+#lang-btn span{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(212,168,83,.5);transition:color .4s;user-select:none}
+#lang-btn:hover span{color:var(--acc)}
+
+/* INK VEIL */
+#ink-veil{position:fixed;inset:0;z-index:8500;pointer-events:none;overflow:hidden}
+#ink-blob{position:absolute;border-radius:50%;background:var(--void);transform:translate(-50%,-50%) scale(0);will-change:transform}
+#ink-blob.grow{width:300vmax;height:300vmax;transform:translate(-50%,-50%) scale(1);transition:transform .95s cubic-bezier(.22,1,.36,1)}
+#ink-blob.shrink{transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.4,0,.6,1)}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:700;padding:1.6rem 2rem 1.6rem 5rem;display:flex;align-items:center;justify-content:flex-end;gap:1.6rem;background:linear-gradient(to bottom,rgba(5,5,4,.88)0%,transparent 100%)}
+nav a{font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.22em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+nav a:hover,nav a.active{color:var(--acc)}
+.nav-home{color:rgba(212,168,83,.45)!important}
+.nav-gallery{border:1px solid rgba(212,168,83,.3);padding:.3rem .85rem;transition:border-color .3s,color .3s!important}
+.nav-gallery:hover{border-color:var(--acc)!important}
+
+/* HERO */
+#hero{position:relative;height:100vh;min-height:600px;overflow:hidden;display:flex;align-items:flex-end}
+#hero-slides{position:absolute;inset:0}
+.hslide{position:absolute;inset:0;opacity:0;transition:opacity 1.4s ease}
+.hslide-bg{width:100%;height:100%;display:block}
+.hslide.active{opacity:1}
+.hero-ink{position:absolute;inset:0}
+.hero-ink::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,5,4,1)0%,rgba(5,5,4,.3)50%,transparent 100%)}
+.hero-content{position:relative;z-index:2;padding:0 0 5.5rem;width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 2rem}
+.hero-tag{font-family:'Cinzel',serif;font-size:.63rem;letter-spacing:.55em;text-transform:uppercase;color:rgba(212,168,83,.5);margin-bottom:1rem;display:block}
+.hero-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,7vw,6.5rem);font-weight:300;color:var(--ivory);line-height:1;margin-bottom:.4rem}
+.hero-h1-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(2.5rem,6vw,5.5rem);font-weight:200;color:var(--ivory);line-height:1.2;margin-bottom:.4rem;display:none}
+[data-lang="ar"] .hero-h1{display:none}[data-lang="ar"] .hero-h1-ar{display:block}
+.hero-rule{width:60px;height:1px;background:linear-gradient(to right,var(--acc),transparent);margin:1.4rem 0}
+[data-lang="ar"] .hero-rule{background:linear-gradient(to left,var(--acc),transparent)}
+.hero-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2vw,1.25rem);font-weight:300;font-style:italic;color:rgba(212,168,83,.65);max-width:560px}
+.hero-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.9rem,1.8vw,1.1rem);font-weight:200;color:rgba(212,168,83,.65);max-width:560px;display:none}
+[data-lang="ar"] .hero-phrase{display:none}[data-lang="ar"] .hero-phrase-ar{display:block}
+#hero-dots{position:absolute;bottom:1.8rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;z-index:3}
+.hdot{width:5px;height:5px;border-radius:50%;background:rgba(212,168,83,.25);transition:background .4s,transform .4s}
+.hdot.on{background:var(--acc);transform:scale(1.3)}
+.scroll-hint{position:absolute;bottom:2.5rem;right:2.5rem;z-index:3;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:.3}
+.scroll-hint span{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.35em;text-transform:uppercase;color:var(--acc);writing-mode:vertical-rl}
+.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--acc),transparent);animation:sp 2s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:.3}50%{opacity:.9}}
+
+/* BREATHS */
+.br-half{height:50vh;min-height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(212,168,83,.06)}
+.br-quarter{min-height:26vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(212,168,83,.05);padding:3rem 0}
+.br-half::before{content:'خ';position:absolute;font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(18rem,38vw,36rem);font-weight:200;color:rgba(212,168,83,.025);line-height:1;pointer-events:none;user-select:none;right:5%;top:50%;transform:translateY(-50%)}
+.q-stage{max-width:760px;padding:0 2rem;text-align:center;position:relative;z-index:1}
+.q-item{display:none;animation:qfade .8s ease}
+.q-item.vis{display:block}
+@keyframes qfade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.q-text{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.3vw,1.6rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.75;margin-bottom:1rem}
+.q-text-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.95rem,2vw,1.3rem);font-weight:200;color:var(--ivory);line-height:2;margin-bottom:1rem;display:none}
+[data-lang="ar"] .q-text{display:none}[data-lang="ar"] .q-text-ar{display:block}
+.q-author{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.35em;text-transform:uppercase;color:rgba(212,168,83,.4)}
+.q-author-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.75rem;font-weight:200;color:rgba(212,168,83,.4);display:none}
+[data-lang="ar"] .q-author{display:none}[data-lang="ar"] .q-author-ar{display:block}
+.q-prog{display:flex;gap:.45rem;margin-top:1.4rem;justify-content:center}
+.qdot{width:3px;height:3px;border-radius:50%;background:rgba(212,168,83,.18);transition:background .4s,transform .3s}
+.qdot.on{background:var(--acc);transform:scale(1.6)}
+.br-quarter .q-text{font-size:clamp(.92rem,1.7vw,1.2rem)}
+.br-quarter .q-text-ar{font-size:clamp(.82rem,1.5vw,1.05rem)}
+
+/* BANDS — identical to index.html */
+.band{position:relative;width:100%;height:100vh;overflow:hidden;cursor:pointer}
+.band-cover{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(1) brightness(.32);transition:filter .7s ease}
+.band.clicked .band-cover{filter:grayscale(0) brightness(.52) saturate(.88)}
+.band-bloom{position:absolute;border-radius:50%;z-index:3;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,255,200,.45)0%,rgba(200,150,50,.22)35%,rgba(100,60,0,.08)65%,transparent 100%);transform:translate(-50%,-50%) scale(0);animation:bandBloom 2.5s cubic-bezier(.15,1,.3,1) forwards;width:300vmax;height:300vmax}
+@keyframes bandBloom{0%{transform:translate(-50%,-50%) scale(0);opacity:1}55%{transform:translate(-50%,-50%) scale(1);opacity:.85}100%{transform:translate(-50%,-50%) scale(1.05);opacity:0}}
+.band-ink{position:absolute;inset:0;z-index:4;pointer-events:none}
+.band-label{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center;transition:opacity .4s,transform .4s}
+.band.clicked .band-label{opacity:0;transform:translateY(-8px);pointer-events:none}
+.band-tag{font-family:'Cinzel',serif;font-size:.78rem;letter-spacing:.38em;color:var(--acc);text-transform:uppercase;margin-bottom:1rem}
+.band-title-en{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,3.2rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.2;text-align:center}
+.band-title-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1.4rem,3vw,2.6rem);font-weight:200;color:var(--ivory);line-height:1.5;display:none;text-align:center}
+[data-lang="ar"] .band-title-en{display:none}[data-lang="ar"] .band-title-ar{display:block}
+.band-reveal{position:absolute;inset:0;z-index:11;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .5s ease .1s;padding:2rem;text-align:center}
+.band.clicked .band-reveal{opacity:1;pointer-events:auto}
+.band-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1.05rem,1.9vw,1.28rem);font-style:italic;font-weight:300;color:rgba(240,235,225,.72);letter-spacing:.03em;max-width:480px;line-height:1.8;margin-bottom:2.5rem}
+.band-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1rem,1.7vw,1.18rem);font-weight:200;color:rgba(240,235,225,.72);line-height:2;max-width:480px;display:none;text-align:center;margin-bottom:2.5rem}
+[data-lang="ar"] .band-phrase{display:none}[data-lang="ar"] .band-phrase-ar{display:block}
+.band-enter{font-family:'Cinzel',serif;font-size:.85rem;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;padding:1rem 3rem;border:1px solid currentColor;position:relative;overflow:hidden;transition:color .35s;display:inline-block}
+.band-enter::before{content:'';position:absolute;inset:0;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s ease}
+.band-enter:hover::before{transform:scaleX(1);transform-origin:left}
+.band-enter:hover{color:var(--void)}
+.band-enter span{position:relative;z-index:1}
+
+/* FINAL BREATH — identical mechanics to index.html */
+.br-sq{height:22vh;min-height:160px;display:flex;align-items:center;justify-content:center;border-top:1px solid rgba(212,168,83,.06)}
+.boxes-row{display:flex;gap:1.6rem;flex-wrap:wrap;justify-content:center}
+.sq{width:72px;height:72px;border:1px solid rgba(200,169,110,.22);display:flex;align-items:center;justify-content:center;cursor:auto;transition:border-color .5s}
+.sq:hover{border-color:rgba(200,169,110,.65)}
+.sq-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none}
+.sq-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .sq-word{display:none}[data-lang="ar"] .sq-word-ar{display:block}
+.sq:hover .sq-word,.sq:hover .sq-word-ar{opacity:1}
+#br-float{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.float-word{position:absolute;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;color:transparent;pointer-events:none;user-select:none;transition:color 1.4s ease;white-space:nowrap}
+.float-word.show{color:rgba(200,169,110,.4)}
+#br-swim{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.swim-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;border:1px solid rgba(200,169,110,.18);transition:border-color .5s,opacity .5s;opacity:.42}
+.swim-shape:hover{border-color:rgba(200,169,110,.7);opacity:1}
+.swim-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.swim-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .swim-word{display:none}[data-lang="ar"] .swim-word-ar{display:block}
+.swim-shape:hover .swim-word,.swim-shape:hover .swim-word-ar{opacity:1}
+#br-hover{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.hover-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity 1.5s,border-color .4s}
+.hover-shape.visible{opacity:.28}
+.hover-shape:hover{opacity:1!important}
+.hsh-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.hsh-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .hsh-word{display:none}[data-lang="ar"] .hsh-word-ar{display:block}
+.hover-shape:hover .hsh-word,.hover-shape:hover .hsh-word-ar{opacity:1}
+
+/* FINAL + FOOTER — identical to index.html */
+#final{width:100%;padding:10rem 2rem 6rem;background:var(--void);display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
+#final::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 40% at 50% 60%,rgba(200,169,110,.028)0%,transparent 70%);pointer-events:none}
+#final-line{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.2vw,1.5rem);font-weight:300;font-style:italic;color:rgba(240,235,225,.45);letter-spacing:.05em;margin-bottom:4rem}
+#final-name{font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;color:var(--gold);letter-spacing:.08em;margin-bottom:1.8rem}
+#final-rule{width:100%;max-width:560px;height:1px;background:linear-gradient(to right,transparent,rgba(200,169,110,.38),transparent);margin-bottom:1.8rem}
+#final-links{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;justify-content:center}
+#final-links a{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.3em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+#final-links a:hover{color:var(--gold)}
+#final-links span{color:rgba(200,169,110,.2);font-size:.55rem}
+footer{padding:3rem 2rem;border-top:1px solid rgba(200,169,110,.08);text-align:center}
+.footer-top{margin-bottom:1.5rem}
+.footer-artist-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:rgba(200,169,110,.45);letter-spacing:.15em;margin-bottom:.3rem}
+.footer-title{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(200,169,110,.25)}
+.footer-copy{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;color:var(--ivory2);text-transform:uppercase;line-height:2}
+footer a{color:rgba(200,169,110,.45);text-decoration:none;transition:color .3s}
+footer a:hover{color:var(--gold)}
+
+/* BILINGUAL */
+.t-en{display:inline}.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body{direction:rtl}
+.ar-font{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  nav{padding:1.2rem 1.2rem 1.2rem 5rem;gap:1.2rem;overflow-x:auto}
+  nav a{font-size:.6rem}
+  .band{height:75vh;min-height:400px}
+  .band-title-en{font-size:clamp(1.5rem,6vw,2.2rem)}
+  .band-enter{font-size:.7rem;padding:.75rem 1.5rem;letter-spacing:.2em}
+  .sq{width:58px;height:58px}
+  .br-half{height:auto;padding:4rem 0}
+  .br-half::before{display:none}
+  .scroll-hint{display:none}
+}
+
+
+/* UNIFIED_PATCH_CSS */
+/* ============================================================
+   PATCH: Floating UI + Grayscale Slideshow + Float Words + Unified BG
+   Applies to all 8 specialty/home pages
+   ============================================================ */
+
+/* 1. UNIFIED DARK BACKGROUND — single color, no per-section repeat */
+body{background:#050504 !important}
+
+/* 2. SLIDESHOW / BAND COVER — grayscale default, color on hover/in-view only */
+.band-cover{
+  filter:grayscale(1) brightness(.32) !important;
+  transition:filter .8s ease !important;
+}
+.band:hover .band-cover,
+.band.clicked .band-cover,
+.band.in-view .band-cover{
+  filter:grayscale(0) brightness(.5) saturate(.9) !important;
+}
+
+/* 3. REMOVE BLUE BLOOM EFFECT — per agreed simplification */
+.band-bloom{display:none !important;animation:none !important}
+
+/* 4. FLOATING ACTION BUTTON — back to top */
+#fab-top{
+  position:fixed;bottom:24px;left:24px;z-index:600;
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(10,10,9,.7);backdrop-filter:blur(10px);
+  border:1px solid rgba(200,169,110,.35);
+  color:#C8A96E;font-size:1.05rem;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;opacity:0;transform:translateY(10px);
+  transition:opacity .35s ease,transform .35s ease,border-color .25s;
+  box-shadow:0 8px 24px -6px rgba(0,0,0,.5);
+}
+#fab-top.show{opacity:1;transform:translateY(0)}
+#fab-top:hover{border-color:#C8A96E;box-shadow:0 12px 32px -6px rgba(200,169,110,.25)}
+
+/* 5. FLOATING CAPSULE NAV */
+nav#nav{
+  border-radius:999px !important;
+  margin:14px auto 0 !important;
+  width:fit-content !important;
+  background:rgba(8,8,7,.55) !important;
+  backdrop-filter:blur(14px) saturate(140%);
+  border:1px solid rgba(200,169,110,.18) !important;
+  box-shadow:0 10px 30px -8px rgba(0,0,0,.55),0 1px 0 rgba(255,255,255,.04) inset;
+  position:fixed !important;top:14px;left:50%;transform:translateX(-50%);
+}
+
+/* 6. FLOATING CARDS — bands lift with layered shadow on hover */
+.band{transition:box-shadow .45s ease}
+.band:hover{box-shadow:0 24px 48px -12px rgba(0,0,0,.55),0 8px 16px -8px rgba(200,169,110,.18)}
+
+/* 7. STATEMENT SECTION — البيان الفني */
+.statement-sec{
+  min-height:50vh;display:flex;align-items:center;justify-content:center;
+  padding:4rem 1.5rem;background:#0a0a09;text-align:center;
+  border-top:1px solid rgba(200,169,110,.08);border-bottom:1px solid rgba(200,169,110,.08);
+}
+.statement-inner{max-width:760px}
+.statement-inner p{font-size:1.05rem;line-height:1.9;color:#F0EBE1;opacity:.85;margin-bottom:1rem}
+.statement-readmore{
+  display:inline-block;margin-top:1rem;padding:.7rem 2.2rem;
+  border:1px solid rgba(200,169,110,.4);border-radius:999px;
+  color:#C8A96E;font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.2em;
+  text-decoration:none;transition:.3s;
+}
+.statement-readmore:hover{background:#C8A96E;color:#050504}
+
+/* 8. BREATHER SIZE VARIANTS — break visual rhythm */
+.breather-half{min-height:42vh}
+.breather-quarter{min-height:24vh}
+
+/* 9. FLOATING WORDS + ART SHAPES — revives #br-float spirit, all pages */
+.float-stage{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.float-word{
+  position:absolute;color:rgba(200,169,110,.16);
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  white-space:nowrap;opacity:0;animation:floatWordSeq 18s ease-in-out infinite;
+}
+.float-shape{
+  position:absolute;color:rgba(200,169,110,.10);
+  opacity:0;animation:floatShapeSeq 22s ease-in-out infinite;
+}
+@keyframes floatWordSeq{
+  0%{opacity:0;transform:translate(0,0) scale(.92)}
+  10%{opacity:1}45%{opacity:1;transform:translate(18px,-26px) scale(1)}
+  60%{opacity:0}100%{opacity:0;transform:translate(18px,-26px) scale(1)}
+}
+@keyframes floatShapeSeq{
+  0%{opacity:0;transform:translate(0,0) rotate(0deg)}
+  15%{opacity:1}50%{opacity:1;transform:translate(-22px,30px) rotate(14deg)}
+  70%{opacity:0}100%{opacity:0;transform:translate(-22px,30px) rotate(14deg)}
+}
+@media(max-width:600px){.float-stage{display:none}}
+
+/* UNIFIED_PATCH_CSS */
+
+#lang-btn .lang-txt{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.15em;color:rgba(200,169,110,.55);text-transform:uppercase;margin-right:.35rem;transition:color .4s}
+#lang-btn:hover .lang-txt{color:var(--gold)}
+</style>
+
+<style>
+.sp-articles-section{padding:4rem 2rem 6rem;max-width:1200px;margin:0 auto}
+.sp-articles-title{font-size:1.5rem;color:var(--gold-l,#c8a96e);margin-bottom:.4rem;font-family:"IBM Plex Arabic",sans-serif}
+.sp-articles-rule{width:50px;height:1px;background:var(--gold-l,#c8a96e);opacity:.4;margin-bottom:2.5rem}
+.sp-articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.4rem}
+.sp-art-card{border:1px solid rgba(200,169,110,.1);padding:1.6rem;cursor:pointer;transition:border-color .3s,transform .3s;background:rgba(0,0,0,.12)}
+.sp-art-card:hover{border-color:rgba(200,169,110,.35);transform:translateY(-3px)}
+.sp-art-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.7rem}
+.sp-art-num{font-size:.7rem;color:rgba(200,169,110,.45)}
+.sp-art-cat{font-size:.68rem;color:var(--gold-l,#c8a96e);text-transform:uppercase;letter-spacing:.08em}
+.sp-art-title{font-size:.95rem;font-weight:600;color:#e8dcc8;margin-bottom:.55rem;line-height:1.4}
+.sp-art-excerpt{font-size:.77rem;color:rgba(232,220,200,.5);line-height:1.6;margin-bottom:.7rem}
+.sp-art-link{font-size:.72rem;color:var(--gold-l,#c8a96e)}
+.sp-overlay{position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:9999;overflow-y:auto;display:none;padding:3rem 2rem}
+.sp-overlay.open{display:block}
+.sp-overlay-close{position:fixed;top:1.5rem;right:1.5rem;background:none;border:1px solid rgba(200,169,110,.3);color:#c8a96e;width:2.2rem;height:2.2rem;cursor:pointer;font-size:1rem;z-index:10000}
+.sp-art-body{max-width:660px;margin:0 auto;color:#e8dcc8;line-height:1.9}
+.sp-art-body h2{font-size:1.5rem;color:#c8a96e;margin-bottom:1rem}
+.sp-art-body h3{font-size:1.05rem;color:#c8a96e;margin:1.6rem 0 .6rem}
+.sp-art-body p{margin-bottom:1.1rem;font-size:.91rem}
+.sp-art-body blockquote{border-left:2px solid #c8a96e;padding-left:1.1rem;color:rgba(232,220,200,.68);font-style:italic;margin:1.4rem 0}
+.sp-a-tag{font-size:.7rem;color:rgba(200,169,110,.55);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+</style>
+
+<style>
+.jrn-section{padding:3rem 2rem 5rem;max-width:1200px;margin:0 auto}
+.jrn-title{font-size:1.4rem;color:var(--gold-l,#c8a96e);margin-bottom:.3rem;font-family:"IBM Plex Arabic",sans-serif}
+.jrn-rule{width:48px;height:1px;background:var(--gold-l,#c8a96e);opacity:.4;margin-bottom:2rem}
+.jrn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem}
+.jrn-card{border:1px solid rgba(200,169,110,.12);padding:1.5rem;cursor:pointer;transition:border-color .3s,transform .3s;background:rgba(0,0,0,.1)}
+.jrn-card:hover{border-color:rgba(200,169,110,.4);transform:translateY(-2px)}
+.jrn-num{font-size:.68rem;color:rgba(200,169,110,.4);margin-bottom:.4rem}
+.jrn-cat{font-size:.65rem;color:var(--gold-l,#c8a96e);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.jrn-card-title{font-size:.92rem;font-weight:600;color:#e8dcc8;line-height:1.4;margin-bottom:.6rem}
+.jrn-card-title .t-ar{font-family:"IBM Plex Arabic",sans-serif;font-size:.88rem}
+.jrn-link{font-size:.7rem;color:var(--gold-l,#c8a96e)}
+.jrn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:9999;overflow-y:auto;display:none;padding:3rem 2rem}
+.jrn-overlay.open{display:block}
+.jrn-close{position:fixed;top:1.4rem;right:1.4rem;background:none;border:1px solid rgba(200,169,110,.3);color:#c8a96e;width:2rem;height:2rem;cursor:pointer;font-size:.9rem;z-index:10000}
+.jrn-body{max-width:640px;margin:0 auto;color:#e8dcc8;line-height:1.9}
+.jrn-body h2{font-size:1.4rem;color:#c8a96e;margin-bottom:1rem}
+.jrn-body h3{font-size:1rem;color:#c8a96e;margin:1.5rem 0 .5rem}
+.jrn-body p{margin-bottom:1rem;font-size:.9rem}
+.jrn-body blockquote{border-left:2px solid #c8a96e;padding-left:1rem;color:rgba(232,220,200,.65);font-style:italic;margin:1.3rem 0}
+.jrn-tag{font-size:.68rem;color:rgba(200,169,110,.5);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+.jrn-empty{color:rgba(200,169,110,.4);font-size:.82rem;font-style:italic;padding:1rem 0}
+
+/* restore visible cursor + correct affordances */
+a,button,summary,[role=button],.faq-q,.spec-item,.channel,.send-btn,.cta-btn,.wcell,.qbox{cursor:pointer}
+input,textarea,select{cursor:text}
+select{cursor:pointer}
+
+/* ═══ ARABIC TYPOGRAPHY FIX v2 ═══
+   العربية خط متّصل: لا تباعد حروف، ولا Uppercase، وخط عربي حقيقي.
+   الأرضية المطلقة max() تمنع أي نص عربي من النزول تحت حدّ المقروئية،
+   دون أن تُضخّم العناوين الكبيرة (1em يبقى كما هو إن كان أكبر).
+   Arabic: connected script — never letter-space; absolute floor via max(). */
+html[data-lang="ar"] .t-ar,
+html[data-lang="ar"] .ar-font,
+html[data-lang="ar"] [lang="ar"]{
+  font-family:'IBM Plex Arabic',system-ui,sans-serif !important;
+  letter-spacing:normal !important;
+  word-spacing:normal !important;
+  text-transform:none !important;
+  font-size:max(1.02rem,1em);
+  line-height:1.85;
+}
+/* عناصر الواجهة الصغيرة: أرضية أعلى قليلاً + وزن أوضح */
+html[data-lang="ar"] nav a,
+html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .band-tag,
+html[data-lang="ar"] .sec-title,html[data-lang="ar"] .section-title,
+html[data-lang="ar"] .works-title,html[data-lang="ar"] .connect-title,
+html[data-lang="ar"] .q-author,html[data-lang="ar"] .q-author-ar,
+html[data-lang="ar"] .footer-inner,html[data-lang="ar"] .jrn-cat,html[data-lang="ar"] .jrn-tag,
+html[data-lang="ar"] .stat-label,html[data-lang="ar"] .spec-note,html[data-lang="ar"] .offer-num,
+html[data-lang="ar"] .step-title,html[data-lang="ar"] .channel-name,html[data-lang="ar"] .form-label,
+html[data-lang="ar"] .cf-label,html[data-lang="ar"] .work-cap,html[data-lang="ar"] .mv-num{
+  font-size:max(1.02rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  line-height:1.8;
+}
+/* أزرار وروابط: مساحة نقر مريحة */
+html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+html[data-lang="ar"] .filter-btn,html[data-lang="ar"] .send-btn,
+html[data-lang="ar"] .works-all,html[data-lang="ar"] .specblock-visit,
+html[data-lang="ar"] .specblock-viewall,html[data-lang="ar"] .read-btn{
+  font-size:max(1.05rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  padding:.95rem 1.9rem;
+}
+html[data-lang="ar"] nav a{font-weight:400}
+/* شاشات كبيرة (٢٧ إنش فأكثر) */
+@media(min-width:1600px){
+  nav a{font-size:.78rem}
+  .cta,.cta-btn,.cv-btn,.band-enter,.statement-readmore,.send-btn{font-size:.72rem;padding:1rem 2rem}
+  html[data-lang="ar"] nav a{font-size:1.12rem !important}
+  html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .sec-title,
+  html[data-lang="ar"] .section-title,html[data-lang="ar"] .works-title{font-size:1.12rem !important}
+  html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+  html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+  html[data-lang="ar"] .send-btn,html[data-lang="ar"] .works-all,
+  html[data-lang="ar"] .specblock-visit,html[data-lang="ar"] .specblock-viewall{
+    font-size:1.18rem !important;padding:1.1rem 2.2rem;
+  }
+}
+
+/* عناوين عربية: سطر واحد متّزن، ولفٌّ أنيق عند الضرورة */
+[data-lang="ar"] .band-title-ar,
+[data-lang="ar"] .h1,[data-lang="ar"] h1,
+[data-lang="ar"] .cta-heading,[data-lang="ar"] .mv-title{
+  text-wrap:balance;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  max-width:22ch;
+  margin-inline:auto;
+}
+[data-lang="ar"] .band-title-ar{line-height:1.35}
+
+/* ── اسم الفنان بالعربية: خط خطّي كلاسيكي (مؤقت حتى وصول خط الثلث) ── */
+[data-lang="ar"] .name-ar{
+  font-family:'Aref Ruqaa','IBM Plex Arabic',serif !important;
+  font-weight:700;
+  letter-spacing:normal !important;
+  line-height:1.6;
+  font-size:1.15em;
+}
+/* عند توفّر صورة الاسم بخط الثلث: فعّل هذه الكتلة واحذف التي فوقها
+[data-lang="ar"] .name-ar{
+  font-size:0 !important;
+  display:inline-block;
+  width:clamp(180px,26vw,420px);
+  aspect-ratio:1000/300;
+  background:url('/images/brand/name-thuluth.svg') center/contain no-repeat;
+}
+*/
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+</style>
+</head>
+<body>
+<div id="cur"></div>
+<div id="ink-veil"><div id="ink-blob"></div></div>
+<div id="lang-btn"><span class="lang-txt t-en">AR</span><span class="lang-txt t-ar">EN</span><span id="lang-glyph">ض</span></div>
+
+<nav id="nav">
+  <a href="../index.html#hero" class="nav-home">
+    <span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span>
+  </a>
+  <a href="../about/index.html">
+    <span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span>
+  </a>
+  <a href="../journal/index.html">
+    <span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span>
+  </a>
+  <a href="../commission/index.html">
+    <span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span>
+  </a>
+  <a href="../contact/index.html">
+    <span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span>
+  </a>
+  <a href="../gallery/horses/index.html" class="nav-gallery">
+    <span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span>
+  </a>
+  <a href="../statement/horses/index.html" class="nav-statement">
+    <span class="t-en">Statement</span><span class="t-ar ar-font">البيان الفني</span>
+  </a>
+</nav>
+
+<!-- ══════ HERO ══════ -->
+<section id="hero">
+  <div id="hero-slides">
+    <div class="hslide active"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d1a0a 0%,#1a2d10 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(to right,#0a0805 0%,#1a1205 60%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d0a05 0%,#2a1f05 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d0a05 0%,#2a1f05 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d0a05 0%,#2a1f05 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d0a05 0%,#2a1f05 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d0a05 0%,#2a1f05 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    
+  </div>
+  <div class="hero-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="scroll-hint">
+    <span class="t-en">Scroll</span><span class="t-ar ar-font">مرِّر</span>
+    <div class="scroll-line"></div>
+  </div>
+  <div id="hero-dots"><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div></div>
+  <div class="hero-content">
+    <div class="wrap">
+      <span class="hero-tag">
+        <span class="t-en">II · Arabian Horses Art</span>
+        <span class="t-ar ar-font">٢ · Arabian Horses Art</span>
+      </span>
+      <h1 class="hero-h1">Arabian Horses<br>Art</h1>
+      <h1 class="hero-h1-ar">فن رسم<br>الخيول العربية</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-phrase">In the eyes of horses you read a poem written without words.</p>
+      <p class="hero-phrase-ar">في عيون الخيل تقرأ قصيدة لا تُكتب بالكلمات.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ BREATH — HALF — Specialty Quotes ══════ -->
+<div class="br-half" id="br-spec">
+  <div>
+    <div class="q-stage" id="qs-spec"></div>
+    <div class="q-prog" id="qp-spec"></div>
+  </div>
+</div>
+
+
+<!-- BAND 1 — I · AI Arabian Horses -->
+<!-- STATEMENT_SECTION -->
+<section class="statement-sec"><div class="statement-inner"><p><span class="t-en">The Arabian horse is present in every canvas as a symbol of freedom and authenticity — I paint its movement and its spirit, not merely its form.</span><span class="t-ar">الخيل العربي حاضر في كل لوحة كرمز للحرية والأصالة، تُرسم حركته وروحه لا شكله فقط.</span></p><a href="../statement/horses/index.html" class="statement-readmore"><span class="t-en">Read the full statement</span><span class="t-ar">تتمة القراءة</span></a></div></section>
+<!-- STATEMENT_SECTION -->
+<section class="band" data-bi="0">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7007/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">I · AI Arabian Horses</span>
+      <span class="t-ar ar-font">١ · الخيل العربية بالذكاء الاصطناعي</span>
+    </p>
+    <h2 class="band-title-en">AI Arabian<br>Horses</h2>
+    <h2 class="band-title-ar">خيلٌ من ضوء</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">The spirit of the Arabian horse, reimagined through one hundred thousand creative experiments.</p>
+    <p class="band-phrase-ar">روحُ الفرسِ العربية، تُبعَثُ من جديدٍ عبر مئةِ ألفِ تجربة.</p>
+    <a href="../gallery/horses/index.html#ai-horses" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter AI Horse Gallery</span>
+        <span class="t-ar ar-font">معرض الخيل الرقمي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — I · AI Arabian Horses -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t1"></div>
+    <div class="q-prog" id="qp-t1"></div>
+  </div>
+</div>
+
+<!-- BAND 2 — II · Oil on Canvas -->
+<section class="band" data-bi="1">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7008/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(to right,rgba(5,5,4,.75)0%,rgba(5,5,4,.1)65%,rgba(5,5,4,.58)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">II · Oil on Canvas</span>
+      <span class="t-ar ar-font">٢ · زيت على قماش</span>
+    </p>
+    <h2 class="band-title-en">Fine Art Horse<br>Portraits</h2>
+    <h2 class="band-title-ar">حوارٌ مع الأصيل</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Every brushstroke is a conversation with the animal's inner world — slow, intimate, unrepeatable.</p>
+    <p class="band-phrase-ar">كلُّ ضربةِ فرشاةٍ حديثٌ مع ما في داخلها — على مهلٍ، وفي خلوة، ولا تتكرّر.</p>
+    <a href="../gallery/horses/index.html#oil" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Oil Paintings</span>
+        <span class="t-ar ar-font">معرض اللوحات الزيتية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — II · Oil on Canvas -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t2"></div>
+    <div class="q-prog" id="qp-t2"></div>
+  </div>
+</div>
+
+<!-- BAND 3 — III · Mixed Media -->
+<section class="band" data-bi="2">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7009/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">III · Mixed Media</span>
+      <span class="t-ar ar-font">٣ · وسائط مختلطة</span>
+    </p>
+    <h2 class="band-title-en">Mixed Media<br>Horse Art</h2>
+    <h2 class="band-title-ar">الفرسُ أيقونة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Gold leaf, texture, and paint — the horse becomes icon, emblem, and myth simultaneously.</p>
+    <p class="band-phrase-ar">ذهبٌ وملمسٌ ولون، فتصيرُ الفرسُ أيقونةً ورمزاً وأسطورةً معاً.</p>
+    <a href="../gallery/horses/index.html#mixed" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Mixed Media Gallery</span>
+        <span class="t-ar ar-font">معرض الوسائط المختلطة</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — III · Mixed Media -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t3"></div>
+    <div class="q-prog" id="qp-t3"></div>
+  </div>
+</div>
+
+
+
+<!-- BAND 4 — IV · Sketch -->
+<section class="band" data-bi="3">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20000/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">IV · Sketch</span>
+      <span class="t-ar ar-font">٤ · رسم تخطيطي</span>
+    </p>
+    <h2 class="band-title-en">Sketching<br>the Living Line</h2>
+    <h2 class="band-title-ar">أسرعُ من الذاكرة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Charcoal and graphite chase what the eye barely caught — speed is the only honest witness.</p>
+    <p class="band-phrase-ar">الفحمُ والرصاصُ يُطاردان ما كادت العينُ تفوته — والسرعةُ وحدَها شاهدٌ صادق.</p>
+    <a href="../gallery/horses/index.html#sketch" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Sketch Gallery</span>
+        <span class="t-ar ar-font">معرض الرسم التخطيطي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — IV · Sketch -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t4"></div>
+    <div class="q-prog" id="qp-t4"></div>
+  </div>
+</div>
+
+<!-- BAND 5 — V · Watercolor -->
+<section class="band" data-bi="4">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20001/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">V · Watercolor</span>
+      <span class="t-ar ar-font">٥ · ألوان مائية</span>
+    </p>
+    <h2 class="band-title-en">Watercolor<br>and the Untamed</h2>
+    <h2 class="band-title-ar">ما لا يُروَّض</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Water refuses the bridle — and in that refusal the horse finds its truest likeness.</p>
+    <p class="band-phrase-ar">الماءُ يرفضُ اللجام — وفي رفضِه تجدُ الفرسُ أصدقَ شبهٍ لها.</p>
+    <a href="../gallery/horses/index.html#watercolor" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Watercolor Gallery</span>
+        <span class="t-ar ar-font">معرض الألوان المائية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — V · Watercolor -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t5"></div>
+    <div class="q-prog" id="qp-t5"></div>
+  </div>
+</div>
+
+<!-- BAND 6 — VI · Digital Painting -->
+<section class="band" data-bi="5">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20002/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VI · Digital Painting</span>
+      <span class="t-ar ar-font">٦ · رسم رقمي</span>
+    </p>
+    <h2 class="band-title-en">Digital Painting<br>Old Eye, New Brush</h2>
+    <h2 class="band-title-ar">عينٌ قديمة، ريشةٌ جديدة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Infinite undo changes the tool, never the judgement that guides it.</p>
+    <p class="band-phrase-ar">التراجعُ اللانهائيُّ يُبدّلُ الأداة، ولا يُبدّلُ الحُكمَ الذي يقودها.</p>
+    <a href="../gallery/horses/index.html#digital" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Digital Painting Gallery</span>
+        <span class="t-ar ar-font">معرض الرسم الرقمي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VI · Digital Painting -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t6"></div>
+    <div class="q-prog" id="qp-t6"></div>
+  </div>
+</div>
+
+<!-- BAND 7 — VII · Sculpture Study -->
+<section class="band" data-bi="6">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20003/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VII · Sculpture Study</span>
+      <span class="t-ar ar-font">٧ · دراسة نحتية</span>
+    </p>
+    <h2 class="band-title-en">Sculpture Study<br>Understanding Roundly</h2>
+    <h2 class="band-title-ar">الكتلةُ قبل الخط</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Turn the form in your hands and every flat lie you accepted falls away.</p>
+    <p class="band-phrase-ar">أدِرِ الشكلَ بين كفّيك تسقطْ كلُّ كذبةٍ مسطّحةٍ قبلتَها.</p>
+    <a href="../gallery/horses/index.html#bronze" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Sculpture Study Gallery</span>
+        <span class="t-ar ar-font">معرض الدراسة النحتية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VII · Sculpture Study -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t7"></div>
+    <div class="q-prog" id="qp-t7"></div>
+  </div>
+</div>
+
+<!-- ══════ FINAL BREATH ══════ -->
+<div class="br-sq"><div class="boxes-row"></div></div>
+<div id="br-float"></div>
+<div id="br-swim"></div>
+<div id="br-hover"></div>
+
+<!-- ══════ FINAL ══════ -->
+<div id="final">
+  <p id="final-line">
+    <span class="t-en">One soul · Seven worlds · Infinite creation</span>
+    <span class="t-ar ar-font">روح واحدة · سبعة عوالم · إبداع لا نهاية له</span>
+  </p>
+  <p id="final-name"><span class="t-en">Altayeb Amer</span><span class="t-ar name-ar">الطيب عامر</span></p>
+  <div id="final-rule"></div>
+  <div id="final-links">
+    <a href="../index.html#hero"><span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span></a>
+    <span>·</span>
+    <a href="../about/index.html"><span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span></a>
+    <span>·</span>
+    <a href="../journal/index.html"><span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span></a>
+    <span>·</span>
+    <a href="../commission/index.html"><span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span></a>
+    <span>·</span>
+    <a href="../contact/index.html"><span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span></a>
+    <span>·</span>
+    <a href="../gallery/index.html"><span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span></a>
+  </div>
+</div>
+
+<!-- ══════ FOOTER ══════ -->
+<footer>
+  <div class="footer-top">
+    <p class="footer-artist-name">
+      <a href="../index.html#hero">
+        <span class="t-en">Altayeb Amer</span>
+        <span class="t-ar ar-font">الطيب عامر</span>
+      </a>
+    </p>
+    <p class="footer-title">
+      <span class="t-en">Creative Beyond · One Soul · Seven Worlds</span>
+      <span class="t-ar ar-font">كريتيف بيوند · روح واحدة · سبعة عوالم</span>
+    </p>
+  </div>
+  <p class="footer-copy">
+    <a href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">
+      <span class="t-en">Creative Beyond</span>
+      <span class="t-ar ar-font">كريتيف بيوند</span>
+    </a>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    <span class="t-en">Dubai</span><span class="t-ar ar-font">دبي</span>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    © <span id="yr"></span>
+  </p>
+</footer>
+
+<script>
+// ── QUOTES DATA ──
+const Q_SPEC = [
+  ["The Arabian horse is not an animal to ride — it is a piece of the desert that learned how to breathe.","الحصان العربي ليس حيواناً يُركب — بل هو قطعة من الصحراء تعلمت كيف تتنفس."],
+  ["When the purebred horse runs, you do not hear the thunder of hooves, but the heartbeat of history.","حين يركض الحصان الأصيل، لا تسمع دوي الحوافر، بل تسمع دقات قلب التاريخ."],
+  ["The eyes of the Arabian horse are two mirrors reflecting an eternity no human has ever seen.","عينا الحصان العربي مرآتان تعكسان أبداً لم يره إنسان من قبل."],
+  ["In the arch of the purebred horse's neck, God abbreviates the beauty of creation into a single curve.","في انحناءة عنق الحصان الأصيل، يختصر الله جمال الخليقة في قوس واحد."],
+  ["The Arabian horse teaches man that freedom is not granted, but earned with a single step into the unknown.","الحصان العربي يعلم الإنسان أن الحرية لا تُمنح، بل تُكتسب بخطوة واحدة نحو المجهول."],
+  ["The wind does not outrun the Arabian horse — rather, it is the wind that learns from the horse how to run.","الرياح لا تسبق الحصان العربي — بل هي التي تتعلم منه كيف تجري."],
+  ["Pedigree in horses is not a family tree hung on a wall, but a pride that resides in bone and blood.","الأصالة في الخيل ليست شجرة نسب تُعلق على الجدار، بل كبرياء يسكن في العظم والدم."]
+];
+const Q_T1 = [
+  ["AI horses taught me that the Arabian spirit is so strong it survives even the algorithm.","الخيل الرقمية علّمتني أن الروح العربية قوية لدرجة أنها تصمد حتى أمام الخوارزمية."],
+  ["The machine cannot feel the warmth of a horse's breath — but it can suggest the shape of eternity.","الآلة لا تستطيع أن تشعر بدفء نَفَس الحصان — لكنها تستطيع أن تقترح شكل الأبدية."],
+  ["One hundred thousand prompts about Arabian horses — and still I have not found the prompt that captures their soul.","مئة ألف برومبت عن الخيل العربية — ولا يزال ما يلتقط روحها أبعد من الكلمات."],
+  ["The AI-generated horse is the dream of the horse — not the horse itself. And dreams are worth painting.","الحصان الذي يولده الذكاء الاصطناعي هو حلم الحصان — لا الحصان نفسه. والأحلام تستحق الرسم."],
+  ["I use AI to find the horse beyond photography — the horse that light cannot fully capture.","أستخدم الذكاء الاصطناعي للعثور على الحصان ما وراء التصوير — الحصان الذي لا يستطيع الضوء التقاطه كاملاً."],
+  ["In the digital Arabian horse, beauty becomes untethered from biology and becomes pure vision.","في الحصان العربي الرقمي، يتحرر الجمال من القيد البيولوجي ليصبح رؤية خالصة."],
+  ["The algorithm surprised me every time — but it was my eye that knew which surprise was true.","الخوارزمية فاجأتني في كل مرة — لكن عيني كانت تعرف أي مفاجأة كانت صادقة."]
+];
+const Q_T2 = [
+  ["Oil on canvas is the only medium that can hold the weight of muscle beneath the skin and the light above it simultaneously.","الزيت على القماش هو الوسيط الوحيد الذي يستطيع حمل ثقل العضلة تحت الجلد والضوء فوقه في آن واحد."],
+  ["I paint horses not as I see them — but as I feel them breathing three steps away.","أرسم الخيل ليس كما أراها — بل كما أشعر بها تتنفس على بُعد ثلاث خطوات."],
+  ["The horse portrait is never finished — you simply reach a moment when you agree to stop.","بورتريه الحصان لا ينتهي أبداً — أنت فقط تصل إلى لحظة تتفق فيها على التوقف."],
+  ["To paint the Arabian horse is to honor a lineage stretching thousands of years — every mistake is disrespect to that lineage.","رسم الحصان العربي هو تكريم لسلالة تمتد آلاف السنين — كل خطأ هو إساءة لتلك السلالة."],
+  ["The light on a horse's coat is the most complex light I have ever tried to paint.","الضوء على فروة الحصان هو أعقد ضوء حاولت رسمه."],
+  ["When the painting is finished, the horse should look as if it could leave the canvas if it wanted.","حين تكتمل اللوحة، ينبغي أن يبدو الحصان كأنه يستطيع مغادرة القماش إن أراد."],
+  ["The brush trembles slightly before the first stroke on a horse portrait — that tremble is the beginning of respect.","الفرشاة ترتجف قليلاً قبل الضربة الأولى في بورتريه الحصان — ذلك الارتجاف هو بداية الاحترام."]
+];
+const Q_T3 = [
+  ["Gold leaf on a horse portrait is not decoration — it is a declaration that this animal is sacred.","ورق الذهب على بورتريه الحصان ليس زخرفة — بل إعلان بأن هذا الحيوان مقدس."],
+  ["Mixed media allows the horse to exist simultaneously in the physical and the mythological.","الوسائط المختلطة تسمح للحصان بأن يوجد في المادي والأسطوري في آن واحد."],
+  ["When I add texture to a horse painting, I am not adding surface — I am adding time.","حين أضيف ملمساً إلى لوحة الحصان، لا أضيف سطحاً — بل أضيف زمناً."],
+  ["Every layer in a mixed media horse work is a layer of the horse's history pressing toward the surface.","كل طبقة في عمل الوسائط المختلطة للخيل هي طبقة من تاريخ الحصان تدفع نحو السطح."],
+  ["The Arabian horse in mixed media does not need to look real — it needs to feel true.","الحصان العربي في الوسائط المختلطة لا يحتاج أن يبدو حقيقياً — بل أن يشعر صادقاً."],
+  ["I work in mixed media because no single material can contain everything a horse represents.","أعمل بالوسائط المختلطة لأن لا مادة واحدة تستطيع احتواء كل ما يمثله الحصان."],
+  ["The horse that emerges from layers of gold, paint, and texture has earned its immortality.","الحصان الذي يبرز من طبقات الذهب والطلاء والملمس قد استحق خلوده."]
+];
+
+// ── FINAL BREATH WORDS ──
+const B1E=["Spirit", "Grace", "Power", "Motion", "Wild", "Noble", "Proud"], B1A=["روح", "رشاقة", "قوة", "حركة", "عنان", "نبيل", "فخور"];
+const SWE=["Gallop", "Wind", "Mane", "Desert", "Ancient", "Free", "Breath"], SWA=["جموح", "ريح", "عرف", "صحراء", "قديم", "حر", "نَفَس"];
+const H6E=["Eye", "Arch", "Speed", "Soul", "Fire", "Earth", "Legend"], H6A=["عين", "قوس", "سرعة", "روح", "نار", "أرض", "أسطورة"];
+
+// ── ENGINE ──
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+const cur=document.getElementById('cur');
+if(window.matchMedia('(pointer: coarse)').matches)cur.style.display='none';
+document.addEventListener('mousemove',e=>{cur.style.left=e.clientX+'px';cur.style.top=e.clientY+'px';cur.style.opacity='1';});
+function spawnSplash(x,y){const s=document.createElement('div');s.className='ink-splash';s.style.left=x+'px';s.style.top=y+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),850);}
+document.addEventListener('click',e=>{if(e.target.closest('#lang-btn'))return;spawnSplash(e.clientX,e.clientY);});
+document.addEventListener('touchend',e=>{if(e.target.closest('#lang-btn'))return;const t=e.changedTouches[0];spawnSplash(t.clientX,t.clientY);},{passive:true});
+
+/* LANG */
+const langBtn=document.getElementById('lang-btn'),langGlyph=document.getElementById('lang-glyph');
+const inkBlob=document.getElementById('ink-blob'),htmlEl=document.documentElement;
+let lang=(window.__AA_LANG||'en');
+const AR='الطيببعامرحروفية'.split('');
+function burst(ox,oy){for(let i=0;i<14;i++){const el=document.createElement('div');el.style.cssText=`position:fixed;z-index:9999;pointer-events:none;font-family:'IBM Plex Arabic',sans-serif;font-size:${.85+Math.random()}rem;color:rgba(200,169,110,.7);left:${ox}px;top:${oy}px;`;el.textContent=AR[Math.floor(Math.random()*AR.length)];const a=Math.random()*Math.PI*2,d=65+Math.random()*130;const dur=.5+Math.random()*.4;el.style.animation=`burstL ${dur}s ease forwards`;el.style.setProperty('--tx',Math.cos(a)*d+'px');el.style.setProperty('--ty',Math.sin(a)*d+'px');document.body.appendChild(el);setTimeout(()=>el.remove(),1000);}}
+document.addEventListener('mousemove',e=>{const r=langBtn.getBoundingClientRect();langBtn.classList.toggle('near',Math.hypot(e.clientX-(r.left+r.width/2),e.clientY-(r.top+r.height/2))<150);});
+langBtn.addEventListener('click',e=>{e.stopPropagation();const r=langBtn.getBoundingClientRect();const ox=r.left+r.width/2,oy=r.top+r.height/2;burst(ox,oy);inkBlob.style.left=ox+'px';inkBlob.style.top=oy+'px';inkBlob.style.transition='none';inkBlob.style.transform='translate(-50%,-50%) scale(0)';requestAnimationFrame(()=>requestAnimationFrame(()=>{inkBlob.classList.add('grow');setTimeout(()=>{lang=lang==='en'?'ar':'en';htmlEl.setAttribute('data-lang',lang);htmlEl.setAttribute('lang',lang);htmlEl.setAttribute('dir',lang==='ar'?'rtl':'ltr');langGlyph.textContent=lang==='en'?'ض':'A';inkBlob.classList.remove('grow');inkBlob.classList.add('shrink');setTimeout(()=>{inkBlob.classList.remove('shrink');inkBlob.style.transform='translate(-50%,-50%) scale(0)';},750);},480);}));});
+
+/* HERO SLIDESHOW */
+(function(){const slides=document.querySelectorAll('#hero-slides .hslide');const dots=document.querySelectorAll('#hero-dots .hdot');if(!slides.length)return;let idx=0;function goTo(n){slides[idx].classList.remove('active');dots[idx]&&dots[idx].classList.remove('on');idx=(n+slides.length)%slides.length;slides[idx].classList.add('active');dots[idx]&&dots[idx].classList.add('on');}const timer=setInterval(()=>goTo(idx+1),5500);document.getElementById('hero').addEventListener('click',e=>{if(e.target.closest('#hero-dots'))return;const r=document.getElementById('hero').getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';document.getElementById('hero').appendChild(b);setTimeout(()=>b.remove(),3100);clearInterval(timer);goTo(idx+1);});})();
+
+/* QUOTES ENGINE */
+function buildQ(stageId,progId,qArr){const stage=document.getElementById(stageId),prog=document.getElementById(progId);if(!stage||!prog)return;qArr.forEach((q,i)=>{const item=document.createElement('div');item.className='q-item'+(i===0?' vis':'');item.innerHTML=`<p class="q-text">"${q[0]}"</p><p class="q-text-ar">"${q[1]}"</p><p class="q-author">— Altayeb Amer</p><p class="q-author-ar ar-font">— الطيب عامر</p>`;stage.appendChild(item);const dot=document.createElement('div');dot.className='qdot'+(i===0?' on':'');prog.appendChild(dot);});let qi=0;const items=stage.querySelectorAll('.q-item'),qdots=prog.querySelectorAll('.qdot');const obs=new IntersectionObserver(entries=>{if(entries[0].isIntersecting){setInterval(()=>{items[qi].classList.remove('vis');qdots[qi].classList.remove('on');qi=(qi+1)%items.length;items[qi].classList.add('vis');qdots[qi].classList.add('on');},6500);obs.disconnect();}},{threshold:0.25});obs.observe(stage);}
+
+/* BANDS */
+document.querySelectorAll('.band').forEach(sec=>{sec.addEventListener('click',e=>{if(e.target.closest('.band-enter'))return;e.stopPropagation();const r=sec.getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';sec.appendChild(b);setTimeout(()=>b.remove(),2600);sec.classList.toggle('clicked');});});
+document.addEventListener('click',()=>document.querySelectorAll('.band.clicked').forEach(b=>b.classList.remove('clicked')));
+
+/* FINAL BREATH SQUARES */
+(function(){const row=document.querySelector('.boxes-row');if(!row)return;B1E.forEach((w,i)=>{const sq=document.createElement('div');sq.className='sq';sq.innerHTML=`<span class="sq-word">${w}</span><span class="sq-word-ar">${B1A[i]}</span>`;row.appendChild(sq);});})();
+
+/* FLOAT */
+(function(){const br=document.getElementById('br-float');if(!br)return;const getLang=()=>htmlEl.getAttribute('data-lang')||'en';const FW_EN=["Light","Depth","Form","Shadow","Ink","Space","Vision","Mark","Layer","Touch","Tone","Line","Soul","Flow","Void","Breath","Color","Time"];const FW_AR=["ضوء","عمق","شكل","ظل","حبر","فضاء","رؤية","أثر","طبقة","لمسة","درجة","خط","روح","انسياب","فراغ","نَفَس","لون","زمن"];const els=[];for(let i=0;i<18;i++){const el=document.createElement('div');el.className='float-word';el.style.cssText=`font-size:${.7+Math.random()*.85}rem;left:${5+Math.random()*88}%;top:${8+Math.random()*80}%;position:absolute;`;br.appendChild(el);els.push(el);}let wi=0;function showNext(){const words=getLang()==='ar'?FW_AR:FW_EN;els.forEach(e=>e.style.color='transparent');[...els].sort(()=>Math.random()-.5).slice(0,3+Math.floor(Math.random()*2)).forEach(e=>{e.textContent=words[wi%words.length];e.style.color='rgba(200,169,110,.4)';wi++;});}const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){setInterval(showNext,2200);showNext();obs.disconnect();}},{threshold:.2});obs.observe(br);})();
+
+/* SWIM */
+(function(){const br=document.getElementById('br-swim');if(!br)return;SWE.forEach((w,i)=>{const sh=document.createElement('div');sh.className='swim-shape';const sz=54+Math.floor(Math.random()*22);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${5+Math.random()*80}%;top:${10+Math.random()*70}%;position:absolute;transform:translate(-50%,-50%);${i%2===0?'border-radius:50%;':''}`;sh.innerHTML=`<span class="swim-word">${w}</span><span class="swim-word-ar">${SWA[i]}</span>`;br.appendChild(sh);const dx=(Math.random()-.5)*35,dy=(Math.random()-.5)*25,dur=8+Math.random()*6;sh.animate([{transform:'translate(-50%,-50%)'},{transform:`translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px))`},{transform:'translate(-50%,-50%)'}],{duration:dur*1000,iterations:Infinity,easing:'ease-in-out'});});})();
+
+/* HOVER */
+(function(){const br=document.getElementById('br-hover');if(!br)return;H6E.forEach((w,i)=>{const sh=document.createElement('div');sh.className='hover-shape';const sz=60+Math.floor(Math.random()*18);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${8+Math.random()*78}%;top:${12+Math.random()*68}%;position:absolute;transform:translate(-50%,-50%);border:1px solid rgba(200,169,110,.28);${i%3===1?'border-radius:50%;':''}`;sh.innerHTML=`<span class="hsh-word">${w}</span><span class="hsh-word-ar">${H6A[i]}</span>`;br.appendChild(sh);});let rev=0;const allSh=br.querySelectorAll('.hover-shape');const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){function next(){if(rev>=allSh.length)return;allSh[rev].classList.add('visible');rev++;setTimeout(next,900+Math.random()*600);}next();obs.disconnect();}},{threshold:.15});obs.observe(br);})();
+
+
+const Q_T4 = [
+  ["A sketch is faster than memory and more honest than a photograph.","الاسكتشُ أسرعُ من الذاكرة، وأصدقُ من الصورة."],
+  ["I do not draw to finish; I draw to remember how it moved.","لا أخطُّ لأُنهي، بل لأتذكّرَ كيف تحرّكت."],
+  ["Ten seconds of truth outweigh an hour of polish.","عشرُ ثوانٍ من الصدقِ تُرجِّحُ ساعةً من الصقل."],
+  ["The unfinished line invites the eye to finish it.","الخطُّ الناقصُ يدعو العينَ أن تُتمَّه."],
+  ["Hesitation shows in graphite the way it never shows in oil.","يفضحُ الرصاصُ التردّدَ حيث لا يفضحُه الزيت."],
+  ["A sketchbook is a stable you can carry.","دفترُ الاسكتشِ إسطبلٌ تحملُه معك."],
+  ["Draw badly, quickly, and often — the good line hides behind the hundredth.","اخطُطْ رديئاً وسريعاً وكثيراً؛ فالخطُّ الجيدُ يختبئُ خلف المئة."],
+];
+const Q_T5 = [
+  ["You do not command watercolor; you make terms with it.","لا تأمرُ المائية، وإنما تُصالحُها."],
+  ["A wet edge bleeding into the flank says gallop better than any line.","حافةٌ رطبةٌ تنزفُ في الخاصرةِ تقولُ العَدْوَ خيراً من كلِّ خط."],
+  ["The white of the paper is a colour I must not spend carelessly.","بياضُ الورقِ لونٌ لا يجوزُ أن أُنفقَه بإهمال."],
+  ["One brush too many and the freshness drowns.","فرشاةٌ زائدةٌ واحدة يغرقُ معها كلُّ نضارة."],
+  ["Watercolor forgives nothing and rewards courage.","لا تغفرُ المائيةُ شيئاً، وتُجزي الجرأةَ وحدَها."],
+  ["I let the water gallop a little before I rein it in.","أدعُ الماءَ يعدو قليلاً قبل أن أشدَّ عنانَه."],
+  ["Transparency is not weakness; it is light kept alive.","الشفافيةُ ليست ضعفاً، بل ضوءٌ أُبقيَ حيّاً."],
+];
+const Q_T6 = [
+  ["The software does not know what a horse is. I still have to.","البرنامجُ لا يدري ما الفرس؛ وأنا من عليه أن يدري."],
+  ["Undo is a mercy and a temptation.","التراجعُ رحمةٌ وإغراء."],
+  ["Layers let me argue with myself politely.","الطبقاتُ تتيحُ لي أن أُجادلَ نفسي بأدب."],
+  ["A screen is only the newest surface; the looking is ancient.","الشاشةُ أحدثُ الأسطح، والنظرُ أقدمُها."],
+  ["Pixels are patient, but taste still has to arrive on time.","البكسلُ صبور، والذوقُ عليه أن يحضرَ في موعده."],
+  ["Digital ease tempts you to skip the first decisive line.","يُغريكَ يُسرُ الرقميِّ بتخطّي الخطِّ الأولِ الحاسم."],
+  ["Draw it as if there were no undo, then be grateful there is.","ارسمْه كأن لا تراجع، ثم اشكرْ أنّ ثمّة تراجعاً."],
+];
+const Q_T7 = [
+  ["To draw a thing flatly, first understand it roundly.","لترسمَ الشيءَ مسطّحاً، افهمْه أولاً مجسَّماً."],
+  ["Light is honest on real volume; it exposes every flaw in the geometry.","الضوءُ صادقٌ على الحجمِ الحقيقي، يفضحُ كلَّ خللٍ في الهندسة."],
+  ["Sculpture is how I ask the horse to hold still.","النحتُ طريقتي في أن أطلبَ من الفرسِ أن تثبت."],
+  ["A silhouette that fails in clay will fail on canvas too.","ظلٌّ يسقطُ في الطينِ يسقطُ على القماشِ أيضاً."],
+  ["The hand learns what the eye argues about.","تتعلّمُ اليدُ ما تتجادلُ فيه العين."],
+  ["Mass before detail; always.","الكتلةُ قبل التفصيل، دائماً."],
+  ["Three dimensions do not replace the eye — they school it.","لا تُغني الأبعادُ الثلاثةُ عن العين، بل تُهذّبها."],
+];
+
+// ── BUILD QUOTES ──
+buildQ('qs-spec','qp-spec',Q_SPEC);
+buildQ('qs-t1','qp-t1',Q_T1);
+buildQ('qs-t2','qp-t2',Q_T2);
+buildQ('qs-t3','qp-t3',Q_T3);
+buildQ('qs-t4','qp-t4',Q_T4);
+buildQ('qs-t5','qp-t5',Q_T5);
+buildQ('qs-t6','qp-t6',Q_T6);
+buildQ('qs-t7','qp-t7',Q_T7);
+
+</script>
+
+<script>
+// UNIFIED_PATCH_JS
+// ============================================================
+// PATCH JS: FAB + grayscale-on-view + floating words/shapes
+// Plain var + string concat only — no nested template literals
+// ============================================================
+(function(){
+  // 1. Back to top FAB
+  var fab = document.createElement('button');
+  fab.id = 'fab-top';
+  fab.setAttribute('aria-label','back to top');
+  fab.innerHTML = '&#8593;';
+  fab.onclick = function(){ window.scrollTo({top:0,behavior:'smooth'}); };
+  document.body.appendChild(fab);
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480) fab.classList.add('show');
+    else fab.classList.remove('show');
+  });
+
+  // 2. Grayscale-to-color on scroll proximity for bands
+  var bands = document.querySelectorAll('.band');
+  if(bands.length && 'IntersectionObserver' in window){
+    var bandObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting) e.target.classList.add('in-view');
+        else e.target.classList.remove('in-view');
+      });
+    }, {threshold:.45});
+    bands.forEach(function(b){ bandObs.observe(b); });
+  }
+
+  // 3. Floating motivational words + art shapes
+  var WORDS_AR = ['إبداع','جمال','روح','حلم','إلهام','أصالة'];
+  var WORDS_EN = ['Create','Soul','Dream','Ink','Form','Light'];
+  var SHAPES = ['&#10022;','&#10023;','&#9678;','&#10070;','&#9670;','&#10038;'];
+
+  function buildFloatStage(container){
+    if(!container || container.querySelector('.float-stage')) return;
+    var stage = document.createElement('div');
+    stage.className = 'float-stage';
+    var count = 8;
+    for(var i=0;i<count;i++){
+      var useWord = (i % 2 === 0);
+      var el = document.createElement('span');
+      if(useWord){
+        el.className = 'float-word';
+        var pool = (i % 4 === 0) ? WORDS_AR : WORDS_EN;
+        el.textContent = pool[Math.floor(Math.random()*pool.length)];
+        el.style.fontSize = (Math.random()*1.1 + 1.1) + 'rem';
+      } else {
+        el.className = 'float-shape';
+        el.innerHTML = SHAPES[Math.floor(Math.random()*SHAPES.length)];
+        el.style.fontSize = (Math.random()*1.6 + 1.2) + 'rem';
+      }
+      el.style.left = (Math.random()*86 + 4) + '%';
+      el.style.top = (Math.random()*82 + 6) + '%';
+      el.style.animationDelay = (Math.random()*10) + 's';
+      el.style.animationDuration = (Math.random()*8 + 16) + 's';
+      stage.appendChild(el);
+    }
+    container.style.position = container.style.position || 'relative';
+    container.insertBefore(stage, container.firstChild);
+  }
+
+  var hosts = document.querySelectorAll('.breather, #br-float, #br-swim, #br-hover, .statement-sec');
+  hosts.forEach(function(h){ buildFloatStage(h); });
+})();
+
+// UNIFIED_PATCH_JS
+</script>
+
+<div class="sp-overlay" id="sp-overlay">
+  <button class="sp-overlay-close" id="sp-overlay-close">✕</button>
+  <div class="sp-art-body" id="sp-art-body"></div>
+</div>
+
+  <section class="sp-articles-section">
+    <h2 class="sp-articles-title"><span class="t-en">Journal — Horses</span><span class="t-ar">مجلة — الخيل</span></h2>
+    <div class="sp-articles-rule"></div>
+    <div class="sp-articles-grid">
+chr(10).join(cards)
+    </div>
+  </section>
+<script>
+var SP_ARTICLES = [
+  {
+    cat_en:'Arabian Horses', cat_ar:'الخيل العربية',
+    title_en:'The Horse That Refused to Be Painted', title_ar:'الحصان الذي رفض أن يُرسم',
+    excerpt_en:'He was described as calm. He was not calm. He was indifferent — which is worse.', excerpt_ar:'وُصف لي بأنه هادئ. لم يكن هادئاً. كان لامبالياً — وهو أسوأ.',
+    body_en:`<p>His name was a stable number. A grey Arabian stallion, twelve years old. Described to me as calm. He was not calm. He was indifferent — which, in horses, is something different and in many ways worse.</p><h3>What Indifference Teaches</h3><p>An indifferent horse has simply decided you are not interesting. The grey stallion looked through me for three sessions before I understood: I was trying to paint the horse I imagined, not the horse in front of me.</p><blockquote>"A horse does not perform for the painter. It simply exists. The painter must become present enough to perceive what is actually there — not what they hoped to find."</blockquote>`, body_ar:`<p>كان اسمه رقم إسطبل. حصان عربي رمادي، عمره اثنا عشر عاماً. وُصف لي بأنه هادئ. لم يكن هادئاً. كان لامبالياً — وهو في الخيل شيء مختلف وبطرق كثيرة أسوأ.</p><h3>ما تعلّمه اللامبالاة</h3><p>الحصان المتهيّج على الأقل منخرط معك. أما اللامبالي فقد قرّر ببساطة أنك لست مثيراً للاهتمام. الحصان الرمادي نظر من خلالي لثلاث جلسات قبل أن أفهم: كنت أحاول رسم الحصان الذي تخيّلته، لا الحصان أمامي.</p><blockquote>"الحصان لا يؤدي دوراً للرسام. هو موجود. مهمة الرسام هي أن يصبح حاضراً بما يكفي ليدرك ما هو موجود فعلاً — لا ما يأمل أن يجده."</blockquote>`
+  },
+  {
+    cat_en:'Arabian Horses', cat_ar:'الخيل العربية',
+    title_en:'The Arabian Horse in Poetry and Visual Art', title_ar:'الفرس العربي في الشعر والتشكيل',
+    excerpt_en:'No creature in Arab history received the literary and visual attention given to the Arabian horse.', excerpt_ar:'لا يوجد كائن في التاريخ العربي أُعطي من الاهتمام الأدبي والبصري ما أُعطيه الحصان العربي.',
+    body_en:`<p>No creature in Arab history received the literary and visual attention given to the Arabian horse. From pre-Islamic poets to modern paintings, the horse remained present as witness to something in the Arab spirit that cannot be said in words.</p><h3>Horses in Pre-Islamic Poetry</h3><p>Imru al-Qays described his horse running in a way that makes you feel the muscles and see the dust. This poetic precision is always a reference I return to when painting a "real" horse.</p><blockquote>"The ancient Arab poet described the horse with what no camera could capture: the body heat, the scent of sweat, the sound air makes between its ribs as it runs."</blockquote>`, body_ar:`<p>لا يوجد كائن في التاريخ العربي أُعطي من الاهتمام الأدبي والبصري ما أُعطيه الحصان العربي. من معلقات الشعراء الجاهليين إلى اللوحات الحديثة، ظل الحصان حاضراً كشاهد على شيء في الروح العربية لا يُقال بكلمات.</p><h3>الخيل في الشعر الجاهلي</h3><p>امرؤ القيس وصف جري فرسه بطريقة تجعلك تُحسّ العضلات وترى الغبار. هذه الدقة الوصفية الشعرية كانت دائماً أحد مراجعي حين أريد أن أتذكر ما يكفي لرسم حصان حقيقي.</p><blockquote>"الشاعر العربي القديم وصف الحصان بما لم تستطع أي كاميرا التقاطه: حرارة الجسد، رائحة العرق، الصوت الذي يُخرجه الهواء من بين أضلاعه وهو يجري."</blockquote>`
+  },
+  {
+    cat_en:'Arabian Horses', cat_ar:'الخيل العربية',
+    title_en:'The Moment Before the Gallop', title_ar:'اللحظة قبل الانطلاق',
+    excerpt_en:'The hardest thing is not the horse in motion — but the moment before motion.', excerpt_ar:'الأصعب في رسم الخيل ليس الحصان في الجري — بل اللحظة التي سبق الجري.',
+    body_en:`<p>The most difficult thing in painting horses is not the horse in motion — but the horse in the moment before motion. The moment the body decides before the legs carry out their decision.</p><h3>Tension as Artistic Subject</h3><p>Tension — not movement but the possibility of movement — is the subject that occupies me most. The still horse through which you feel galloping is coming at any moment is far more difficult than painting the horse actually running.</p><blockquote>"I want you to look at the horse in my painting and feel that the gallop is postponed by one second. That postponement is the moment of art."</blockquote>`, body_ar:`<p>الأكثر صعوبة في رسم الخيل ليس الحصان في الجري — بل الحصان في اللحظة التي سبق الجري. اللحظة التي يقرر فيها الجسم قبل أن تُصدر الأرجل قرارها.</p><h3>التوتر كموضوع فني</h3><p>التوتر — ليس الحركة بل إمكانية الحركة — هو الموضوع الذي يشغلني أكثر. الحصان الساكن الذي تشعر أن الجري قادم في أي لحظة هو أصعب بكثير من رسم الحصان وهو يجري فعلاً.</p><blockquote>"أريد أن تنظر إلى الحصان في لوحتي وتشعر بأن الجري مؤجَّل لثانية واحدة. هذا التأجيل هو لحظة الفن."</blockquote>`
+  },
+  {
+    cat_en:'Arabian Horses', cat_ar:'الخيل العربية',
+    title_en:'The Eyes of Horses: Windows on a Civilization', title_ar:'عيون الخيل: نوافذ على حضارة',
+    excerpt_en:'Arabian horse eyes differ from others. Other horses look. Arabian horses observe.', excerpt_ar:'عيون الخيل العربية الأصيلة تختلف عن عيون سائر الخيل. الخيل الأخرى تنظر. الخيل العربية تراقب.',
+    body_en:`<p>The eyes of purebred Arabian horses differ from others in something harder to describe: the quality of what they hold. Other horses look. Arabian horses observe.</p><h3>What Is in the Eyes</h3><p>I began spending the largest part of each session on the horse's eyes. If the eyes are right, the rest of the painting finds its way. If the eyes are wrong, nothing else saves the painting.</p><blockquote>"In the eyes of purebred Arabian horses you read something you cannot quite name. Something like memory — the memory of deserts you never witnessed."</blockquote>`, body_ar:`<p>عيون الخيل العربية الأصيلة تختلف في شيء أصعب وصفاً: في نوعية ما تحمله. الخيل الأخرى تنظر. الخيل العربية تراقب.</p><h3>ما في العيون</h3><p>صرت أُقضي الجزء الأكبر من كل جلسة في عيني الحصان. إذا أصبت العينين، بقية اللوحة تجد طريقها. إذا أخطأت العينين، لا يُنقذ اللوحة أي شيء آخر.</p><blockquote>"في عيون الخيل العربية الأصيلة تقرأ شيئاً لا تعرف تسميته بالضبط. شيء يشبه الذاكرة — ذاكرة صحارى لم تشهدها أنت، وعلاقة بين الإنسان والجمال لم تتوقف منذ آلاف السنين."</blockquote>`
+  },
+  {
+    cat_en:'Arabian Horses', cat_ar:'الخيل العربية',
+    title_en:'Horse and Rider: Partnership Across Time', title_ar:'الحصان والفارس: شراكة عابرة للزمن',
+    excerpt_en:'Among the most difficult equestrian subjects: horse and rider together.', excerpt_ar:'من أصعب الموضوعات في الفن الخيولي: الفارس والحصان معاً.',
+    body_en:`<p>Among the most difficult equestrian subjects: horse and rider together. Not only because the technique is harder, but because the relationship between two different beings adds the challenge of the shared moment and harmony.</p><h3>The Silent Dialogue</h3><p>Horse and rider communicate wordlessly. A knee press, a weight shift — these small signals are enough to guide an animal weighing five hundred kilograms. This invisible dialogue is what I want you to see in my paintings.</p><blockquote>"The good rider is not seen guiding. He appears only to be sitting. And the good horse does not appear to be guided. It appears to be choosing."</blockquote>`, body_ar:`<p>من أصعب الموضوعات في الفن الخيولي: الفارس والحصان معاً. ليس فقط لأن التقنية أصعب، بل لأن العلاقة بين كائنين مختلفين تُضاف إليها إشكاليات اللحظة المشتركة والانسجام.</p><h3>الحوار الصامت</h3><p>الفارس والحصان يتواصلان بطريقة لا كلام فيها. ضغطة ركبة، إمالة وزن — وهذه الإشارات الصغيرة كافية لتوجيه حيوان يزن خمسمئة كيلوغرام. هذا الحوار غير المرئي هو ما أريد أن تراه في لوحاتي.</p><blockquote>"الفارس الجيد لا يُرى وهو يقود. يبدو كأنه يجلس فقط. والحصان الجيد لا يبدو وكأنه يُقاد. يبدو وكأنه يختار."</blockquote>`
+  },
+  {
+    cat_en:'Arabian Horses', cat_ar:'الخيل العربية',
+    title_en:'In the Stable: An Artist\'s Observations', title_ar:'في الإسطبل: مشاهدات فنان',
+    excerpt_en:'I spend long hours in stables before each horse series. Simply sitting and watching.', excerpt_ar:'أقضي ساعات طويلة في الإسطبلات قبل كل سلسلة من لوحات الخيل. مجرد جلوس ومراقبة.',
+    body_en:`<p>I spend long hours in stables before each series of horse paintings. Not drawing — simply sitting and watching. These silent hours are among the most productive in my artistic practice.</p><h3>What Happens in the Stable</h3><p>In the stable, the horse is in its real environment. No performance, no awareness of the observer. There you see the true character — the contemplative horse, the social horse, the fearful horse.</p><blockquote>"A good painting of horses begins with hours in the stable, not minutes in the studio. What you do not see in the stable you cannot paint anywhere else."</blockquote>`, body_ar:`<p>أقضي ساعات طويلة في الإسطبلات قبل كل سلسلة من لوحات الخيل. ليس رسماً — مجرد جلوس ومراقبة. هذه الساعات الصامتة هي من أكثر الأوقات فائدة في ممارستي الفنية.</p><h3>ما يحدث في الإسطبل</h3><p>في الإسطبل، الحصان يكون في بيئته الحقيقية. لا أداء، لا وعي بالناظر. هناك تُرى الشخصية الحقيقية — الحصان المتفكّر، الحصان الاجتماعي، الحصان الخائف.</p><blockquote>"اللوحة الجيدة لخيل تبدأ بساعات في الإسطبل لا بدقائق في الاستوديو. ما لا تراه في الإسطبل لا تستطيع رسمه في أي مكان آخر."</blockquote>`
+  },
+  {
+    cat_en:'Arabian Horses', cat_ar:'الخيل العربية',
+    title_en:'Shiyala and Authenticity', title_ar:'الشيالة والأصالة',
+    excerpt_en:'The Shiyala — the purebred Arabian tail movement — carries cultural meaning no painting can ignore.', excerpt_ar:'الشيالة — حركة ذيل الحصان العربي الأصيل — تحمل في ذاتها معنى ثقافياً لا تستطيع أي لوحة تجاهله.',
+    body_en:`<p>The Shiyala — the purebred Arabian horse's tail movement — is one of the details that occupies me most. Not only for its technical difficulty, but because it carries cultural meaning.</p><h3>What the Shiyala Says</h3><p>The high-carried tail is not merely a physical trait — it expresses something. The quiet pride, unstrained self-awareness, beauty that needs no announcement.</p><blockquote>"The purebred Arabian horse does not display its beauty — it lives it. The Shiyala is not a performance. It is simply the way a being certain of its worth walks."</blockquote>`, body_ar:`<p>الشيالة — حركة ذيل الحصان العربي الأصيل — هي واحدة من أكثر التفاصيل التي تشغلني في رسم الخيل. ليس لأنها صعبة تقنياً فحسب، بل لأنها تحمل في ذاتها معنى ثقافياً.</p><h3>ما تقوله الشيالة</h3><p>الذيل المرفوع عالياً ليس مجرد سمة جسدية — بل هو تعبير عن شيء. الكبرياء الهادئ، الوعي بالذات غير المتكلّف، الجمال الذي لا يحتاج إلى إعلان.</p><blockquote>"الحصان العربي الأصيل لا يُظهر جماله — يعيشه. الشيالة ليست أداء. هي ببساطة الطريقة التي يمشي بها كائن متأكد من قيمته."</blockquote>`
+  },
+  {
+    cat_en:'Equestrian Techniques', cat_ar:'تقنيات رسم الخيل',
+    title_en:'Oil and the Horse\'s Coat: The Texture Challenge', title_ar:'الزيت وفروة الحصان: تحدي الملمس',
+    excerpt_en:'The hardest technical challenge: depicting the horse coat\'s sheen — moving, not static.', excerpt_ar:'من أصعب التحديات التقنية: تصوير بريق فروة الحصان — بريق متحرك لا ثابت.',
+    body_en:`<p>Among the most difficult technical challenges in oil painting of horses: depicting the sheen of the coat. This sheen is not static — it is constant movement created by light moving over muscles moving under thin skin.</p><h3>Three Types of Sheen</h3><p>I learned to distinguish between static sheen, kinetic sheen appearing only with moving muscle, and aqueous sheen created by sweat. Each type requires a different technique.</p><blockquote>"The painter who convinces the viewer that the horse in the painting is breathing has not painted hair — they have painted the way light moves on a living body."</blockquote>`, body_ar:`<p>من أصعب التحديات التقنية في رسم الخيل بالزيت: تصوير بريق فروة الحصان. هذا البريق ليس بريقاً ثابتاً — بل هو حركة دائمة يخلقها ضوء يتحرك فوق عضلات تتحرك تحت جلد رفيع.</p><h3>ثلاثة أنواع من البريق</h3><p>تعلّمت أن أميّز بين ثلاثة أنواع: البريق الساكن، والبريق الحركي الذي يظهر فقط مع العضلة المتحركة، والبريق المائي الذي يخلقه العرق. كل نوع يتطلب تقنية مختلفة.</p><blockquote>"الرسام الذي يُقنع المشاهد بأن الحصان في اللوحة يتنفس لم يرسم شعراً — بل رسم الطريقة التي يتحرك بها الضوء على الجسد الحي."</blockquote>`
+  },
+  {
+    cat_en:'Equestrian Techniques', cat_ar:'تقنيات رسم الخيل',
+    title_en:'Sketching: Faster Than Memory', title_ar:'الرسم التخطيطي: أسرع من الذاكرة',
+    excerpt_en:'Quick sketching — my most-used tool despite being the least celebrated in my exhibitions.', excerpt_ar:'الرسم التخطيطي السريع — أداتي الأكثر استخداماً رغم أنها الأقل احتفاءً في معارضي.',
+    body_en:`<p>Quick sketching is my most-used tool despite being the least celebrated in my exhibitions. Every large horse painting is preceded by dozens of quick sketches. These sketches are where the real thinking happens.</p><h3>What Sketching Does</h3><p>Quick sketching forces you to choose. No time for details. You must decide in seconds: what matters most? What single line summarizes all other lines?</p><blockquote>"The quick sketch teaches you to choose. The large painting teaches you to complete. The first is thought. The second is patience. Many master the second while lacking the first."</blockquote>`, body_ar:`<p>الرسم التخطيطي السريع هو أداتي الأكثر استخداماً رغم أنها الأقل احتفاءً في معارضي. كل لوحة خيل كبيرة أصنعها تسبقها عشرات السكتشات السريعة. هذه السكتشات هي مكان التفكير الحقيقي.</p><h3>ما يفعله السكتش</h3><p>السكتش السريع يُجبرك على الاختيار. لا وقت للتفاصيل. يجب أن تقرر في ثوانٍ: ما الأهم؟ ما الخط الذي يختصر كل الخطوط الأخرى؟</p><blockquote>"السكتش السريع يُعلّمك الاختيار. اللوحة الكبيرة تُعلّمك الإتمام. الأول فكر. الثاني صبر. كلاهما ضروري — لكن كثيرون يتقنون الثاني ويفتقرون للأول."</blockquote>`
+  },
+  {
+    cat_en:'Equestrian Techniques', cat_ar:'تقنيات رسم الخيل',
+    title_en:'Watercolor and Horses: Transparency and Speed', title_ar:'الألوان المائية والخيل: الشفافية والسرعة',
+    excerpt_en:'Watercolors are the complete opposite of oil. And strangely, they suit horses perfectly.', excerpt_ar:'الألوان المائية هي العكس التام للزيت. والمائية مناسبة للخيل بشكل غريب.',
+    body_en:`<p>Watercolors are the complete opposite of oil. Oil permits correction and revision. Watercolor punishes every hesitation. This harshness is exactly what makes it suitable for painting horses in motion.</p><h3>Watercolor Speed = Horse Speed</h3><p>There is a strange correspondence between the nature of watercolors and horses in motion. Both do not tolerate hesitation. Both reward decisiveness and confidence.</p><blockquote>"Watercolor and horses share one secret: no going back. The bold watercolor — even with some mistakes — is alive."</blockquote>`, body_ar:`<p>الألوان المائية هي العكس التام للزيت. الزيت يسمح بالتعديل والتراجع. المائية تُعاقبك على كل تردد. هذه القسوة هي بالضبط ما يجعلها مناسبة لرسم الخيل في الحركة.</p><h3>سرعة المائية = سرعة الحصان</h3><p>هناك تناظر غريب بين طبيعة الألوان المائية وطبيعة الخيل في الحركة. كلاهما لا يتحمل التردد. كلاهما يكافئ الحسم والثقة.</p><blockquote>"المائية والخيل يشتركان في سر واحد: لا رجعة. اللوحة المائية الجريئة — حتى مع بعض الأخطاء — حية."</blockquote>`
+  },
+  {
+    cat_en:'Equestrian Techniques', cat_ar:'تقنيات رسم الخيل',
+    title_en:'Digital Horse Painting', title_ar:'الرسم الرقمي للخيل',
+    excerpt_en:'When I began digital painting of horses, it was not easier — it was different.', excerpt_ar:'حين بدأت العمل بالرسم الرقمي على حصص الخيل، لم يكن أسهل — كان مختلفاً.',
+    body_en:`<p>When I began digital horse painting, the biggest shock was that it was not easier — but different. Different tools, different challenges, different pleasure.</p><h3>What Digital Gives</h3><p>Digital horse painting gives you unparalleled experimentation: trying different colors without losing work, comparing compositions at astonishing speed.</p><blockquote>"Digital gave me freedom to experiment. But experimentation alone is not enough. Art needs at some point a final decision — and that always feels harder in digital than in material."</blockquote>`, body_ar:`<p>حين بدأت العمل بالرسم الرقمي على حصص الخيل، كانت أكبر صدمة لي أن الأمر لم يكن أسهل — بل كان مختلفاً. أدوات مختلفة، تحديات مختلفة، ومتعة مختلفة.</p><h3>ما يمنحه الرقمي</h3><p>الرسم الرقمي يمنحك قدرة على التجريب لا مثيل لها: تستطيع تجربة ألوان مختلفة دون خسارة عمل، ومقارنة تكوينات عديدة بسرعة مذهلة.</p><blockquote>"الرقمي أعطاني حرية التجريب. لكن التجريب وحده لا يكفي. الفن يحتاج في مرحلة ما إلى قرار نهائي — والقرار النهائي يشعر دائماً بأنه أصعب في الرقمي."</blockquote>`
+  },
+  {
+    cat_en:'Equestrian Techniques', cat_ar:'تقنيات رسم الخيل',
+    title_en:'Caricature and Characterization', title_ar:'الكاريكاتير والتشخيص',
+    excerpt_en:'Animal caricature requires deep knowledge of the subject. You cannot exaggerate what you do not know.', excerpt_ar:'الكاريكاتير الحيواني يتطلب معرفة عميقة بالموضوع. لا يمكنك تضخيم ما لا تعرفه.',
+    body_en:`<p>It may seem strange for a horse painter to write about caricature. But animal caricature requires deep knowledge of the subject. You cannot exaggerate what you do not know.</p><h3>Knowledge Before Distortion</h3><p>A good horse caricaturist must first be an excellent realistic painter. Intelligent caricature distortion exaggerates truth — it does not invent from nothing.</p><blockquote>"Good caricature makes you laugh and recognize simultaneously. You laugh because the exaggeration is funny. You recognize because the truth is in it."</blockquote>`, body_ar:`<p>قد يبدو غريباً أن يكتب رسام خيل عن الكاريكاتير. لكن الكاريكاتير الحيواني هو من أكثر التخصصات التي تتطلب معرفة عميقة بالموضوع. لا يمكنك تضخيم ما لا تعرفه.</p><h3>المعرفة قبل التحريف</h3><p>الكاريكاتيرست الجيد للخيل يجب أن يكون رساماً واقعياً ممتازاً أولاً. التحريف الذكي يُضخّم الحقيقة لا يخترع من العدم.</p><blockquote>"الكاريكاتير الجيد يجعلك تضحك وتتعرف في آن واحد. تضحك لأن المبالغة مضحكة. تتعرف لأن الحقيقة فيها."</blockquote>`
+  }
+];
+var _spOverlay=document.getElementById('sp-overlay');
+var _spBody=document.getElementById('sp-art-body');
+var _spLang=function(){return document.documentElement.getAttribute('data-lang')||'en';};
+function spOpenArticle(idx){
+  var a=SP_ARTICLES[idx];var L=_spLang();
+  _spBody.innerHTML='<p class="sp-a-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2>'+(L==='ar'?a.body_ar:a.body_en);
+  _spOverlay.classList.add('open');_spOverlay.scrollTop=0;document.body.style.overflow='hidden';
+}
+document.getElementById('sp-overlay-close').addEventListener('click',function(){_spOverlay.classList.remove('open');document.body.style.overflow='';});
+_spOverlay.addEventListener('click',function(e){if(e.target===_spOverlay){_spOverlay.classList.remove('open');document.body.style.overflow='';}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){_spOverlay.classList.remove('open');document.body.style.overflow='';}});
+</script>
+
+
+<div class="jrn-overlay" id="jrn-overlay">
+  <button class="jrn-close" id="jrn-close">✕</button>
+  <div class="jrn-body" id="jrn-body"></div>
+</div>
+  <section class="jrn-section">
+    <h2 class="jrn-title"><span class="t-en">Journal — Horses</span><span class="t-ar">مجلة — الخيل</span></h2>
+    <div class="jrn-rule"></div>
+    <div class="jrn-grid">
+      <div class="jrn-card" onclick="jrnOpen(0)">
+        <div class="jrn-num">I</div>
+        <div class="jrn-cat"><span class="t-en">Arabian Horses</span><span class="t-ar">الخيل العربية</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Horse That Refused to Be Painted</span><span class="t-ar">الحصان الذي رفض أن يُرسم</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(1)">
+        <div class="jrn-num">II</div>
+        <div class="jrn-cat"><span class="t-en">Arabian Horses</span><span class="t-ar">الخيل العربية</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Arabian Horse in Poetry and Visual Art</span><span class="t-ar">الفرس العربي في الشعر والتشكيل</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(2)">
+        <div class="jrn-num">III</div>
+        <div class="jrn-cat"><span class="t-en">Arabian Horses</span><span class="t-ar">الخيل العربية</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Moment Before the Gallop</span><span class="t-ar">اللحظة قبل الانطلاق</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(3)">
+        <div class="jrn-num">IV</div>
+        <div class="jrn-cat"><span class="t-en">Arabian Horses</span><span class="t-ar">الخيل العربية</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Eyes of Horses: Windows on a Civilization</span><span class="t-ar">عيون الخيل: نوافذ على حضارة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(4)">
+        <div class="jrn-num">V</div>
+        <div class="jrn-cat"><span class="t-en">Arabian Horses</span><span class="t-ar">الخيل العربية</span></div>
+        <div class="jrn-card-title"><span class="t-en">Horse and Rider: Partnership Across Time</span><span class="t-ar">الحصان والفارس: شراكة عابرة للزمن</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(5)">
+        <div class="jrn-num">VI</div>
+        <div class="jrn-cat"><span class="t-en">Arabian Horses</span><span class="t-ar">الخيل العربية</span></div>
+        <div class="jrn-card-title"><span class="t-en">In the Stable: Observations of an Artist</span><span class="t-ar">في الإسطبل: مشاهدات فنان</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(6)">
+        <div class="jrn-num">VII</div>
+        <div class="jrn-cat"><span class="t-en">Arabian Horses</span><span class="t-ar">الخيل العربية</span></div>
+        <div class="jrn-card-title"><span class="t-en">Shiyala and Authenticity</span><span class="t-ar">الشيالة والأصالة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(7)">
+        <div class="jrn-num">VIII</div>
+        <div class="jrn-cat"><span class="t-en">Techniques</span><span class="t-ar">تقنيات الرسم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Oil and the Coat: The Texture Challenge</span><span class="t-ar">الزيت وفروة الحصان: تحدي الملمس</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(8)">
+        <div class="jrn-num">IX</div>
+        <div class="jrn-cat"><span class="t-en">Techniques</span><span class="t-ar">تقنيات الرسم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Sketching: Faster Than Memory</span><span class="t-ar">الرسم التخطيطي: أسرع من الذاكرة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(9)">
+        <div class="jrn-num">X</div>
+        <div class="jrn-cat"><span class="t-en">Techniques</span><span class="t-ar">تقنيات الرسم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Watercolor and Horses</span><span class="t-ar">الألوان المائية والخيل</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(10)">
+        <div class="jrn-num">XI</div>
+        <div class="jrn-cat"><span class="t-en">Techniques</span><span class="t-ar">تقنيات الرسم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Digital Horse Painting</span><span class="t-ar">الرسم الرقمي للخيل</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(11)">
+        <div class="jrn-num">XII</div>
+        <div class="jrn-cat"><span class="t-en">Techniques</span><span class="t-ar">تقنيات الرسم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Caricature and Characterization</span><span class="t-ar">الكاريكاتير والتشخيص</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(12)">
+        <div class="jrn-num">XIII</div>
+        <div class="jrn-cat"><span class="t-en">Techniques</span><span class="t-ar">تقنيات الرسم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Sculptural Study: 3D Teaches 2D</span><span class="t-ar">النحت الدراسي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(13)">
+        <div class="jrn-num">XIV</div>
+        <div class="jrn-cat"><span class="t-en">Techniques</span><span class="t-ar">تقنيات الرسم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Painting Horses in Motion</span><span class="t-ar">رسم الخيل في الحركة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+    </div>
+  </section>
+<script>
+var JRN_ARTICLES=[
+  {cat_en:'Arabian Horses',cat_ar:'الخيل العربية',title_en:'The Horse That Refused to Be Painted',title_ar:'الحصان الذي رفض أن يُرسم',body_en:`<p>He was described as calm. He was not calm — he was indifferent, which is worse. For three days he gave me nothing to hold on to.</p><h3>Waiting for Permission</h3><p>On the fourth day I stopped trying to capture him and simply watched. Then he turned and looked at me for one honest second, and I understood: I would paint the refusal itself.</p><blockquote>"The Arabian horse does not pose. It permits. Your job is to be worthy of the permission."</blockquote>`,body_ar:`<p>قالوا لي إنه وديع، ولم يكن وديعاً بل كان لا يعبأ — وذلك أدهى. ثلاثةَ أيامٍ لم يمنحني توتّراً ولا نظرةً ولا شرارةً أُمسِكُ بها.</p><h3>انتظارُ الإذن</h3><p>وفي الرابعِ كففتُ عن ملاحقتِه وجلستُ أنظرُ فحسب. عندها التفتَ إليَّ ثانيةً صادقةً واحدة، فأدركتُ أن اللوحةَ ليست عن جسدِه بل عن إبائه.</p><blockquote>"الخيلُ لا تتصنّعُ الوقفة، إنما تأذن؛ وعليك أن تكونَ أهلاً للإذن."</blockquote>`},
+  {cat_en:'Arabian Horses',cat_ar:'الخيل العربية',title_en:'The Arabian Horse in Poetry and Visual Art',title_ar:'الفرس العربي في الشعر والتشكيل',body_en:`<p>No creature in Arab history received the literary and visual attention given to the horse. To paint one is to enter a long conversation with poets.</p><h3>A Shared Inheritance</h3><p>The pre-Islamic ode praised the mare before the beloved. When I raise my brush I feel those verses standing behind me, asking me not to fall short.</p><blockquote>"I do not paint a horse. I paint everything my ancestors already said about it."</blockquote>`,body_ar:`<p>ما من كائنٍ في تاريخنا نال من الوصفِ والتصويرِ ما نالَه الفرس. ورسمُه دخولٌ في مجلسٍ طويلٍ من الشعراء.</p><h3>في حضرةِ من سبقوا</h3><p>مدحتِ المعلّقاتُ الفرسَ قبل أن تمدحَ الحبيبة. وحين أرفعُ الفرشاةَ أُحسُّ بتلك الأبياتِ واقفةً خلفي تُطالبُني ألّا أُقصّر.</p><blockquote>"لا أرسمُ فرساً، إنما أرسمُ كلَّ ما قاله أجدادي فيها."</blockquote>`},
+  {cat_en:'Arabian Horses',cat_ar:'الخيل العربية',title_en:'The Moment Before the Gallop',title_ar:'اللحظة قبل الانطلاق',body_en:`<p>The hardest moment to paint is not the gallop — it is the instant before it, when all that power is gathered and still.</p><h3>Stored Motion</h3><p>A raised hoof, a tightened muscle, an ear turned forward: the whole body is a drawn bow. Capture that and the viewer feels the leap that has not happened yet.</p><blockquote>"Movement is easy to show. It is stillness that is about to explode that is hard."</blockquote>`,body_ar:`<p>ليس العَدْوُ أصعبَ ما يُرسَم، بل تلك اللحظةُ التي تتجمّعُ فيها القوةُ كلُّها ولا تنطلقُ بعد.</p><h3>قوسٌ مشدودٌ لم يُطلَق</h3><p>حافرٌ مرفوع، وعضلةٌ مشدودة، وأذنٌ مصغيةٌ إلى الأمام: الجسدُ كلُّه انتظار. أَمسِكْ ذلك يُحسَّ الناظرُ بوثبةٍ لم تقع.</p><blockquote>"إظهارُ الحركةِ هيّن؛ وإنما العسيرُ سكونٌ يوشكُ أن ينفجر."</blockquote>`},
+  {cat_en:'Arabian Horses',cat_ar:'الخيل العربية',title_en:'The Eyes of Horses: Windows on a Civilization',title_ar:'عيون الخيل: نوافذ على حضارة',body_en:`<p>If you want to understand a horse, do not look at its body first. Look at its eye. Everything is there.</p><h3>A Window, Not a Feature</h3><p>The eye of the Arabian holds a strange mix of gentleness and vigilance — the memory of a creature that survived the desert beside us. I spend more time on the eye than on the whole flank.</p><blockquote>"Get the eye wrong and the most accurate horse in the world is still dead."</blockquote>`,body_ar:`<p>إن أردتَ أن تفهمَ فرساً فلا تبدأ من جسدها، بل من عينها؛ فثمَّ كلُّ شيء.</p><h3>العينُ ديوانُ الفرس</h3><p>في عين العربيِّ وداعةٌ ويقظةٌ في آنٍ واحد — ذاكرةُ كائنٍ قاسمَنا الصحراءَ ونجا. أُمضي عليها ما لا أُمضيه على الخاصرةِ كلِّها.</p><blockquote>"أخطئِ العينَ يبقَ أدقُّ فرسٍ في الأرضِ جُثّة."</blockquote>`},
+  {cat_en:'Arabian Horses',cat_ar:'الخيل العربية',title_en:'Horse and Rider: Partnership Across Time',title_ar:'الحصان والفارس: شراكة عابرة للزمن',body_en:`<p>Between horse and rider there is a language older than any spoken one — a partnership of weight, breath, and trust.</p><h3>Two Bodies, One Balance</h3><p>When I paint them together I am not painting two subjects but one relationship. The tension of the rein, the lean of the body — that is where the truth lives.</p><blockquote>"A rider does not sit on a horse. The two of them agree to move as one."</blockquote>`,body_ar:`<p>بين الفرسِ وفارسِها لسانٌ أقدمُ من كلِّ لسان: شراكةٌ من ثقلٍ ونَفَسٍ وثقة.</p><h3>جسدانِ على ميزانٍ واحد</h3><p>حين أرسمُهما معاً لا أرسمُ موضوعين، بل علاقةً واحدة. في شدِّ العنانِ وميلِ القامةِ تسكنُ الحقيقةُ كلُّها.</p><blockquote>"لا يجلسُ الفارسُ فوقَ فرسِه، إنما يتّفقان على أن يمضيا كواحد."</blockquote>`},
+  {cat_en:'Arabian Horses',cat_ar:'الخيل العربية',title_en:'In the Stable: Observations of an Artist',title_ar:'في الإسطبل: مشاهدات فنان',body_en:`<p>Much of what I know about horses I did not learn in the studio but in the stable, at dawn, with a sketchbook and cold hands.</p><h3>Drawing Where They Live</h3><p>A horse at rest, feeding, shifting its weight — these unposed moments taught me more than any anatomy book. The studio is where I finish; the stable is where I understand.</p><blockquote>"You cannot paint an animal you have only seen in photographs."</blockquote>`,body_ar:`<p>أكثرُ ما أعرفُه عن الخيلِ لم أتعلّمْه في المرسم، بل في الإسطبلِ عند الفجر، بدفترٍ ويدين باردتين.</p><h3>ارسمْها حيث تعيش</h3><p>فرسٌ تستريحُ أو تأكلُ أو تنقلُ ثِقلَها: هذه اللحظاتُ التي لا تتصنّعُ علّمتني ما لم يُعلّمْنيه كتابُ تشريح. في المرسمِ أُنهي، وفي الإسطبلِ أفهم.</p><blockquote>"لا تُحسِنُ رسمَ كائنٍ لم ترَه إلا في الصور."</blockquote>`},
+  {cat_en:'Arabian Horses',cat_ar:'الخيل العربية',title_en:'Shiyala and Authenticity',title_ar:'الشيالة والأصالة',body_en:`<p>The Shiyala — the way the mane and tail carry themselves — is where the authenticity of an Arabian is written for those who know how to read it.</p><h3>Truth in the Details</h3><p>A slightly wrong arch of the neck, a mane that falls unnaturally, and the connoisseur knows instantly the horse is invented. Authenticity lives in the parts we are tempted to rush.</p><blockquote>"Amateurs paint the horse. Masters paint the details that prove it is real."</blockquote>`,body_ar:`<p>الشِّيةُ — كيف يحملُ العُرفُ والذيلُ نفسيهما — هي حيث تُكتَبُ أصالةُ العربيِّ لمن يُحسِنُ قراءتها.</p><h3>الصدقُ في المواضعِ الصغيرة</h3><p>تقوّسٌ زائدٌ في العنق، أو عُرفٌ يسقطُ على غيرِ سَمْتِه، فيعرفُ البصيرُ فوراً أن الفرسَ مُصطنَعة. والأصالةُ تسكنُ حيث نستعجل.</p><blockquote>"الهواةُ يرسمون الفرس، والمُتقِنون يرسمون ما يُثبِتُ أنها حقيقية."</blockquote>`},
+  {cat_en:'Techniques',cat_ar:'تقنيات الرسم',title_en:'Oil and the Coat: The Texture Challenge',title_ar:'الزيت وفروة الحصان: تحدي الملمس',body_en:`<p>The greatest technical challenge in oil is the coat — that living sheen that moves as the animal moves. It cannot be painted as a fixed color.</p><h3>Painting Light, Not Hair</h3><p>A horse's coat is really a surface for light. I build it in layers, letting lower tones glow through, so the shine belongs to the light and not to the paint.</p><blockquote>"You do not paint the coat. You paint what the sun is doing to it."</blockquote>`,body_ar:`<p>أعسرُ ما في الزيتِ فروةٌ حيّةٌ يتبدّلُ بريقُها بحركةِ صاحبها. لا تُرسَمُ لوناً ثابتاً بحال.</p><h3>ما يفعلُه الضوءُ بالفروة</h3><p>الفروةُ في حقيقتها مرآةٌ للضوء. أبنيها طبقاتٍ شفيفةً يتنفّسُ بعضُها من تحتِ بعض، حتى يصيرَ البريقُ للشمسِ لا للصبغة.</p><blockquote>"لا ترسمِ الفروة، إنما ارسمْ ما تصنعُه الشمسُ بها."</blockquote>`},
+  {cat_en:'Techniques',cat_ar:'تقنيات الرسم',title_en:'Sketching: Faster Than Memory',title_ar:'الرسم التخطيطي: أسرع من الذاكرة',body_en:`<p>A sketch catches what memory cannot. By the time you remember a horse's gesture, it has already changed three times.</p><h3>The Speed of Truth</h3><p>I sketch fast and loose, not to make finished art but to trap a living instant before it escapes. Half my best paintings began as a scribble that took ten seconds.</p><blockquote>"The sketch is faster than memory, and more honest than the photograph."</blockquote>`,body_ar:`<p>يلتقطُ الاسكتشُ ما تعجزُ عنه الذاكرة؛ فما إن تتذكّرَ حركةً حتى تكونَ قد تبدّلت ثلاثاً.</p><h3>أسرعُ من أن تُنسى</h3><p>أخطُّ بسرعةٍ وحرية، لا لأصنعَ عملاً تامّاً بل لأحبِسَ لحظةً حيّةً قبل فوتها. ونصفُ أحسنِ لوحاتي بدأ خربشةً في عشرِ ثوان.</p><blockquote>"الاسكتشُ أسرعُ من الذاكرة، وأصدقُ من الصورة."</blockquote>`},
+  {cat_en:'Techniques',cat_ar:'تقنيات الرسم',title_en:'Watercolor and Horses',title_ar:'الألوان المائية والخيل',body_en:`<p>Watercolor and the horse seem opposite — one uncontrollable, the other all controlled power. That tension is exactly why they work.</p><h3>Letting Water Decide</h3><p>You cannot force watercolor; you cooperate with it. A wet edge bleeding into the flank can suggest movement more truthfully than any careful line. I let the water gallop a little.</p><blockquote>"With watercolor I do not depict the horse's freedom. I surrender to it."</blockquote>`,body_ar:`<p>المائيةُ والفرسُ نقيضان في الظاهر: هذه لا تُضبَط، وتلك قوةٌ مضبوطة. وفي هذا التناقضِ سرُّ نجاحهما.</p><h3>أن تُصالحَ الماء</h3><p>لا تُكرِهُ المائيةَ بل تُصالحُها. حافةٌ رطبةٌ تنزفُ في الخاصرةِ توحي بالحركةِ أصدقَ من خطٍّ محسوب. أدعُ الماءَ يعدو قليلاً.</p><blockquote>"بالمائيةِ لا أصفُ حريةَ الفرس، بل أستسلمُ لها."</blockquote>`},
+  {cat_en:'Techniques',cat_ar:'تقنيات الرسم',title_en:'Digital Horse Painting',title_ar:'الرسم الرقمي للخيل',body_en:`<p>Painting a horse digitally does not betray the tradition — it extends it. The discipline of the eye stays exactly the same.</p><h3>New Brush, Old Knowledge</h3><p>The tablet gives me endless undo, infinite layers, a coat I can relight at will. But none of it helps unless I already know how a real horse holds its weight. The tool is new; the looking is ancient.</p><blockquote>"The software does not know what a horse is. I still have to."</blockquote>`,body_ar:`<p>رسمُ الفرسِ رقمياً لا يخونُ التراثَ بل يمدُّه؛ وميزانُ العينِ يبقى كما هو لم يتبدّل.</p><h3>ريشةٌ جديدةٌ وعِلمٌ قديم</h3><p>يمنحُني اللوحُ تراجعاً بلا حدٍّ وطبقاتٍ لا تنفدُ وفروةً أُعيدُ إضاءتَها متى شئت. ولا ينفعُ ذلك كلُّه ما لم أكن أعرفُ أصلاً كيف تحملُ الفرسُ ثِقلَها.</p><blockquote>"البرنامجُ لا يدري ما الفرس؛ وأنا من عليه أن يدري."</blockquote>`},
+  {cat_en:'Techniques',cat_ar:'تقنيات الرسم',title_en:'Caricature and Characterization',title_ar:'الكاريكاتير والتشخيص',body_en:`<p>Caricature is not mockery. Done with love, it is the fastest way to the essence of a character — even a horse's.</p><h3>Exaggeration as Truth</h3><p>By pushing one true feature — a proud arch, a mischievous eye — I reveal a personality a realistic portrait might hide under accuracy. Every horse I have known had a character worth exaggerating.</p><blockquote>"A caricature lies about the proportions to tell the truth about the soul."</blockquote>`,body_ar:`<p>ليس الكاريكاتيرُ سخرية؛ إذا صُنِعَ بمودّةٍ كان أقصرَ الطرقِ إلى جوهرِ الطبع — حتى طبعِ فرس.</p><h3>مبالغةٌ تقولُ الصدق</h3><p>بدفعِ ملمحٍ صادقٍ واحد — تقوّسٍ فخورٍ أو عينٍ مشاكسة — أكشفُ طبعاً قد يستُرُه البورتريهُ تحت الدقّة. وكلُّ فرسٍ عرفتُها كان لها طبعٌ يستحقُّ المبالغة.</p><blockquote>"يكذبُ الكاريكاتيرُ في المقاديرِ ليصدُقَ في الأرواح."</blockquote>`},
+  {cat_en:'Techniques',cat_ar:'تقنيات الرسم',title_en:'Sculptural Study: 3D Teaches 2D',title_ar:'النحت الدراسي',body_en:`<p>Before I paint a difficult horse, I sometimes model it roughly in three dimensions. Understanding a form in space changes how I draw it on a flat page.</p><h3>3D Teaches 2D</h3><p>Turning a shape in my hands, seeing how light wraps a real volume, cures the small lies a drawing tends toward. Sculpture is my way of asking the horse to hold still and be understood.</p><blockquote>"To draw a thing flatly, first understand it roundly."</blockquote>`,body_ar:`<p>قبل أن أرسمَ فرساً عسيرة، أُشكّلُها أحياناً بخشونةٍ في ثلاثةِ أبعاد؛ ففهمُ الشكلِ في الفراغِ يُبدّلُ يدي على الورق.</p><h3>أدِرْه في يدِك تعرفْه</h3><p>تدويرُ الشكلِ بين الكفّين، ورؤيةُ الضوءِ يلتفُّ حول حجمٍ حقيقي، يشفي أوهاماً صغيرةً يميلُ إليها الرسم. النحتُ طريقتي في أن أسألَ الفرسَ أن تثبتَ حتى أفهمها.</p><blockquote>"لترسمَ الشيءَ مسطّحاً، أدِرْه أولاً مجسَّماً."</blockquote>`},
+  {cat_en:'Techniques',cat_ar:'تقنيات الرسم',title_en:'Painting Horses in Motion',title_ar:'رسم الخيل في الحركة',body_en:`<p>A horse in motion is not a horse plus speed. It is a different animal, reorganized by momentum, and it must be drawn as such.</p><h3>Drawing the Blur of Life</h3><p>Freeze every hoof and you kill the run. I leave edges unresolved, let a leg dissolve into its own path, so the eye completes the gallop. Motion is suggested, never nailed down.</p><blockquote>"Paint a running horse too clearly and you have painted a statue of running."</blockquote>`,body_ar:`<p>الفرسُ في العَدْوِ ليست فرساً أُضيفت إليها سرعة، بل كائنٌ آخرُ أعادَ الزخمُ ترتيبَه، وهكذا ينبغي أن يُرسَم.</p><h3>لا تُحكِمْ ما لا يُحكَم</h3><p>جمِّدْ كلَّ حافرٍ تقتلِ العَدْو. أتركُ الحوافَّ غيرَ محسومة، وأدعُ قائمةً تذوبُ في أثرِها، فتُكملُ العينُ ما نقص. الحركةُ تُوحى ولا تُثبَّت.</p><blockquote>"ارسمْ فرساً راكضةً بوضوحٍ زائدٍ تكن قد رسمتَ تمثالاً للركض."</blockquote>`}
+];
+</script>
+<script>
+var _jO=document.getElementById('jrn-overlay');
+var _jB=document.getElementById('jrn-body');
+var _jL=function(){return document.documentElement.getAttribute('data-lang')||'en';};
+function jrnOpen(idx){
+  var a=JRN_ARTICLES[idx];var L=_jL();
+  var be=a.body_en||'';var ba=a.body_ar||'';
+  if(!be && !ba){
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2><p class="jrn-empty">'+(L==='ar'?'\u0627\u0644\u0645\u0642\u0627\u0644 \u0642\u064a\u062f \u0627\u0644\u0625\u0639\u062f\u0627\u062f':'Article coming soon')+'</p>';
+  } else {
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2>'+(L==='ar'?ba:be);
+  }
+  _jO.classList.add('open');_jO.scrollTop=0;document.body.style.overflow='hidden';
+}
+document.getElementById('jrn-close').addEventListener('click',function(){_jO.classList.remove('open');document.body.style.overflow='';});
+_jO.addEventListener('click',function(e){if(e.target===_jO){_jO.classList.remove('open');document.body.style.overflow='';}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){_jO.classList.remove('open');document.body.style.overflow='';}});
+</script>
+
+<script>
+/* ── Lazy Loading للخلفيات (CSS backgrounds لا تدعم loading="lazy") ── */
+(function(){
+  var lazyBg = document.querySelectorAll('[data-bg]');
+  if(!lazyBg.length) return;
+  function load(el){
+    var u = el.getAttribute('data-bg');
+    if(!u) return;
+    var img = new Image();
+    img.onload = function(){ el.style.backgroundImage = "url('" + u + "')"; el.removeAttribute('data-bg'); };
+    img.src = u;
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ load(e.target); io.unobserve(e.target); } });
+    }, {rootMargin:'300px 0px'});
+    lazyBg.forEach(function(el){ io.observe(el); });
+  } else { lazyBg.forEach(load); }
+  window.addEventListener('load', function(){
+    setTimeout(function(){ document.querySelectorAll('.slide[data-bg]').forEach(load); }, 400);
+  });
+})();
+</script>
+
+<script>
+/* حفظ اللغة + تمريرها عبر الروابط (يعمل حتى على file:// حيث يُعزل localStorage) */
+(function(){
+  var d=document.documentElement;
+  var g=document.getElementById("lang-glyph");
+  function cur(){return d.getAttribute("data-lang")||"en";}
+  if(g) g.textContent = cur()==="ar" ? "A" : "ض";
+  function save(){ try{ localStorage.setItem("aa_lang",cur()); }catch(e){} }
+  save();
+  try{ new MutationObserver(save).observe(d,{attributes:true,attributeFilter:["data-lang"]}); }catch(e){}
+  /* مرّر اللغة في كل رابط داخلي */
+  document.addEventListener("click",function(e){
+    var a=e.target.closest && e.target.closest("a[href]");
+    if(!a) return;
+    var h=a.getAttribute("href")||"";
+    if(/^(https?:|mailto:|tel:|#|javascript:)/i.test(h)) return;
+    if(a.target==="_blank") return;
+    var l=cur();
+    var hash=""; var base=h;
+    var hi=h.indexOf("#"); if(hi>=0){ base=h.slice(0,hi); hash=h.slice(hi); }
+    base=base.replace(/([?&])lang=(ar|en)&?/,"$1").replace(/[?&]$/,"");
+    base += (base.indexOf("?")>=0?"&":"?")+"lang="+l;
+    a.setAttribute("href",base+hash);
+  },true);
+})();
+</script>
+</body>
+</html>

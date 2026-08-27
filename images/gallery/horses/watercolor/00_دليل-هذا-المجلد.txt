@@ -1,0 +1,22 @@
+مجلد: images/gallery/horses/watercolor/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  horses_watercolor_01.webp
+  horses_watercolor_02.webp
+  horses_watercolor_03.webp
+  horses_watercolor_04.webp
+  horses_watercolor_05.webp
+  horses_watercolor_06.webp
+  horses_watercolor_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

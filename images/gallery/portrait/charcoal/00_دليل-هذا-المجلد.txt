@@ -1,0 +1,22 @@
+مجلد: images/gallery/portrait/charcoal/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  portrait_charcoal_01.webp
+  portrait_charcoal_02.webp
+  portrait_charcoal_03.webp
+  portrait_charcoal_04.webp
+  portrait_charcoal_05.webp
+  portrait_charcoal_06.webp
+  portrait_charcoal_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

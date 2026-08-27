@@ -1,0 +1,22 @@
+مجلد: images/pages/portrait/band/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1000 بكسل   (نسبة 16:10)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  portrait_band_01.webp
+  portrait_band_02.webp
+  portrait_band_03.webp
+  portrait_band_04.webp
+  portrait_band_05.webp
+  portrait_band_06.webp
+  portrait_band_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

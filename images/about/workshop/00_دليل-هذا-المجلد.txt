@@ -1,0 +1,36 @@
+مجلد: images/about/workshop/
+========================================================
+عدد الصور المطلوبة: 21
+المقاس: 1200×1200 بكسل   (نسبة 1:1)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  about_workshop_01.webp
+  about_workshop_02.webp
+  about_workshop_03.webp
+  about_workshop_04.webp
+  about_workshop_05.webp
+  about_workshop_06.webp
+  about_workshop_07.webp
+  about_workshop_08.webp
+  about_workshop_09.webp
+  about_workshop_10.webp
+  about_workshop_11.webp
+  about_workshop_12.webp
+  about_workshop_13.webp
+  about_workshop_14.webp
+  about_workshop_15.webp
+  about_workshop_16.webp
+  about_workshop_17.webp
+  about_workshop_18.webp
+  about_workshop_19.webp
+  about_workshop_20.webp
+  about_workshop_21.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

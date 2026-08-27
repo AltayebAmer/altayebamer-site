@@ -1,0 +1,22 @@
+مجلد: images/gallery/photography/webdesign/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  photography_webdesign_01.webp
+  photography_webdesign_02.webp
+  photography_webdesign_03.webp
+  photography_webdesign_04.webp
+  photography_webdesign_05.webp
+  photography_webdesign_06.webp
+  photography_webdesign_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

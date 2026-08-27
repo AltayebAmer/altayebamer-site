@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="AI-generated art exploring Arab identity, by Altayeb Amer.">
+<meta property="og:title" content="AI Art — Altayeb Amer">
+<meta property="og:description" content="AI-generated art exploring Arab identity, by Altayeb Amer.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>AI Art — Creative Artificial Intelligence — Altayeb Amer</title>
+<link rel="canonical" href="https://altayebamer.com/ai/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#050504">
+<meta name="author" content="Altayeb Amer">
+<meta property="og:site_name" content="Altayeb Amer">
+<meta property="og:url" content="https://altayebamer.com/ai/">
+<meta property="og:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Altayeb Amer — Visual Artist, Dubai">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AE">
+<meta name="twitter:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta name="twitter:title" content="AI Art — Creative Artificial Intelligence — Altayeb Amer">
+<meta name="twitter:description" content="AI-generated art exploring Arab identity, by Altayeb Amer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&family=IBM+Plex+Arabic:wght@200;300&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+:root{--void:#050504;--gold:#C8A96E;--acc:#FFD700;--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:auto}
+
+/* CURSOR */
+#cur{opacity:0;position:fixed;width:5px;height:5px;background:rgba(255,215,0,.7);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.ink-splash{position:fixed;border-radius:50%;pointer-events:none;z-index:9998;width:120px;height:120px;background:radial-gradient(circle,rgba(255,215,0,.18)0%,transparent 72%);transform:translate(-50%,-50%) scale(0);animation:splash .75s cubic-bezier(.15,1,.3,1) forwards}
+@keyframes splash{0%{transform:translate(-50%,-50%) scale(0);opacity:1}65%{opacity:.7;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.4)}}
+
+/* LANG BTN */
+#lang-btn{position:fixed;top:1.55rem;left:1.6rem;z-index:8000;width:40px;height:40px;border-radius:50%;border:1px solid transparent;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity .5s,border-color .4s;background:transparent}
+#lang-btn.near{opacity:.45;border-color:rgba(255,215,0,.2)}
+#lang-btn:hover{opacity:1!important;border-color:var(--acc)!important}
+#lang-btn span{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(255,215,0,.5);transition:color .4s;user-select:none}
+#lang-btn:hover span{color:var(--acc)}
+
+/* INK VEIL */
+#ink-veil{position:fixed;inset:0;z-index:8500;pointer-events:none;overflow:hidden}
+#ink-blob{position:absolute;border-radius:50%;background:var(--void);transform:translate(-50%,-50%) scale(0);will-change:transform}
+#ink-blob.grow{width:300vmax;height:300vmax;transform:translate(-50%,-50%) scale(1);transition:transform .95s cubic-bezier(.22,1,.36,1)}
+#ink-blob.shrink{transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.4,0,.6,1)}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:700;padding:1.6rem 2rem 1.6rem 5rem;display:flex;align-items:center;justify-content:flex-end;gap:1.6rem;background:linear-gradient(to bottom,rgba(5,5,4,.88)0%,transparent 100%)}
+nav a{font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.22em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+nav a:hover,nav a.active{color:var(--acc)}
+.nav-home{color:rgba(255,215,0,.45)!important}
+.nav-gallery{border:1px solid rgba(255,215,0,.3);padding:.3rem .85rem;transition:border-color .3s,color .3s!important}
+.nav-gallery:hover{border-color:var(--acc)!important}
+
+/* HERO */
+#hero{position:relative;height:100vh;min-height:600px;overflow:hidden;display:flex;align-items:flex-end}
+#hero-slides{position:absolute;inset:0}
+.hslide{position:absolute;inset:0;opacity:0;transition:opacity 1.4s ease}
+.hslide-bg{width:100%;height:100%;display:block}
+.hslide.active{opacity:1}
+.hero-ink{position:absolute;inset:0}
+.hero-ink::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,5,4,1)0%,rgba(5,5,4,.3)50%,transparent 100%)}
+.hero-content{position:relative;z-index:2;padding:0 0 5.5rem;width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 2rem}
+.hero-tag{font-family:'Cinzel',serif;font-size:.63rem;letter-spacing:.55em;text-transform:uppercase;color:rgba(255,215,0,.5);margin-bottom:1rem;display:block}
+.hero-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,7vw,6.5rem);font-weight:300;color:var(--ivory);line-height:1;margin-bottom:.4rem}
+.hero-h1-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(2.5rem,6vw,5.5rem);font-weight:200;color:var(--ivory);line-height:1.2;margin-bottom:.4rem;display:none}
+[data-lang="ar"] .hero-h1{display:none}[data-lang="ar"] .hero-h1-ar{display:block}
+.hero-rule{width:60px;height:1px;background:linear-gradient(to right,var(--acc),transparent);margin:1.4rem 0}
+[data-lang="ar"] .hero-rule{background:linear-gradient(to left,var(--acc),transparent)}
+.hero-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2vw,1.25rem);font-weight:300;font-style:italic;color:rgba(255,215,0,.65);max-width:560px}
+.hero-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.9rem,1.8vw,1.1rem);font-weight:200;color:rgba(255,215,0,.65);max-width:560px;display:none}
+[data-lang="ar"] .hero-phrase{display:none}[data-lang="ar"] .hero-phrase-ar{display:block}
+#hero-dots{position:absolute;bottom:1.8rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;z-index:3}
+.hdot{width:5px;height:5px;border-radius:50%;background:rgba(255,215,0,.25);transition:background .4s,transform .4s}
+.hdot.on{background:var(--acc);transform:scale(1.3)}
+.scroll-hint{position:absolute;bottom:2.5rem;right:2.5rem;z-index:3;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:.3}
+.scroll-hint span{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.35em;text-transform:uppercase;color:var(--acc);writing-mode:vertical-rl}
+.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--acc),transparent);animation:sp 2s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:.3}50%{opacity:.9}}
+
+/* BREATHS */
+.br-half{height:50vh;min-height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(255,215,0,.06)}
+.br-quarter{min-height:26vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(255,215,0,.05);padding:3rem 0}
+.br-half::before{content:'∞';position:absolute;font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(18rem,38vw,36rem);font-weight:200;color:rgba(255,215,0,.025);line-height:1;pointer-events:none;user-select:none;right:5%;top:50%;transform:translateY(-50%)}
+.q-stage{max-width:760px;padding:0 2rem;text-align:center;position:relative;z-index:1}
+.q-item{display:none;animation:qfade .8s ease}
+.q-item.vis{display:block}
+@keyframes qfade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.q-text{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.3vw,1.6rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.75;margin-bottom:1rem}
+.q-text-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.95rem,2vw,1.3rem);font-weight:200;color:var(--ivory);line-height:2;margin-bottom:1rem;display:none}
+[data-lang="ar"] .q-text{display:none}[data-lang="ar"] .q-text-ar{display:block}
+.q-author{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.35em;text-transform:uppercase;color:rgba(255,215,0,.4)}
+.q-author-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.75rem;font-weight:200;color:rgba(255,215,0,.4);display:none}
+[data-lang="ar"] .q-author{display:none}[data-lang="ar"] .q-author-ar{display:block}
+.q-prog{display:flex;gap:.45rem;margin-top:1.4rem;justify-content:center}
+.qdot{width:3px;height:3px;border-radius:50%;background:rgba(255,215,0,.18);transition:background .4s,transform .3s}
+.qdot.on{background:var(--acc);transform:scale(1.6)}
+.br-quarter .q-text{font-size:clamp(.92rem,1.7vw,1.2rem)}
+.br-quarter .q-text-ar{font-size:clamp(.82rem,1.5vw,1.05rem)}
+
+/* BANDS — identical to index.html */
+.band{position:relative;width:100%;height:100vh;overflow:hidden;cursor:pointer}
+.band-cover{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(1) brightness(.32);transition:filter .7s ease}
+.band.clicked .band-cover{filter:grayscale(0) brightness(.52) saturate(.88)}
+.band-bloom{position:absolute;border-radius:50%;z-index:3;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,255,200,.45)0%,rgba(200,150,50,.22)35%,rgba(100,60,0,.08)65%,transparent 100%);transform:translate(-50%,-50%) scale(0);animation:bandBloom 2.5s cubic-bezier(.15,1,.3,1) forwards;width:300vmax;height:300vmax}
+@keyframes bandBloom{0%{transform:translate(-50%,-50%) scale(0);opacity:1}55%{transform:translate(-50%,-50%) scale(1);opacity:.85}100%{transform:translate(-50%,-50%) scale(1.05);opacity:0}}
+.band-ink{position:absolute;inset:0;z-index:4;pointer-events:none}
+.band-label{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center;transition:opacity .4s,transform .4s}
+.band.clicked .band-label{opacity:0;transform:translateY(-8px);pointer-events:none}
+.band-tag{font-family:'Cinzel',serif;font-size:.78rem;letter-spacing:.38em;color:var(--acc);text-transform:uppercase;margin-bottom:1rem}
+.band-title-en{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,3.2rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.2;text-align:center}
+.band-title-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1.4rem,3vw,2.6rem);font-weight:200;color:var(--ivory);line-height:1.5;display:none;text-align:center}
+[data-lang="ar"] .band-title-en{display:none}[data-lang="ar"] .band-title-ar{display:block}
+.band-reveal{position:absolute;inset:0;z-index:11;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .5s ease .1s;padding:2rem;text-align:center}
+.band.clicked .band-reveal{opacity:1;pointer-events:auto}
+.band-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1.05rem,1.9vw,1.28rem);font-style:italic;font-weight:300;color:rgba(240,235,225,.72);letter-spacing:.03em;max-width:480px;line-height:1.8;margin-bottom:2.5rem}
+.band-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1rem,1.7vw,1.18rem);font-weight:200;color:rgba(240,235,225,.72);line-height:2;max-width:480px;display:none;text-align:center;margin-bottom:2.5rem}
+[data-lang="ar"] .band-phrase{display:none}[data-lang="ar"] .band-phrase-ar{display:block}
+.band-enter{font-family:'Cinzel',serif;font-size:.85rem;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;padding:1rem 3rem;border:1px solid currentColor;position:relative;overflow:hidden;transition:color .35s;display:inline-block}
+.band-enter::before{content:'';position:absolute;inset:0;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s ease}
+.band-enter:hover::before{transform:scaleX(1);transform-origin:left}
+.band-enter:hover{color:var(--void)}
+.band-enter span{position:relative;z-index:1}
+
+/* FINAL BREATH — identical mechanics to index.html */
+.br-sq{height:22vh;min-height:160px;display:flex;align-items:center;justify-content:center;border-top:1px solid rgba(255,215,0,.06)}
+.boxes-row{display:flex;gap:1.6rem;flex-wrap:wrap;justify-content:center}
+.sq{width:72px;height:72px;border:1px solid rgba(200,169,110,.22);display:flex;align-items:center;justify-content:center;cursor:auto;transition:border-color .5s}
+.sq:hover{border-color:rgba(200,169,110,.65)}
+.sq-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none}
+.sq-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .sq-word{display:none}[data-lang="ar"] .sq-word-ar{display:block}
+.sq:hover .sq-word,.sq:hover .sq-word-ar{opacity:1}
+#br-float{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.float-word{position:absolute;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;color:transparent;pointer-events:none;user-select:none;transition:color 1.4s ease;white-space:nowrap}
+.float-word.show{color:rgba(200,169,110,.4)}
+#br-swim{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.swim-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;border:1px solid rgba(200,169,110,.18);transition:border-color .5s,opacity .5s;opacity:.42}
+.swim-shape:hover{border-color:rgba(200,169,110,.7);opacity:1}
+.swim-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.swim-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .swim-word{display:none}[data-lang="ar"] .swim-word-ar{display:block}
+.swim-shape:hover .swim-word,.swim-shape:hover .swim-word-ar{opacity:1}
+#br-hover{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.hover-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity 1.5s,border-color .4s}
+.hover-shape.visible{opacity:.28}
+.hover-shape:hover{opacity:1!important}
+.hsh-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.hsh-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .hsh-word{display:none}[data-lang="ar"] .hsh-word-ar{display:block}
+.hover-shape:hover .hsh-word,.hover-shape:hover .hsh-word-ar{opacity:1}
+
+/* FINAL + FOOTER — identical to index.html */
+#final{width:100%;padding:10rem 2rem 6rem;background:var(--void);display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
+#final::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 40% at 50% 60%,rgba(200,169,110,.028)0%,transparent 70%);pointer-events:none}
+#final-line{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.2vw,1.5rem);font-weight:300;font-style:italic;color:rgba(240,235,225,.45);letter-spacing:.05em;margin-bottom:4rem}
+#final-name{font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;color:var(--gold);letter-spacing:.08em;margin-bottom:1.8rem}
+#final-rule{width:100%;max-width:560px;height:1px;background:linear-gradient(to right,transparent,rgba(200,169,110,.38),transparent);margin-bottom:1.8rem}
+#final-links{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;justify-content:center}
+#final-links a{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.3em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+#final-links a:hover{color:var(--gold)}
+#final-links span{color:rgba(200,169,110,.2);font-size:.55rem}
+footer{padding:3rem 2rem;border-top:1px solid rgba(200,169,110,.08);text-align:center}
+.footer-top{margin-bottom:1.5rem}
+.footer-artist-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:rgba(200,169,110,.45);letter-spacing:.15em;margin-bottom:.3rem}
+.footer-title{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(200,169,110,.25)}
+.footer-copy{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;color:var(--ivory2);text-transform:uppercase;line-height:2}
+footer a{color:rgba(200,169,110,.45);text-decoration:none;transition:color .3s}
+footer a:hover{color:var(--gold)}
+
+/* BILINGUAL */
+.t-en{display:inline}.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body{direction:rtl}
+.ar-font{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  nav{padding:1.2rem 1.2rem 1.2rem 5rem;gap:1.2rem;overflow-x:auto}
+  nav a{font-size:.6rem}
+  .band{height:75vh;min-height:400px}
+  .band-title-en{font-size:clamp(1.5rem,6vw,2.2rem)}
+  .band-enter{font-size:.7rem;padding:.75rem 1.5rem;letter-spacing:.2em}
+  .sq{width:58px;height:58px}
+  .br-half{height:auto;padding:4rem 0}
+  .br-half::before{display:none}
+  .scroll-hint{display:none}
+}
+
+
+/* UNIFIED_PATCH_CSS */
+/* ============================================================
+   PATCH: Floating UI + Grayscale Slideshow + Float Words + Unified BG
+   Applies to all 8 specialty/home pages
+   ============================================================ */
+
+/* 1. UNIFIED DARK BACKGROUND — single color, no per-section repeat */
+body{background:#050504 !important}
+
+/* 2. SLIDESHOW / BAND COVER — grayscale default, color on hover/in-view only */
+.band-cover{
+  filter:grayscale(1) brightness(.32) !important;
+  transition:filter .8s ease !important;
+}
+.band:hover .band-cover,
+.band.clicked .band-cover,
+.band.in-view .band-cover{
+  filter:grayscale(0) brightness(.5) saturate(.9) !important;
+}
+
+/* 3. REMOVE BLUE BLOOM EFFECT — per agreed simplification */
+.band-bloom{display:none !important;animation:none !important}
+
+/* 4. FLOATING ACTION BUTTON — back to top */
+#fab-top{
+  position:fixed;bottom:24px;left:24px;z-index:600;
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(10,10,9,.7);backdrop-filter:blur(10px);
+  border:1px solid rgba(200,169,110,.35);
+  color:#C8A96E;font-size:1.05rem;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;opacity:0;transform:translateY(10px);
+  transition:opacity .35s ease,transform .35s ease,border-color .25s;
+  box-shadow:0 8px 24px -6px rgba(0,0,0,.5);
+}
+#fab-top.show{opacity:1;transform:translateY(0)}
+#fab-top:hover{border-color:#C8A96E;box-shadow:0 12px 32px -6px rgba(200,169,110,.25)}
+
+/* 5. FLOATING CAPSULE NAV */
+nav#nav{
+  border-radius:999px !important;
+  margin:14px auto 0 !important;
+  width:fit-content !important;
+  background:rgba(8,8,7,.55) !important;
+  backdrop-filter:blur(14px) saturate(140%);
+  border:1px solid rgba(200,169,110,.18) !important;
+  box-shadow:0 10px 30px -8px rgba(0,0,0,.55),0 1px 0 rgba(255,255,255,.04) inset;
+  position:fixed !important;top:14px;left:50%;transform:translateX(-50%);
+}
+
+/* 6. FLOATING CARDS — bands lift with layered shadow on hover */
+.band{transition:box-shadow .45s ease}
+.band:hover{box-shadow:0 24px 48px -12px rgba(0,0,0,.55),0 8px 16px -8px rgba(200,169,110,.18)}
+
+/* 7. STATEMENT SECTION — البيان الفني */
+.statement-sec{
+  min-height:50vh;display:flex;align-items:center;justify-content:center;
+  padding:4rem 1.5rem;background:#0a0a09;text-align:center;
+  border-top:1px solid rgba(200,169,110,.08);border-bottom:1px solid rgba(200,169,110,.08);
+}
+.statement-inner{max-width:760px}
+.statement-inner p{font-size:1.05rem;line-height:1.9;color:#F0EBE1;opacity:.85;margin-bottom:1rem}
+.statement-readmore{
+  display:inline-block;margin-top:1rem;padding:.7rem 2.2rem;
+  border:1px solid rgba(200,169,110,.4);border-radius:999px;
+  color:#C8A96E;font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.2em;
+  text-decoration:none;transition:.3s;
+}
+.statement-readmore:hover{background:#C8A96E;color:#050504}
+
+/* 8. BREATHER SIZE VARIANTS — break visual rhythm */
+.breather-half{min-height:42vh}
+.breather-quarter{min-height:24vh}
+
+/* 9. FLOATING WORDS + ART SHAPES — revives #br-float spirit, all pages */
+.float-stage{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.float-word{
+  position:absolute;color:rgba(200,169,110,.16);
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  white-space:nowrap;opacity:0;animation:floatWordSeq 18s ease-in-out infinite;
+}
+.float-shape{
+  position:absolute;color:rgba(200,169,110,.10);
+  opacity:0;animation:floatShapeSeq 22s ease-in-out infinite;
+}
+@keyframes floatWordSeq{
+  0%{opacity:0;transform:translate(0,0) scale(.92)}
+  10%{opacity:1}45%{opacity:1;transform:translate(18px,-26px) scale(1)}
+  60%{opacity:0}100%{opacity:0;transform:translate(18px,-26px) scale(1)}
+}
+@keyframes floatShapeSeq{
+  0%{opacity:0;transform:translate(0,0) rotate(0deg)}
+  15%{opacity:1}50%{opacity:1;transform:translate(-22px,30px) rotate(14deg)}
+  70%{opacity:0}100%{opacity:0;transform:translate(-22px,30px) rotate(14deg)}
+}
+@media(max-width:600px){.float-stage{display:none}}
+
+/* UNIFIED_PATCH_CSS */
+
+#lang-btn .lang-txt{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.15em;color:rgba(200,169,110,.55);text-transform:uppercase;margin-right:.35rem;transition:color .4s}
+#lang-btn:hover .lang-txt{color:var(--gold)}
+</style>
+
+<style>
+.jrn-section{padding:3rem 2rem 5rem;max-width:1200px;margin:0 auto}
+.jrn-title{font-size:1.4rem;color:var(--gold-l,#c8a96e);margin-bottom:.3rem;font-family:"IBM Plex Arabic",sans-serif}
+.jrn-rule{width:48px;height:1px;background:var(--gold-l,#c8a96e);opacity:.4;margin-bottom:2rem}
+.jrn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem}
+.jrn-card{border:1px solid rgba(200,169,110,.12);padding:1.5rem;cursor:pointer;transition:border-color .3s,transform .3s;background:rgba(0,0,0,.1)}
+.jrn-card:hover{border-color:rgba(200,169,110,.4);transform:translateY(-2px)}
+.jrn-num{font-size:.68rem;color:rgba(200,169,110,.4);margin-bottom:.4rem}
+.jrn-cat{font-size:.65rem;color:var(--gold-l,#c8a96e);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.jrn-card-title{font-size:.92rem;font-weight:600;color:#e8dcc8;line-height:1.4;margin-bottom:.6rem}
+.jrn-card-title .t-ar{font-family:"IBM Plex Arabic",sans-serif;font-size:.88rem}
+.jrn-link{font-size:.7rem;color:var(--gold-l,#c8a96e)}
+.jrn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:9999;overflow-y:auto;display:none;padding:3rem 2rem}
+.jrn-overlay.open{display:block}
+.jrn-close{position:fixed;top:1.4rem;right:1.4rem;background:none;border:1px solid rgba(200,169,110,.3);color:#c8a96e;width:2rem;height:2rem;cursor:pointer;font-size:.9rem;z-index:10000}
+.jrn-body{max-width:640px;margin:0 auto;color:#e8dcc8;line-height:1.9}
+.jrn-body h2{font-size:1.4rem;color:#c8a96e;margin-bottom:1rem}
+.jrn-body h3{font-size:1rem;color:#c8a96e;margin:1.5rem 0 .5rem}
+.jrn-body p{margin-bottom:1rem;font-size:.9rem}
+.jrn-body blockquote{border-left:2px solid #c8a96e;padding-left:1rem;color:rgba(232,220,200,.65);font-style:italic;margin:1.3rem 0}
+.jrn-tag{font-size:.68rem;color:rgba(200,169,110,.5);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+.jrn-empty{color:rgba(200,169,110,.4);font-size:.82rem;font-style:italic;padding:1rem 0}
+
+/* restore visible cursor + correct affordances */
+a,button,summary,[role=button],.faq-q,.spec-item,.channel,.send-btn,.cta-btn,.wcell,.qbox{cursor:pointer}
+input,textarea,select{cursor:text}
+select{cursor:pointer}
+
+/* ═══ ARABIC TYPOGRAPHY FIX v2 ═══
+   العربية خط متّصل: لا تباعد حروف، ولا Uppercase، وخط عربي حقيقي.
+   الأرضية المطلقة max() تمنع أي نص عربي من النزول تحت حدّ المقروئية،
+   دون أن تُضخّم العناوين الكبيرة (1em يبقى كما هو إن كان أكبر).
+   Arabic: connected script — never letter-space; absolute floor via max(). */
+html[data-lang="ar"] .t-ar,
+html[data-lang="ar"] .ar-font,
+html[data-lang="ar"] [lang="ar"]{
+  font-family:'IBM Plex Arabic',system-ui,sans-serif !important;
+  letter-spacing:normal !important;
+  word-spacing:normal !important;
+  text-transform:none !important;
+  font-size:max(1.02rem,1em);
+  line-height:1.85;
+}
+/* عناصر الواجهة الصغيرة: أرضية أعلى قليلاً + وزن أوضح */
+html[data-lang="ar"] nav a,
+html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .band-tag,
+html[data-lang="ar"] .sec-title,html[data-lang="ar"] .section-title,
+html[data-lang="ar"] .works-title,html[data-lang="ar"] .connect-title,
+html[data-lang="ar"] .q-author,html[data-lang="ar"] .q-author-ar,
+html[data-lang="ar"] .footer-inner,html[data-lang="ar"] .jrn-cat,html[data-lang="ar"] .jrn-tag,
+html[data-lang="ar"] .stat-label,html[data-lang="ar"] .spec-note,html[data-lang="ar"] .offer-num,
+html[data-lang="ar"] .step-title,html[data-lang="ar"] .channel-name,html[data-lang="ar"] .form-label,
+html[data-lang="ar"] .cf-label,html[data-lang="ar"] .work-cap,html[data-lang="ar"] .mv-num{
+  font-size:max(1.02rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  line-height:1.8;
+}
+/* أزرار وروابط: مساحة نقر مريحة */
+html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+html[data-lang="ar"] .filter-btn,html[data-lang="ar"] .send-btn,
+html[data-lang="ar"] .works-all,html[data-lang="ar"] .specblock-visit,
+html[data-lang="ar"] .specblock-viewall,html[data-lang="ar"] .read-btn{
+  font-size:max(1.05rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  padding:.95rem 1.9rem;
+}
+html[data-lang="ar"] nav a{font-weight:400}
+/* شاشات كبيرة (٢٧ إنش فأكثر) */
+@media(min-width:1600px){
+  nav a{font-size:.78rem}
+  .cta,.cta-btn,.cv-btn,.band-enter,.statement-readmore,.send-btn{font-size:.72rem;padding:1rem 2rem}
+  html[data-lang="ar"] nav a{font-size:1.12rem !important}
+  html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .sec-title,
+  html[data-lang="ar"] .section-title,html[data-lang="ar"] .works-title{font-size:1.12rem !important}
+  html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+  html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+  html[data-lang="ar"] .send-btn,html[data-lang="ar"] .works-all,
+  html[data-lang="ar"] .specblock-visit,html[data-lang="ar"] .specblock-viewall{
+    font-size:1.18rem !important;padding:1.1rem 2.2rem;
+  }
+}
+
+/* عناوين عربية: سطر واحد متّزن، ولفٌّ أنيق عند الضرورة */
+[data-lang="ar"] .band-title-ar,
+[data-lang="ar"] .h1,[data-lang="ar"] h1,
+[data-lang="ar"] .cta-heading,[data-lang="ar"] .mv-title{
+  text-wrap:balance;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  max-width:22ch;
+  margin-inline:auto;
+}
+[data-lang="ar"] .band-title-ar{line-height:1.35}
+
+/* ── اسم الفنان بالعربية: خط خطّي كلاسيكي (مؤقت حتى وصول خط الثلث) ── */
+[data-lang="ar"] .name-ar{
+  font-family:'Aref Ruqaa','IBM Plex Arabic',serif !important;
+  font-weight:700;
+  letter-spacing:normal !important;
+  line-height:1.6;
+  font-size:1.15em;
+}
+/* عند توفّر صورة الاسم بخط الثلث: فعّل هذه الكتلة واحذف التي فوقها
+[data-lang="ar"] .name-ar{
+  font-size:0 !important;
+  display:inline-block;
+  width:clamp(180px,26vw,420px);
+  aspect-ratio:1000/300;
+  background:url('/images/brand/name-thuluth.svg') center/contain no-repeat;
+}
+*/
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+</style>
+</head>
+<body>
+<div id="cur"></div>
+<div id="ink-veil"><div id="ink-blob"></div></div>
+<div id="lang-btn"><span class="lang-txt t-en">AR</span><span class="lang-txt t-ar">EN</span><span id="lang-glyph">ض</span></div>
+
+<nav id="nav">
+  <a href="../index.html#hero" class="nav-home">
+    <span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span>
+  </a>
+  <a href="../about/index.html">
+    <span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span>
+  </a>
+  <a href="../journal/index.html">
+    <span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span>
+  </a>
+  <a href="../commission/index.html">
+    <span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span>
+  </a>
+  <a href="../contact/index.html">
+    <span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span>
+  </a>
+  <a href="../gallery/ai/index.html" class="nav-gallery">
+    <span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span>
+  </a>
+  <a href="../statement/ai/index.html" class="nav-statement">
+    <span class="t-en">Statement</span><span class="t-ar ar-font">البيان الفني</span>
+  </a>
+</nav>
+
+<!-- ══════ HERO ══════ -->
+<section id="hero">
+  <div id="hero-slides">
+    <div class="hslide active"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050a 0%,#0a0a1a 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(to right,#050a05 0%,#0a1508 60%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0a0805 0%,#1a1205 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0a0805 0%,#1a1205 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0a0805 0%,#1a1205 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0a0805 0%,#1a1205 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#0a0805 0%,#1a1205 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    
+  </div>
+  <div class="hero-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="scroll-hint">
+    <span class="t-en">Scroll</span><span class="t-ar ar-font">مرِّر</span>
+    <div class="scroll-line"></div>
+  </div>
+  <div id="hero-dots"><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div></div>
+  <div class="hero-content">
+    <div class="wrap">
+      <span class="hero-tag">
+        <span class="t-en">III · AI Art — Creative Artificial Intelligence</span>
+        <span class="t-ar ar-font">٣ · AI Art — Creative Artificial Intelligence</span>
+      </span>
+      <h1 class="hero-h1">Creative Artificial<br>Intelligence</h1>
+      <h1 class="hero-h1-ar">الذكاء الاصطناعي<br>الإبداعي</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-phrase">One hundred thousand commands — each one the birth of a world.</p>
+      <p class="hero-phrase-ar">مئة ألف أمر — وكل أمر كان بداية عالم.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ BREATH — HALF — Specialty Quotes ══════ -->
+<div class="br-half" id="br-spec">
+  <div>
+    <div class="q-stage" id="qs-spec"></div>
+    <div class="q-prog" id="qp-spec"></div>
+  </div>
+</div>
+
+
+<!-- BAND 1 — I · AI Abstract Art -->
+<!-- STATEMENT_SECTION -->
+<section class="statement-sec"><div class="statement-inner"><p><span class="t-en">Artificial intelligence here is a tool in the artist's hand, never a replacement — it opens new visual horizons without the work losing its human signature.</span><span class="t-ar">الذكاء الاصطناعي هنا أداة بيد الفنان لا بديلاً عنه — يفتح آفاقاً بصرية جديدة دون أن يفقد العمل بصمته الإنسانية.</span></p><a href="../statement/ai/index.html" class="statement-readmore"><span class="t-en">Read the full statement</span><span class="t-ar">تتمة القراءة</span></a></div></section>
+<!-- STATEMENT_SECTION -->
+<section class="band" data-bi="0">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7010/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">I · AI Abstract Art</span>
+      <span class="t-ar ar-font">١ · الفن التجريدي</span>
+    </p>
+    <h2 class="band-title-en">AI Abstract<br>Compositions</h2>
+    <h2 class="band-title-ar">ما وراء الشكل</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Where the algorithm dissolves into pure feeling — and the machine forgets it is a machine.</p>
+    <p class="band-phrase-ar">خوارزمياتٌ تُطلَقُ في التجريد، ثم تُنتقى بيدِ فنان.</p>
+    <a href="../gallery/ai/index.html#abstract" class="band-enter" style="color:#FFD700">
+      <span>
+        <span class="t-en">Enter Abstract Gallery</span>
+        <span class="t-ar ar-font">معرض الأعمال التجريدية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — I · AI Abstract Art -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t1"></div>
+    <div class="q-prog" id="qp-t1"></div>
+  </div>
+</div>
+
+<!-- BAND 2 — II · AI Concept Art -->
+<section class="band" data-bi="1">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7011/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(to right,rgba(5,5,4,.75)0%,rgba(5,5,4,.1)65%,rgba(5,5,4,.58)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">II · AI Concept Art</span>
+      <span class="t-ar ar-font">٢ · الفن المفاهيمي</span>
+    </p>
+    <h2 class="band-title-en">AI Concept<br>Art</h2>
+    <h2 class="band-title-ar">الفكرةُ قبل الصورة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">The concept precedes the image — the machine builds the world you only imagined.</p>
+    <p class="band-phrase-ar">الفكرةُ أولاً، والصورةُ خادمةٌ لها لا العكس.</p>
+    <a href="../gallery/ai/index.html#concept" class="band-enter" style="color:#FFD700">
+      <span>
+        <span class="t-en">Enter Concept Art Gallery</span>
+        <span class="t-ar ar-font">معرض الفن المفاهيمي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — II · AI Concept Art -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t2"></div>
+    <div class="q-prog" id="qp-t2"></div>
+  </div>
+</div>
+
+<!-- BAND 3 — III · AI & Calligraphy Fusion -->
+<section class="band" data-bi="2">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7012/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.8)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">III · AI & Calligraphy Fusion</span>
+      <span class="t-ar ar-font">٣ · اندماج الذكاء الاصطناعي والخط</span>
+    </p>
+    <h2 class="band-title-en">AI × Calligraphy<br>Fusion</h2>
+    <h2 class="band-title-ar">الحرفُ والخوارزمية</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">The ancient letter in the machine's imagination — ten centuries meet ten million parameters.</p>
+    <p class="band-phrase-ar">حين يلتقي أقدمُ الفنونِ بأحدثِ الأدوات.</p>
+    <a href="../gallery/ai/index.html#calligraphy-fusion" class="band-enter" style="color:#FFD700">
+      <span>
+        <span class="t-en">Enter AI × Calligraphy Gallery</span>
+        <span class="t-ar ar-font">معرض الحرف والخوارزمية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — III · AI & Calligraphy Fusion -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t3"></div>
+    <div class="q-prog" id="qp-t3"></div>
+  </div>
+</div>
+
+
+
+<!-- BAND 4 — IV · AI Portraits -->
+<section class="band" data-bi="3">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20004/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">IV · AI Portraits</span>
+      <span class="t-ar ar-font">٤ · بورتريهات بالذكاء الاصطناعي</span>
+    </p>
+    <h2 class="band-title-en">AI Portraits<br>Is Anyone Home?</h2>
+    <h2 class="band-title-ar">وجوهٌ بلا ذاكرة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">A generated face is often flawless and empty — the work is to put someone behind the eyes.</p>
+    <p class="band-phrase-ar">الوجهُ المولَّدُ كاملٌ وفارغٌ غالباً — والصنعةُ أن تُسكِنَ أحداً خلف العينين.</p>
+    <a href="../gallery/ai/index.html#portrait-ai" class="band-enter" style="color:#FFD700">
+      <span>
+        <span class="t-en">Enter AI Portraits Gallery</span>
+        <span class="t-ar ar-font">معرض البورتريه بالذكاء الاصطناعي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — IV · AI Portraits -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t4"></div>
+    <div class="q-prog" id="qp-t4"></div>
+  </div>
+</div>
+
+<!-- BAND 5 — V · Surrealism -->
+<section class="band" data-bi="4">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20005/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">V · Surrealism</span>
+      <span class="t-ar ar-font">٥ · سريالي</span>
+    </p>
+    <h2 class="band-title-en">Surrealism<br>Logic of the Dream</h2>
+    <h2 class="band-title-ar">منطقُ الحلم</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">The strange only persuades when it obeys a rule the viewer can feel but not name.</p>
+    <p class="band-phrase-ar">لا يُقنعُ الغريبُ إلا إذا أطاعَ قاعدةً يُحسُّها الناظرُ ولا يُسمّيها.</p>
+    <a href="../gallery/ai/index.html#surreal" class="band-enter" style="color:#FFD700">
+      <span>
+        <span class="t-en">Enter Surrealism Gallery</span>
+        <span class="t-ar ar-font">معرض الأعمال السريالية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — V · Surrealism -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t5"></div>
+    <div class="q-prog" id="qp-t5"></div>
+  </div>
+</div>
+
+<!-- BAND 6 — VI · AI Architecture -->
+<section class="band" data-bi="5">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20006/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VI · AI Architecture</span>
+      <span class="t-ar ar-font">٦ · عمارة بالذكاء الاصطناعي</span>
+    </p>
+    <h2 class="band-title-en">AI Architecture<br>Seeing the Unbuilt</h2>
+    <h2 class="band-title-ar">عمارةُ ما لم يُبنَ</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">A client cannot walk a blueprint — but they can walk a morning light that feels real.</p>
+    <p class="band-phrase-ar">لا يمشي أحدٌ في مخطَّط، لكنه يمشي في ضوءِ صباحٍ يبدو حقيقياً.</p>
+    <a href="../gallery/ai/index.html#architecture" class="band-enter" style="color:#FFD700">
+      <span>
+        <span class="t-en">Enter AI Architecture Gallery</span>
+        <span class="t-ar ar-font">معرض العمارة بالذكاء الاصطناعي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VI · AI Architecture -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t6"></div>
+    <div class="q-prog" id="qp-t6"></div>
+  </div>
+</div>
+
+<!-- BAND 7 — VII · Experimental -->
+<section class="band" data-bi="6">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20007/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VII · Experimental</span>
+      <span class="t-ar ar-font">٧ · تجريبي</span>
+    </p>
+    <h2 class="band-title-en">Experimental<br>Where the Rules End</h2>
+    <h2 class="band-title-ar">حيث تنتهي القواعد</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">I keep a shelf for what failed; it is the only place new work has ever come from.</p>
+    <p class="band-phrase-ar">أحتفظُ برفٍّ لما أخفق؛ فمنه وحدَه جاء كلُّ جديد.</p>
+    <a href="../gallery/ai/index.html#experimental" class="band-enter" style="color:#FFD700">
+      <span>
+        <span class="t-en">Enter Experimental Gallery</span>
+        <span class="t-ar ar-font">معرض الأعمال التجريبية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VII · Experimental -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t7"></div>
+    <div class="q-prog" id="qp-t7"></div>
+  </div>
+</div>
+
+<!-- ══════ FINAL BREATH ══════ -->
+<div class="br-sq"><div class="boxes-row"></div></div>
+<div id="br-float"></div>
+<div id="br-swim"></div>
+<div id="br-hover"></div>
+
+<!-- ══════ FINAL ══════ -->
+<div id="final">
+  <p id="final-line">
+    <span class="t-en">One soul · Seven worlds · Infinite creation</span>
+    <span class="t-ar ar-font">روح واحدة · سبعة عوالم · إبداع لا نهاية له</span>
+  </p>
+  <p id="final-name"><span class="t-en">Altayeb Amer</span><span class="t-ar name-ar">الطيب عامر</span></p>
+  <div id="final-rule"></div>
+  <div id="final-links">
+    <a href="../index.html#hero"><span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span></a>
+    <span>·</span>
+    <a href="../about/index.html"><span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span></a>
+    <span>·</span>
+    <a href="../journal/index.html"><span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span></a>
+    <span>·</span>
+    <a href="../commission/index.html"><span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span></a>
+    <span>·</span>
+    <a href="../contact/index.html"><span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span></a>
+    <span>·</span>
+    <a href="../gallery/index.html"><span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span></a>
+  </div>
+</div>
+
+<!-- ══════ FOOTER ══════ -->
+<footer>
+  <div class="footer-top">
+    <p class="footer-artist-name">
+      <a href="../index.html#hero">
+        <span class="t-en">Altayeb Amer</span>
+        <span class="t-ar ar-font">الطيب عامر</span>
+      </a>
+    </p>
+    <p class="footer-title">
+      <span class="t-en">Creative Beyond · One Soul · Seven Worlds</span>
+      <span class="t-ar ar-font">كريتيف بيوند · روح واحدة · سبعة عوالم</span>
+    </p>
+  </div>
+  <p class="footer-copy">
+    <a href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">
+      <span class="t-en">Creative Beyond</span>
+      <span class="t-ar ar-font">كريتيف بيوند</span>
+    </a>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    <span class="t-en">Dubai</span><span class="t-ar ar-font">دبي</span>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    © <span id="yr"></span>
+  </p>
+</footer>
+
+<script>
+// ── QUOTES DATA ──
+const Q_SPEC = [
+  ["AI generates what it has seen. The artist creates what has never been seen. The difference is everything.","الذكاء الاصطناعي يولِّد ما رأى. الفنان يخلق ما لم يُرَ بعد. الفارق هو كل شيء."],
+  ["AI is the greatest librarian in history, but the artist remains the sole author of the book.","الذكاء الاصطناعي هو أعظم أمين مكتبة في التاريخ، لكن الفنان يظل المؤلف الوحيد للكتاب."],
+  ["Artificial Intelligence possesses all the answers, but it always lacks the question that aches.","الذكاء الاصطناعي يمتلك كل الإجابات، لكنه يفتقر دائماً إلى السؤال الذي يوجع."],
+  ["The machine dreams in data, while the human dreams in paradoxes that defy logic.","الآلة تحلم بالبيانات، أما الإنسان فيحلم بالمفارقات التي لا منطق لها."],
+  ["Do not fear the machine replacing the artist — fear the artist becoming a pale imitation of the machine.","لا تخف من أن تحل الآلة محل الفنان — بل اخشَ أن يصبح الفنان نسخة باهتة من الآلة."],
+  ["AI rearranges the past with brilliance, but only creativity dares to invent the future.","الذكاء الاصطناعي يعيد ترتيب الماضي ببراعة، لكن الإبداع وحده يجرؤ على اختراع المستقبل."],
+  ["The machine's pursuit of absolute perfection is what makes it incapable of producing art — because art resides in the cracks.","سعي الآلة نحو الكمال المطلق هو ما يجعلها عاجزة عن إنتاج الفن — لأن الفن يسكن في الشقوق."]
+];
+const Q_T1 = [
+  ["In AI abstraction, I search not for beauty but for the moment the algorithm surprises itself.","في التجريد الرقمي، لا أبحث عن الجمال بل عن اللحظة التي تفاجئ فيها الخوارزمية نفسها."],
+  ["The abstract AI image is a map of possibilities — not a picture of a place.","الصورة التجريدية الرقمية هي خريطة احتمالات — لا صورة مكان."],
+  ["One hundred thousand abstract experiments taught me that beauty has no formula — only conditions.","مئة ألف تجربة تجريدية علّمتني أن الجمال ليس له معادلة — بل له شروط."],
+  ["I choose the AI abstract image the way a calligrapher chooses which mark to keep — by instinct trained over years.","أختار الصورة التجريدية الرقمية كما يختار الخطاط أي أثر يحتفظ به — بغريزة تدربت على مدى سنوات."],
+  ["The algorithm generates chaos; the artist finds the order hiding inside it.","الخوارزمية تولد الفوضى؛ الفنان يجد النظام المختبئ داخلها."],
+  ["Abstract AI art is the closest thing to painting a thought before it becomes a word.","الفن التجريدي الرقمي هو أقرب شيء إلى رسم فكرة قبل أن تصبح كلمة."],
+  ["The screen is not a barrier between us and art — it is a blue window overlooking worlds not created by God, but by man.","الشاشة ليست حاجزاً بيننا وبين الفن — بل نافذة زرقاء تطل على عوالم لم يخلقها الله، بل خلقها الإنسان."]
+];
+const Q_T2 = [
+  ["A concept without an image is a dream. An image without a concept is decoration. AI concept art is the bridge between them.","المفهوم بلا صورة هو حلم. الصورة بلا مفهوم هي زخرفة. الفن المفاهيمي الرقمي هو الجسر بينهما."],
+  ["I have built entire civilisations in a single prompt — and demolished them in the next.","بنيت حضارات كاملة في برومبت واحد — وهدمتها في البرومبت التالي."],
+  ["The best AI concept art is the image that answers a question you had not yet asked.","أفضل فن مفاهيمي رقمي هو الصورة التي تجيب على سؤال لم تطرحه بعد."],
+  ["I do not use AI to illustrate ideas — I use it to discover ideas I did not know I had.","لا أستخدم الذكاء الاصطناعي لتوضيح الأفكار — بل لاكتشاف أفكار لم أكن أعرف أنني أملكها."],
+  ["Concept art with AI is architecture for worlds that obey different laws of physics.","الفن المفاهيمي بالذكاء الاصطناعي هو هندسة معمارية لعوالم تطيع قوانين فيزياء مختلفة."],
+  ["Every concept art session is an expedition — I never know what continent I will discover.","كل جلسة فن مفاهيمي هي رحلة استكشافية — لا أعرف أبداً أي قارة سأكتشف."],
+  ["The difference between prompt engineering and concept art is the difference between giving directions and telling a story.","الفرق بين هندسة البرومبت والفن المفاهيمي هو الفرق بين إعطاء تعليمات وحكاية قصة."]
+];
+const Q_T3 = [
+  ["When AI meets Arabic calligraphy, it does not learn the rules — it learns the spirit behind the rules.","حين يلتقي الذكاء الاصطناعي بالخط العربي، لا يتعلم القواعد — بل يتعلم الروح خلف القواعد."],
+  ["The fusion of AI and calligraphy is not a collision — it is a recognition. Two systems that both seek pattern and meaning.","اندماج الذكاء الاصطناعي والخط ليس تصادماً — بل تعارف. نظامان كلاهما يبحث عن النمط والمعنى."],
+  ["I asked the machine to dream in Arabic — and it showed me Arabic as it might look in a thousand years.","طلبت من الآلة أن تحلم بالعربية — فأرتني كيف قد يبدو الخط العربي بعد ألف سنة."],
+  ["AI calligraphy fusion is archaeology in reverse — not digging into the past, but excavating the future.","اندماج الذكاء الاصطناعي والخط هو علم آثار معكوس — لا حفر في الماضي، بل تنقيب في المستقبل."],
+  ["The machine has read all the calligraphy books. Now I ask it to write the book that was never written.","الآلة قرأت كل كتب الخط. الآن أطلب منها أن تكتب الكتاب الذي لم يُكتب قط."],
+  ["AI sees the Arabic letter as pure geometry. My job is to restore its soul after the algorithm finishes.","الذكاء الاصطناعي يرى الحرف العربي كهندسة خالصة. مهمتي استعادة روحه بعد انتهاء الخوارزمية."],
+  ["The most beautiful AI calligraphy works are the ones that make you ask: did a human or a machine make this? And the answer is: both, and neither.","أجمل أعمال الخط الرقمي هي تلك التي تجعلك تسأل: هل صنع هذا إنسان أم آلة؟ والجواب: كلاهما، ولا أحدهما."]
+];
+
+// ── FINAL BREATH WORDS ──
+const B1E=["Vision", "Code", "Dream", "Data", "Create", "Beyond", "Now"], B1A=["رؤية", "شفرة", "حلم", "بيانات", "ابتكر", "أبعد", "الآن"];
+const SWE=["Prompt", "Layer", "Model", "Output", "Select", "Refine", "Human"], SWA=["أمر", "طبقة", "نموذج", "مخرج", "اختر", "صقّل", "إنسان"];
+const H6E=["Think", "Feel", "Choose", "Wonder", "Ask", "Dare", "Make"], H6A=["فكّر", "أحسس", "اختر", "تعجّب", "اسأل", "جرؤ", "اصنع"];
+
+// ── ENGINE ──
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+const cur=document.getElementById('cur');
+if(window.matchMedia('(pointer: coarse)').matches)cur.style.display='none';
+document.addEventListener('mousemove',e=>{cur.style.left=e.clientX+'px';cur.style.top=e.clientY+'px';cur.style.opacity='1';});
+function spawnSplash(x,y){const s=document.createElement('div');s.className='ink-splash';s.style.left=x+'px';s.style.top=y+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),850);}
+document.addEventListener('click',e=>{if(e.target.closest('#lang-btn'))return;spawnSplash(e.clientX,e.clientY);});
+document.addEventListener('touchend',e=>{if(e.target.closest('#lang-btn'))return;const t=e.changedTouches[0];spawnSplash(t.clientX,t.clientY);},{passive:true});
+
+/* LANG */
+const langBtn=document.getElementById('lang-btn'),langGlyph=document.getElementById('lang-glyph');
+const inkBlob=document.getElementById('ink-blob'),htmlEl=document.documentElement;
+let lang=(window.__AA_LANG||'en');
+const AR='الطيببعامرحروفية'.split('');
+function burst(ox,oy){for(let i=0;i<14;i++){const el=document.createElement('div');el.style.cssText=`position:fixed;z-index:9999;pointer-events:none;font-family:'IBM Plex Arabic',sans-serif;font-size:${.85+Math.random()}rem;color:rgba(200,169,110,.7);left:${ox}px;top:${oy}px;`;el.textContent=AR[Math.floor(Math.random()*AR.length)];const a=Math.random()*Math.PI*2,d=65+Math.random()*130;const dur=.5+Math.random()*.4;el.style.animation=`burstL ${dur}s ease forwards`;el.style.setProperty('--tx',Math.cos(a)*d+'px');el.style.setProperty('--ty',Math.sin(a)*d+'px');document.body.appendChild(el);setTimeout(()=>el.remove(),1000);}}
+document.addEventListener('mousemove',e=>{const r=langBtn.getBoundingClientRect();langBtn.classList.toggle('near',Math.hypot(e.clientX-(r.left+r.width/2),e.clientY-(r.top+r.height/2))<150);});
+langBtn.addEventListener('click',e=>{e.stopPropagation();const r=langBtn.getBoundingClientRect();const ox=r.left+r.width/2,oy=r.top+r.height/2;burst(ox,oy);inkBlob.style.left=ox+'px';inkBlob.style.top=oy+'px';inkBlob.style.transition='none';inkBlob.style.transform='translate(-50%,-50%) scale(0)';requestAnimationFrame(()=>requestAnimationFrame(()=>{inkBlob.classList.add('grow');setTimeout(()=>{lang=lang==='en'?'ar':'en';htmlEl.setAttribute('data-lang',lang);htmlEl.setAttribute('lang',lang);htmlEl.setAttribute('dir',lang==='ar'?'rtl':'ltr');langGlyph.textContent=lang==='en'?'ض':'A';inkBlob.classList.remove('grow');inkBlob.classList.add('shrink');setTimeout(()=>{inkBlob.classList.remove('shrink');inkBlob.style.transform='translate(-50%,-50%) scale(0)';},750);},480);}));});
+
+/* HERO SLIDESHOW */
+(function(){const slides=document.querySelectorAll('#hero-slides .hslide');const dots=document.querySelectorAll('#hero-dots .hdot');if(!slides.length)return;let idx=0;function goTo(n){slides[idx].classList.remove('active');dots[idx]&&dots[idx].classList.remove('on');idx=(n+slides.length)%slides.length;slides[idx].classList.add('active');dots[idx]&&dots[idx].classList.add('on');}const timer=setInterval(()=>goTo(idx+1),5500);document.getElementById('hero').addEventListener('click',e=>{if(e.target.closest('#hero-dots'))return;const r=document.getElementById('hero').getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';document.getElementById('hero').appendChild(b);setTimeout(()=>b.remove(),3100);clearInterval(timer);goTo(idx+1);});})();
+
+/* QUOTES ENGINE */
+function buildQ(stageId,progId,qArr){const stage=document.getElementById(stageId),prog=document.getElementById(progId);if(!stage||!prog)return;qArr.forEach((q,i)=>{const item=document.createElement('div');item.className='q-item'+(i===0?' vis':'');item.innerHTML=`<p class="q-text">"${q[0]}"</p><p class="q-text-ar">"${q[1]}"</p><p class="q-author">— Altayeb Amer</p><p class="q-author-ar ar-font">— الطيب عامر</p>`;stage.appendChild(item);const dot=document.createElement('div');dot.className='qdot'+(i===0?' on':'');prog.appendChild(dot);});let qi=0;const items=stage.querySelectorAll('.q-item'),qdots=prog.querySelectorAll('.qdot');const obs=new IntersectionObserver(entries=>{if(entries[0].isIntersecting){setInterval(()=>{items[qi].classList.remove('vis');qdots[qi].classList.remove('on');qi=(qi+1)%items.length;items[qi].classList.add('vis');qdots[qi].classList.add('on');},6500);obs.disconnect();}},{threshold:0.25});obs.observe(stage);}
+
+/* BANDS */
+document.querySelectorAll('.band').forEach(sec=>{sec.addEventListener('click',e=>{if(e.target.closest('.band-enter'))return;e.stopPropagation();const r=sec.getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';sec.appendChild(b);setTimeout(()=>b.remove(),2600);sec.classList.toggle('clicked');});});
+document.addEventListener('click',()=>document.querySelectorAll('.band.clicked').forEach(b=>b.classList.remove('clicked')));
+
+/* FINAL BREATH SQUARES */
+(function(){const row=document.querySelector('.boxes-row');if(!row)return;B1E.forEach((w,i)=>{const sq=document.createElement('div');sq.className='sq';sq.innerHTML=`<span class="sq-word">${w}</span><span class="sq-word-ar">${B1A[i]}</span>`;row.appendChild(sq);});})();
+
+/* FLOAT */
+(function(){const br=document.getElementById('br-float');if(!br)return;const getLang=()=>htmlEl.getAttribute('data-lang')||'en';const FW_EN=["Light","Depth","Form","Shadow","Ink","Space","Vision","Mark","Layer","Touch","Tone","Line","Soul","Flow","Void","Breath","Color","Time"];const FW_AR=["ضوء","عمق","شكل","ظل","حبر","فضاء","رؤية","أثر","طبقة","لمسة","درجة","خط","روح","انسياب","فراغ","نَفَس","لون","زمن"];const els=[];for(let i=0;i<18;i++){const el=document.createElement('div');el.className='float-word';el.style.cssText=`font-size:${.7+Math.random()*.85}rem;left:${5+Math.random()*88}%;top:${8+Math.random()*80}%;position:absolute;`;br.appendChild(el);els.push(el);}let wi=0;function showNext(){const words=getLang()==='ar'?FW_AR:FW_EN;els.forEach(e=>e.style.color='transparent');[...els].sort(()=>Math.random()-.5).slice(0,3+Math.floor(Math.random()*2)).forEach(e=>{e.textContent=words[wi%words.length];e.style.color='rgba(200,169,110,.4)';wi++;});}const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){setInterval(showNext,2200);showNext();obs.disconnect();}},{threshold:.2});obs.observe(br);})();
+
+/* SWIM */
+(function(){const br=document.getElementById('br-swim');if(!br)return;SWE.forEach((w,i)=>{const sh=document.createElement('div');sh.className='swim-shape';const sz=54+Math.floor(Math.random()*22);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${5+Math.random()*80}%;top:${10+Math.random()*70}%;position:absolute;transform:translate(-50%,-50%);${i%2===0?'border-radius:50%;':''}`;sh.innerHTML=`<span class="swim-word">${w}</span><span class="swim-word-ar">${SWA[i]}</span>`;br.appendChild(sh);const dx=(Math.random()-.5)*35,dy=(Math.random()-.5)*25,dur=8+Math.random()*6;sh.animate([{transform:'translate(-50%,-50%)'},{transform:`translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px))`},{transform:'translate(-50%,-50%)'}],{duration:dur*1000,iterations:Infinity,easing:'ease-in-out'});});})();
+
+/* HOVER */
+(function(){const br=document.getElementById('br-hover');if(!br)return;H6E.forEach((w,i)=>{const sh=document.createElement('div');sh.className='hover-shape';const sz=60+Math.floor(Math.random()*18);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${8+Math.random()*78}%;top:${12+Math.random()*68}%;position:absolute;transform:translate(-50%,-50%);border:1px solid rgba(200,169,110,.28);${i%3===1?'border-radius:50%;':''}`;sh.innerHTML=`<span class="hsh-word">${w}</span><span class="hsh-word-ar">${H6A[i]}</span>`;br.appendChild(sh);});let rev=0;const allSh=br.querySelectorAll('.hover-shape');const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){function next(){if(rev>=allSh.length)return;allSh[rev].classList.add('visible');rev++;setTimeout(next,900+Math.random()*600);}next();obs.disconnect();}},{threshold:.15});obs.observe(br);})();
+
+
+const Q_T4 = [
+  ["The machine can make a face; making it look inhabited is another matter.","تصنعُ الآلةُ وجهاً؛ أما أن يبدوَ مسكوناً فأمرٌ آخر."],
+  ["Perfect symmetry is the fastest way to kill a portrait.","التماثلُ التامُّ أسرعُ طريقةٍ لقتلِ البورتريه."],
+  ["I look for the flaw that proves a person.","أبحثُ عن العيبِ الذي يُثبِتُ إنساناً."],
+  ["Eyes that look but do not see — that is the uncanny valley.","عيونٌ تنظرُ ولا ترى، تلك هي الهوّة."],
+  ["Expression is not a setting; it is a decision.","التعبيرُ ليس إعداداً، بل قرار."],
+  ["A face needs a history the model has never lived.","الوجهُ يحتاجُ تاريخاً لم يعشْه النموذج."],
+  ["I generate a hundred and keep the one that hesitates.","أُولّدُ مئةً وأُبقي التي تتردّد."],
+];
+const Q_T5 = [
+  ["Anyone can imagine a strange world; the art is making it feel already running.","أيُّ أحدٍ يتخيّلُ عالماً غريباً؛ وإنما الفنُّ أن يبدوَ عاملاً منذ زمن."],
+  ["Surrealism is not chaos — it is a second logic kept consistently.","السرياليةُ ليست فوضى، بل منطقٌ ثانٍ يُحفَظُ باتّساق."],
+  ["One impossible thing per image; the rest must be true.","شيءٌ مستحيلٌ واحدٌ في الصورة، وما بقي فليكن صادقاً."],
+  ["Dreams are precise. Only waking is vague.","الأحلامُ دقيقة، وإنما اليقظةُ غامضة."],
+  ["If everything floats, nothing does.","إن طفا كلُّ شيءٍ لم يطفُ شيء."],
+  ["The eye believes texture before it believes shape.","تُصدّقُ العينُ الملمسَ قبل أن تُصدّقَ الشكل."],
+  ["Strangeness without craft is only noise.","الغرابةُ بلا صنعةٍ ضجيج."],
+];
+const Q_T6 = [
+  ["I design the atmosphere first and the details second.","أُصمّمُ الأجواءَ أولاً والتفاصيلَ ثانياً."],
+  ["A building is a promise about how you will feel inside it.","المبنى وعدٌ عن شعورِك وأنت بداخله."],
+  ["Scale is a feeling long before it is a number.","المقياسُ شعورٌ قبل أن يكونَ رقماً بزمن."],
+  ["Show the light and the walls explain themselves.","أظهِرِ الضوءَ تشرحِ الجدرانُ نفسَها."],
+  ["Renderings lie by being too clean; I add the dust back.","تكذبُ الصورُ بنظافتِها الزائدة، فأُعيدُ الغبار."],
+  ["Geometry is the grammar; light is the voice.","الهندسةُ نحوٌ، والضوءُ صوت."],
+  ["The best interior looks lived in before anyone has lived in it.","أحسنُ الدواخلِ ما بدا مسكوناً قبل أن يسكنَه أحد."],
+];
+const Q_T7 = [
+  ["Failure tells you who you are; success only tells you that you were right.","الإخفاقُ يقولُ لك من أنت، والنجاحُ يقولُ إنك أصبت."],
+  ["An experiment that cannot fail was never an experiment.","تجربةٌ لا تحتملُ الإخفاقَ لم تكن تجربة."],
+  ["I break the tool on purpose to hear what it says.","أكسرُ الأداةَ عمداً لأسمعَ ما تقول."],
+  ["Every style I own began as an accident I kept.","كلُّ أسلوبٍ أملكُه بدأ صدفةً احتفظتُ بها."],
+  ["Novelty is cheap; a new question is priceless.","الجِدّةُ رخيصة، والسؤالُ الجديدُ لا يُقدَّر."],
+  ["Do not polish an experiment — publish it raw and learn faster.","لا تصقلِ التجربة؛ انشرْها خاماً تتعلّمْ أسرع."],
+  ["The edge of the method is where the method grows.","حافةُ المنهجِ هي حيث ينمو المنهج."],
+];
+
+// ── BUILD QUOTES ──
+buildQ('qs-spec','qp-spec',Q_SPEC);
+buildQ('qs-t1','qp-t1',Q_T1);
+buildQ('qs-t2','qp-t2',Q_T2);
+buildQ('qs-t3','qp-t3',Q_T3);
+buildQ('qs-t4','qp-t4',Q_T4);
+buildQ('qs-t5','qp-t5',Q_T5);
+buildQ('qs-t6','qp-t6',Q_T6);
+buildQ('qs-t7','qp-t7',Q_T7);
+
+</script>
+
+<script>
+// UNIFIED_PATCH_JS
+// ============================================================
+// PATCH JS: FAB + grayscale-on-view + floating words/shapes
+// Plain var + string concat only — no nested template literals
+// ============================================================
+(function(){
+  // 1. Back to top FAB
+  var fab = document.createElement('button');
+  fab.id = 'fab-top';
+  fab.setAttribute('aria-label','back to top');
+  fab.innerHTML = '&#8593;';
+  fab.onclick = function(){ window.scrollTo({top:0,behavior:'smooth'}); };
+  document.body.appendChild(fab);
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480) fab.classList.add('show');
+    else fab.classList.remove('show');
+  });
+
+  // 2. Grayscale-to-color on scroll proximity for bands
+  var bands = document.querySelectorAll('.band');
+  if(bands.length && 'IntersectionObserver' in window){
+    var bandObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting) e.target.classList.add('in-view');
+        else e.target.classList.remove('in-view');
+      });
+    }, {threshold:.45});
+    bands.forEach(function(b){ bandObs.observe(b); });
+  }
+
+  // 3. Floating motivational words + art shapes
+  var WORDS_AR = ['إبداع','جمال','روح','حلم','إلهام','أصالة'];
+  var WORDS_EN = ['Create','Soul','Dream','Ink','Form','Light'];
+  var SHAPES = ['&#10022;','&#10023;','&#9678;','&#10070;','&#9670;','&#10038;'];
+
+  function buildFloatStage(container){
+    if(!container || container.querySelector('.float-stage')) return;
+    var stage = document.createElement('div');
+    stage.className = 'float-stage';
+    var count = 8;
+    for(var i=0;i<count;i++){
+      var useWord = (i % 2 === 0);
+      var el = document.createElement('span');
+      if(useWord){
+        el.className = 'float-word';
+        var pool = (i % 4 === 0) ? WORDS_AR : WORDS_EN;
+        el.textContent = pool[Math.floor(Math.random()*pool.length)];
+        el.style.fontSize = (Math.random()*1.1 + 1.1) + 'rem';
+      } else {
+        el.className = 'float-shape';
+        el.innerHTML = SHAPES[Math.floor(Math.random()*SHAPES.length)];
+        el.style.fontSize = (Math.random()*1.6 + 1.2) + 'rem';
+      }
+      el.style.left = (Math.random()*86 + 4) + '%';
+      el.style.top = (Math.random()*82 + 6) + '%';
+      el.style.animationDelay = (Math.random()*10) + 's';
+      el.style.animationDuration = (Math.random()*8 + 16) + 's';
+      stage.appendChild(el);
+    }
+    container.style.position = container.style.position || 'relative';
+    container.insertBefore(stage, container.firstChild);
+  }
+
+  var hosts = document.querySelectorAll('.breather, #br-float, #br-swim, #br-hover, .statement-sec');
+  hosts.forEach(function(h){ buildFloatStage(h); });
+})();
+
+// UNIFIED_PATCH_JS
+</script>
+
+<div class="jrn-overlay" id="jrn-overlay">
+  <button class="jrn-close" id="jrn-close">✕</button>
+  <div class="jrn-body" id="jrn-body"></div>
+</div>
+
+  <section class="jrn-section">
+    <h2 class="jrn-title"><span class="t-en">Journal — AI & Art</span><span class="t-ar">مجلة — الذكاء الاصطناعي</span></h2>
+    <div class="jrn-rule"></div>
+    <div class="jrn-grid">
+      <div class="jrn-card" onclick="jrnOpen(0)">
+        <div class="jrn-num">I</div>
+        <div class="jrn-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Night I Stopped Fighting the Algorithm</span><span class="t-ar">الليلة التي توقفت فيها عن مقاومة الخوارزمية</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(1)">
+        <div class="jrn-num">II</div>
+        <div class="jrn-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Prompt as Poem: Creating with Language</span><span class="t-ar">البرومبت كقصيدة: الإبداع باللغة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(2)">
+        <div class="jrn-num">III</div>
+        <div class="jrn-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">One Hundred Thousand Images: What I Saw</span><span class="t-ar">مئة ألف صورة: ما الذي رأيته</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(3)">
+        <div class="jrn-num">IV</div>
+        <div class="jrn-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">AI and Cultural Identity</span><span class="t-ar">الذكاء الاصطناعي والهوية الثقافية</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(4)">
+        <div class="jrn-num">V</div>
+        <div class="jrn-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">Artist Rights in the Age of AI</span><span class="t-ar">حقوق الفنان في عصر الذكاء الاصطناعي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(5)">
+        <div class="jrn-num">VI</div>
+        <div class="jrn-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Exhibition Unlike Any Other</span><span class="t-ar">المعرض الذي لا يُشبه غيره</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(6)">
+        <div class="jrn-num">VII</div>
+        <div class="jrn-cat"><span class="t-en">AI & Art</span><span class="t-ar">الذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Artist's Future in the AI World</span><span class="t-ar">مستقبل الفنان في عالم الذكاء الاصطناعي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(7)">
+        <div class="jrn-num">VIII</div>
+        <div class="jrn-cat"><span class="t-en">AI Horses</span><span class="t-ar">الخيل بالذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">Painting Horses with AI</span><span class="t-ar">رسم الخيل بالذكاء الاصطناعي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(8)">
+        <div class="jrn-num">IX</div>
+        <div class="jrn-cat"><span class="t-en">AI Portraits</span><span class="t-ar">البورتريه بالذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Human Face: AI's Hardest Challenge</span><span class="t-ar">الوجه البشري: أصعب تحديات الذكاء الاصطناعي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(9)">
+        <div class="jrn-num">X</div>
+        <div class="jrn-cat"><span class="t-en">AI Caricature</span><span class="t-ar">الكاريكاتير بالذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">Intelligent Caricature: When the Algorithm Laughs</span><span class="t-ar">الكاريكاتير الذكي: حين تضحك الخوارزمية</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(10)">
+        <div class="jrn-num">XI</div>
+        <div class="jrn-cat"><span class="t-en">AI Car Design</span><span class="t-ar">تصميم السيارات</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Car as Artwork</span><span class="t-ar">السيارة كلوحة فنية</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(11)">
+        <div class="jrn-num">XII</div>
+        <div class="jrn-cat"><span class="t-en">AI Sci-Fi</span><span class="t-ar">الخيال العلمي</span></div>
+        <div class="jrn-card-title"><span class="t-en">Unborn Worlds: Sci-Fi Art with AI</span><span class="t-ar">عوالم لم تُولد بعد</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(12)">
+        <div class="jrn-num">XIII</div>
+        <div class="jrn-cat"><span class="t-en">AI Interior</span><span class="t-ar">الديكور بالذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">Seeing What Has Not Yet Been Built</span><span class="t-ar">رؤية ما لم يُبنَ بعد</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(13)">
+        <div class="jrn-num">XIV</div>
+        <div class="jrn-cat"><span class="t-en">AI Jewelry</span><span class="t-ar">المجوهرات بالذكاء الاصطناعي</span></div>
+        <div class="jrn-card-title"><span class="t-en">AI Jewelry Design: Aesthetic Precision</span><span class="t-ar">تصميم المجوهرات بالذكاء الاصطناعي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+    </div>
+  </section>
+<script>
+var JRN_ARTICLES=[
+  {cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',title_en:'The Night I Stopped Fighting the Algorithm',title_ar:'الليلة التي توقفت فيها عن مقاومة الخوارزمية',body_en:`<p>For a long time I treated AI as a rival trying to replace the hand I had trained for decades. Then one tired night I asked it a question instead of giving a command.</p><h3>From Rival to Instrument</h3><p>The moment I stopped demanding obedience and treated it as a strange new material, everything changed. It does not replace my judgment; it multiplies my questions.</p><blockquote>"The algorithm is not my competitor. It is a brush that dreams. I still hold it."</blockquote>`,body_ar:`<p>سنينَ عاملتُه خصماً يُنازعُني يداً دربتُها عمراً؛ قاومتُه واستخففتُ به وخفتُه معاً. ثم في ليلةٍ متأخّرةٍ أتعبني القتالُ فسألتُه بدل أن آمُره.</p><h3>ليلةُ الصلح</h3><p>في اللحظةِ التي كففتُ فيها عن مطالبتِه بالطاعة، وعاملتُه خامةً غريبةً كصبغةٍ لا تُطيعُ الوصف، انقلبَ كلُّ شيء. هو لا يُنيبُ عني حُكمي، إنما يُكثِّرُ أسئلتي.</p><blockquote>"ليست الخوارزميةُ منافسي، إنما ريشةٌ تحلم — واليدُ يدي."</blockquote>`},
+  {cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',title_en:'The Prompt as Poem: Creating with Language',title_ar:'البرومبت كقصيدة: الإبداع باللغة',body_en:`<p>Writing a prompt well is closer to poetry than to programming. You are not commanding a machine; you are describing a dream precisely enough to summon it.</p><h3>The Discipline of Words</h3><p>Every adjective narrows the world; every noun opens a door. I have learned to write prompts the way I compose a line of calligraphy — with rhythm, restraint, and intention.</p><blockquote>"A weak prompt asks for a picture. A strong one describes a longing."</blockquote>`,body_ar:`<p>كتابةُ البرومبتِ أقربُ إلى نظمِ الشعرِ منها إلى البرمجة. أنت لا تأمرُ آلة، بل تصفُ حلماً بدقّةٍ تكفي لاستحضاره.</p><h3>أدبُ الطلب</h3><p>كلُّ صفةٍ تُضيّقُ العالم، وكلُّ اسمٍ يفتحُ باباً. تعلّمتُ أن أكتبَه كما أُؤلّفُ سطرَ خطٍّ: بإيقاعٍ وكبحٍ ونيّةٍ لا تتلعثم.</p><blockquote>"الضعيفُ من البرومبتِ يطلبُ صورة، والبليغُ يصفُ حنيناً فتأتي الصورةُ تِلقاءَ نفسِها."</blockquote>`},
+  {cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',title_en:'One Hundred Thousand Images: What I Saw',title_ar:'مئة ألف صورة: ما الذي رأيته',body_en:`<p>I once generated a hundred thousand images in a single project. People expected me to be dazzled. Instead I came away strangely clarified.</p><h3>Abundance Teaches Selection</h3><p>When images are infinite, making them is worthless and choosing them is everything. The flood taught me that the artist's real gift was never production — it was taste, judgment, the courage to discard.</p><blockquote>"When anyone can make a thousand images, the only art left is knowing which one to keep."</blockquote>`,body_ar:`<p>ولّدتُ في مشروعٍ واحدٍ مئةَ ألفِ صورة. توقّعَ الناسُ أن أُبهَر، فخرجتُ بوضوحٍ غريبٍ لم أتوقّعه.</p><h3>حين تهونُ الوفرة</h3><p>إذا لم تنفدِ الصورُ هانَ الصنعُ وعزَّ الاختيار. علّمني الطوفانُ أن موهبةَ الفنانِ لم تكن يوماً في الإنتاج، بل في ذوقٍ يحذفُ ويدَعُ واحدة.</p><blockquote>"حين يصنعُ كلُّ أحدٍ ألفَ صورة، يبقى فنٌّ واحد: أن تعرفَ أيَّها تُبقي."</blockquote>`},
+  {cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',title_en:'AI and Cultural Identity',title_ar:'الذكاء الاصطناعي والهوية الثقافية',body_en:`<p>The great fear about AI art is that it will flatten every culture into one global sameness. I share the fear — and I fight it with intention.</p><h3>Teaching the Machine to Remember</h3><p>These models default to a Western eye unless you insist otherwise. So I feed mine our scripts, our geometry, our light. Cultural identity in AI is not automatic; it is a choice the artist must keep making.</p><blockquote>"The algorithm forgets who we are unless the artist keeps reminding it."</blockquote>`,body_ar:`<p>أكبرُ ما يُخشى على فنِّ الذكاءِ الاصطناعي أن يُسوّيَ الثقافاتِ كلَّها في وجهٍ عالميٍّ واحد. وأنا أُشاركُهم الخشيةَ وأُقاومُها بالنيّة.</p><h3>كي لا تنسانا الآلة</h3><p>تميلُ هذه النماذجُ إلى عينٍ غربيةٍ ما لم تُلزِمْها غيرَ ذلك. فأُطعِمُها خطَّنا وهندستَنا وضوءَنا؛ فالهويةُ ههنا صنعةٌ لا تقعُ مصادفة.</p><blockquote>"تنسى الخوارزميةُ من نحن، ما لم يُواصِلِ الفنانُ تذكيرَها."</blockquote>`},
+  {cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',title_en:'Artist Rights in the Age of AI',title_ar:'حقوق الفنان في عصر الذكاء الاصطناعي',body_en:`<p>Who owns an image trained on ten million artists' lifetimes of work? I do not have a clean answer, but I refuse to pretend the question is simple.</p><h3>Consent, Credit, and Care</h3><p>I use these tools, yes — but with unease, and with rules I set for myself: never imitate a living artist's signature style, always add my own hand, always disclose. Ethics here is not a solved law; it is a daily practice.</p><blockquote>"A tool that learned from everyone owes something to everyone."</blockquote>`,body_ar:`<p>من يملكُ صورةً تدرّبت على أعمارِ عملٍ لملايينِ الفنانين؟ لا أملكُ جواباً ناصعاً، وأرفضُ التظاهرَ بأن السؤالَ هيّن.</p><h3>إذنٌ ونسبةٌ وأمانة</h3><p>أستعملُ هذه الأدواتِ نعم، لكن بقلقٍ وبشروطٍ ألزمتُ بها نفسي: ألّا أُحاكيَ بصمةَ فنانٍ حيّ، وأن تمرَّ يدي على كل عمل، وأن أُصرِّحَ دائماً بما استعنتُ به.</p><blockquote>"أداةٌ تعلّمت من الجميعِ تدينُ للجميعِ بشيء."</blockquote>`},
+  {cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',title_en:'The Exhibition Unlike Any Other',title_ar:'المعرض الذي لا يُشبه غيره',body_en:`<p>My first AI exhibition unsettled visitors in a way no oil show ever had. They kept asking the same question: but did you make this?</p><h3>The Question Behind the Question</h3><p>What they really wanted to know was whether art still requires a human. I would point to the choices — the culling, the sequencing, the meaning — and say: the machine made the pixels, I made the exhibition. Authorship moved; it did not vanish.</p><blockquote>"They asked if I made it. I made every decision about it. That is the same thing."</blockquote>`,body_ar:`<p>أزعجَ معرضي الأولُ بالذكاءِ الاصطناعي زوّارَه كما لم يفعل معرضُ زيتٍ قط. ظلّوا يُعيدون سؤالاً واحداً: وهل صنعتَ هذا أنت؟</p><h3>السؤالُ خلف السؤال</h3><p>ما أرادوا معرفتَه حقاً: أما زال الفنُّ يحتاجُ إنساناً؟ فكنتُ أُشيرُ إلى الخيارات — الانتقاءِ والترتيبِ والمعنى — وأقول: الآلةُ صنعتِ البكسل، وأنا صنعتُ المعرض.</p><blockquote>"سألوا: أصنعتَه؟ فقلت: صنعتُ كلَّ قرارٍ فيه، وذلك هو الصنع."</blockquote>`},
+  {cat_en:'AI & Art',cat_ar:'الذكاء الاصطناعي',title_en:'The Artist\'s Future in the AI World',title_ar:'مستقبل الفنان في عالم الذكاء الاصطناعي',body_en:`<p>Will AI end the artist? I think it will do the opposite: it will end the artist who was only a pair of skilled hands, and free the one who was always a mind.</p><h3>What Cannot Be Automated</h3><p>A machine can render anything, but it cannot decide what is worth rendering, or why, or for whom. Meaning, taste, and courage remain stubbornly human. The future belongs to artists who know what they want to say.</p><blockquote>"AI replaces technique. It cannot replace having something to say."</blockquote>`,body_ar:`<p>أيُنهي الذكاءُ الاصطناعيُّ الفنان؟ أحسبُه سيفعلُ العكس: يُنهي من كان يدين ماهرتين ليس إلا، ويُحرّرُ من كان عقلاً.</p><h3>ما لا تبلغُه الآلة</h3><p>تُصيِّرُ الآلةُ كلَّ شيء، ولا تعرفُ ما يستحقُّ أن يُصنَع، ولا لِمَ، ولا لِمَن. يبقى المعنى والذوقُ والجرأةُ بشريةً بعناد؛ والمستقبلُ لمن يملكُ ما يقول.</p><blockquote>"يُغني الذكاءُ الاصطناعيُّ عن الحِرفة، ولا يُغني عمّا عندك لتقوله."</blockquote>`},
+  {cat_en:'AI Horses',cat_ar:'الخيل بالذكاء الاصطناعي',title_en:'Painting Horses with AI',title_ar:'رسم الخيل بالذكاء الاصطناعي',body_en:`<p>Teaching AI to render an Arabian horse revealed how little the machine understood about what makes one real. It could draw a horse; it could not draw this horse.</p><h3>Correcting the Machine's Anatomy</h3><p>The models flatten breeds into a generic animal. To get a true Arabian I had to fight for the dished profile, the high tail, the fine legs — feeding it references until it learned our horse, not a horse.</p><blockquote>"The machine knows a thousand horses and not one breed. That gap is my job."</blockquote>`,body_ar:`<p>كشفَ تعليمُ الآلةِ رسمَ فرسٍ عربيةٍ كم هي قليلةُ الدرايةِ بما يجعلُها أصيلة. ترسمُ فرساً، ولا ترسمُ هذه الفرس.</p><h3>تصحيحُ تشريحِ الآلة</h3><p>تُسوّي النماذجُ بين السلالاتِ فتُخرجُ حيواناً بلا نسب. فقاتلتُ من أجلِ الجبهةِ المقعّرةِ والذيلِ المرفوعِ والقوائمِ الرفيعة، أُطعمُها مراجعَنا حتى عرفت.</p><blockquote>"تعرفُ الآلةُ ألفَ فرسٍ ولا تعرفُ سلالةً واحدة، وتلك الفجوةُ عملي."</blockquote>`},
+  {cat_en:'AI Portraits',cat_ar:'البورتريه بالذكاء الاصطناعي',title_en:'The Human Face: AI\'s Hardest Challenge',title_ar:'الوجه البشري: أصعب تحديات الذكاء الاصطناعي',body_en:`<p>The human face is where AI stumbles most beautifully. It can build a plausible stranger in a second, and fail at a specific soul for hours.</p><h3>The Uncanny and the True</h3><p>A generated face is often technically perfect and emotionally empty — eyes that look but do not see. Pushing a model toward genuine expression, toward a face that seems to be thinking, is the hardest portrait work I do.</p><blockquote>"AI can make a face. Making it look like someone is home is another matter."</blockquote>`,body_ar:`<p>الوجهُ البشريُّ حيث تتعثّرُ الآلةُ أجملَ تعثّر: تبني غريباً مقنعاً في ثانية، وتعجزُ عن روحٍ بعينها ساعات.</p><h3>وجهٌ يسكنُه أحد</h3><p>الوجهُ المولَّدُ كاملٌ تقنياً فارغٌ وجدانياً: عيونٌ تنظرُ ولا ترى. ودفعُ النموذجِ نحو تعبيرٍ صادق، نحو وجهٍ يبدو أنه يُفكّر، أعسرُ عملِ بورتريهٍ أُزاوله.</p><blockquote>"تصنعُ الآلةُ وجهاً؛ أما أن يبدوَ أن أحداً بداخله فأمرٌ آخر."</blockquote>`},
+  {cat_en:'AI Caricature',cat_ar:'الكاريكاتير بالذكاء الاصطناعي',title_en:'Intelligent Caricature: When the Algorithm Laughs',title_ar:'الكاريكاتير الذكي: حين تضحك الخوارزمية',body_en:`<p>Can an algorithm be funny? Caricature demands understanding a subject deeply enough to exaggerate it lovingly — and that understanding is exactly what machines lack.</p><h3>Teaching a Machine Wit</h3><p>Left alone, AI distorts randomly; the result is grotesque, not humorous. Real caricature requires me to choose which single feature carries the person's character, then guide the exaggeration. The wit is mine; the machine just holds the pen.</p><blockquote>"The algorithm can distort a face. Knowing which distortion is funny is still human."</blockquote>`,body_ar:`<p>أتُحسِنُ الخوارزميةُ المزاح؟ يقتضي الكاريكاتيرُ فهماً عميقاً للطبعِ حتى تُبالغَ فيه بمودّة، وذلك الفهمُ هو ما تفتقرُه الآلات.</p><h3>تعليمُ الآلةِ الظُّرف</h3><p>إن تُركت وشأنَها شوّهت عشوائياً، فتخرجُ النتيجةُ بشعةً لا مضحكة. والكاريكاتيرُ الصادقُ يقتضي أن أختارَ الملمحَ الحاملَ للطبعِ ثم أُوجّهَ المبالغة؛ فالظُّرفُ لي، والآلةُ تُمسِكُ القلم.</p><blockquote>"تُشوّهُ الخوارزميةُ وجهاً، وتبقى معرفةُ أيِّ تشويهٍ يُضحِكُ بشرية."</blockquote>`},
+  {cat_en:'AI Car Design',cat_ar:'تصميم السيارات',title_en:'The Car as Artwork',title_ar:'السيارة كلوحة فنية',body_en:`<p>I love designing cars with AI because a car is where sculpture, engineering, and desire meet. It is a moving artwork people are willing to live inside.</p><h3>Form That Has to Move</h3><p>Unlike a painting, a car's beauty must obey speed, air, and function. Working with AI, I chase silhouettes that feel inevitable — as if the shape were discovered, not invented. The best designs look like they were always going to exist.</p><blockquote>"A great car is a sculpture that agreed to carry you somewhere."</blockquote>`,body_ar:`<p>أُحبُّ تصميمَ السياراتِ لأنها حيث يلتقي النحتُ والهندسةُ والرغبة؛ عملٌ فنيٌّ متحرّكٌ يقبلُ الناسُ أن يسكنوه.</p><h3>شكلٌ عليه أن يمضي</h3><p>خلافاً للوحة، يخضعُ جمالُ السيارةِ للسرعةِ والهواءِ والوظيفة. أُطاردُ ظلالاً تبدو حتميةً كأن الشكلَ اكتُشِفَ لا ابتُكِر؛ فأحسنُ التصاميمِ ما بدا أنه كان لا بدَّ أن يوجد.</p><blockquote>"السيارةُ العظيمةُ نحتٌ رضيَ أن يحملَك إلى مكان."</blockquote>`},
+  {cat_en:'AI Sci-Fi',cat_ar:'الخيال العلمي',title_en:'Unborn Worlds: Sci-Fi Art with AI',title_ar:'عوالم لم تُولد بعد',body_en:`<p>Science fiction lets me paint worlds that do not exist yet, and AI lets me paint them faster than my hand alone ever could. Together we visit the unborn.</p><h3>Designing the Not-Yet</h3><p>The trick is not strangeness for its own sake but plausibility — a world so internally consistent the viewer believes it could be reached. I design its logic first, then let the images obey it.</p><blockquote>"Anyone can imagine a strange world. The art is making it feel like it already runs."</blockquote>`,body_ar:`<p>يُتيحُ لي الخيالُ العلميُّ رسمَ عوالمَ لم تُوجد بعد، ويُتيحُ لي الذكاءُ الاصطناعيُّ بلوغَها أسرعَ مما تقدرُ يدي وحدَها.</p><h3>تصميمُ ما لم يُولد</h3><p>ليست الحيلةُ في الغرابةِ لذاتها بل في المعقولية: عالمٌ متّسقٌ مع نفسِه إلى حدٍّ يُصدِّقُ الناظرُ أنه يُبلَغ. أُصمّمُ منطقَه أولاً ثم أدعُ الصورَ تُطيعُه.</p><blockquote>"يتخيّلُ كلُّ أحدٍ عالماً غريباً؛ وإنما الفنُّ أن تجعلَه يبدو عاملاً منذ زمن."</blockquote>`},
+  {cat_en:'AI Interior',cat_ar:'الديكور بالذكاء الاصطناعي',title_en:'Seeing What Has Not Yet Been Built',title_ar:'رؤية ما لم يُبنَ بعد',body_en:`<p>AI has changed how I approach interiors: I can now show a client not a floor plan but the feeling of a room that has not been built.</p><h3>Selling a Feeling, Not a Drawing</h3><p>People struggle to read blueprints, but everyone understands light falling across a morning wall. Generating photoreal interiors lets me design the atmosphere first and the details second — the way we actually experience a space.</p><blockquote>"A client cannot walk a blueprint. They can walk a picture that feels real."</blockquote>`,body_ar:`<p>بدّلَ الذكاءُ الاصطناعيُّ طريقتي في الديكور: صرتُ أُري صاحبَ البيتِ لا مخطّطاً، بل شعورَ غرفةٍ لم تُبنَ بعد.</p><h3>أن تبيعَ شعوراً</h3><p>يعسُرُ على الناسِ قراءةُ المخطّطات، ويفهمُ الجميعُ ضوءاً يسقطُ على جدارٍ في الصباح. فأُصمّمُ الأجواءَ أولاً والتفاصيلَ ثانياً، كما نختبرُ المكانَ في الحقيقة.</p><blockquote>"لا يمشي أحدٌ في مخطَّط، وإنما يمشي في صورةٍ تبدو حقيقية."</blockquote>`},
+  {cat_en:'AI Jewelry',cat_ar:'المجوهرات بالذكاء الاصطناعي',title_en:'AI Jewelry Design: Aesthetic Precision',title_ar:'تصميم المجوهرات بالذكاء الاصطناعي',body_en:`<p>Jewelry is where AI's precision serves beauty at its smallest scale. A ring is a sculpture measured in millimeters, and error has nowhere to hide.</p><h3>Precision as Aesthetic</h3><p>Generating and refining jewelry designs, I chase forms where structure and ornament are the same gesture. At this scale, function, symmetry, and elegance must be solved in a single stroke. Small does not mean simple.</p><blockquote>"In jewelry there is no room for a wasted millimeter, and none for a soulless one either."</blockquote>`,body_ar:`<p>المجوهراتُ حيث تخدمُ الدقّةُ الجمالَ في أصغرِ مقياس. الخاتمُ نحتٌ يُقاسُ بالمليمتر، ولا مكانَ فيه يختبئُ الخطأ.</p><h3>دقّةٌ هي جمال</h3><p>بتوليدِ التصاميمِ وصقلِها أُطاردُ أشكالاً تكونُ فيها البنيةُ والزخرفةُ حركةً واحدة. في هذا المقياسِ تُحَلُّ الوظيفةُ والتماثلُ والأناقةُ بضربةٍ واحدة؛ فالصِّغَرُ لا يعني السهولة.</p><blockquote>"في المجوهراتِ لا يُغتفَرُ مليمترٌ مهدور، ولا مليمترٌ بلا روح."</blockquote>`}
+];
+</script>
+<script>
+var _jO=document.getElementById('jrn-overlay');
+var _jB=document.getElementById('jrn-body');
+var _jL=function(){return document.documentElement.getAttribute('data-lang')||'en';};
+function jrnOpen(idx){
+  var a=JRN_ARTICLES[idx];var L=_jL();
+  var be=a.body_en||'';var ba=a.body_ar||'';
+  if(!be && !ba){
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2><p class="jrn-empty">'+(L==='ar'?'المقال قيد الإعداد — سيُضاف قريباً':'Article coming soon — will be added via CMS')+'</p>';
+  } else {
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2>'+(L==='ar'?ba:be);
+  }
+  _jO.classList.add('open');_jO.scrollTop=0;document.body.style.overflow='hidden';
+}
+document.getElementById('jrn-close').addEventListener('click',function(){_jO.classList.remove('open');document.body.style.overflow='';});
+_jO.addEventListener('click',function(e){if(e.target===_jO){_jO.classList.remove('open');document.body.style.overflow='';}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){_jO.classList.remove('open');document.body.style.overflow='';}});
+</script>
+
+<script>
+/* ── Lazy Loading للخلفيات (CSS backgrounds لا تدعم loading="lazy") ──
+   أشرطة الصفحات تُحمَّل عند اقترابها من الشاشة؛
+   شرائح الهيرو تُحمَّل الأولى فوراً والبقية بعد اكتمال الصفحة. */
+(function(){
+  var lazyBg = document.querySelectorAll('[data-bg]');
+  if(!lazyBg.length) return;
+  function load(el){
+    var u = el.getAttribute('data-bg');
+    if(!u) return;
+    var img = new Image();
+    img.onload = function(){ el.style.backgroundImage = "url('" + u + "')"; el.removeAttribute('data-bg'); };
+    img.src = u;
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ load(e.target); io.unobserve(e.target); } });
+    }, {rootMargin:'300px 0px'});
+    lazyBg.forEach(function(el){ io.observe(el); });
+  } else {
+    lazyBg.forEach(load);
+  }
+  /* شرائح الهيرو المتبقية: حمّلها بهدوء بعد اكتمال التحميل */
+  window.addEventListener('load', function(){
+    setTimeout(function(){
+      document.querySelectorAll('.slide[data-bg]').forEach(load);
+    }, 400);
+  });
+})();
+</script>
+
+<script>
+/* حفظ اللغة + تمريرها عبر الروابط (يعمل حتى على file:// حيث يُعزل localStorage) */
+(function(){
+  var d=document.documentElement;
+  var g=document.getElementById("lang-glyph");
+  function cur(){return d.getAttribute("data-lang")||"en";}
+  if(g) g.textContent = cur()==="ar" ? "A" : "ض";
+  function save(){ try{ localStorage.setItem("aa_lang",cur()); }catch(e){} }
+  save();
+  try{ new MutationObserver(save).observe(d,{attributes:true,attributeFilter:["data-lang"]}); }catch(e){}
+  /* مرّر اللغة في كل رابط داخلي */
+  document.addEventListener("click",function(e){
+    var a=e.target.closest && e.target.closest("a[href]");
+    if(!a) return;
+    var h=a.getAttribute("href")||"";
+    if(/^(https?:|mailto:|tel:|#|javascript:)/i.test(h)) return;
+    if(a.target==="_blank") return;
+    var l=cur();
+    var hash=""; var base=h;
+    var hi=h.indexOf("#"); if(hi>=0){ base=h.slice(0,hi); hash=h.slice(hi); }
+    base=base.replace(/([?&])lang=(ar|en)&?/,"$1").replace(/[?&]$/,"");
+    base += (base.indexOf("?")>=0?"&":"?")+"lang="+l;
+    a.setAttribute("href",base+hash);
+  },true);
+})();
+</script>
+</body>
+</html>

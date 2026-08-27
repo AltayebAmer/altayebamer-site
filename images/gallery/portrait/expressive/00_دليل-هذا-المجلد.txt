@@ -1,0 +1,22 @@
+مجلد: images/gallery/portrait/expressive/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  portrait_expressive_01.webp
+  portrait_expressive_02.webp
+  portrait_expressive_03.webp
+  portrait_expressive_04.webp
+  portrait_expressive_05.webp
+  portrait_expressive_06.webp
+  portrait_expressive_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

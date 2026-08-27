@@ -1,0 +1,22 @@
+مجلد: images/gallery/horses/mixed/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1200 بكسل   (نسبة 4:3)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  horses_mixed_01.webp
+  horses_mixed_02.webp
+  horses_mixed_03.webp
+  horses_mixed_04.webp
+  horses_mixed_05.webp
+  horses_mixed_06.webp
+  horses_mixed_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

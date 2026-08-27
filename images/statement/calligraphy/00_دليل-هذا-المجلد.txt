@@ -1,0 +1,22 @@
+مجلد: images/statement/calligraphy/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1000 بكسل   (نسبة 16:10)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  statement_calligraphy_hero_01.webp
+  statement_calligraphy_hero_02.webp
+  statement_calligraphy_hero_03.webp
+  statement_calligraphy_hero_04.webp
+  statement_calligraphy_hero_05.webp
+  statement_calligraphy_hero_06.webp
+  statement_calligraphy_hero_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

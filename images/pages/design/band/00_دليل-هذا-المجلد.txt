@@ -1,0 +1,22 @@
+مجلد: images/pages/design/band/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1000 بكسل   (نسبة 16:10)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  design_band_01.webp
+  design_band_02.webp
+  design_band_03.webp
+  design_band_04.webp
+  design_band_05.webp
+  design_band_06.webp
+  design_band_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

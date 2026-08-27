@@ -1,0 +1,22 @@
+مجلد: images/gallery/photography/_hero/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1000 بكسل   (نسبة 16:10)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  photography_shero_01.webp
+  photography_shero_02.webp
+  photography_shero_03.webp
+  photography_shero_04.webp
+  photography_shero_05.webp
+  photography_shero_06.webp
+  photography_shero_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py

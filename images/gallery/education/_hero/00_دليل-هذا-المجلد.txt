@@ -1,0 +1,22 @@
+مجلد: images/gallery/education/_hero/
+========================================================
+عدد الصور المطلوبة: 7
+المقاس: 1600×1000 بكسل   (نسبة 16:10)
+الصيغة: WebP · جودة 80-85% · أقل من 400KB
+
+احفظ بهذه الأسماء بالضبط:
+
+  education_shero_01.webp
+  education_shero_02.webp
+  education_shero_03.webp
+  education_shero_04.webp
+  education_shero_05.webp
+  education_shero_06.webp
+  education_shero_07.webp
+
+--------------------------------------------------------
+⚠️ لا تغيّر الأسماء. اللاحقة وحدها مرنة (.webp/.jpg/.png).
+
+بعد الحفظ:
+  python3 tools/check-images.py
+  python3 tools/apply-images.py
