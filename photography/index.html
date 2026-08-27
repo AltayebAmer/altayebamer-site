@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Photography, interior design, jewelry and 3D design.">
+<meta property="og:title" content="Visual Applications — Altayeb Amer">
+<meta property="og:description" content="Photography, interior design, jewelry and 3D design.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>Visual Applications — Altayeb Amer</title>
+<link rel="canonical" href="https://altayebamer.com/photography/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#050504">
+<meta name="author" content="Altayeb Amer">
+<meta property="og:site_name" content="Altayeb Amer">
+<meta property="og:url" content="https://altayebamer.com/photography/">
+<meta property="og:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Altayeb Amer — Visual Artist, Dubai">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AE">
+<meta name="twitter:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta name="twitter:title" content="Visual Applications — Altayeb Amer">
+<meta name="twitter:description" content="Photography, interior design, jewellery and 3D design by Altayeb Amer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&family=IBM+Plex+Arabic:wght@200;300&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+:root{--void:#050504;--gold:#C8A96E;--acc:#FFB830;--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:auto}
+
+/* CURSOR */
+#cur{opacity:0;position:fixed;width:5px;height:5px;background:rgba(255,184,48,.7);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.ink-splash{position:fixed;border-radius:50%;pointer-events:none;z-index:9998;width:120px;height:120px;background:radial-gradient(circle,rgba(255,184,48,.18)0%,transparent 72%);transform:translate(-50%,-50%) scale(0);animation:splash .75s cubic-bezier(.15,1,.3,1) forwards}
+@keyframes splash{0%{transform:translate(-50%,-50%) scale(0);opacity:1}65%{opacity:.7;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.4)}}
+
+/* LANG BTN */
+#lang-btn{position:fixed;top:1.55rem;left:1.6rem;z-index:8000;width:40px;height:40px;border-radius:50%;border:1px solid transparent;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity .5s,border-color .4s;background:transparent}
+#lang-btn.near{opacity:.45;border-color:rgba(255,184,48,.2)}
+#lang-btn:hover{opacity:1!important;border-color:var(--acc)!important}
+#lang-btn span{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(255,184,48,.5);transition:color .4s;user-select:none}
+#lang-btn:hover span{color:var(--acc)}
+
+/* INK VEIL */
+#ink-veil{position:fixed;inset:0;z-index:8500;pointer-events:none;overflow:hidden}
+#ink-blob{position:absolute;border-radius:50%;background:var(--void);transform:translate(-50%,-50%) scale(0);will-change:transform}
+#ink-blob.grow{width:300vmax;height:300vmax;transform:translate(-50%,-50%) scale(1);transition:transform .95s cubic-bezier(.22,1,.36,1)}
+#ink-blob.shrink{transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.4,0,.6,1)}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:700;padding:1.6rem 2rem 1.6rem 5rem;display:flex;align-items:center;justify-content:flex-end;gap:1.6rem;background:linear-gradient(to bottom,rgba(5,5,4,.88)0%,transparent 100%)}
+nav a{font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.22em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+nav a:hover,nav a.active{color:var(--acc)}
+.nav-home{color:rgba(255,184,48,.45)!important}
+.nav-gallery{border:1px solid rgba(255,184,48,.3);padding:.3rem .85rem;transition:border-color .3s,color .3s!important}
+.nav-gallery:hover{border-color:var(--acc)!important}
+
+/* HERO */
+#hero{position:relative;height:100vh;min-height:600px;overflow:hidden;display:flex;align-items:flex-end}
+#hero-slides{position:absolute;inset:0}
+.hslide{position:absolute;inset:0;opacity:0;transition:opacity 1.4s ease}
+.hslide-bg{width:100%;height:100%;display:block}
+.hslide.active{opacity:1}
+.hero-ink{position:absolute;inset:0}
+.hero-ink::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,5,4,1)0%,rgba(5,5,4,.3)50%,transparent 100%)}
+.hero-content{position:relative;z-index:2;padding:0 0 5.5rem;width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 2rem}
+.hero-tag{font-family:'Cinzel',serif;font-size:.63rem;letter-spacing:.55em;text-transform:uppercase;color:rgba(255,184,48,.5);margin-bottom:1rem;display:block}
+.hero-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,7vw,6.5rem);font-weight:300;color:var(--ivory);line-height:1;margin-bottom:.4rem}
+.hero-h1-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(2.5rem,6vw,5.5rem);font-weight:200;color:var(--ivory);line-height:1.2;margin-bottom:.4rem;display:none}
+[data-lang="ar"] .hero-h1{display:none}[data-lang="ar"] .hero-h1-ar{display:block}
+.hero-rule{width:60px;height:1px;background:linear-gradient(to right,var(--acc),transparent);margin:1.4rem 0}
+[data-lang="ar"] .hero-rule{background:linear-gradient(to left,var(--acc),transparent)}
+.hero-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2vw,1.25rem);font-weight:300;font-style:italic;color:rgba(255,184,48,.65);max-width:560px}
+.hero-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.9rem,1.8vw,1.1rem);font-weight:200;color:rgba(255,184,48,.65);max-width:560px;display:none}
+[data-lang="ar"] .hero-phrase{display:none}[data-lang="ar"] .hero-phrase-ar{display:block}
+#hero-dots{position:absolute;bottom:1.8rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;z-index:3}
+.hdot{width:5px;height:5px;border-radius:50%;background:rgba(255,184,48,.25);transition:background .4s,transform .4s}
+.hdot.on{background:var(--acc);transform:scale(1.3)}
+.scroll-hint{position:absolute;bottom:2.5rem;right:2.5rem;z-index:3;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:.3}
+.scroll-hint span{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.35em;text-transform:uppercase;color:var(--acc);writing-mode:vertical-rl}
+.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--acc),transparent);animation:sp 2s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:.3}50%{opacity:.9}}
+
+/* BREATHS */
+.br-half{height:50vh;min-height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(255,184,48,.06)}
+.br-quarter{min-height:26vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(255,184,48,.05);padding:3rem 0}
+.br-half::before{content:'⊙';position:absolute;font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(18rem,38vw,36rem);font-weight:200;color:rgba(255,184,48,.025);line-height:1;pointer-events:none;user-select:none;right:5%;top:50%;transform:translateY(-50%)}
+.q-stage{max-width:760px;padding:0 2rem;text-align:center;position:relative;z-index:1}
+.q-item{display:none;animation:qfade .8s ease}
+.q-item.vis{display:block}
+@keyframes qfade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.q-text{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.3vw,1.6rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.75;margin-bottom:1rem}
+.q-text-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.95rem,2vw,1.3rem);font-weight:200;color:var(--ivory);line-height:2;margin-bottom:1rem;display:none}
+[data-lang="ar"] .q-text{display:none}[data-lang="ar"] .q-text-ar{display:block}
+.q-author{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.35em;text-transform:uppercase;color:rgba(255,184,48,.4)}
+.q-author-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.75rem;font-weight:200;color:rgba(255,184,48,.4);display:none}
+[data-lang="ar"] .q-author{display:none}[data-lang="ar"] .q-author-ar{display:block}
+.q-prog{display:flex;gap:.45rem;margin-top:1.4rem;justify-content:center}
+.qdot{width:3px;height:3px;border-radius:50%;background:rgba(255,184,48,.18);transition:background .4s,transform .3s}
+.qdot.on{background:var(--acc);transform:scale(1.6)}
+.br-quarter .q-text{font-size:clamp(.92rem,1.7vw,1.2rem)}
+.br-quarter .q-text-ar{font-size:clamp(.82rem,1.5vw,1.05rem)}
+
+/* BANDS — identical to index.html */
+.band{position:relative;width:100%;height:100vh;overflow:hidden;cursor:pointer}
+.band-cover{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(1) brightness(.32);transition:filter .7s ease}
+.band.clicked .band-cover{filter:grayscale(0) brightness(.52) saturate(.88)}
+.band-bloom{position:absolute;border-radius:50%;z-index:3;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,255,200,.45)0%,rgba(200,150,50,.22)35%,rgba(100,60,0,.08)65%,transparent 100%);transform:translate(-50%,-50%) scale(0);animation:bandBloom 2.5s cubic-bezier(.15,1,.3,1) forwards;width:300vmax;height:300vmax}
+@keyframes bandBloom{0%{transform:translate(-50%,-50%) scale(0);opacity:1}55%{transform:translate(-50%,-50%) scale(1);opacity:.85}100%{transform:translate(-50%,-50%) scale(1.05);opacity:0}}
+.band-ink{position:absolute;inset:0;z-index:4;pointer-events:none}
+.band-label{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center;transition:opacity .4s,transform .4s}
+.band.clicked .band-label{opacity:0;transform:translateY(-8px);pointer-events:none}
+.band-tag{font-family:'Cinzel',serif;font-size:.78rem;letter-spacing:.38em;color:var(--acc);text-transform:uppercase;margin-bottom:1rem}
+.band-title-en{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,3.2rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.2;text-align:center}
+.band-title-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1.4rem,3vw,2.6rem);font-weight:200;color:var(--ivory);line-height:1.5;display:none;text-align:center}
+[data-lang="ar"] .band-title-en{display:none}[data-lang="ar"] .band-title-ar{display:block}
+.band-reveal{position:absolute;inset:0;z-index:11;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .5s ease .1s;padding:2rem;text-align:center}
+.band.clicked .band-reveal{opacity:1;pointer-events:auto}
+.band-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1.05rem,1.9vw,1.28rem);font-style:italic;font-weight:300;color:rgba(240,235,225,.72);letter-spacing:.03em;max-width:480px;line-height:1.8;margin-bottom:2.5rem}
+.band-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1rem,1.7vw,1.18rem);font-weight:200;color:rgba(240,235,225,.72);line-height:2;max-width:480px;display:none;text-align:center;margin-bottom:2.5rem}
+[data-lang="ar"] .band-phrase{display:none}[data-lang="ar"] .band-phrase-ar{display:block}
+.band-enter{font-family:'Cinzel',serif;font-size:.85rem;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;padding:1rem 3rem;border:1px solid currentColor;position:relative;overflow:hidden;transition:color .35s;display:inline-block}
+.band-enter::before{content:'';position:absolute;inset:0;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s ease}
+.band-enter:hover::before{transform:scaleX(1);transform-origin:left}
+.band-enter:hover{color:var(--void)}
+.band-enter span{position:relative;z-index:1}
+
+/* FINAL BREATH — identical mechanics to index.html */
+.br-sq{height:22vh;min-height:160px;display:flex;align-items:center;justify-content:center;border-top:1px solid rgba(255,184,48,.06)}
+.boxes-row{display:flex;gap:1.6rem;flex-wrap:wrap;justify-content:center}
+.sq{width:72px;height:72px;border:1px solid rgba(200,169,110,.22);display:flex;align-items:center;justify-content:center;cursor:auto;transition:border-color .5s}
+.sq:hover{border-color:rgba(200,169,110,.65)}
+.sq-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none}
+.sq-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .sq-word{display:none}[data-lang="ar"] .sq-word-ar{display:block}
+.sq:hover .sq-word,.sq:hover .sq-word-ar{opacity:1}
+#br-float{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.float-word{position:absolute;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;color:transparent;pointer-events:none;user-select:none;transition:color 1.4s ease;white-space:nowrap}
+.float-word.show{color:rgba(200,169,110,.4)}
+#br-swim{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.swim-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;border:1px solid rgba(200,169,110,.18);transition:border-color .5s,opacity .5s;opacity:.42}
+.swim-shape:hover{border-color:rgba(200,169,110,.7);opacity:1}
+.swim-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.swim-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .swim-word{display:none}[data-lang="ar"] .swim-word-ar{display:block}
+.swim-shape:hover .swim-word,.swim-shape:hover .swim-word-ar{opacity:1}
+#br-hover{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.hover-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity 1.5s,border-color .4s}
+.hover-shape.visible{opacity:.28}
+.hover-shape:hover{opacity:1!important}
+.hsh-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.hsh-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .hsh-word{display:none}[data-lang="ar"] .hsh-word-ar{display:block}
+.hover-shape:hover .hsh-word,.hover-shape:hover .hsh-word-ar{opacity:1}
+
+/* FINAL + FOOTER — identical to index.html */
+#final{width:100%;padding:10rem 2rem 6rem;background:var(--void);display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
+#final::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 40% at 50% 60%,rgba(200,169,110,.028)0%,transparent 70%);pointer-events:none}
+#final-line{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.2vw,1.5rem);font-weight:300;font-style:italic;color:rgba(240,235,225,.45);letter-spacing:.05em;margin-bottom:4rem}
+#final-name{font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;color:var(--gold);letter-spacing:.08em;margin-bottom:1.8rem}
+#final-rule{width:100%;max-width:560px;height:1px;background:linear-gradient(to right,transparent,rgba(200,169,110,.38),transparent);margin-bottom:1.8rem}
+#final-links{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;justify-content:center}
+#final-links a{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.3em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+#final-links a:hover{color:var(--gold)}
+#final-links span{color:rgba(200,169,110,.2);font-size:.55rem}
+footer{padding:3rem 2rem;border-top:1px solid rgba(200,169,110,.08);text-align:center}
+.footer-top{margin-bottom:1.5rem}
+.footer-artist-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:rgba(200,169,110,.45);letter-spacing:.15em;margin-bottom:.3rem}
+.footer-title{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(200,169,110,.25)}
+.footer-copy{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;color:var(--ivory2);text-transform:uppercase;line-height:2}
+footer a{color:rgba(200,169,110,.45);text-decoration:none;transition:color .3s}
+footer a:hover{color:var(--gold)}
+
+/* BILINGUAL */
+.t-en{display:inline}.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body{direction:rtl}
+.ar-font{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  nav{padding:1.2rem 1.2rem 1.2rem 5rem;gap:1.2rem;overflow-x:auto}
+  nav a{font-size:.6rem}
+  .band{height:75vh;min-height:400px}
+  .band-title-en{font-size:clamp(1.5rem,6vw,2.2rem)}
+  .band-enter{font-size:.7rem;padding:.75rem 1.5rem;letter-spacing:.2em}
+  .sq{width:58px;height:58px}
+  .br-half{height:auto;padding:4rem 0}
+  .br-half::before{display:none}
+  .scroll-hint{display:none}
+}
+
+
+/* UNIFIED_PATCH_CSS */
+/* ============================================================
+   PATCH: Floating UI + Grayscale Slideshow + Float Words + Unified BG
+   Applies to all 8 specialty/home pages
+   ============================================================ */
+
+/* 1. UNIFIED DARK BACKGROUND — single color, no per-section repeat */
+body{background:#050504 !important}
+
+/* 2. SLIDESHOW / BAND COVER — grayscale default, color on hover/in-view only */
+.band-cover{
+  filter:grayscale(1) brightness(.32) !important;
+  transition:filter .8s ease !important;
+}
+.band:hover .band-cover,
+.band.clicked .band-cover,
+.band.in-view .band-cover{
+  filter:grayscale(0) brightness(.5) saturate(.9) !important;
+}
+
+/* 3. REMOVE BLUE BLOOM EFFECT — per agreed simplification */
+.band-bloom{display:none !important;animation:none !important}
+
+/* 4. FLOATING ACTION BUTTON — back to top */
+#fab-top{
+  position:fixed;bottom:24px;left:24px;z-index:600;
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(10,10,9,.7);backdrop-filter:blur(10px);
+  border:1px solid rgba(200,169,110,.35);
+  color:#C8A96E;font-size:1.05rem;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;opacity:0;transform:translateY(10px);
+  transition:opacity .35s ease,transform .35s ease,border-color .25s;
+  box-shadow:0 8px 24px -6px rgba(0,0,0,.5);
+}
+#fab-top.show{opacity:1;transform:translateY(0)}
+#fab-top:hover{border-color:#C8A96E;box-shadow:0 12px 32px -6px rgba(200,169,110,.25)}
+
+/* 5. FLOATING CAPSULE NAV */
+nav#nav{
+  border-radius:999px !important;
+  margin:14px auto 0 !important;
+  width:fit-content !important;
+  background:rgba(8,8,7,.55) !important;
+  backdrop-filter:blur(14px) saturate(140%);
+  border:1px solid rgba(200,169,110,.18) !important;
+  box-shadow:0 10px 30px -8px rgba(0,0,0,.55),0 1px 0 rgba(255,255,255,.04) inset;
+  position:fixed !important;top:14px;left:50%;transform:translateX(-50%);
+}
+
+/* 6. FLOATING CARDS — bands lift with layered shadow on hover */
+.band{transition:box-shadow .45s ease}
+.band:hover{box-shadow:0 24px 48px -12px rgba(0,0,0,.55),0 8px 16px -8px rgba(200,169,110,.18)}
+
+/* 7. STATEMENT SECTION — البيان الفني */
+.statement-sec{
+  min-height:50vh;display:flex;align-items:center;justify-content:center;
+  padding:4rem 1.5rem;background:#0a0a09;text-align:center;
+  border-top:1px solid rgba(200,169,110,.08);border-bottom:1px solid rgba(200,169,110,.08);
+}
+.statement-inner{max-width:760px}
+.statement-inner p{font-size:1.05rem;line-height:1.9;color:#F0EBE1;opacity:.85;margin-bottom:1rem}
+.statement-readmore{
+  display:inline-block;margin-top:1rem;padding:.7rem 2.2rem;
+  border:1px solid rgba(200,169,110,.4);border-radius:999px;
+  color:#C8A96E;font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.2em;
+  text-decoration:none;transition:.3s;
+}
+.statement-readmore:hover{background:#C8A96E;color:#050504}
+
+/* 8. BREATHER SIZE VARIANTS — break visual rhythm */
+.breather-half{min-height:42vh}
+.breather-quarter{min-height:24vh}
+
+/* 9. FLOATING WORDS + ART SHAPES — revives #br-float spirit, all pages */
+.float-stage{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.float-word{
+  position:absolute;color:rgba(200,169,110,.16);
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  white-space:nowrap;opacity:0;animation:floatWordSeq 18s ease-in-out infinite;
+}
+.float-shape{
+  position:absolute;color:rgba(200,169,110,.10);
+  opacity:0;animation:floatShapeSeq 22s ease-in-out infinite;
+}
+@keyframes floatWordSeq{
+  0%{opacity:0;transform:translate(0,0) scale(.92)}
+  10%{opacity:1}45%{opacity:1;transform:translate(18px,-26px) scale(1)}
+  60%{opacity:0}100%{opacity:0;transform:translate(18px,-26px) scale(1)}
+}
+@keyframes floatShapeSeq{
+  0%{opacity:0;transform:translate(0,0) rotate(0deg)}
+  15%{opacity:1}50%{opacity:1;transform:translate(-22px,30px) rotate(14deg)}
+  70%{opacity:0}100%{opacity:0;transform:translate(-22px,30px) rotate(14deg)}
+}
+@media(max-width:600px){.float-stage{display:none}}
+
+/* UNIFIED_PATCH_CSS */
+
+#lang-btn .lang-txt{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.15em;color:rgba(200,169,110,.55);text-transform:uppercase;margin-right:.35rem;transition:color .4s}
+#lang-btn:hover .lang-txt{color:var(--gold)}
+</style>
+
+<style>
+.jrn-section{padding:3rem 2rem 5rem;max-width:1200px;margin:0 auto}
+.jrn-title{font-size:1.4rem;color:var(--gold-l,#c8a96e);margin-bottom:.3rem;font-family:"IBM Plex Arabic",sans-serif}
+.jrn-rule{width:48px;height:1px;background:var(--gold-l,#c8a96e);opacity:.4;margin-bottom:2rem}
+.jrn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem}
+.jrn-card{border:1px solid rgba(200,169,110,.12);padding:1.5rem;cursor:pointer;transition:border-color .3s,transform .3s;background:rgba(0,0,0,.1)}
+.jrn-card:hover{border-color:rgba(200,169,110,.4);transform:translateY(-2px)}
+.jrn-num{font-size:.68rem;color:rgba(200,169,110,.4);margin-bottom:.4rem}
+.jrn-cat{font-size:.65rem;color:var(--gold-l,#c8a96e);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.jrn-card-title{font-size:.92rem;font-weight:600;color:#e8dcc8;line-height:1.4;margin-bottom:.6rem}
+.jrn-card-title .t-ar{font-family:"IBM Plex Arabic",sans-serif;font-size:.88rem}
+.jrn-link{font-size:.7rem;color:var(--gold-l,#c8a96e)}
+.jrn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:9999;overflow-y:auto;display:none;padding:3rem 2rem}
+.jrn-overlay.open{display:block}
+.jrn-close{position:fixed;top:1.4rem;right:1.4rem;background:none;border:1px solid rgba(200,169,110,.3);color:#c8a96e;width:2rem;height:2rem;cursor:pointer;font-size:.9rem;z-index:10000}
+.jrn-body{max-width:640px;margin:0 auto;color:#e8dcc8;line-height:1.9}
+.jrn-body h2{font-size:1.4rem;color:#c8a96e;margin-bottom:1rem}
+.jrn-body h3{font-size:1rem;color:#c8a96e;margin:1.5rem 0 .5rem}
+.jrn-body p{margin-bottom:1rem;font-size:.9rem}
+.jrn-body blockquote{border-left:2px solid #c8a96e;padding-left:1rem;color:rgba(232,220,200,.65);font-style:italic;margin:1.3rem 0}
+.jrn-tag{font-size:.68rem;color:rgba(200,169,110,.5);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+.jrn-empty{color:rgba(200,169,110,.4);font-size:.82rem;font-style:italic;padding:1rem 0}
+
+/* restore visible cursor + correct affordances */
+a,button,summary,[role=button],.faq-q,.spec-item,.channel,.send-btn,.cta-btn,.wcell,.qbox{cursor:pointer}
+input,textarea,select{cursor:text}
+select{cursor:pointer}
+
+/* ═══ ARABIC TYPOGRAPHY FIX v2 ═══
+   العربية خط متّصل: لا تباعد حروف، ولا Uppercase، وخط عربي حقيقي.
+   الأرضية المطلقة max() تمنع أي نص عربي من النزول تحت حدّ المقروئية،
+   دون أن تُضخّم العناوين الكبيرة (1em يبقى كما هو إن كان أكبر).
+   Arabic: connected script — never letter-space; absolute floor via max(). */
+html[data-lang="ar"] .t-ar,
+html[data-lang="ar"] .ar-font,
+html[data-lang="ar"] [lang="ar"]{
+  font-family:'IBM Plex Arabic',system-ui,sans-serif !important;
+  letter-spacing:normal !important;
+  word-spacing:normal !important;
+  text-transform:none !important;
+  font-size:max(1.02rem,1em);
+  line-height:1.85;
+}
+/* عناصر الواجهة الصغيرة: أرضية أعلى قليلاً + وزن أوضح */
+html[data-lang="ar"] nav a,
+html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .band-tag,
+html[data-lang="ar"] .sec-title,html[data-lang="ar"] .section-title,
+html[data-lang="ar"] .works-title,html[data-lang="ar"] .connect-title,
+html[data-lang="ar"] .q-author,html[data-lang="ar"] .q-author-ar,
+html[data-lang="ar"] .footer-inner,html[data-lang="ar"] .jrn-cat,html[data-lang="ar"] .jrn-tag,
+html[data-lang="ar"] .stat-label,html[data-lang="ar"] .spec-note,html[data-lang="ar"] .offer-num,
+html[data-lang="ar"] .step-title,html[data-lang="ar"] .channel-name,html[data-lang="ar"] .form-label,
+html[data-lang="ar"] .cf-label,html[data-lang="ar"] .work-cap,html[data-lang="ar"] .mv-num{
+  font-size:max(1.02rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  line-height:1.8;
+}
+/* أزرار وروابط: مساحة نقر مريحة */
+html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+html[data-lang="ar"] .filter-btn,html[data-lang="ar"] .send-btn,
+html[data-lang="ar"] .works-all,html[data-lang="ar"] .specblock-visit,
+html[data-lang="ar"] .specblock-viewall,html[data-lang="ar"] .read-btn{
+  font-size:max(1.05rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  padding:.95rem 1.9rem;
+}
+html[data-lang="ar"] nav a{font-weight:400}
+/* شاشات كبيرة (٢٧ إنش فأكثر) */
+@media(min-width:1600px){
+  nav a{font-size:.78rem}
+  .cta,.cta-btn,.cv-btn,.band-enter,.statement-readmore,.send-btn{font-size:.72rem;padding:1rem 2rem}
+  html[data-lang="ar"] nav a{font-size:1.12rem !important}
+  html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .sec-title,
+  html[data-lang="ar"] .section-title,html[data-lang="ar"] .works-title{font-size:1.12rem !important}
+  html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+  html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+  html[data-lang="ar"] .send-btn,html[data-lang="ar"] .works-all,
+  html[data-lang="ar"] .specblock-visit,html[data-lang="ar"] .specblock-viewall{
+    font-size:1.18rem !important;padding:1.1rem 2.2rem;
+  }
+}
+
+/* عناوين عربية: سطر واحد متّزن، ولفٌّ أنيق عند الضرورة */
+[data-lang="ar"] .band-title-ar,
+[data-lang="ar"] .h1,[data-lang="ar"] h1,
+[data-lang="ar"] .cta-heading,[data-lang="ar"] .mv-title{
+  text-wrap:balance;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  max-width:22ch;
+  margin-inline:auto;
+}
+[data-lang="ar"] .band-title-ar{line-height:1.35}
+
+/* ── اسم الفنان بالعربية: خط خطّي كلاسيكي (مؤقت حتى وصول خط الثلث) ── */
+[data-lang="ar"] .name-ar{
+  font-family:'Aref Ruqaa','IBM Plex Arabic',serif !important;
+  font-weight:700;
+  letter-spacing:normal !important;
+  line-height:1.6;
+  font-size:1.15em;
+}
+/* عند توفّر صورة الاسم بخط الثلث: فعّل هذه الكتلة واحذف التي فوقها
+[data-lang="ar"] .name-ar{
+  font-size:0 !important;
+  display:inline-block;
+  width:clamp(180px,26vw,420px);
+  aspect-ratio:1000/300;
+  background:url('/images/brand/name-thuluth.svg') center/contain no-repeat;
+}
+*/
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+</style>
+</head>
+<body>
+<div id="cur"></div>
+<div id="ink-veil"><div id="ink-blob"></div></div>
+<div id="lang-btn"><span class="lang-txt t-en">AR</span><span class="lang-txt t-ar">EN</span><span id="lang-glyph">ض</span></div>
+
+<nav id="nav">
+  <a href="../index.html#hero" class="nav-home">
+    <span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span>
+  </a>
+  <a href="../about/index.html">
+    <span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span>
+  </a>
+  <a href="../journal/index.html">
+    <span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span>
+  </a>
+  <a href="../commission/index.html">
+    <span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span>
+  </a>
+  <a href="../contact/index.html">
+    <span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span>
+  </a>
+  <a href="../gallery/photography/index.html" class="nav-gallery">
+    <span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span>
+  </a>
+  <a href="../statement/photography/index.html" class="nav-statement">
+    <span class="t-en">Statement</span><span class="t-ar ar-font">البيان الفني</span>
+  </a>
+</nav>
+
+<!-- ══════ HERO ══════ -->
+<section id="hero">
+  <div id="hero-slides">
+    <div class="hslide active"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d0a05 0%,#1a1205 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(to right,#0a0508 0%,#150810 60%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#050a0a 0%,#0a1515 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#050a0a 0%,#0a1515 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#050a0a 0%,#0a1515 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#050a0a 0%,#0a1515 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#050a0a 0%,#0a1515 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    
+  </div>
+  <div class="hero-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="scroll-hint">
+    <span class="t-en">Scroll</span><span class="t-ar ar-font">مرِّر</span>
+    <div class="scroll-line"></div>
+  </div>
+  <div id="hero-dots"><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div></div>
+  <div class="hero-content">
+    <div class="wrap">
+      <span class="hero-tag">
+        <span class="t-en">VII · Fine Art Photography</span>
+        <span class="t-ar ar-font">٧ · Fine Art Photography</span>
+      </span>
+      <h1 class="hero-h1">Visual<br>Applications</h1>
+      <h1 class="hero-h1-ar">التطبيقات<br>البصرية</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-phrase">The moment does not repeat itself — the lens knows this.</p>
+      <p class="hero-phrase-ar">اللحظة لا تتكرر — العدسة تعرف ذلك.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ BREATH — HALF — Specialty Quotes ══════ -->
+<div class="br-half" id="br-spec">
+  <div>
+    <div class="q-stage" id="qs-spec"></div>
+    <div class="q-prog" id="qp-spec"></div>
+  </div>
+</div>
+
+
+<!-- BAND 1 — I · Fine Art Landscape -->
+<!-- STATEMENT_SECTION -->
+<section class="statement-sec"><div class="statement-inner"><p><span class="t-en">Visual applications gather product photography, decor, jewellery, web and background design, 3D and exhibition stands — seven dimensions of one art.</span><span class="t-ar">الفنون التطبيقية تجمع تصوير المنتج والديكور وتصميم المجوهرات والمواقع والخلفيات والتصميم الثلاثي الأبعاد وأجنحة المعارض — سبعة أبعاد لفن واحد.</span></p><a href="../statement/photography/index.html" class="statement-readmore"><span class="t-en">Read the full statement</span><span class="t-ar">تتمة القراءة</span></a></div></section>
+<!-- STATEMENT_SECTION -->
+<section class="band" data-bi="0">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7022/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">I · Photography</span>
+      <span class="t-ar ar-font">١ · التصوير الفوتوغرافي</span>
+    </p>
+    <h2 class="band-title-en">Fine Art<br>Photography</h2>
+    <h2 class="band-title-ar">الضوءُ مادتي</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Desert, light, silence — the Arabian sublime rendered in silver and shadow.</p>
+    <p class="band-phrase-ar">لا أُطاردُ اللقطة، بل أنتظرُ التكوينَ حتى يكتمل.</p>
+    <a href="../gallery/photography/index.html#photography" class="band-enter" style="color:#FFB830">
+      <span>
+        <span class="t-en">Enter Photography Gallery</span>
+        <span class="t-ar ar-font">معرض التصوير الفوتوغرافي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — I · Photography -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t1"></div>
+    <div class="q-prog" id="qp-t1"></div>
+  </div>
+</div>
+
+<!-- BAND 2 — II · Interior & Decor Design -->
+<section class="band" data-bi="1">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7023/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(to right,rgba(5,5,4,.75)0%,rgba(5,5,4,.1)65%,rgba(5,5,4,.58)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">II · Interior & Decor</span>
+      <span class="t-ar ar-font">٢ · الديكور</span>
+    </p>
+    <h2 class="band-title-en">Interior &<br>Decor Design</h2>
+    <h2 class="band-title-ar">المكانُ يتنفّس</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Space shaped by light and proportion — where function becomes art.</p>
+    <p class="band-phrase-ar">المكانُ يتنفّسُ حين يُوضَعُ كلُّ شيءٍ في موضعه.</p>
+    <a href="../gallery/photography/index.html#decor" class="band-enter" style="color:#FFB830">
+      <span>
+        <span class="t-en">Enter Decor Gallery</span>
+        <span class="t-ar ar-font">معرض الديكور</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — II · Decor -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t2"></div>
+    <div class="q-prog" id="qp-t2"></div>
+  </div>
+</div>
+
+<!-- BAND 3 — III · Jewelry Design -->
+<section class="band" data-bi="2">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7024/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">III · Jewelry Design</span>
+      <span class="t-ar ar-font">٣ · تصميم المجوهرات</span>
+    </p>
+    <h2 class="band-title-en">Jewelry<br>Design</h2>
+    <h2 class="band-title-ar">الجمالُ في أصغره</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Precision and ornament — where craftsmanship meets fine art.</p>
+    <p class="band-phrase-ar">أصغرُ المقاييسِ وأشدُّها تطلّباً للدقّة.</p>
+    <a href="../gallery/photography/index.html#jewelry" class="band-enter" style="color:#FFB830">
+      <span>
+        <span class="t-en">Enter Jewelry Gallery</span>
+        <span class="t-ar ar-font">معرض المجوهرات</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — III · Jewelry -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t3"></div>
+    <div class="q-prog" id="qp-t3"></div>
+  </div>
+</div>
+
+<!-- BAND 4 — IV · Web Design -->
+<section class="band" data-bi="3">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7025/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">IV · Web Design</span>
+      <span class="t-ar ar-font">٤ · تصميم المواقع</span>
+    </p>
+    <h2 class="band-title-en">Web<br>Design</h2>
+    <h2 class="band-title-ar">لوحةٌ تُدخَل</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Digital craft with the same eye for harmony as canvas and ink.</p>
+    <p class="band-phrase-ar">حرفة رقمية بنفس عين التوازن التي تُرى في القماش والحبر.</p>
+    <a href="../gallery/photography/index.html#webdesign" class="band-enter" style="color:#FFB830">
+      <span>
+        <span class="t-en">Enter Web Design Gallery</span>
+        <span class="t-ar ar-font">معرض تصميم المواقع</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — IV · Web Design -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t4"></div>
+    <div class="q-prog" id="qp-t4"></div>
+  </div>
+</div>
+
+<!-- BAND 5 — V · Background Design -->
+<section class="band" data-bi="4">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7026/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(to right,rgba(5,5,4,.75)0%,rgba(5,5,4,.1)65%,rgba(5,5,4,.58)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">V · Background Design</span>
+      <span class="t-ar ar-font">٥ · الخلفيات الفنية</span>
+    </p>
+    <h2 class="band-title-en">Background<br>Design</h2>
+    <h2 class="band-title-ar">جمالٌ صامت</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Layers of atmosphere built to support, never overpower, the subject.</p>
+    <p class="band-phrase-ar">طبقات من الجو البصري تُبنى لتدعم الموضوع لا لتطغى عليه.</p>
+    <a href="../gallery/photography/index.html#backgrounds" class="band-enter" style="color:#FFB830">
+      <span>
+        <span class="t-en">Enter Background Gallery</span>
+        <span class="t-ar ar-font">معرض الخلفيات الفنية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — V · Background Design -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t5"></div>
+    <div class="q-prog" id="qp-t5"></div>
+  </div>
+</div>
+
+<!-- BAND 6 — VI · 3D Design -->
+<section class="band" data-bi="5">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7027/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VI · 3D Design</span>
+      <span class="t-ar ar-font">٦ · تصميم ثلاثي الأبعاد</span>
+    </p>
+    <h2 class="band-title-en">3D<br>Design</h2>
+    <h2 class="band-title-ar">بُعدٌ ثالث</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Form given depth and weight — sculpture reborn in digital space.</p>
+    <p class="band-phrase-ar">الشكل يُمنح عمقاً وثقلاً — النحت يولد من جديد في الفضاء الرقمي.</p>
+    <a href="../gallery/photography/index.html#3d" class="band-enter" style="color:#FFB830">
+      <span>
+        <span class="t-en">Enter 3D Design Gallery</span>
+        <span class="t-ar ar-font">معرض التصميم الثلاثي الأبعاد</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VI · 3D Design -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t6"></div>
+    <div class="q-prog" id="qp-t6"></div>
+  </div>
+</div>
+
+<!-- BAND 7 — VII · Exhibition Stand Design -->
+<section class="band" data-bi="6">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7028/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VII · Exhibition Stand</span>
+      <span class="t-ar ar-font">٧ · تصميم أجنحة المعارض</span>
+    </p>
+    <h2 class="band-title-en">Exhibition<br>Stand Design</h2>
+    <h2 class="band-title-ar">عشرُ ثوانٍ للفوز</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Spatial storytelling for brands — where architecture meets experience.</p>
+    <p class="band-phrase-ar">سرد مكاني للعلامات التجارية — حيث تلتقي العمارة بالتجربة.</p>
+    <a href="../gallery/photography/index.html#exhibition" class="band-enter" style="color:#FFB830">
+      <span>
+        <span class="t-en">Enter Exhibition Gallery</span>
+        <span class="t-ar ar-font">معرض أجنحة المعارض</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VII · Exhibition Stand -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t7"></div>
+    <div class="q-prog" id="qp-t7"></div>
+  </div>
+</div>
+
+
+<!-- ══════ FINAL BREATH ══════ -->
+<div class="br-sq"><div class="boxes-row"></div></div>
+<div id="br-float"></div>
+<div id="br-swim"></div>
+<div id="br-hover"></div>
+
+<!-- ══════ FINAL ══════ -->
+<div id="final">
+  <p id="final-line">
+    <span class="t-en">One soul · Seven worlds · Infinite creation</span>
+    <span class="t-ar ar-font">روح واحدة · سبعة عوالم · إبداع لا نهاية له</span>
+  </p>
+  <p id="final-name"><span class="t-en">Altayeb Amer</span><span class="t-ar name-ar">الطيب عامر</span></p>
+  <div id="final-rule"></div>
+  <div id="final-links">
+    <a href="../index.html#hero"><span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span></a>
+    <span>·</span>
+    <a href="../about/index.html"><span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span></a>
+    <span>·</span>
+    <a href="../journal/index.html"><span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span></a>
+    <span>·</span>
+    <a href="../commission/index.html"><span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span></a>
+    <span>·</span>
+    <a href="../contact/index.html"><span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span></a>
+    <span>·</span>
+    <a href="../gallery/index.html"><span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span></a>
+  </div>
+</div>
+
+<!-- ══════ FOOTER ══════ -->
+<footer>
+  <div class="footer-top">
+    <p class="footer-artist-name">
+      <a href="../index.html#hero">
+        <span class="t-en">Altayeb Amer</span>
+        <span class="t-ar ar-font">الطيب عامر</span>
+      </a>
+    </p>
+    <p class="footer-title">
+      <span class="t-en">Creative Beyond · One Soul · Seven Worlds</span>
+      <span class="t-ar ar-font">كريتيف بيوند · روح واحدة · سبعة عوالم</span>
+    </p>
+  </div>
+  <p class="footer-copy">
+    <a href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">
+      <span class="t-en">Creative Beyond</span>
+      <span class="t-ar ar-font">كريتيف بيوند</span>
+    </a>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    <span class="t-en">Dubai</span><span class="t-ar ar-font">دبي</span>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    © <span id="yr"></span>
+  </p>
+</footer>
+
+<script>
+// ── QUOTES DATA ──
+const Q_SPEC = [
+  ["Photography is not the capture of light — it is the capture of time before it escapes.","التصوير الفوتوغرافي ليس التقاطاً للضوء — هو التقاطٌ للزمن قبل أن يفرَّ."],
+  ["The camera does not see the truth — it sees what the photographer chooses to leave un-erased.","الكاميرا لا ترى الحقيقة — بل ترى ما يختاره المصور أن يتركه دون أن يُمحى."],
+  ["The most powerful photographs are those that capture the moment immediately preceding the collapse of silence.","أقوى الصور هي تلك التي تلتقط اللحظة التي تسبق مباشرة انهيار الصمت."],
+  ["Photography is the art of omission — everything you leave outside the frame is more important than what you put inside it.","التصوير الفوتوغرافي هو فن الحذف — فكل ما تتركه خارج الإطار أهم مما تضعه داخله."],
+  ["Shadow in a photograph is not the absence of light — it is the memory that light leaves behind.","الظل في الصورة ليس غياباً للضوء — بل هو الذاكرة التي يتركها الضوء وراءه."],
+  ["A successful photograph is one that makes you forget the existence of the camera — making you feel as though you were truly there.","الصورة الفوتوغرافية الناجحة هي التي تجعلك تنسى وجود الكاميرا — وتشعر بأنك كنت هناك حقاً."],
+  ["We do not photograph faces — we photograph the maps that life has drawn upon them.","نحن لا نصور الوجوه — بل نصور الخرائط التي رسمتها الحياة على تلك الوجوه."]
+];
+const Q_T1 = [
+  ["The Arabian desert is the most generous subject in photography — it reveals everything and conceals nothing.","الصحراء العربية هي أكرم موضوع في التصوير — تكشف كل شيء ولا تخفي شيئاً."],
+  ["I photograph landscapes at the edges of day — when light is still deciding what to be.","أصور المناظر الطبيعية عند حواف اليوم — حين لا يزال الضوء يقرر ما يريد أن يكون."],
+  ["The landscape does not move for the photographer — the photographer must move for the landscape.","المنظر الطبيعي لا يتحرك للمصور — المصور يجب أن يتحرك للمنظر الطبيعي."],
+  ["Empty space in landscape photography is not nothing — it is the visual equivalent of held breath.","المساحة الفارغة في تصوير المناظر الطبيعية ليست لا شيء — بل هي المعادل البصري لنَفَس محبوس."],
+  ["The best landscape photograph is the one that makes the viewer feel the temperature of the air in the image.","أفضل صورة منظر طبيعي هي التي تجعل المشاهد يشعر بحرارة الهواء في الصورة."],
+  ["I am not interested in landscapes as scenery — I am interested in them as states of mind.","لست مهتماً بالمناظر الطبيعية كمشاهد — بل مهتم بها كحالات ذهنية."],
+  ["The Arabian landscape taught me that silence has texture — and that emptiness is the loudest thing.","المنظر الطبيعي العربي علّمني أن الصمت له ملمس — وأن الفراغ هو أعلى الأشياء صوتاً."]
+];
+const Q_T2 = [
+  ["Portrait photography is a negotiation — the photographer sees what the subject allows, and sometimes more.","تصوير البورتريه تفاوض — المصور يرى ما يسمح به الموضوع، وأحياناً أكثر."],
+  ["The moment before the shutter clicks is the most important moment in portrait photography.","اللحظة قبل نقر الغالق هي أهم لحظة في تصوير البورتريه."],
+  ["Light in portrait photography is not technical — it is emotional. Every light source has a feeling.","الضوء في تصوير البورتريه ليس تقنياً — بل عاطفي. كل مصدر ضوء له إحساس."],
+  ["The greatest portrait photographs happen in the two seconds when the subject forgets they are being photographed.","أعظم صور البورتريه تحدث في الثانيتين حين ينسى الموضوع أنه يُصوَّر."],
+  ["Black and white portrait photography removes color to reveal something more important — structure and soul.","تصوير البورتريه بالأبيض والأسود يزيل اللون ليكشف شيئاً أهم — البنية والروح."],
+  ["Every face I photograph carries the history of everyone who loved it — and everyone who hurt it.","كل وجه أصوره يحمل تاريخ كل من أحبه — وكل من آذاه."],
+  ["The portrait photograph is finished not when technically perfect — but when the subject sees themselves truly.","صورة البورتريه تكتمل ليس حين تكون متقنة تقنياً — بل حين يرى الموضوع نفسه بصدق."]
+];
+const Q_T3 = [
+  ["Architecture is the only art that exists in the same space as the viewer — photography is the only way to make it universal.","العمارة هي الفن الوحيد الموجود في نفس المساحة مع المشاهد — والتصوير هو الطريقة الوحيدة لجعلها عالمية."],
+  ["Arabic geometric patterns are not decoration — they are philosophy encoded in line and angle.","الأنماط الهندسية العربية ليست زخرفة — بل فلسفة مُشفَّرة في الخط والزاوية."],
+  ["The best architectural photograph makes the building look as the architect dreamed it — not as the contractor built it.","أفضل صورة معمارية تجعل المبنى يبدو كما حلم به المعماري — لا كما بناه المقاول."],
+  ["Light enters Islamic architecture to perform — not just to illuminate.","الضوء يدخل العمارة الإسلامية ليُؤدي — لا ليضيء فقط."],
+  ["Urban photography is not documentation — it is reading the city the way a calligrapher reads a manuscript.","التصوير الحضري ليس توثيقاً — بل قراءة المدينة كما يقرأ الخطاط مخطوطة."],
+  ["Dubai and the ancient cities of Sudan — in both I find the same question: what does a place want to remember about itself?","دبي والمدن القديمة في السودان — في كليهما أجد نفس السؤال: ما الذي يريد المكان أن يتذكره عن نفسه؟"],
+  ["The shadow of a minaret on a white wall is one of the most perfect compositions in the world — and no one designed it.","ظل المئذنة على جدار أبيض هو أحد أكمل التكوينات في العالم — ولم يصمم أحد."]
+];
+
+// ── FINAL BREATH WORDS ──
+const B1E=["Light", "Shadow", "Frame", "Moment", "Eye", "Still", "True"], B1A=["ضوء", "ظل", "إطار", "لحظة", "عين", "ساكن", "صادق"];
+const SWE=["Click", "Wait", "See", "Choose", "Hold", "Release", "Keep"], SWA=["انقر", "انتظر", "انظر", "اختر", "احتفظ", "أطلق", "احفظ"];
+const H6E=["Time", "Grain", "Tone", "Silence", "Truth", "Edge", "Memory"], H6A=["زمن", "حبة", "نبرة", "صمت", "حقيقة", "حافة", "ذاكرة"];
+
+// ── ENGINE ──
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+const cur=document.getElementById('cur');
+if(window.matchMedia('(pointer: coarse)').matches)cur.style.display='none';
+document.addEventListener('mousemove',e=>{cur.style.left=e.clientX+'px';cur.style.top=e.clientY+'px';cur.style.opacity='1';});
+function spawnSplash(x,y){const s=document.createElement('div');s.className='ink-splash';s.style.left=x+'px';s.style.top=y+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),850);}
+document.addEventListener('click',e=>{if(e.target.closest('#lang-btn'))return;spawnSplash(e.clientX,e.clientY);});
+document.addEventListener('touchend',e=>{if(e.target.closest('#lang-btn'))return;const t=e.changedTouches[0];spawnSplash(t.clientX,t.clientY);},{passive:true});
+
+/* LANG */
+const langBtn=document.getElementById('lang-btn'),langGlyph=document.getElementById('lang-glyph');
+const inkBlob=document.getElementById('ink-blob'),htmlEl=document.documentElement;
+let lang=(window.__AA_LANG||'en');
+const AR='الطيببعامرحروفية'.split('');
+function burst(ox,oy){for(let i=0;i<14;i++){const el=document.createElement('div');el.style.cssText=`position:fixed;z-index:9999;pointer-events:none;font-family:'IBM Plex Arabic',sans-serif;font-size:${.85+Math.random()}rem;color:rgba(200,169,110,.7);left:${ox}px;top:${oy}px;`;el.textContent=AR[Math.floor(Math.random()*AR.length)];const a=Math.random()*Math.PI*2,d=65+Math.random()*130;const dur=.5+Math.random()*.4;el.style.animation=`burstL ${dur}s ease forwards`;el.style.setProperty('--tx',Math.cos(a)*d+'px');el.style.setProperty('--ty',Math.sin(a)*d+'px');document.body.appendChild(el);setTimeout(()=>el.remove(),1000);}}
+document.addEventListener('mousemove',e=>{const r=langBtn.getBoundingClientRect();langBtn.classList.toggle('near',Math.hypot(e.clientX-(r.left+r.width/2),e.clientY-(r.top+r.height/2))<150);});
+langBtn.addEventListener('click',e=>{e.stopPropagation();const r=langBtn.getBoundingClientRect();const ox=r.left+r.width/2,oy=r.top+r.height/2;burst(ox,oy);inkBlob.style.left=ox+'px';inkBlob.style.top=oy+'px';inkBlob.style.transition='none';inkBlob.style.transform='translate(-50%,-50%) scale(0)';requestAnimationFrame(()=>requestAnimationFrame(()=>{inkBlob.classList.add('grow');setTimeout(()=>{lang=lang==='en'?'ar':'en';htmlEl.setAttribute('data-lang',lang);htmlEl.setAttribute('lang',lang);htmlEl.setAttribute('dir',lang==='ar'?'rtl':'ltr');langGlyph.textContent=lang==='en'?'ض':'A';inkBlob.classList.remove('grow');inkBlob.classList.add('shrink');setTimeout(()=>{inkBlob.classList.remove('shrink');inkBlob.style.transform='translate(-50%,-50%) scale(0)';},750);},480);}));});
+
+/* HERO SLIDESHOW */
+(function(){const slides=document.querySelectorAll('#hero-slides .hslide');const dots=document.querySelectorAll('#hero-dots .hdot');if(!slides.length)return;let idx=0;function goTo(n){slides[idx].classList.remove('active');dots[idx]&&dots[idx].classList.remove('on');idx=(n+slides.length)%slides.length;slides[idx].classList.add('active');dots[idx]&&dots[idx].classList.add('on');}const timer=setInterval(()=>goTo(idx+1),5500);document.getElementById('hero').addEventListener('click',e=>{if(e.target.closest('#hero-dots'))return;const r=document.getElementById('hero').getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';document.getElementById('hero').appendChild(b);setTimeout(()=>b.remove(),3100);clearInterval(timer);goTo(idx+1);});})();
+
+/* QUOTES ENGINE */
+function buildQ(stageId,progId,qArr){const stage=document.getElementById(stageId),prog=document.getElementById(progId);if(!stage||!prog)return;qArr.forEach((q,i)=>{const item=document.createElement('div');item.className='q-item'+(i===0?' vis':'');item.innerHTML=`<p class="q-text">"${q[0]}"</p><p class="q-text-ar">"${q[1]}"</p><p class="q-author">— Altayeb Amer</p><p class="q-author-ar ar-font">— الطيب عامر</p>`;stage.appendChild(item);const dot=document.createElement('div');dot.className='qdot'+(i===0?' on':'');prog.appendChild(dot);});let qi=0;const items=stage.querySelectorAll('.q-item'),qdots=prog.querySelectorAll('.qdot');const obs=new IntersectionObserver(entries=>{if(entries[0].isIntersecting){setInterval(()=>{items[qi].classList.remove('vis');qdots[qi].classList.remove('on');qi=(qi+1)%items.length;items[qi].classList.add('vis');qdots[qi].classList.add('on');},6500);obs.disconnect();}},{threshold:0.25});obs.observe(stage);}
+
+/* BANDS */
+document.querySelectorAll('.band').forEach(sec=>{sec.addEventListener('click',e=>{if(e.target.closest('.band-enter'))return;e.stopPropagation();const r=sec.getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';sec.appendChild(b);setTimeout(()=>b.remove(),2600);sec.classList.toggle('clicked');});});
+document.addEventListener('click',()=>document.querySelectorAll('.band.clicked').forEach(b=>b.classList.remove('clicked')));
+
+/* FINAL BREATH SQUARES */
+(function(){const row=document.querySelector('.boxes-row');if(!row)return;B1E.forEach((w,i)=>{const sq=document.createElement('div');sq.className='sq';sq.innerHTML=`<span class="sq-word">${w}</span><span class="sq-word-ar">${B1A[i]}</span>`;row.appendChild(sq);});})();
+
+/* FLOAT */
+(function(){const br=document.getElementById('br-float');if(!br)return;const getLang=()=>htmlEl.getAttribute('data-lang')||'en';const FW_EN=["Light","Depth","Form","Shadow","Ink","Space","Vision","Mark","Layer","Touch","Tone","Line","Soul","Flow","Void","Breath","Color","Time"];const FW_AR=["ضوء","عمق","شكل","ظل","حبر","فضاء","رؤية","أثر","طبقة","لمسة","درجة","خط","روح","انسياب","فراغ","نَفَس","لون","زمن"];const els=[];for(let i=0;i<18;i++){const el=document.createElement('div');el.className='float-word';el.style.cssText=`font-size:${.7+Math.random()*.85}rem;left:${5+Math.random()*88}%;top:${8+Math.random()*80}%;position:absolute;`;br.appendChild(el);els.push(el);}let wi=0;function showNext(){const words=getLang()==='ar'?FW_AR:FW_EN;els.forEach(e=>e.style.color='transparent');[...els].sort(()=>Math.random()-.5).slice(0,3+Math.floor(Math.random()*2)).forEach(e=>{e.textContent=words[wi%words.length];e.style.color='rgba(200,169,110,.4)';wi++;});}const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){setInterval(showNext,2200);showNext();obs.disconnect();}},{threshold:.2});obs.observe(br);})();
+
+/* SWIM */
+(function(){const br=document.getElementById('br-swim');if(!br)return;SWE.forEach((w,i)=>{const sh=document.createElement('div');sh.className='swim-shape';const sz=54+Math.floor(Math.random()*22);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${5+Math.random()*80}%;top:${10+Math.random()*70}%;position:absolute;transform:translate(-50%,-50%);${i%2===0?'border-radius:50%;':''}`;sh.innerHTML=`<span class="swim-word">${w}</span><span class="swim-word-ar">${SWA[i]}</span>`;br.appendChild(sh);const dx=(Math.random()-.5)*35,dy=(Math.random()-.5)*25,dur=8+Math.random()*6;sh.animate([{transform:'translate(-50%,-50%)'},{transform:`translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px))`},{transform:'translate(-50%,-50%)'}],{duration:dur*1000,iterations:Infinity,easing:'ease-in-out'});});})();
+
+/* HOVER */
+(function(){const br=document.getElementById('br-hover');if(!br)return;H6E.forEach((w,i)=>{const sh=document.createElement('div');sh.className='hover-shape';const sz=60+Math.floor(Math.random()*18);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${8+Math.random()*78}%;top:${12+Math.random()*68}%;position:absolute;transform:translate(-50%,-50%);border:1px solid rgba(200,169,110,.28);${i%3===1?'border-radius:50%;':''}`;sh.innerHTML=`<span class="hsh-word">${w}</span><span class="hsh-word-ar">${H6A[i]}</span>`;br.appendChild(sh);});let rev=0;const allSh=br.querySelectorAll('.hover-shape');const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){function next(){if(rev>=allSh.length)return;allSh[rev].classList.add('visible');rev++;setTimeout(next,900+Math.random()*600);}next();obs.disconnect();}},{threshold:.15});obs.observe(br);})();
+
+
+const Q_T4 = [
+  ["On the web, confusion is the only ugliness that truly matters.","على الشاشةِ قبحٌ واحدٌ يُحسَب: أن يحتارَ الزائر."],
+  ["A website is a painting the viewer is allowed to walk into.","الموقعُ لوحةٌ أُذِنَ للناظرِ أن يدخلَ فيها."],
+  ["Beauty here is not decoration — it is direction.","الجمالُ ههنا ليس زينةً بل دلالة."],
+  ["I design the path before I design the page.","أرسمُ الطريقَ قبل أن أرسمَ الصفحة."],
+  ["If the visitor has to think about where to click, the design has already failed.","إن سأل الزائرُ نفسَه: أين أنقر؟ فقد سقطَ التصميمُ قبل أن يُقرأ."],
+  ["White space on a screen is not emptiness — it is the pause that makes the message audible.","الفراغُ على الشاشةِ ليس خواءً، بل وقفةٌ تُسمِعُ ما بعدها."],
+  ["The best interface is the one nobody remembers using.","أحسنُ الواجهاتِ ما عبرَه الناسُ ولم يذكروه."],
+];
+const Q_T5 = [
+  ["The best background is felt by everyone and noticed by no one.","أحسنُ خلفيةٍ يشعرُ بها الجميعُ ولا يذكرُها أحد."],
+  ["A background must support without competing, be present without shouting.","على الخلفيةِ أن تسندَ ولا تُزاحم، وأن تحضرَ ولا تصيح."],
+  ["Get the background wrong and you ruin everything standing in front of it.","أفسِدِ الخلفيةَ يفسدْ كلُّ ما يقفُ أمامها."],
+  ["It sets the mood before anyone notices it is there.","تضبطُ المزاجَ قبل أن ينتبهَ أحدٌ لوجودها."],
+  ["Silent beauty is the hardest kind to make and the easiest to overlook.","الجمالُ الصامتُ أعسرُ ما يُصنَع، وأهونُ ما يُغفَل."],
+  ["A background is the room's tone of voice.","الخلفيةُ نبرةُ الصوتِ في المكان."],
+  ["Humility is a design skill, and the background is where I practise it.","التواضعُ صنعةٌ تُتعلَّم، والخلفيةُ ميدانُ تمرينها."],
+];
+const Q_T6 = [
+  ["Working in three dimensions taught me what my flat drawings had only pretended to know.","علّمني التجسيمُ ما كان رسمي المسطَّحُ يتظاهرُ بمعرفته."],
+  ["To model a form is to finally stop guessing at it.","أن تُقيمَ الشكلَ في الفراغِ يعني أن تكفَّ عن حَزْرِه."],
+  ["Light behaves honestly on a real volume — it exposes every lie in the geometry.","الضوءُ صادقٌ على الحجمِ الحقيقي؛ يفضحُ كلَّ خللٍ في الهندسة."],
+  ["Depth is not an effect. It is a decision made long before rendering.","العمقُ ليس أثراً يُضاف، بل قرارٌ سابقٌ للتنفيذ."],
+  ["In 3D you cannot hide a weak silhouette behind a beautiful texture.","لا يستُرُ الملمسُ الجميلُ ظِلاً مختلاً."],
+  ["Rotating a shape in space is the fastest way to discover you never understood it.","أدِرِ الشكلَ في يدِك تعرفْ أنك لم تكن تعرفه."],
+  ["A new dimension does not replace the eye — it educates it.","البعدُ الجديدُ لا يُغني عن العين، بل يُهذّبها."],
+];
+const Q_T7 = [
+  ["A stand has ten seconds to be both beautiful and useful. It must be both at once.","للجناحِ عشرُ ثوانٍ: أن يَجمُلَ وينفعَ معاً، لا واحدةً بعد الأخرى."],
+  ["Here art must work a shift — attract, explain, and welcome, all in one breath.","ههنا يعملُ الفنُّ: يجذبُ ويُبيّنُ ويرحّبُ في نَفَسٍ واحد."],
+  ["A stand is choreography: I design where the body walks, not only where the eye lands.","أُصمّمُ خطوَ القدمِ لا مسارَ العينِ وحدَه."],
+  ["In a noisy hall, silence is the loudest design decision you can make.","في قاعةٍ صاخبةٍ يكونُ الصمتُ أعلى ما تقول."],
+  ["Function is the brief; beauty is how you win.","النفعُ شرطُ التكليف، والجمالُ سببُ الاختيار."],
+  ["A visitor who stops has already said yes to the first question.","من وقفَ عندك فقد أجابَ عن سؤالِك الأول."],
+  ["Temporary architecture still deserves permanent thinking.","العمارةُ المؤقتةُ تستحقُّ فكراً مقيماً."],
+];
+// ── BUILD QUOTES ──
+buildQ('qs-spec','qp-spec',Q_SPEC);
+buildQ('qs-t1','qp-t1',Q_T1);
+buildQ('qs-t2','qp-t2',Q_T2);
+buildQ('qs-t3','qp-t3',Q_T3);
+buildQ('qs-t4','qp-t4',Q_T4);
+buildQ('qs-t5','qp-t5',Q_T5);
+buildQ('qs-t6','qp-t6',Q_T6);
+buildQ('qs-t7','qp-t7',Q_T7);
+
+</script>
+
+<script>
+// UNIFIED_PATCH_JS
+// ============================================================
+// PATCH JS: FAB + grayscale-on-view + floating words/shapes
+// Plain var + string concat only — no nested template literals
+// ============================================================
+(function(){
+  // 1. Back to top FAB
+  var fab = document.createElement('button');
+  fab.id = 'fab-top';
+  fab.setAttribute('aria-label','back to top');
+  fab.innerHTML = '&#8593;';
+  fab.onclick = function(){ window.scrollTo({top:0,behavior:'smooth'}); };
+  document.body.appendChild(fab);
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480) fab.classList.add('show');
+    else fab.classList.remove('show');
+  });
+
+  // 2. Grayscale-to-color on scroll proximity for bands
+  var bands = document.querySelectorAll('.band');
+  if(bands.length && 'IntersectionObserver' in window){
+    var bandObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting) e.target.classList.add('in-view');
+        else e.target.classList.remove('in-view');
+      });
+    }, {threshold:.45});
+    bands.forEach(function(b){ bandObs.observe(b); });
+  }
+
+  // 3. Floating motivational words + art shapes
+  var WORDS_AR = ['إبداع','جمال','روح','حلم','إلهام','أصالة'];
+  var WORDS_EN = ['Create','Soul','Dream','Ink','Form','Light'];
+  var SHAPES = ['&#10022;','&#10023;','&#9678;','&#10070;','&#9670;','&#10038;'];
+
+  function buildFloatStage(container){
+    if(!container || container.querySelector('.float-stage')) return;
+    var stage = document.createElement('div');
+    stage.className = 'float-stage';
+    var count = 8;
+    for(var i=0;i<count;i++){
+      var useWord = (i % 2 === 0);
+      var el = document.createElement('span');
+      if(useWord){
+        el.className = 'float-word';
+        var pool = (i % 4 === 0) ? WORDS_AR : WORDS_EN;
+        el.textContent = pool[Math.floor(Math.random()*pool.length)];
+        el.style.fontSize = (Math.random()*1.1 + 1.1) + 'rem';
+      } else {
+        el.className = 'float-shape';
+        el.innerHTML = SHAPES[Math.floor(Math.random()*SHAPES.length)];
+        el.style.fontSize = (Math.random()*1.6 + 1.2) + 'rem';
+      }
+      el.style.left = (Math.random()*86 + 4) + '%';
+      el.style.top = (Math.random()*82 + 6) + '%';
+      el.style.animationDelay = (Math.random()*10) + 's';
+      el.style.animationDuration = (Math.random()*8 + 16) + 's';
+      stage.appendChild(el);
+    }
+    container.style.position = container.style.position || 'relative';
+    container.insertBefore(stage, container.firstChild);
+  }
+
+  var hosts = document.querySelectorAll('.breather, #br-float, #br-swim, #br-hover, .statement-sec');
+  hosts.forEach(function(h){ buildFloatStage(h); });
+})();
+
+// UNIFIED_PATCH_JS
+</script>
+
+<div class="jrn-overlay" id="jrn-overlay">
+  <button class="jrn-close" id="jrn-close">✕</button>
+  <div class="jrn-body" id="jrn-body"></div>
+</div>
+
+  <section class="jrn-section">
+    <h2 class="jrn-title"><span class="t-en">Journal — Visual Applications</span><span class="t-ar">مجلة — الفنون التطبيقية</span></h2>
+    <div class="jrn-rule"></div>
+    <div class="jrn-grid">
+      <div class="jrn-card" onclick="jrnOpen(0)">
+        <div class="jrn-num">I</div>
+        <div class="jrn-cat"><span class="t-en">Photography</span><span class="t-ar">الفنون التطبيقية</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Painter's Eye Behind the Lens</span><span class="t-ar">عين الرسام خلف العدسة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(1)">
+        <div class="jrn-num">II</div>
+        <div class="jrn-cat"><span class="t-en">Interior Design</span><span class="t-ar">الديكور الداخلي</span></div>
+        <div class="jrn-card-title"><span class="t-en">Art in the Home: Decorating with Paintings</span><span class="t-ar">الفن في البيت: الزينة باللوحات</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(2)">
+        <div class="jrn-num">III</div>
+        <div class="jrn-cat"><span class="t-en">Jewelry Design</span><span class="t-ar">تصميم المجوهرات</span></div>
+        <div class="jrn-card-title"><span class="t-en">Jewelry Design: Beauty at Its Smallest</span><span class="t-ar">تصميم المجوهرات: الجمال في أصغره</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(3)">
+        <div class="jrn-num">IV</div>
+        <div class="jrn-cat"><span class="t-en">Web Design</span><span class="t-ar">تصميم المواقع</span></div>
+        <div class="jrn-card-title"><span class="t-en">Website Design as Visual Art</span><span class="t-ar">تصميم المواقع كفن بصري</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(4)">
+        <div class="jrn-num">V</div>
+        <div class="jrn-cat"><span class="t-en">Visual Art</span><span class="t-ar">الفن البصري</span></div>
+        <div class="jrn-card-title"><span class="t-en">Background Design: Silent Beauty</span><span class="t-ar">الخلفيات الفنية: الجمال الصامت</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(5)">
+        <div class="jrn-num">VI</div>
+        <div class="jrn-cat"><span class="t-en">3D Design</span><span class="t-ar">التصميم ثلاثي الأبعاد</span></div>
+        <div class="jrn-card-title"><span class="t-en">3D Design: A New Dimension of Vision</span><span class="t-ar">التصميم ثلاثي الأبعاد: بُعد جديد للرؤية</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(6)">
+        <div class="jrn-num">VII</div>
+        <div class="jrn-cat"><span class="t-en">Exhibition Design</span><span class="t-ar">تصميم المعارض</span></div>
+        <div class="jrn-card-title"><span class="t-en">Exhibition Stand Design: Art in Service</span><span class="t-ar">تصميم أجنحة المعارض: الفن في الخدمة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(7)">
+        <div class="jrn-num">VIII</div>
+        <div class="jrn-cat"><span class="t-en">Fine Art Photo</span><span class="t-ar">التصوير الفني</span></div>
+        <div class="jrn-card-title"><span class="t-en">Fine Art Photography: Between Documentation and Expression</span><span class="t-ar">الفوتوغرافيا الفنية: بين التوثيق والتعبير</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(8)">
+        <div class="jrn-num">IX</div>
+        <div class="jrn-cat"><span class="t-en">Photography</span><span class="t-ar">الفنون التطبيقية</span></div>
+        <div class="jrn-card-title"><span class="t-en">Photography in Dubai: A City That Never Rests</span><span class="t-ar">التصوير في دبي: مدينة لا تنام على جمالها</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(9)">
+        <div class="jrn-num">X</div>
+        <div class="jrn-cat"><span class="t-en">Visual Applications</span><span class="t-ar">الفنون التطبيقية</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Art of the Product Shot</span><span class="t-ar">فن تصوير المنتجات</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(10)">
+        <div class="jrn-num">XI</div>
+        <div class="jrn-cat"><span class="t-en">Visual Applications</span><span class="t-ar">الفنون التطبيقية</span></div>
+        <div class="jrn-card-title"><span class="t-en">Color Grading: The Invisible Art</span><span class="t-ar">معالجة الألوان: الفن غير المرئي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(11)">
+        <div class="jrn-num">XII</div>
+        <div class="jrn-cat"><span class="t-en">Visual Applications</span><span class="t-ar">الفنون التطبيقية</span></div>
+        <div class="jrn-card-title"><span class="t-en">Portrait Photography vs Portrait Painting</span><span class="t-ar">تصوير البورتريه مقابل رسمه</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(12)">
+        <div class="jrn-num">XIII</div>
+        <div class="jrn-cat"><span class="t-en">Visual Applications</span><span class="t-ar">الفنون التطبيقية</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Decisive Moment</span><span class="t-ar">اللحظة الحاسمة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(13)">
+        <div class="jrn-num">XIV</div>
+        <div class="jrn-cat"><span class="t-en">Visual Applications</span><span class="t-ar">الفنون التطبيقية</span></div>
+        <div class="jrn-card-title"><span class="t-en">Light as Material</span><span class="t-ar">الضوء كمادة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+    </div>
+  </section>
+<script>
+var JRN_ARTICLES=[
+  {cat_en:'Photography',cat_ar:'التصوير',title_en:'The Painter\'s Eye Behind the Lens',title_ar:'عين الرسام خلف العدسة',body_en:`<p>When I picked up a camera, people expected me to abandon the painter's slowness for the photographer's speed. Instead I brought the slowness with me.</p><h3>Seeing Before Clicking</h3><p>Decades at the easel trained my eye to read light, balance, and negative space before the hand moves. Behind the lens that training does not switch off. I frame a photograph the way I frame a canvas.</p><blockquote>"The camera did not teach me to see. Thirty years of painting did. The camera just kept up."</blockquote>`,body_ar:`<p>لمّا حملتُ الكاميرا ظنَّ الناسُ أنني سأُبادِلُ تأنّيَ الرسّامِ بعجلةِ المصوّر، لكنّي حملتُ التأنّيَ معي.</p><h3>النظرُ قبل الضغط</h3><p>عقودٌ أمام الحاملِ دربت عيني على قراءةِ الضوءِ والميزانِ والفراغِ قبل أن تتحرّكَ اليد. وخلف العدسةِ لا ينطفئُ ذلك الدرس: أُؤطّرُ الصورةَ كما أُؤطّرُ اللوحة.</p><blockquote>"لم تُعلّمني الكاميرا النظر؛ علّمَنيه ثلاثون عاماً من الرسم، وإنما لحقت بي."</blockquote>`},
+  {cat_en:'Interior Design',cat_ar:'الديكور الداخلي',title_en:'Art in the Home: Decorating with Paintings',title_ar:'الفن في البيت: الزينة باللوحات',body_en:`<p>People buy a painting and then have no idea where to hang it. The truth is that a home is a composition, and every artwork is a note within it.</p><h3>The Room as Canvas</h3><p>A great piece in the wrong place is a wasted piece. I advise on scale, light, sightlines, and the emptiness a work needs around it to breathe. Decorating with art is not filling walls; it is composing a space someone will live inside.</p><blockquote>"A painting does not decorate a room. The right room completes the painting."</blockquote>`,body_ar:`<p>يشتري الناسُ لوحةً ثم يحارون أين يُعلّقونها. والحقُّ أن البيتَ تكوينٌ كامل، وكلُّ عملٍ نغمةٌ فيه.</p><h3>الغرفةُ قماشٌ آخر</h3><p>قطعةٌ بديعةٌ في موضعٍ خطأٍ قطعةٌ مهدورة. أُشيرُ على أصحابِ البيوتِ بالمقياسِ والضوءِ وخطوطِ النظرِ والفراغِ الذي يحتاجُه العملُ ليتنفّس؛ فالزينةُ بالفنِّ ليست ملءَ جدرانٍ بل تأليفَ مكانٍ يُعاش.</p><blockquote>"لا تُزيّنُ اللوحةُ الغرفة، وإنما الغرفةُ الصحيحةُ تُكمِلُ اللوحة."</blockquote>`},
+  {cat_en:'Jewelry Design',cat_ar:'تصميم المجوهرات',title_en:'Jewelry Design: Beauty at Its Smallest',title_ar:'تصميم المجوهرات: الجمال في أصغره',body_en:`<p>Jewelry is beauty at its smallest and most demanding scale. A ring is a sculpture you can hold between two fingers, and it forgives nothing.</p><h3>The Discipline of the Tiny</h3><p>At millimeter scale, every proportion is exposed and every flaw magnified by the eye that leans in close. Designing jewelry taught me a concentration I brought back to every larger work — the belief that no part is too small to deserve full attention.</p><blockquote>"The smaller the object, the less room it leaves to hide a lazy decision."</blockquote>`,body_ar:`<p>المجوهراتُ جمالٌ في أصغرِ مقياسٍ وأشدِّه تطلّباً؛ الخاتمُ نحتٌ تمسكُه بين إصبعين ولا يغفرُ شيئاً.</p><h3>انضباطُ الصغير</h3><p>في مقياسِ المليمترِ تنكشفُ كلُّ نسبةٍ ويُكبِّرُ العيبَ عينٌ تنحني قريباً. علّمني تصميمُ المجوهراتِ تركيزاً أعدتُه إلى كلِّ عملٍ أكبر: ألّا جزءَ أصغرَ من أن يستحقَّ انتباهاً كاملاً.</p><blockquote>"كلّما صغُرَ الشيءُ ضاقَ ما يتركُه لإخفاءِ قرارٍ كسول."</blockquote>`},
+  {cat_en:'Web Design',cat_ar:'تصميم المواقع',title_en:'Website Design as Visual Art',title_ar:'تصميم المواقع كفن بصري',body_en:`<p>A website is the one artwork a business asks the whole world to walk through. That makes it visual art with a job to do.</p><h3>Beauty That Guides</h3><p>Unlike a painting you contemplate, a site must move a visitor from curiosity to action without friction or confusion. I treat every screen as a composition — hierarchy, rhythm, focal point — but always in service of a path. Beauty here is not decoration; it is direction.</p><blockquote>"A website is a painting the viewer is allowed to walk into."</blockquote>`,body_ar:`<p>الموقعُ هو العملُ الوحيدُ الذي تطلبُ فيه جهةٌ من العالمِ كلِّه أن يمشيَ بداخله؛ فنٌّ بصريٌّ له عملٌ يؤدّيه.</p><h3>جمالٌ يدلُّ على الطريق</h3><p>خلافاً للوحةٍ تتأمّلُها، على الموقعِ أن ينقلَ زائرَه من الفضولِ إلى الفعلِ بلا احتكاك. أُعاملُ كلَّ شاشةٍ تكويناً — تراتباً وإيقاعاً ونقطةَ تركيز — لكن في خدمةِ مسار؛ فالجمالُ ههنا دلالةٌ لا زينة.</p><blockquote>"الموقعُ لوحةٌ أُذِنَ للناظرِ أن يدخلَ فيها."</blockquote>`},
+  {cat_en:'Visual Art',cat_ar:'الفن البصري',title_en:'Background Design: Silent Beauty',title_ar:'الخلفيات الفنية: الجمال الصامت',body_en:`<p>The background is the most overlooked design in the world, and the most quietly powerful. It sets the mood before anyone notices it is there.</p><h3>Silent Beauty</h3><p>A background must support without competing, present without shouting. Getting it wrong ruins whatever sits in front; getting it right makes the foreground sing and takes no credit. I have grown to love this humble, invisible craft.</p><blockquote>"The best background is felt by everyone and noticed by no one."</blockquote>`,body_ar:`<p>الخلفيةُ أكثرُ تصميمٍ يُغفَلُ في الدنيا وأنفذُه بهدوء؛ تضبطُ المزاجَ قبل أن ينتبهَ أحدٌ لوجودها.</p><h3>جمالٌ لا يُنتبَهُ إليه</h3><p>على الخلفيةِ أن تسنُدَ ولا تُزاحم، وأن تحضرَ ولا تصيح. أفسِدْها يفسدْ كلُّ ما يقفُ أمامها، وأتقِنْها يُغنِّ المتقدَّمُ ولا تنسبْ لنفسك فضلاً. وقد أحببتُ هذه الصنعةَ المتواضعةَ الخفيّة.</p><blockquote>"أحسنُ خلفيةٍ يشعرُ بها الجميعُ ولا يذكرُها أحد."</blockquote>`},
+  {cat_en:'3D Design',cat_ar:'التصميم ثلاثي الأبعاد',title_en:'3D Design: A New Dimension of Vision',title_ar:'التصميم ثلاثي الأبعاد: بُعد جديد للرؤية',body_en:`<p>Three dimensions did not replace my sense of drawing; they deepened it. To model a form in space is to finally understand what a flat drawing was always guessing at.</p><h3>A New Dimension of Seeing</h3><p>Rotating a shape, watching light wrap real volume, revealed the small lies my two-dimensional habits had accepted for years. 3D design gave me a truer grasp of form that flowed back into every painting I made afterward.</p><blockquote>"Working in 3D taught me what my flat drawings had only been pretending to know."</blockquote>`,body_ar:`<p>لم تُبدِلِ الأبعادُ الثلاثةُ إحساسي بالرسمِ بل عمّقتْه؛ فإقامةُ الشكلِ في الفراغِ فهمٌ أخيرٌ لما كان الرسمُ المسطّحُ يُخمّنُه.</p><h3>أدِرْه في يدِك تعرفْه</h3><p>تدويرُ الشكلِ ومراقبةُ الضوءِ يلتفُّ حول حجمٍ حقيقيٍّ كشفَ أوهاماً صغيرةً قبلتها عاداتي سنين. منحني التجسيمُ إمساكاً أصدقَ بالحجمِ تدفّقَ عائداً إلى كلِّ لوحةٍ رسمتُها بعده.</p><blockquote>"علّمني التجسيمُ ما كان رسمي المسطّحُ يتظاهرُ بمعرفته."</blockquote>`},
+  {cat_en:'Exhibition Design',cat_ar:'تصميم المعارض',title_en:'Exhibition Stand Design: Art in Service',title_ar:'تصميم أجنحة المعارض: الفن في الخدمة',body_en:`<p>An exhibition stand is art with a deadline and a purpose: it must attract, explain, and welcome, all within the ten seconds a passer-by grants it.</p><h3>Art in Service</h3><p>Unlike a gallery piece made for contemplation, a stand must perform a task in a noisy hall full of competitors. I design it as choreography of movement and attention — a beautiful machine for making a stranger stop, step in, and stay. Function is the brief; beauty is how you win.</p><blockquote>"A stand has ten seconds to be both beautiful and useful. It must be both at once."</blockquote>`,body_ar:`<p>جناحُ المعرضِ فنٌّ بموعدٍ وغاية: عليه أن يجذبَ ويُبيّنَ ويرحّبَ في العشرِ ثوانٍ التي يمنحُها له المارّ.</p><h3>الفنُّ حين يعمل</h3><p>خلافاً لقطعةٍ صُنِعت للتأمّل، على الجناحِ أن يُنجزَ مهمةً في قاعةٍ صاخبةٍ ملأى بالمنافسين. أُصمّمُه إخراجاً للحركةِ والانتباه: آلةً جميلةً تجعلُ الغريبَ يقفُ ويدخلُ ويبقى.</p><blockquote>"النفعُ شرطُ التكليف، والجمالُ سببُ الاختيار."</blockquote>`},
+  {cat_en:'Fine Art Photo',cat_ar:'التصوير الفني',title_en:'Fine Art Photography: Between Documentation and Expression',title_ar:'الفوتوغرافيا الفنية: بين التوثيق والتعبير',body_en:`<p>Fine art photography lives in the tension between documenting the world and expressing a self. The camera records what is there; the artist decides what it means.</p><h3>Between the Fact and the Feeling</h3><p>A photograph is bound to reality in a way painting is not, and that constraint is its power. My work is to find the frame, moment, and light where an honest fact suddenly carries a private emotion. Truth and expression are not opposites here; they are partners.</p><blockquote>"A document tells you what was there. Art tells you what it was like to be there."</blockquote>`,body_ar:`<p>تعيشُ الفوتوغرافيا الفنيةُ في التوتّرِ بين توثيقِ العالمِ والتعبيرِ عن الذات: تُسجّلُ العدسةُ ما هو كائن، ويُقرّرُ الفنانُ ما يعنيه.</p><h3>بين الواقعةِ والشعور</h3><p>الصورةُ مشدودةٌ إلى الواقعِ بما لا يُشَدُّ إليه الرسم، وذلك القيدُ قوّتُها. وعملي أن أجدَ الإطارَ واللحظةَ والضوءَ حيث تحملُ واقعةٌ صادقةٌ عاطفةً خاصة؛ فالحقيقةُ والتعبيرُ ههنا شريكان لا ضدّان.</p><blockquote>"تُخبِرُك الوثيقةُ بما كان هناك، ويُخبِرُك الفنُّ كيف كان أن تكونَ هناك."</blockquote>`},
+  {cat_en:'Photography',cat_ar:'التصوير',title_en:'Photography in Dubai: A City That Never Rests',title_ar:'التصوير في دبي: مدينة لا تنام على جمالها',body_en:`<p>Photographing Dubai is photographing a city that refuses to hold still. It rebuilds itself faster than a photographer can catalog it.</p><h3>A City That Never Rests</h3><p>Here the light is extreme, the contrasts are enormous, and the old and the impossibly new share a single frame. I chase the moments where the city reveals its character rather than its brochure — a worker at dawn, a shadow across new glass. Dubai rewards the patient eye that waits past the postcard.</p><blockquote>"Dubai photographs itself as a postcard. My job is to catch it being honest."</blockquote>`,body_ar:`<p>تصويرُ دبي تصويرٌ لمدينةٍ ترفضُ أن تثبت؛ تُعيدُ بناءَ نفسِها أسرعَ مما يُحصيها المصوّر.</p><h3>مدينةٌ لا تهدأ</h3><p>ههنا الضوءُ متطرّفٌ والتباينُ هائل، ويتقاسمُ العتيقُ والجديدُ المستحيلُ إطاراً واحداً. أُطاردُ اللحظاتِ التي تكشفُ فيها المدينةُ طبعَها لا كتيّبَها: عاملٌ عند الفجر، أو ظلٌّ يعبرُ زجاجاً جديداً. وتُجزي دبي العينَ الصبورةَ التي تنتظرُ ما بعد البطاقةِ البريدية.</p><blockquote>"تُصوّرُ دبي نفسَها بطاقةً بريدية، ومهمّتي أن أُمسِكَها وهي صادقة."</blockquote>`},
+  {cat_en:'Visual Applications',cat_ar:'الفنون التطبيقية',title_en:'The Art of the Product Shot',title_ar:'فن تصوير المنتجات',body_en:`<p>The product shot looks like the humblest photography and is secretly one of the hardest. You must make an ordinary object desirable using nothing but light.</p><h3>Seduction by Light Alone</h3><p>With no story, no face, no landscape, everything falls to lighting, angle, and surface. A single reflection can make glass look precious or cheap. I approach a product like a tiny portrait — searching for the one angle where the object finally looks like itself at its best.</p><blockquote>"In product photography, light is the only actor on the stage."</blockquote>`,body_ar:`<p>يبدو تصويرُ المنتجِ أهونَ التصويرِ وهو سرّاً من أعسره: أن تجعلَ شيئاً عادياً مرغوباً بلا شيءٍ سوى الضوء.</p><h3>الضوءُ وحدَه ممثّلاً</h3><p>بلا حكايةٍ ولا وجهٍ ولا منظر، يتوقّفُ كلُّ شيءٍ على الإضاءةِ والزاويةِ والسطح. انعكاسٌ واحدٌ يجعلُ الزجاجَ ثميناً أو رخيصاً. أُقارِبُ المنتجَ بورتريهاً صغيراً، أبحثُ عن الزاويةِ التي يبدو فيها الشيءُ أخيراً على أحسنِ ما هو عليه.</p><blockquote>"في تصويرِ المنتجاتِ لا يقفُ على المسرحِ إلا الضوء."</blockquote>`},
+  {cat_en:'Visual Applications',cat_ar:'الفنون التطبيقية',title_en:'Color Grading: The Invisible Art',title_ar:'معالجة الألوان: الفن غير المرئي',body_en:`<p>Color grading is the invisible art. When it is done well, no one knows it happened; they only feel that the image is somehow true.</p><h3>Painting After the Shutter</h3><p>Grading is where my painter's instinct returns most strongly — I am mixing mood the way I once mixed pigment, warming a shadow, cooling a highlight, tuning the whole frame toward a single emotion. The camera captures the fact; the grade delivers the feeling.</p><blockquote>"A photograph is developed twice: once by the camera, once by the artist's sense of color."</blockquote>`,body_ar:`<p>معالجةُ الألوانِ فنٌّ لا يُرى؛ إذا أُحسِنت لم يعرفْ أحدٌ أنها وقعت، وإنما أحسّوا أن الصورةَ صادقة.</p><h3>رسمٌ بعد الغالق</h3><p>ههنا تعودُ غريزةُ الرسّامِ فيَّ أقوى ما تكون: أمزجُ المزاجَ كما مزجتُ الصبغةَ يوماً، أُدفئُ ظلاً وأُبرّدُ بريقاً وأُوالفُ الإطارَ كلَّه نحو شعورٍ واحد. تلتقطُ الكاميرا الواقعة، وتُسلّمُ المعالجةُ الشعور.</p><blockquote>"تُحمَّضُ الصورةُ مرتين: مرةً بالكاميرا، ومرةً بحسِّ الفنانِ للّون."</blockquote>`},
+  {cat_en:'Visual Applications',cat_ar:'الفنون التطبيقية',title_en:'Portrait Photography vs Portrait Painting',title_ar:'تصوير البورتريه مقابل رسمه',body_en:`<p>Having done both, I can say plainly: photographing a portrait and painting one are two different acts of attention, and each teaches the other.</p><h3>The Instant and the Hour</h3><p>Photography waits for a truthful instant and seizes it; painting builds a truth slowly over hours, choosing what the instant missed. The camera catches who someone was in a flash; the brush constructs who they are across a sitting. I need both eyes now.</p><blockquote>"The camera steals a second of truth. The brush assembles an hour of it."</blockquote>`,body_ar:`<p>بعد أن مارستُ الاثنين أقولُ ببساطة: تصويرُ الوجهِ ورسمُه فعلا انتباهٍ مختلفان، وكلٌّ يُعلّمُ الآخر.</p><h3>اللحظةُ والساعة</h3><p>ينتظرُ التصويرُ لحظةً صادقةً فيقتنصُها، ويبني الرسمُ حقيقةً على مهلٍ عبر ساعاتٍ فيختارُ ما فاتَ اللحظة. تُمسِكُ الكاميرا من كان المرءُ في ومضة، وتبني الفرشاةُ من هو عبر جلسة. وأحتاجُ العينين كلتيهما اليوم.</p><blockquote>"تسرقُ الكاميرا ثانيةً من الحقيقة، وتجمعُ الفرشاةُ ساعةً منها."</blockquote>`},
+  {cat_en:'Visual Applications',cat_ar:'الفنون التطبيقية',title_en:'The Decisive Moment',title_ar:'اللحظة الحاسمة',body_en:`<p>Henri Cartier-Bresson called it the decisive moment, and after years behind a lens I understand it is less about speed and more about readiness.</p><h3>Prepared, Then Patient</h3><p>The decisive moment cannot be forced, only met — you compose, you wait, you stay alert, and then in one instant every element aligns and you press. Miss it by a heartbeat and it is gone forever. Photography taught me a patience even painting never demanded.</p><blockquote>"You do not chase the decisive moment. You get ready and let it arrive."</blockquote>`,body_ar:`<p>سمّاها كارتييه-بريسون اللحظةَ الحاسمة، وبعد سنينَ خلف العدسةِ أفهمُ أنها بالاستعدادِ أشبهُ منها بالسرعة.</p><h3>استعدادٌ ثم صبر</h3><p>لا تُنتزَعُ اللحظةُ الحاسمةُ بل تُستقبَل: تُهيّئُ الإطارَ وتنتظرُ وتبقى يقظاً، ثم في طرفةِ عينٍ يصطفُّ كلُّ شيءٍ فتضغط. أخطئْها بنبضةٍ تضِعْ إلى الأبد. علّمني التصويرُ صبراً لم يطلبْه منّي الرسمُ نفسُه.</p><blockquote>"لا تُطاردُ اللحظةَ الحاسمة، وإنما تستعدُّ وتدعُها تصل."</blockquote>`},
+  {cat_en:'Visual Applications',cat_ar:'الفنون التطبيقية',title_en:'Light as Material',title_ar:'الضوء كمادة',body_en:`<p>Every young photographer thinks light is what you point the camera at. It took me years to understand that light is the material you are actually working with.</p><h3>Sculpting With Light</h3><p>Like a sculptor with stone, a photographer shapes with light and its absence. Where it falls, where it is withheld, how hard or soft its edge — these carve the subject far more than the subject carves itself. Master light and you can make anything beautiful; ignore it and nothing will be.</p><blockquote>"A photographer does not capture light. A photographer builds with it."</blockquote>`,body_ar:`<p>يظنُّ كلُّ مصوّرٍ شابٍّ أن الضوءَ هو ما تُصوّبُ إليه العدسة. واستغرقني سنينَ أن أفهمَ أنه المادةُ التي أعملُ بها.</p><h3>النحتُ بالضوء</h3><p>كنحّاتٍ بالحجر، يُشكّلُ المصوّرُ بالضوءِ وبغيابه: أين يقعُ وأين يُحجَبُ وكم حافتُه قاسيةٌ أو ندية — هذه تنحتُ الموضوعَ أكثرَ مما ينحتُ نفسَه. أتقِنِ الضوءَ يَجمُلْ عندك كلُّ شيء، وأهمِلْه لا يُنقِذْك موضوع.</p><blockquote>"لا يلتقطُ المصوّرُ الضوء، وإنما يبني به."</blockquote>`}
+];
+</script>
+<script>
+var _jO=document.getElementById('jrn-overlay');
+var _jB=document.getElementById('jrn-body');
+var _jL=function(){return document.documentElement.getAttribute('data-lang')||'en';};
+function jrnOpen(idx){
+  var a=JRN_ARTICLES[idx];var L=_jL();
+  var be=a.body_en||'';var ba=a.body_ar||'';
+  if(!be && !ba){
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2><p class="jrn-empty">'+(L==='ar'?'المقال قيد الإعداد — سيُضاف قريباً':'Article coming soon — will be added via CMS')+'</p>';
+  } else {
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2>'+(L==='ar'?ba:be);
+  }
+  _jO.classList.add('open');_jO.scrollTop=0;document.body.style.overflow='hidden';
+}
+document.getElementById('jrn-close').addEventListener('click',function(){_jO.classList.remove('open');document.body.style.overflow='';});
+_jO.addEventListener('click',function(e){if(e.target===_jO){_jO.classList.remove('open');document.body.style.overflow='';}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){_jO.classList.remove('open');document.body.style.overflow='';}});
+</script>
+
+<script>
+/* ── Lazy Loading للخلفيات (CSS backgrounds لا تدعم loading="lazy") ── */
+(function(){
+  var lazyBg = document.querySelectorAll('[data-bg]');
+  if(!lazyBg.length) return;
+  function load(el){
+    var u = el.getAttribute('data-bg');
+    if(!u) return;
+    var img = new Image();
+    img.onload = function(){ el.style.backgroundImage = "url('" + u + "')"; el.removeAttribute('data-bg'); };
+    img.src = u;
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ load(e.target); io.unobserve(e.target); } });
+    }, {rootMargin:'300px 0px'});
+    lazyBg.forEach(function(el){ io.observe(el); });
+  } else { lazyBg.forEach(load); }
+  window.addEventListener('load', function(){
+    setTimeout(function(){ document.querySelectorAll('.slide[data-bg]').forEach(load); }, 400);
+  });
+})();
+</script>
+
+<script>
+/* حفظ اللغة + تمريرها عبر الروابط (يعمل حتى على file:// حيث يُعزل localStorage) */
+(function(){
+  var d=document.documentElement;
+  var g=document.getElementById("lang-glyph");
+  function cur(){return d.getAttribute("data-lang")||"en";}
+  if(g) g.textContent = cur()==="ar" ? "A" : "ض";
+  function save(){ try{ localStorage.setItem("aa_lang",cur()); }catch(e){} }
+  save();
+  try{ new MutationObserver(save).observe(d,{attributes:true,attributeFilter:["data-lang"]}); }catch(e){}
+  /* مرّر اللغة في كل رابط داخلي */
+  document.addEventListener("click",function(e){
+    var a=e.target.closest && e.target.closest("a[href]");
+    if(!a) return;
+    var h=a.getAttribute("href")||"";
+    if(/^(https?:|mailto:|tel:|#|javascript:)/i.test(h)) return;
+    if(a.target==="_blank") return;
+    var l=cur();
+    var hash=""; var base=h;
+    var hi=h.indexOf("#"); if(hi>=0){ base=h.slice(0,hi); hash=h.slice(hi); }
+    base=base.replace(/([?&])lang=(ar|en)&?/,"$1").replace(/[?&]$/,"");
+    base += (base.indexOf("?")>=0?"&":"?")+"lang="+l;
+    a.setAttribute("href",base+hash);
+  },true);
+})();
+</script>
+</body>
+</html>

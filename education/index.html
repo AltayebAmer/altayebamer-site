@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Art workshops, private lessons and masterclasses in Dubai.">
+<meta property="og:title" content="Art Education — Altayeb Amer">
+<meta property="og:description" content="Art workshops, private lessons and masterclasses in Dubai.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>Art Education — Altayeb Amer</title>
+<link rel="canonical" href="https://altayebamer.com/education/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#050504">
+<meta name="author" content="Altayeb Amer">
+<meta property="og:site_name" content="Altayeb Amer">
+<meta property="og:url" content="https://altayebamer.com/education/">
+<meta property="og:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Altayeb Amer — Visual Artist, Dubai">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AE">
+<meta name="twitter:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta name="twitter:title" content="Art Education — Altayeb Amer">
+<meta name="twitter:description" content="Art workshops, private lessons and masterclasses in Dubai with Altayeb Amer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&family=IBM+Plex+Arabic:wght@200;300&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+:root{--void:#050504;--gold:#C8A96E;--acc:#D4A853;--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:auto}
+
+/* CURSOR */
+#cur{opacity:0;position:fixed;width:5px;height:5px;background:rgba(212,168,83,.7);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.ink-splash{position:fixed;border-radius:50%;pointer-events:none;z-index:9998;width:120px;height:120px;background:radial-gradient(circle,rgba(212,168,83,.18)0%,transparent 72%);transform:translate(-50%,-50%) scale(0);animation:splash .75s cubic-bezier(.15,1,.3,1) forwards}
+@keyframes splash{0%{transform:translate(-50%,-50%) scale(0);opacity:1}65%{opacity:.7;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.4)}}
+
+/* LANG BTN */
+#lang-btn{position:fixed;top:1.55rem;left:1.6rem;z-index:8000;width:40px;height:40px;border-radius:50%;border:1px solid transparent;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity .5s,border-color .4s;background:transparent}
+#lang-btn.near{opacity:.45;border-color:rgba(212,168,83,.2)}
+#lang-btn:hover{opacity:1!important;border-color:var(--acc)!important}
+#lang-btn span{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(212,168,83,.5);transition:color .4s;user-select:none}
+#lang-btn:hover span{color:var(--acc)}
+
+/* INK VEIL */
+#ink-veil{position:fixed;inset:0;z-index:8500;pointer-events:none;overflow:hidden}
+#ink-blob{position:absolute;border-radius:50%;background:var(--void);transform:translate(-50%,-50%) scale(0);will-change:transform}
+#ink-blob.grow{width:300vmax;height:300vmax;transform:translate(-50%,-50%) scale(1);transition:transform .95s cubic-bezier(.22,1,.36,1)}
+#ink-blob.shrink{transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.4,0,.6,1)}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:700;padding:1.6rem 2rem 1.6rem 5rem;display:flex;align-items:center;justify-content:flex-end;gap:1.6rem;background:linear-gradient(to bottom,rgba(5,5,4,.88)0%,transparent 100%)}
+nav a{font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.22em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+nav a:hover,nav a.active{color:var(--acc)}
+.nav-home{color:rgba(212,168,83,.45)!important}
+.nav-gallery{border:1px solid rgba(212,168,83,.3);padding:.3rem .85rem;transition:border-color .3s,color .3s!important}
+.nav-gallery:hover{border-color:var(--acc)!important}
+
+/* HERO */
+#hero{position:relative;height:100vh;min-height:600px;overflow:hidden;display:flex;align-items:flex-end}
+#hero-slides{position:absolute;inset:0}
+.hslide{position:absolute;inset:0;opacity:0;transition:opacity 1.4s ease}
+.hslide-bg{width:100%;height:100%;display:block}
+.hslide.active{opacity:1}
+.hero-ink{position:absolute;inset:0}
+.hero-ink::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,5,4,1)0%,rgba(5,5,4,.3)50%,transparent 100%)}
+.hero-content{position:relative;z-index:2;padding:0 0 5.5rem;width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 2rem}
+.hero-tag{font-family:'Cinzel',serif;font-size:.63rem;letter-spacing:.55em;text-transform:uppercase;color:rgba(212,168,83,.5);margin-bottom:1rem;display:block}
+.hero-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,7vw,6.5rem);font-weight:300;color:var(--ivory);line-height:1;margin-bottom:.4rem}
+.hero-h1-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(2.5rem,6vw,5.5rem);font-weight:200;color:var(--ivory);line-height:1.2;margin-bottom:.4rem;display:none}
+[data-lang="ar"] .hero-h1{display:none}[data-lang="ar"] .hero-h1-ar{display:block}
+.hero-rule{width:60px;height:1px;background:linear-gradient(to right,var(--acc),transparent);margin:1.4rem 0}
+[data-lang="ar"] .hero-rule{background:linear-gradient(to left,var(--acc),transparent)}
+.hero-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2vw,1.25rem);font-weight:300;font-style:italic;color:rgba(212,168,83,.65);max-width:560px}
+.hero-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.9rem,1.8vw,1.1rem);font-weight:200;color:rgba(212,168,83,.65);max-width:560px;display:none}
+[data-lang="ar"] .hero-phrase{display:none}[data-lang="ar"] .hero-phrase-ar{display:block}
+#hero-dots{position:absolute;bottom:1.8rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;z-index:3}
+.hdot{width:5px;height:5px;border-radius:50%;background:rgba(212,168,83,.25);transition:background .4s,transform .4s}
+.hdot.on{background:var(--acc);transform:scale(1.3)}
+.scroll-hint{position:absolute;bottom:2.5rem;right:2.5rem;z-index:3;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:.3}
+.scroll-hint span{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.35em;text-transform:uppercase;color:var(--acc);writing-mode:vertical-rl}
+.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--acc),transparent);animation:sp 2s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:.3}50%{opacity:.9}}
+
+/* BREATHS */
+.br-half{height:50vh;min-height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(212,168,83,.06)}
+.br-quarter{min-height:26vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(212,168,83,.05);padding:3rem 0}
+.br-half::before{content:'✦';position:absolute;font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(18rem,38vw,36rem);font-weight:200;color:rgba(212,168,83,.025);line-height:1;pointer-events:none;user-select:none;right:5%;top:50%;transform:translateY(-50%)}
+.q-stage{max-width:760px;padding:0 2rem;text-align:center;position:relative;z-index:1}
+.q-item{display:none;animation:qfade .8s ease}
+.q-item.vis{display:block}
+@keyframes qfade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.q-text{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.3vw,1.6rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.75;margin-bottom:1rem}
+.q-text-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.95rem,2vw,1.3rem);font-weight:200;color:var(--ivory);line-height:2;margin-bottom:1rem;display:none}
+[data-lang="ar"] .q-text{display:none}[data-lang="ar"] .q-text-ar{display:block}
+.q-author{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.35em;text-transform:uppercase;color:rgba(212,168,83,.4)}
+.q-author-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.75rem;font-weight:200;color:rgba(212,168,83,.4);display:none}
+[data-lang="ar"] .q-author{display:none}[data-lang="ar"] .q-author-ar{display:block}
+.q-prog{display:flex;gap:.45rem;margin-top:1.4rem;justify-content:center}
+.qdot{width:3px;height:3px;border-radius:50%;background:rgba(212,168,83,.18);transition:background .4s,transform .3s}
+.qdot.on{background:var(--acc);transform:scale(1.6)}
+.br-quarter .q-text{font-size:clamp(.92rem,1.7vw,1.2rem)}
+.br-quarter .q-text-ar{font-size:clamp(.82rem,1.5vw,1.05rem)}
+
+/* BANDS — identical to index.html */
+.band{position:relative;width:100%;height:100vh;overflow:hidden;cursor:pointer}
+.band-cover{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(1) brightness(.32);transition:filter .7s ease}
+.band.clicked .band-cover{filter:grayscale(0) brightness(.52) saturate(.88)}
+.band-bloom{position:absolute;border-radius:50%;z-index:3;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,255,200,.45)0%,rgba(200,150,50,.22)35%,rgba(100,60,0,.08)65%,transparent 100%);transform:translate(-50%,-50%) scale(0);animation:bandBloom 2.5s cubic-bezier(.15,1,.3,1) forwards;width:300vmax;height:300vmax}
+@keyframes bandBloom{0%{transform:translate(-50%,-50%) scale(0);opacity:1}55%{transform:translate(-50%,-50%) scale(1);opacity:.85}100%{transform:translate(-50%,-50%) scale(1.05);opacity:0}}
+.band-ink{position:absolute;inset:0;z-index:4;pointer-events:none}
+.band-label{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center;transition:opacity .4s,transform .4s}
+.band.clicked .band-label{opacity:0;transform:translateY(-8px);pointer-events:none}
+.band-tag{font-family:'Cinzel',serif;font-size:.78rem;letter-spacing:.38em;color:var(--acc);text-transform:uppercase;margin-bottom:1rem}
+.band-title-en{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,3.2rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.2;text-align:center}
+.band-title-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1.4rem,3vw,2.6rem);font-weight:200;color:var(--ivory);line-height:1.5;display:none;text-align:center}
+[data-lang="ar"] .band-title-en{display:none}[data-lang="ar"] .band-title-ar{display:block}
+.band-reveal{position:absolute;inset:0;z-index:11;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .5s ease .1s;padding:2rem;text-align:center}
+.band.clicked .band-reveal{opacity:1;pointer-events:auto}
+.band-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1.05rem,1.9vw,1.28rem);font-style:italic;font-weight:300;color:rgba(240,235,225,.72);letter-spacing:.03em;max-width:480px;line-height:1.8;margin-bottom:2.5rem}
+.band-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1rem,1.7vw,1.18rem);font-weight:200;color:rgba(240,235,225,.72);line-height:2;max-width:480px;display:none;text-align:center;margin-bottom:2.5rem}
+[data-lang="ar"] .band-phrase{display:none}[data-lang="ar"] .band-phrase-ar{display:block}
+.band-enter{font-family:'Cinzel',serif;font-size:.85rem;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;padding:1rem 3rem;border:1px solid currentColor;position:relative;overflow:hidden;transition:color .35s;display:inline-block}
+.band-enter::before{content:'';position:absolute;inset:0;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s ease}
+.band-enter:hover::before{transform:scaleX(1);transform-origin:left}
+.band-enter:hover{color:var(--void)}
+.band-enter span{position:relative;z-index:1}
+
+/* FINAL BREATH — identical mechanics to index.html */
+.br-sq{height:22vh;min-height:160px;display:flex;align-items:center;justify-content:center;border-top:1px solid rgba(212,168,83,.06)}
+.boxes-row{display:flex;gap:1.6rem;flex-wrap:wrap;justify-content:center}
+.sq{width:72px;height:72px;border:1px solid rgba(200,169,110,.22);display:flex;align-items:center;justify-content:center;cursor:auto;transition:border-color .5s}
+.sq:hover{border-color:rgba(200,169,110,.65)}
+.sq-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none}
+.sq-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .sq-word{display:none}[data-lang="ar"] .sq-word-ar{display:block}
+.sq:hover .sq-word,.sq:hover .sq-word-ar{opacity:1}
+#br-float{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.float-word{position:absolute;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;color:transparent;pointer-events:none;user-select:none;transition:color 1.4s ease;white-space:nowrap}
+.float-word.show{color:rgba(200,169,110,.4)}
+#br-swim{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.swim-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;border:1px solid rgba(200,169,110,.18);transition:border-color .5s,opacity .5s;opacity:.42}
+.swim-shape:hover{border-color:rgba(200,169,110,.7);opacity:1}
+.swim-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.swim-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .swim-word{display:none}[data-lang="ar"] .swim-word-ar{display:block}
+.swim-shape:hover .swim-word,.swim-shape:hover .swim-word-ar{opacity:1}
+#br-hover{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.hover-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity 1.5s,border-color .4s}
+.hover-shape.visible{opacity:.28}
+.hover-shape:hover{opacity:1!important}
+.hsh-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.hsh-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .hsh-word{display:none}[data-lang="ar"] .hsh-word-ar{display:block}
+.hover-shape:hover .hsh-word,.hover-shape:hover .hsh-word-ar{opacity:1}
+
+/* FINAL + FOOTER — identical to index.html */
+#final{width:100%;padding:10rem 2rem 6rem;background:var(--void);display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
+#final::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 40% at 50% 60%,rgba(200,169,110,.028)0%,transparent 70%);pointer-events:none}
+#final-line{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.2vw,1.5rem);font-weight:300;font-style:italic;color:rgba(240,235,225,.45);letter-spacing:.05em;margin-bottom:4rem}
+#final-name{font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;color:var(--gold);letter-spacing:.08em;margin-bottom:1.8rem}
+#final-rule{width:100%;max-width:560px;height:1px;background:linear-gradient(to right,transparent,rgba(200,169,110,.38),transparent);margin-bottom:1.8rem}
+#final-links{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;justify-content:center}
+#final-links a{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.3em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+#final-links a:hover{color:var(--gold)}
+#final-links span{color:rgba(200,169,110,.2);font-size:.55rem}
+footer{padding:3rem 2rem;border-top:1px solid rgba(200,169,110,.08);text-align:center}
+.footer-top{margin-bottom:1.5rem}
+.footer-artist-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:rgba(200,169,110,.45);letter-spacing:.15em;margin-bottom:.3rem}
+.footer-title{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(200,169,110,.25)}
+.footer-copy{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;color:var(--ivory2);text-transform:uppercase;line-height:2}
+footer a{color:rgba(200,169,110,.45);text-decoration:none;transition:color .3s}
+footer a:hover{color:var(--gold)}
+
+/* BILINGUAL */
+.t-en{display:inline}.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body{direction:rtl}
+.ar-font{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  nav{padding:1.2rem 1.2rem 1.2rem 5rem;gap:1.2rem;overflow-x:auto}
+  nav a{font-size:.6rem}
+  .band{height:75vh;min-height:400px}
+  .band-title-en{font-size:clamp(1.5rem,6vw,2.2rem)}
+  .band-enter{font-size:.7rem;padding:.75rem 1.5rem;letter-spacing:.2em}
+  .sq{width:58px;height:58px}
+  .br-half{height:auto;padding:4rem 0}
+  .br-half::before{display:none}
+  .scroll-hint{display:none}
+}
+
+
+/* UNIFIED_PATCH_CSS */
+/* ============================================================
+   PATCH: Floating UI + Grayscale Slideshow + Float Words + Unified BG
+   Applies to all 8 specialty/home pages
+   ============================================================ */
+
+/* 1. UNIFIED DARK BACKGROUND — single color, no per-section repeat */
+body{background:#050504 !important}
+
+/* 2. SLIDESHOW / BAND COVER — grayscale default, color on hover/in-view only */
+.band-cover{
+  filter:grayscale(1) brightness(.32) !important;
+  transition:filter .8s ease !important;
+}
+.band:hover .band-cover,
+.band.clicked .band-cover,
+.band.in-view .band-cover{
+  filter:grayscale(0) brightness(.5) saturate(.9) !important;
+}
+
+/* 3. REMOVE BLUE BLOOM EFFECT — per agreed simplification */
+.band-bloom{display:none !important;animation:none !important}
+
+/* 4. FLOATING ACTION BUTTON — back to top */
+#fab-top{
+  position:fixed;bottom:24px;left:24px;z-index:600;
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(10,10,9,.7);backdrop-filter:blur(10px);
+  border:1px solid rgba(200,169,110,.35);
+  color:#C8A96E;font-size:1.05rem;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;opacity:0;transform:translateY(10px);
+  transition:opacity .35s ease,transform .35s ease,border-color .25s;
+  box-shadow:0 8px 24px -6px rgba(0,0,0,.5);
+}
+#fab-top.show{opacity:1;transform:translateY(0)}
+#fab-top:hover{border-color:#C8A96E;box-shadow:0 12px 32px -6px rgba(200,169,110,.25)}
+
+/* 5. FLOATING CAPSULE NAV */
+nav#nav{
+  border-radius:999px !important;
+  margin:14px auto 0 !important;
+  width:fit-content !important;
+  background:rgba(8,8,7,.55) !important;
+  backdrop-filter:blur(14px) saturate(140%);
+  border:1px solid rgba(200,169,110,.18) !important;
+  box-shadow:0 10px 30px -8px rgba(0,0,0,.55),0 1px 0 rgba(255,255,255,.04) inset;
+  position:fixed !important;top:14px;left:50%;transform:translateX(-50%);
+}
+
+/* 6. FLOATING CARDS — bands lift with layered shadow on hover */
+.band{transition:box-shadow .45s ease}
+.band:hover{box-shadow:0 24px 48px -12px rgba(0,0,0,.55),0 8px 16px -8px rgba(200,169,110,.18)}
+
+/* 7. STATEMENT SECTION — البيان الفني */
+.statement-sec{
+  min-height:50vh;display:flex;align-items:center;justify-content:center;
+  padding:4rem 1.5rem;background:#0a0a09;text-align:center;
+  border-top:1px solid rgba(200,169,110,.08);border-bottom:1px solid rgba(200,169,110,.08);
+}
+.statement-inner{max-width:760px}
+.statement-inner p{font-size:1.05rem;line-height:1.9;color:#F0EBE1;opacity:.85;margin-bottom:1rem}
+.statement-readmore{
+  display:inline-block;margin-top:1rem;padding:.7rem 2.2rem;
+  border:1px solid rgba(200,169,110,.4);border-radius:999px;
+  color:#C8A96E;font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.2em;
+  text-decoration:none;transition:.3s;
+}
+.statement-readmore:hover{background:#C8A96E;color:#050504}
+
+/* 8. BREATHER SIZE VARIANTS — break visual rhythm */
+.breather-half{min-height:42vh}
+.breather-quarter{min-height:24vh}
+
+/* 9. FLOATING WORDS + ART SHAPES — revives #br-float spirit, all pages */
+.float-stage{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.float-word{
+  position:absolute;color:rgba(200,169,110,.16);
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  white-space:nowrap;opacity:0;animation:floatWordSeq 18s ease-in-out infinite;
+}
+.float-shape{
+  position:absolute;color:rgba(200,169,110,.10);
+  opacity:0;animation:floatShapeSeq 22s ease-in-out infinite;
+}
+@keyframes floatWordSeq{
+  0%{opacity:0;transform:translate(0,0) scale(.92)}
+  10%{opacity:1}45%{opacity:1;transform:translate(18px,-26px) scale(1)}
+  60%{opacity:0}100%{opacity:0;transform:translate(18px,-26px) scale(1)}
+}
+@keyframes floatShapeSeq{
+  0%{opacity:0;transform:translate(0,0) rotate(0deg)}
+  15%{opacity:1}50%{opacity:1;transform:translate(-22px,30px) rotate(14deg)}
+  70%{opacity:0}100%{opacity:0;transform:translate(-22px,30px) rotate(14deg)}
+}
+@media(max-width:600px){.float-stage{display:none}}
+
+/* UNIFIED_PATCH_CSS */
+
+#lang-btn .lang-txt{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.15em;color:rgba(200,169,110,.55);text-transform:uppercase;margin-right:.35rem;transition:color .4s}
+#lang-btn:hover .lang-txt{color:var(--gold)}
+</style>
+
+<style>
+.jrn-section{padding:3rem 2rem 5rem;max-width:1200px;margin:0 auto}
+.jrn-title{font-size:1.4rem;color:var(--gold-l,#c8a96e);margin-bottom:.3rem;font-family:"IBM Plex Arabic",sans-serif}
+.jrn-rule{width:48px;height:1px;background:var(--gold-l,#c8a96e);opacity:.4;margin-bottom:2rem}
+.jrn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem}
+.jrn-card{border:1px solid rgba(200,169,110,.12);padding:1.5rem;cursor:pointer;transition:border-color .3s,transform .3s;background:rgba(0,0,0,.1)}
+.jrn-card:hover{border-color:rgba(200,169,110,.4);transform:translateY(-2px)}
+.jrn-num{font-size:.68rem;color:rgba(200,169,110,.4);margin-bottom:.4rem}
+.jrn-cat{font-size:.65rem;color:var(--gold-l,#c8a96e);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.jrn-card-title{font-size:.92rem;font-weight:600;color:#e8dcc8;line-height:1.4;margin-bottom:.6rem}
+.jrn-card-title .t-ar{font-family:"IBM Plex Arabic",sans-serif;font-size:.88rem}
+.jrn-link{font-size:.7rem;color:var(--gold-l,#c8a96e)}
+.jrn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:9999;overflow-y:auto;display:none;padding:3rem 2rem}
+.jrn-overlay.open{display:block}
+.jrn-close{position:fixed;top:1.4rem;right:1.4rem;background:none;border:1px solid rgba(200,169,110,.3);color:#c8a96e;width:2rem;height:2rem;cursor:pointer;font-size:.9rem;z-index:10000}
+.jrn-body{max-width:640px;margin:0 auto;color:#e8dcc8;line-height:1.9}
+.jrn-body h2{font-size:1.4rem;color:#c8a96e;margin-bottom:1rem}
+.jrn-body h3{font-size:1rem;color:#c8a96e;margin:1.5rem 0 .5rem}
+.jrn-body p{margin-bottom:1rem;font-size:.9rem}
+.jrn-body blockquote{border-left:2px solid #c8a96e;padding-left:1rem;color:rgba(232,220,200,.65);font-style:italic;margin:1.3rem 0}
+.jrn-tag{font-size:.68rem;color:rgba(200,169,110,.5);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+.jrn-empty{color:rgba(200,169,110,.4);font-size:.82rem;font-style:italic;padding:1rem 0}
+
+/* restore visible cursor + correct affordances */
+a,button,summary,[role=button],.faq-q,.spec-item,.channel,.send-btn,.cta-btn,.wcell,.qbox{cursor:pointer}
+input,textarea,select{cursor:text}
+select{cursor:pointer}
+
+/* ═══ ARABIC TYPOGRAPHY FIX v2 ═══
+   العربية خط متّصل: لا تباعد حروف، ولا Uppercase، وخط عربي حقيقي.
+   الأرضية المطلقة max() تمنع أي نص عربي من النزول تحت حدّ المقروئية،
+   دون أن تُضخّم العناوين الكبيرة (1em يبقى كما هو إن كان أكبر).
+   Arabic: connected script — never letter-space; absolute floor via max(). */
+html[data-lang="ar"] .t-ar,
+html[data-lang="ar"] .ar-font,
+html[data-lang="ar"] [lang="ar"]{
+  font-family:'IBM Plex Arabic',system-ui,sans-serif !important;
+  letter-spacing:normal !important;
+  word-spacing:normal !important;
+  text-transform:none !important;
+  font-size:max(1.02rem,1em);
+  line-height:1.85;
+}
+/* عناصر الواجهة الصغيرة: أرضية أعلى قليلاً + وزن أوضح */
+html[data-lang="ar"] nav a,
+html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .band-tag,
+html[data-lang="ar"] .sec-title,html[data-lang="ar"] .section-title,
+html[data-lang="ar"] .works-title,html[data-lang="ar"] .connect-title,
+html[data-lang="ar"] .q-author,html[data-lang="ar"] .q-author-ar,
+html[data-lang="ar"] .footer-inner,html[data-lang="ar"] .jrn-cat,html[data-lang="ar"] .jrn-tag,
+html[data-lang="ar"] .stat-label,html[data-lang="ar"] .spec-note,html[data-lang="ar"] .offer-num,
+html[data-lang="ar"] .step-title,html[data-lang="ar"] .channel-name,html[data-lang="ar"] .form-label,
+html[data-lang="ar"] .cf-label,html[data-lang="ar"] .work-cap,html[data-lang="ar"] .mv-num{
+  font-size:max(1.02rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  line-height:1.8;
+}
+/* أزرار وروابط: مساحة نقر مريحة */
+html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+html[data-lang="ar"] .filter-btn,html[data-lang="ar"] .send-btn,
+html[data-lang="ar"] .works-all,html[data-lang="ar"] .specblock-visit,
+html[data-lang="ar"] .specblock-viewall,html[data-lang="ar"] .read-btn{
+  font-size:max(1.05rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  padding:.95rem 1.9rem;
+}
+html[data-lang="ar"] nav a{font-weight:400}
+/* شاشات كبيرة (٢٧ إنش فأكثر) */
+@media(min-width:1600px){
+  nav a{font-size:.78rem}
+  .cta,.cta-btn,.cv-btn,.band-enter,.statement-readmore,.send-btn{font-size:.72rem;padding:1rem 2rem}
+  html[data-lang="ar"] nav a{font-size:1.12rem !important}
+  html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .sec-title,
+  html[data-lang="ar"] .section-title,html[data-lang="ar"] .works-title{font-size:1.12rem !important}
+  html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+  html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+  html[data-lang="ar"] .send-btn,html[data-lang="ar"] .works-all,
+  html[data-lang="ar"] .specblock-visit,html[data-lang="ar"] .specblock-viewall{
+    font-size:1.18rem !important;padding:1.1rem 2.2rem;
+  }
+}
+
+/* عناوين عربية: سطر واحد متّزن، ولفٌّ أنيق عند الضرورة */
+[data-lang="ar"] .band-title-ar,
+[data-lang="ar"] .h1,[data-lang="ar"] h1,
+[data-lang="ar"] .cta-heading,[data-lang="ar"] .mv-title{
+  text-wrap:balance;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  max-width:22ch;
+  margin-inline:auto;
+}
+[data-lang="ar"] .band-title-ar{line-height:1.35}
+
+/* ── اسم الفنان بالعربية: خط خطّي كلاسيكي (مؤقت حتى وصول خط الثلث) ── */
+[data-lang="ar"] .name-ar{
+  font-family:'Aref Ruqaa','IBM Plex Arabic',serif !important;
+  font-weight:700;
+  letter-spacing:normal !important;
+  line-height:1.6;
+  font-size:1.15em;
+}
+/* عند توفّر صورة الاسم بخط الثلث: فعّل هذه الكتلة واحذف التي فوقها
+[data-lang="ar"] .name-ar{
+  font-size:0 !important;
+  display:inline-block;
+  width:clamp(180px,26vw,420px);
+  aspect-ratio:1000/300;
+  background:url('/images/brand/name-thuluth.svg') center/contain no-repeat;
+}
+*/
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+</style>
+</head>
+<body>
+<div id="cur"></div>
+<div id="ink-veil"><div id="ink-blob"></div></div>
+<div id="lang-btn"><span class="lang-txt t-en">AR</span><span class="lang-txt t-ar">EN</span><span id="lang-glyph">ض</span></div>
+
+<nav id="nav">
+  <a href="../index.html#hero" class="nav-home">
+    <span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span>
+  </a>
+  <a href="../about/index.html">
+    <span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span>
+  </a>
+  <a href="../journal/index.html">
+    <span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span>
+  </a>
+  <a href="../commission/index.html">
+    <span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span>
+  </a>
+  <a href="../contact/index.html">
+    <span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span>
+  </a>
+  <a href="../gallery/education/index.html" class="nav-gallery">
+    <span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span>
+  </a>
+  <a href="../statement/education/index.html" class="nav-statement">
+    <span class="t-en">Statement</span><span class="t-ar ar-font">البيان الفني</span>
+  </a>
+</nav>
+
+<!-- ══════ HERO ══════ -->
+<section id="hero">
+  <div id="hero-slides">
+    <div class="hslide active"><div class="hslide-bg" style="background:linear-gradient(135deg,#0d0a05 0%,#1a1405 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(to right,#080510 0%,#100a1a 60%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050f 0%,#0a0a1e 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050f 0%,#0a0a1e 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050f 0%,#0a0a1e 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050f 0%,#0a0a1e 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050f 0%,#0a0a1e 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    
+  </div>
+  <div class="hero-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="scroll-hint">
+    <span class="t-en">Scroll</span><span class="t-ar ar-font">مرِّر</span>
+    <div class="scroll-line"></div>
+  </div>
+  <div id="hero-dots"><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div></div>
+  <div class="hero-content">
+    <div class="wrap">
+      <span class="hero-tag">
+        <span class="t-en">VI · Art Education</span>
+        <span class="t-ar ar-font">٦ · Art Education</span>
+      </span>
+      <h1 class="hero-h1">Art<br>Education</h1>
+      <h1 class="hero-h1-ar">تعليم<br>الفن</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-phrase">What is given to another returns to you twofold.</p>
+      <p class="hero-phrase-ar">ما يُعطى للآخر يعود إليك ضعفين.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ BREATH — HALF — Specialty Quotes ══════ -->
+<div class="br-half" id="br-spec">
+  <div>
+    <div class="q-stage" id="qs-spec"></div>
+    <div class="q-prog" id="qp-spec"></div>
+  </div>
+</div>
+
+
+<!-- BAND 1 — I · Calligraphy Workshops -->
+<!-- STATEMENT_SECTION -->
+<section class="statement-sec"><div class="statement-inner"><p><span class="t-en">Teaching art is a responsibility and a message: we plant vision before skill, and curiosity before technique.</span><span class="t-ar">تعليم الفن مسؤولية ورسالة: نزرع الرؤية قبل المهارة، والفضول قبل التقنية.</span></p><a href="../statement/education/index.html" class="statement-readmore"><span class="t-en">Read the full statement</span><span class="t-ar">تتمة القراءة</span></a></div></section>
+<!-- STATEMENT_SECTION -->
+<section class="band" data-bi="0">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7019/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">I · Calligraphy Workshops</span>
+      <span class="t-ar ar-font">١ · ورشات الخط</span>
+    </p>
+    <h2 class="band-title-en">Calligraphy<br>Workshops</h2>
+    <h2 class="band-title-ar">من النقطةِ نبدأ</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">From the first mark to the living letter — a journey that begins with surrender.</p>
+    <p class="band-phrase-ar">من النقطةِ الأولى إلى الحرفِ المتحرّر — رحلةٌ لا تُختصَر.</p>
+    <a href="../gallery/education/index.html#calligraphy-workshop" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Explore Calligraphy Workshops</span>
+        <span class="t-ar ar-font">استكشاف ورشات الخط</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — I · Calligraphy Workshops -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t1"></div>
+    <div class="q-prog" id="qp-t1"></div>
+  </div>
+</div>
+
+<!-- BAND 2 — II · Painting Workshops -->
+<section class="band" data-bi="1">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7020/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(to right,rgba(5,5,4,.75)0%,rgba(5,5,4,.1)65%,rgba(5,5,4,.58)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">II · Painting Workshops</span>
+      <span class="t-ar ar-font">٢ · ورشات الرسم</span>
+    </p>
+    <h2 class="band-title-en">Painting &<br>Mixed Media Workshops</h2>
+    <h2 class="band-title-ar">اليدُ تتعلّم</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">The blank canvas is not a challenge — it is an invitation. The workshop teaches you to accept it.</p>
+    <p class="band-phrase-ar">اليدُ تتعلّمُ ما لا يُلقَّنُ للعقل.</p>
+    <a href="../gallery/education/index.html#painting-workshop" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Explore Painting Workshops</span>
+        <span class="t-ar ar-font">استكشاف ورشات الرسم</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — II · Painting Workshops -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t2"></div>
+    <div class="q-prog" id="qp-t2"></div>
+  </div>
+</div>
+
+<!-- BAND 3 — III · AI Art Workshops -->
+<section class="band" data-bi="2">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7021/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">III · AI Art Workshops</span>
+      <span class="t-ar ar-font">٣ · ورشات فن الذكاء الاصطناعي</span>
+    </p>
+    <h2 class="band-title-en">AI Art<br>Workshops</h2>
+    <h2 class="band-title-ar">أدواتُ الغد</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">The workshop teaches not how to use AI — but how to direct it toward something true.</p>
+    <p class="band-phrase-ar">أدواتُ الغدِ في يدِ من يعرفُ لماذا يستعملها.</p>
+    <a href="../gallery/education/index.html#ai-workshop" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Explore AI Art Workshops</span>
+        <span class="t-ar ar-font">استكشاف ورشات الذكاء الاصطناعي</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — III · AI Art Workshops -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t3"></div>
+    <div class="q-prog" id="qp-t3"></div>
+  </div>
+</div>
+
+
+
+<!-- BAND 4 — IV · Kids Program -->
+<section class="band" data-bi="3">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20016/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">IV · Kids Program</span>
+      <span class="t-ar ar-font">٤ · برنامج الأطفال</span>
+    </p>
+    <h2 class="band-title-en">Kids Program<br>Guard the Fearlessness</h2>
+    <h2 class="band-title-ar">احرسوا الجرأة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Children already have what adults spend a lifetime trying to recover.</p>
+    <p class="band-phrase-ar">يملكُ الطفلُ سلفاً ما يقضي الكبارُ العمرَ في استعادته.</p>
+    <a href="../gallery/education/index.html#kids" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Kids Program Gallery</span>
+        <span class="t-ar ar-font">معرض برنامج الأطفال</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — IV · Kids Program -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t4"></div>
+    <div class="q-prog" id="qp-t4"></div>
+  </div>
+</div>
+
+<!-- BAND 5 — V · Private Lessons -->
+<section class="band" data-bi="4">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20017/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">V · Private Lessons</span>
+      <span class="t-ar ar-font">٥ · دروس خاصة</span>
+    </p>
+    <h2 class="band-title-en">Private Lessons<br>Depth Without Isolation</h2>
+    <h2 class="band-title-ar">عمقٌ بلا عزلة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">All that focused attention can accelerate a student — or smother them.</p>
+    <p class="band-phrase-ar">كلُّ ذلك الانتباهِ المركّزِ قد يُسرِعُ بالطالبِ أو يخنقُه.</p>
+    <a href="../gallery/education/index.html#private" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Private Lessons Gallery</span>
+        <span class="t-ar ar-font">معرض الدروس الخاصة</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — V · Private Lessons -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t5"></div>
+    <div class="q-prog" id="qp-t5"></div>
+  </div>
+</div>
+
+<!-- BAND 6 — VI · Online Courses -->
+<section class="band" data-bi="5">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20018/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VI · Online Courses</span>
+      <span class="t-ar ar-font">٦ · دورات عن بعد</span>
+    </p>
+    <h2 class="band-title-en">Online Courses<br>What Crosses a Camera</h2>
+    <h2 class="band-title-ar">ما يعبرُ العدسة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Knowledge travels well through a lens; the smell of turpentine does not.</p>
+    <p class="band-phrase-ar">تعبرُ المعرفةُ العدسةَ بيسر، ولا تعبرُها رائحةُ التربنتين.</p>
+    <a href="../gallery/education/index.html#online" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Online Courses Gallery</span>
+        <span class="t-ar ar-font">معرض الدورات عن بُعد</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VI · Online Courses -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t6"></div>
+    <div class="q-prog" id="qp-t6"></div>
+  </div>
+</div>
+
+<!-- BAND 7 — VII · Masterclass -->
+<section class="band" data-bi="6">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20019/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VII · Masterclass</span>
+      <span class="t-ar ar-font">٧ · ماستر كلاس</span>
+    </p>
+    <h2 class="band-title-en">Masterclass<br>Helping Them Let Go</h2>
+    <h2 class="band-title-ar">أن تُفلِتَ ما أتقنت</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Beginners need habits; the advanced often need to lose a few.</p>
+    <p class="band-phrase-ar">يحتاجُ المبتدئُ عاداتٍ، ويحتاجُ المتقدّمُ أن يتخلّى عن بعضها.</p>
+    <a href="../gallery/education/index.html#masterclass" class="band-enter" style="color:#D4A853">
+      <span>
+        <span class="t-en">Enter Masterclass Gallery</span>
+        <span class="t-ar ar-font">معرض الماستر كلاس</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VII · Masterclass -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t7"></div>
+    <div class="q-prog" id="qp-t7"></div>
+  </div>
+</div>
+
+<!-- ══════ FINAL BREATH ══════ -->
+<div class="br-sq"><div class="boxes-row"></div></div>
+<div id="br-float"></div>
+<div id="br-swim"></div>
+<div id="br-hover"></div>
+
+<!-- ══════ FINAL ══════ -->
+<div id="final">
+  <p id="final-line">
+    <span class="t-en">One soul · Seven worlds · Infinite creation</span>
+    <span class="t-ar ar-font">روح واحدة · سبعة عوالم · إبداع لا نهاية له</span>
+  </p>
+  <p id="final-name"><span class="t-en">Altayeb Amer</span><span class="t-ar name-ar">الطيب عامر</span></p>
+  <div id="final-rule"></div>
+  <div id="final-links">
+    <a href="../index.html#hero"><span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span></a>
+    <span>·</span>
+    <a href="../about/index.html"><span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span></a>
+    <span>·</span>
+    <a href="../journal/index.html"><span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span></a>
+    <span>·</span>
+    <a href="../commission/index.html"><span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span></a>
+    <span>·</span>
+    <a href="../contact/index.html"><span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span></a>
+    <span>·</span>
+    <a href="../gallery/index.html"><span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span></a>
+  </div>
+</div>
+
+<!-- ══════ FOOTER ══════ -->
+<footer>
+  <div class="footer-top">
+    <p class="footer-artist-name">
+      <a href="../index.html#hero">
+        <span class="t-en">Altayeb Amer</span>
+        <span class="t-ar ar-font">الطيب عامر</span>
+      </a>
+    </p>
+    <p class="footer-title">
+      <span class="t-en">Creative Beyond · One Soul · Seven Worlds</span>
+      <span class="t-ar ar-font">كريتيف بيوند · روح واحدة · سبعة عوالم</span>
+    </p>
+  </div>
+  <p class="footer-copy">
+    <a href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">
+      <span class="t-en">Creative Beyond</span>
+      <span class="t-ar ar-font">كريتيف بيوند</span>
+    </a>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    <span class="t-en">Dubai</span><span class="t-ar ar-font">دبي</span>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    © <span id="yr"></span>
+  </p>
+</footer>
+
+<script>
+// ── QUOTES DATA ──
+const Q_SPEC = [
+  ["Teaching is not the transmission of technique — it is the transmission of a way of seeing.","التعليم ليس نقل التقنية — بل نقل طريقة في الرؤية."],
+  ["I do not teach technique — I teach courage. The technique follows.","لا أُدرّس التقنية — أُدرّس الشجاعة. التقنية تتبع."],
+  ["The greatest gift a teacher can give is not knowledge — it is the belief that the student already carries something worth making.","أعظم هدية يمكن لمعلم أن يمنحها ليست المعرفة — بل الإيمان بأن الطالب يحمل بالفعل شيئاً يستحق الصنع."],
+  ["Every student who learns to see carefully becomes a multiplier of beauty in the world.","كل طالب يتعلم الملاحظة بعناية يصبح مضاعِفاً للجمال في العالم."],
+  ["Art education is not about producing artists — it is about producing people who see.","تعليم الفن ليس عن إنتاج فنانين — بل عن إنتاج أشخاص يرون."],
+  ["The best art lesson ends with the student asking a question the teacher cannot answer.","أفضل درس فني ينتهي بالطالب يطرح سؤالاً لا يستطيع المعلم الإجابة عنه."],
+  ["To teach art is to accept that your most important lesson will be the one you did not plan.","تدريس الفن هو قبول أن درسك الأهم سيكون الذي لم تخطط له."]
+];
+const Q_T1 = [
+  ["The first workshop lesson is always the same: unlearn the urgency. The letter does not hurry.","الدرس الأول في الورشة دائماً نفسه: انسَ الاستعجال. الحرف لا يتسرع."],
+  ["I teach calligraphy not to produce calligraphers — but to give people a direct experience of time moving at human speed.","أُدرّس الخط ليس لإنتاج خطاطين — بل لمنح الناس تجربة مباشرة للزمن يسير بسرعة إنسانية."],
+  ["Every student who completes a calligraphy workshop sees Arabic script differently forever.","كل طالب يكمل ورشة خط يرى الخط العربي بشكل مختلف إلى الأبد."],
+  ["The reed pen is the most honest teacher in the calligraphy workshop — it never lies about your tension.","القلم هو أصدق معلم في ورشة الخط — لا يكذب أبداً بشأن توترك."],
+  ["In the calligraphy workshop, failure is not the wrong mark — failure is not making the mark at all.","في ورشة الخط، الفشل ليس الأثر الخاطئ — الفشل هو عدم إحداث الأثر أصلاً."],
+  ["The advanced calligraphy student is not the one who makes fewer mistakes — but the one who makes more interesting mistakes.","الطالب المتقدم في الخط ليس من يرتكب أخطاء أقل — بل من يرتكب أخطاء أكثر إثارة للاهتمام."],
+  ["Teaching classical scripts is teaching a conversation with masters across centuries.","تدريس الخطوط الكلاسيكية هو تعليم محادثة مع أساتذة عبر القرون."]
+];
+const Q_T2 = [
+  ["In the painting workshop, the most important lesson comes after the first failure — when the student decides to keep going.","في ورشة الرسم، الدرس الأهم يأتي بعد الفشل الأول — حين يقرر الطالب الاستمرار."],
+  ["Color mixing cannot be taught from a chart — it must be discovered through ten thousand failed attempts.","مزج الألوان لا يمكن تعليمه من مخطط — يجب اكتشافه عبر عشرة آلاف محاولة فاشلة."],
+  ["The painting workshop teaches discipline — but its real gift is permission to make marks without fear.","ورشة الرسم تعلم الانضباط — لكن هديتها الحقيقية هي الإذن بإحداث أثر بلا خوف."],
+  ["Mixed media liberates the student from the tyranny of a single material — and from the tyranny of expectation.","الوسائط المختلطة تحرر الطالب من طغيان مادة واحدة — ومن طغيان التوقع."],
+  ["The best painting workshop leaves students with more questions than when they arrived — and that is its success.","أفضل ورشة رسم تترك الطلاب بأسئلة أكثر مما عندهم حين وصلوا — وذلك هو نجاحها."],
+  ["I teach painters to fail beautifully — because every breakthrough in painting passes through beautiful failure.","أعلم الرسامين كيف يفشلون بجمال — لأن كل اختراق في الرسم يمر بفشل جميل."],
+  ["The physical act of painting — the weight of the brush, the resistance of the surface — is irreplaceable by any digital equivalent.","الفعل المادي للرسم — ثقل الفرشاة، مقاومة السطح — لا يمكن لأي بديل رقمي استبداله."]
+];
+const Q_T3 = [
+  ["The AI art workshop begins not with a tool demonstration — but with a question: what do you want to say that you could not say before?","ورشة فن الذكاء الاصطناعي لا تبدأ بعرض أداة — بل بسؤال: ما الذي تريد قوله ولم تستطع قوله من قبل؟"],
+  ["The most important skill in AI art is not prompting — it is the ability to recognise which output contains genuine intention.","أهم مهارة في فن الذكاء الاصطناعي ليست كتابة البرومبت — بل القدرة على التعرف على أي مخرج يحمل نية حقيقية."],
+  ["I teach AI art workshops because the tool is new but the questions are as old as the first mark on a cave wall.","أُدرّس ورشات فن الذكاء الاصطناعي لأن الأداة جديدة لكن الأسئلة قديمة قِدَم الأثر الأول على جدار الكهف."],
+  ["In the AI workshop, the student learns that speed and creativity are not the same thing.","في ورشة الذكاء الاصطناعي، يتعلم الطالب أن السرعة والإبداع ليسا نفس الشيء."],
+  ["The greatest danger for AI art students is the temptation of the impressive — learning to resist it is the real workshop.","أكبر خطر لطلاب فن الذكاء الاصطناعي هو إغراء المبهر — تعلم مقاومته هو الورشة الحقيقية."],
+  ["Every AI art workshop session produces one question worth years of exploration. That question is the real output.","كل جلسة ورشة فن ذكاء اصطناعي تنتج سؤالاً واحداً يستحق سنوات من الاستكشاف. ذلك السؤال هو المخرج الحقيقي."],
+  ["Teaching AI art to calligraphers is my favourite workshop — because they already understand that the tool is not the art.","تدريس فن الذكاء الاصطناعي للخطاطين هو ورشتي المفضلة — لأنهم يفهمون مسبقاً أن الأداة ليست الفن."]
+];
+
+// ── FINAL BREATH WORDS ──
+const B1E=["Teach", "Learn", "See", "Grow", "Give", "Build", "Wonder"], B1A=["علّم", "تعلّم", "انظر", "ارتقِ", "أعطِ", "ابنِ", "تساءل"];
+const SWE=["Student", "Master", "Practice", "Patience", "Question", "Discovery", "Gift"], SWA=["طالب", "أستاذ", "تمرين", "صبر", "سؤال", "اكتشاف", "هدية"];
+const H6E=["Begin", "Fail", "Try", "Learn", "Grow", "Teach", "Pass"], H6A=["ابدأ", "افشل", "حاول", "تعلّم", "ارتقِ", "علّم", "مرّر"];
+
+// ── ENGINE ──
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+const cur=document.getElementById('cur');
+if(window.matchMedia('(pointer: coarse)').matches)cur.style.display='none';
+document.addEventListener('mousemove',e=>{cur.style.left=e.clientX+'px';cur.style.top=e.clientY+'px';cur.style.opacity='1';});
+function spawnSplash(x,y){const s=document.createElement('div');s.className='ink-splash';s.style.left=x+'px';s.style.top=y+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),850);}
+document.addEventListener('click',e=>{if(e.target.closest('#lang-btn'))return;spawnSplash(e.clientX,e.clientY);});
+document.addEventListener('touchend',e=>{if(e.target.closest('#lang-btn'))return;const t=e.changedTouches[0];spawnSplash(t.clientX,t.clientY);},{passive:true});
+
+/* LANG */
+const langBtn=document.getElementById('lang-btn'),langGlyph=document.getElementById('lang-glyph');
+const inkBlob=document.getElementById('ink-blob'),htmlEl=document.documentElement;
+let lang=(window.__AA_LANG||'en');
+const AR='الطيببعامرحروفية'.split('');
+function burst(ox,oy){for(let i=0;i<14;i++){const el=document.createElement('div');el.style.cssText=`position:fixed;z-index:9999;pointer-events:none;font-family:'IBM Plex Arabic',sans-serif;font-size:${.85+Math.random()}rem;color:rgba(200,169,110,.7);left:${ox}px;top:${oy}px;`;el.textContent=AR[Math.floor(Math.random()*AR.length)];const a=Math.random()*Math.PI*2,d=65+Math.random()*130;const dur=.5+Math.random()*.4;el.style.animation=`burstL ${dur}s ease forwards`;el.style.setProperty('--tx',Math.cos(a)*d+'px');el.style.setProperty('--ty',Math.sin(a)*d+'px');document.body.appendChild(el);setTimeout(()=>el.remove(),1000);}}
+document.addEventListener('mousemove',e=>{const r=langBtn.getBoundingClientRect();langBtn.classList.toggle('near',Math.hypot(e.clientX-(r.left+r.width/2),e.clientY-(r.top+r.height/2))<150);});
+langBtn.addEventListener('click',e=>{e.stopPropagation();const r=langBtn.getBoundingClientRect();const ox=r.left+r.width/2,oy=r.top+r.height/2;burst(ox,oy);inkBlob.style.left=ox+'px';inkBlob.style.top=oy+'px';inkBlob.style.transition='none';inkBlob.style.transform='translate(-50%,-50%) scale(0)';requestAnimationFrame(()=>requestAnimationFrame(()=>{inkBlob.classList.add('grow');setTimeout(()=>{lang=lang==='en'?'ar':'en';htmlEl.setAttribute('data-lang',lang);htmlEl.setAttribute('lang',lang);htmlEl.setAttribute('dir',lang==='ar'?'rtl':'ltr');langGlyph.textContent=lang==='en'?'ض':'A';inkBlob.classList.remove('grow');inkBlob.classList.add('shrink');setTimeout(()=>{inkBlob.classList.remove('shrink');inkBlob.style.transform='translate(-50%,-50%) scale(0)';},750);},480);}));});
+
+/* HERO SLIDESHOW */
+(function(){const slides=document.querySelectorAll('#hero-slides .hslide');const dots=document.querySelectorAll('#hero-dots .hdot');if(!slides.length)return;let idx=0;function goTo(n){slides[idx].classList.remove('active');dots[idx]&&dots[idx].classList.remove('on');idx=(n+slides.length)%slides.length;slides[idx].classList.add('active');dots[idx]&&dots[idx].classList.add('on');}const timer=setInterval(()=>goTo(idx+1),5500);document.getElementById('hero').addEventListener('click',e=>{if(e.target.closest('#hero-dots'))return;const r=document.getElementById('hero').getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';document.getElementById('hero').appendChild(b);setTimeout(()=>b.remove(),3100);clearInterval(timer);goTo(idx+1);});})();
+
+/* QUOTES ENGINE */
+function buildQ(stageId,progId,qArr){const stage=document.getElementById(stageId),prog=document.getElementById(progId);if(!stage||!prog)return;qArr.forEach((q,i)=>{const item=document.createElement('div');item.className='q-item'+(i===0?' vis':'');item.innerHTML=`<p class="q-text">"${q[0]}"</p><p class="q-text-ar">"${q[1]}"</p><p class="q-author">— Altayeb Amer</p><p class="q-author-ar ar-font">— الطيب عامر</p>`;stage.appendChild(item);const dot=document.createElement('div');dot.className='qdot'+(i===0?' on':'');prog.appendChild(dot);});let qi=0;const items=stage.querySelectorAll('.q-item'),qdots=prog.querySelectorAll('.qdot');const obs=new IntersectionObserver(entries=>{if(entries[0].isIntersecting){setInterval(()=>{items[qi].classList.remove('vis');qdots[qi].classList.remove('on');qi=(qi+1)%items.length;items[qi].classList.add('vis');qdots[qi].classList.add('on');},6500);obs.disconnect();}},{threshold:0.25});obs.observe(stage);}
+
+/* BANDS */
+document.querySelectorAll('.band').forEach(sec=>{sec.addEventListener('click',e=>{if(e.target.closest('.band-enter'))return;e.stopPropagation();const r=sec.getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';sec.appendChild(b);setTimeout(()=>b.remove(),2600);sec.classList.toggle('clicked');});});
+document.addEventListener('click',()=>document.querySelectorAll('.band.clicked').forEach(b=>b.classList.remove('clicked')));
+
+/* FINAL BREATH SQUARES */
+(function(){const row=document.querySelector('.boxes-row');if(!row)return;B1E.forEach((w,i)=>{const sq=document.createElement('div');sq.className='sq';sq.innerHTML=`<span class="sq-word">${w}</span><span class="sq-word-ar">${B1A[i]}</span>`;row.appendChild(sq);});})();
+
+/* FLOAT */
+(function(){const br=document.getElementById('br-float');if(!br)return;const getLang=()=>htmlEl.getAttribute('data-lang')||'en';const FW_EN=["Light","Depth","Form","Shadow","Ink","Space","Vision","Mark","Layer","Touch","Tone","Line","Soul","Flow","Void","Breath","Color","Time"];const FW_AR=["ضوء","عمق","شكل","ظل","حبر","فضاء","رؤية","أثر","طبقة","لمسة","درجة","خط","روح","انسياب","فراغ","نَفَس","لون","زمن"];const els=[];for(let i=0;i<18;i++){const el=document.createElement('div');el.className='float-word';el.style.cssText=`font-size:${.7+Math.random()*.85}rem;left:${5+Math.random()*88}%;top:${8+Math.random()*80}%;position:absolute;`;br.appendChild(el);els.push(el);}let wi=0;function showNext(){const words=getLang()==='ar'?FW_AR:FW_EN;els.forEach(e=>e.style.color='transparent');[...els].sort(()=>Math.random()-.5).slice(0,3+Math.floor(Math.random()*2)).forEach(e=>{e.textContent=words[wi%words.length];e.style.color='rgba(200,169,110,.4)';wi++;});}const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){setInterval(showNext,2200);showNext();obs.disconnect();}},{threshold:.2});obs.observe(br);})();
+
+/* SWIM */
+(function(){const br=document.getElementById('br-swim');if(!br)return;SWE.forEach((w,i)=>{const sh=document.createElement('div');sh.className='swim-shape';const sz=54+Math.floor(Math.random()*22);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${5+Math.random()*80}%;top:${10+Math.random()*70}%;position:absolute;transform:translate(-50%,-50%);${i%2===0?'border-radius:50%;':''}`;sh.innerHTML=`<span class="swim-word">${w}</span><span class="swim-word-ar">${SWA[i]}</span>`;br.appendChild(sh);const dx=(Math.random()-.5)*35,dy=(Math.random()-.5)*25,dur=8+Math.random()*6;sh.animate([{transform:'translate(-50%,-50%)'},{transform:`translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px))`},{transform:'translate(-50%,-50%)'}],{duration:dur*1000,iterations:Infinity,easing:'ease-in-out'});});})();
+
+/* HOVER */
+(function(){const br=document.getElementById('br-hover');if(!br)return;H6E.forEach((w,i)=>{const sh=document.createElement('div');sh.className='hover-shape';const sz=60+Math.floor(Math.random()*18);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${8+Math.random()*78}%;top:${12+Math.random()*68}%;position:absolute;transform:translate(-50%,-50%);border:1px solid rgba(200,169,110,.28);${i%3===1?'border-radius:50%;':''}`;sh.innerHTML=`<span class="hsh-word">${w}</span><span class="hsh-word-ar">${H6A[i]}</span>`;br.appendChild(sh);});let rev=0;const allSh=br.querySelectorAll('.hover-shape');const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){function next(){if(rev>=allSh.length)return;allSh[rev].classList.add('visible');rev++;setTimeout(next,900+Math.random()*600);}next();obs.disconnect();}},{threshold:.15});obs.observe(br);})();
+
+
+const Q_T4 = [
+  ["Adults learn to draw; children must be helped not to forget how.","يتعلّمُ الكبارُ الرسم، ويُعانُ الصغارُ كي لا ينسَوه."],
+  ["Teach too much technique too early and you trade courage for caution.","علّمْ تقنيةً كثيرةً مبكّراً تُبادِلِ الجرأةَ بالحذر."],
+  ["A child does not draw what is there; they draw what matters.","لا يرسمُ الطفلُ ما هو موجود، بل ما يعني."],
+  ["Praise the risk, not only the result.","امدَحِ المخاطرةَ لا النتيجةَ وحدَها."],
+  ["Give them big paper and get out of the way.","أعطِهم ورقاً كبيراً ثم ابتعدْ عن الطريق."],
+  ["The messy table is the working table.","الطاولةُ الفوضويةُ هي الطاولةُ العاملة."],
+  ["Never fix a child's drawing with your own hand.","لا تُصلحْ رسمَ طفلٍ بيدك أبداً."],
+];
+const Q_T5 = [
+  ["Private lessons give depth; never let the depth become isolation.","يمنحُ الدرسُ الخاصُّ عمقاً، فلا تدعِ العمقَ يصيرُ عزلة."],
+  ["One student means no excuses for either of us.","طالبٌ واحدٌ يعني ألّا عذرَ لأيٍّ منّا."],
+  ["I teach the person, not the syllabus.","أُعلّمُ الإنسانَ لا المنهج."],
+  ["Bring them peers deliberately, or they will only measure against me.","أحضِرْ له أقراناً عمداً، وإلا قاسَ نفسَه بي وحدي."],
+  ["Silence in a private lesson is often the lesson.","الصمتُ في الدرسِ الخاصِّ هو الدرسُ غالباً."],
+  ["Adjust the pace to the person, never the person to the pace.","عدِّلِ الإيقاعَ للإنسان، لا الإنسانَ للإيقاع."],
+  ["The goal is a student who no longer needs the lesson.","الغايةُ طالبٌ لم يعد يحتاجُ الدرس."],
+];
+const Q_T6 = [
+  ["Online teaches the mind well; the body still needs the room.","يُعلَّمُ العقلُ عن بُعد، ويبقى الجسدُ محتاجاً للغرفة."],
+  ["Design the course around what the medium does best.","صمّمِ الدورةَ حول ما تُحسِنُه الوسيلة."],
+  ["A close-up of the hand is worth an hour of talking.","لقطةٌ قريبةٌ لليدِ تعدلُ ساعةَ كلام."],
+  ["Recorded lessons must be re-watchable; live ones must be interruptible.","المسجَّلُ يُعادُ، والحيُّ يُقاطَع."],
+  ["Feedback is the part of teaching that cannot be pre-recorded.","التغذيةُ الراجعةُ هي الجزءُ الذي لا يُسجَّلُ مسبقاً."],
+  ["Distance is no excuse for vagueness.","البُعدُ ليس عذراً للغموض."],
+  ["Do not pretend a screen replaces presence; make it worth its own price.","لا تدَّعِ أن الشاشةَ تُبدِلُ الحضور، بل اجعلْها تستحقُّ ثمنَها."],
+];
+const Q_T7 = [
+  ["For the advanced I do not add; I help them let go.","للمتقدّمين لا أُضيف، بل أُعينُهم على أن يُفلِتوا."],
+  ["The crutch that once helped is now the ceiling.","العكّازُ الذي أعانَ يوماً صار سقفاً."],
+  ["Sometimes the highest teaching is permission to break a rule they mastered.","قد يكون أعلى التعليمِ إذناً بكسرِ قاعدةٍ أتقنوها."],
+  ["Skill without a question becomes decoration.","المهارةُ بلا سؤالٍ تصيرُ زخرفة."],
+  ["Ask an expert what they are avoiding; that is the lesson.","اسألِ الخبيرَ عمّا يتجنّبه؛ هناك الدرس."],
+  ["A master class is a mirror, not a megaphone.","الماستر كلاس مرآةٌ لا مكبّرُ صوت."],
+  ["Teach the ones who could teach you.","علّمْ من يستطيعون تعليمَك."],
+];
+
+// ── BUILD QUOTES ──
+buildQ('qs-spec','qp-spec',Q_SPEC);
+buildQ('qs-t1','qp-t1',Q_T1);
+buildQ('qs-t2','qp-t2',Q_T2);
+buildQ('qs-t3','qp-t3',Q_T3);
+buildQ('qs-t4','qp-t4',Q_T4);
+buildQ('qs-t5','qp-t5',Q_T5);
+buildQ('qs-t6','qp-t6',Q_T6);
+buildQ('qs-t7','qp-t7',Q_T7);
+
+</script>
+
+<script>
+// UNIFIED_PATCH_JS
+// ============================================================
+// PATCH JS: FAB + grayscale-on-view + floating words/shapes
+// Plain var + string concat only — no nested template literals
+// ============================================================
+(function(){
+  // 1. Back to top FAB
+  var fab = document.createElement('button');
+  fab.id = 'fab-top';
+  fab.setAttribute('aria-label','back to top');
+  fab.innerHTML = '&#8593;';
+  fab.onclick = function(){ window.scrollTo({top:0,behavior:'smooth'}); };
+  document.body.appendChild(fab);
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480) fab.classList.add('show');
+    else fab.classList.remove('show');
+  });
+
+  // 2. Grayscale-to-color on scroll proximity for bands
+  var bands = document.querySelectorAll('.band');
+  if(bands.length && 'IntersectionObserver' in window){
+    var bandObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting) e.target.classList.add('in-view');
+        else e.target.classList.remove('in-view');
+      });
+    }, {threshold:.45});
+    bands.forEach(function(b){ bandObs.observe(b); });
+  }
+
+  // 3. Floating motivational words + art shapes
+  var WORDS_AR = ['إبداع','جمال','روح','حلم','إلهام','أصالة'];
+  var WORDS_EN = ['Create','Soul','Dream','Ink','Form','Light'];
+  var SHAPES = ['&#10022;','&#10023;','&#9678;','&#10070;','&#9670;','&#10038;'];
+
+  function buildFloatStage(container){
+    if(!container || container.querySelector('.float-stage')) return;
+    var stage = document.createElement('div');
+    stage.className = 'float-stage';
+    var count = 8;
+    for(var i=0;i<count;i++){
+      var useWord = (i % 2 === 0);
+      var el = document.createElement('span');
+      if(useWord){
+        el.className = 'float-word';
+        var pool = (i % 4 === 0) ? WORDS_AR : WORDS_EN;
+        el.textContent = pool[Math.floor(Math.random()*pool.length)];
+        el.style.fontSize = (Math.random()*1.1 + 1.1) + 'rem';
+      } else {
+        el.className = 'float-shape';
+        el.innerHTML = SHAPES[Math.floor(Math.random()*SHAPES.length)];
+        el.style.fontSize = (Math.random()*1.6 + 1.2) + 'rem';
+      }
+      el.style.left = (Math.random()*86 + 4) + '%';
+      el.style.top = (Math.random()*82 + 6) + '%';
+      el.style.animationDelay = (Math.random()*10) + 's';
+      el.style.animationDuration = (Math.random()*8 + 16) + 's';
+      stage.appendChild(el);
+    }
+    container.style.position = container.style.position || 'relative';
+    container.insertBefore(stage, container.firstChild);
+  }
+
+  var hosts = document.querySelectorAll('.breather, #br-float, #br-swim, #br-hover, .statement-sec');
+  hosts.forEach(function(h){ buildFloatStage(h); });
+})();
+
+// UNIFIED_PATCH_JS
+</script>
+
+<div class="jrn-overlay" id="jrn-overlay">
+  <button class="jrn-close" id="jrn-close">✕</button>
+  <div class="jrn-body" id="jrn-body"></div>
+</div>
+
+  <section class="jrn-section">
+    <h2 class="jrn-title"><span class="t-en">Journal — Art Education</span><span class="t-ar">مجلة — تعليم الفن</span></h2>
+    <div class="jrn-rule"></div>
+    <div class="jrn-grid">
+      <div class="jrn-card" onclick="jrnOpen(0)">
+        <div class="jrn-num">I</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Question I Ask Every New Student</span><span class="t-ar">السؤال الذي أطرحه على كل طالب جديد</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(1)">
+        <div class="jrn-num">II</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">What I Learn From Teaching</span><span class="t-ar">ما أتعلمه من التدريس</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(2)">
+        <div class="jrn-num">III</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Good Workshop: Climate Not Curriculum</span><span class="t-ar">الورشة الجيدة: مناخ لا منهج</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(3)">
+        <div class="jrn-num">IV</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Gifted Student Who Failed</span><span class="t-ar">الطالب الموهوب الذي فشل</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(4)">
+        <div class="jrn-num">V</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Teaching Children Art</span><span class="t-ar">تعليم الأطفال الفن</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(5)">
+        <div class="jrn-num">VI</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Private Lessons: Depth Without Width</span><span class="t-ar">الدروس الخاصة: عمق بدون عرض</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(6)">
+        <div class="jrn-num">VII</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Online Courses: What Works and What Does Not</span><span class="t-ar">الدورات الإلكترونية: ما ينجح وما لا ينجح</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(7)">
+        <div class="jrn-num">VIII</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Masterclass: When the Advanced Learn</span><span class="t-ar">الماستر كلاس: حين يتعلم المتقدمون</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(8)">
+        <div class="jrn-num">IX</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">When the Student Surpasses the Teacher</span><span class="t-ar">حين يتجاوز الطالب أستاذه</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(9)">
+        <div class="jrn-num">X</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Thirty Years in Art Education: What Changed</span><span class="t-ar">ثلاثون عاماً في تعليم الفن: ما تغيّر</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(10)">
+        <div class="jrn-num">XI</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Fear of the Blank Page</span><span class="t-ar">الخوف من الصفحة الفارغة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(11)">
+        <div class="jrn-num">XII</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Feedback That Builds, Not Breaks</span><span class="t-ar">التغذية الراجعة التي تبني لا تهدم</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(12)">
+        <div class="jrn-num">XIII</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Art School vs Self-Teaching</span><span class="t-ar">المدرسة الفنية مقابل التعلم الذاتي</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(13)">
+        <div class="jrn-num">XIV</div>
+        <div class="jrn-cat"><span class="t-en">Art Education</span><span class="t-ar">تعليم الفن</span></div>
+        <div class="jrn-card-title"><span class="t-en">Building a Portfolio from Zero</span><span class="t-ar">بناء المحفظة من الصفر</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+    </div>
+  </section>
+<script>
+var JRN_ARTICLES=[
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'The Question I Ask Every New Student',title_ar:'السؤال الذي أطرحه على كل طالب جديد',body_en:`<p>On the first day, before any technique, I ask each new student one question: 'What are you afraid people will see in your work?'</p><h3>Art Begins Where the Fear Is</h3><p>Most want skill so they can hide behind competence. But the thing they are most afraid to reveal is usually where their real art waits. Technique without honesty produces decoration, not expression.</p><blockquote>"I can teach you to draw in a year. Teaching you to stop hiding takes longer, and matters more."</blockquote>`,body_ar:`<p>في اليومِ الأول، وقبل أيِّ تقنية، أسألُ كلَّ وافدٍ سؤالاً واحداً: ما الذي تخشى أن يراه الناسُ في عملك؟</p><h3>الفنُّ يبدأُ حيث الخوف</h3><p>يطلبُ أكثرُهم المهارةَ ليختبئوا خلفها. غير أن ما يخشون كشفَه هو غالباً الموضعُ الذي ينتظرُ فيه فنُّهم؛ والمهارةُ بلا صدقٍ حِلْيةٌ لا تعبير.</p><blockquote>"أُعلّمُك الرسمَ في عام؛ أما أن تكفَّ عن الاختباءِ فأمرٌ أطولُ وأجدى."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'What I Learn From Teaching',title_ar:'ما أتعلمه من التدريس',body_en:`<p>People assume teaching is a one-way gift. In my experience the current runs both ways, and the stronger flow often returns to me.</p><h3>The Question I Cannot Answer</h3><p>A beginner will ask something so simple it undoes thirty years of assumption — 'Why must the line go that way?' — and sometimes I have only habit for an answer. My students keep my craft from hardening into routine.</p><blockquote>"I teach so that I never stop being a student."</blockquote>`,body_ar:`<p>يُظنُّ التعليمُ عطاءً في اتجاهٍ واحد. وفي تجربتي يجري التيّارُ في الاتجاهين، وأغزرُه ما يعودُ إليّ.</p><h3>السؤالُ الذي لا جوابَ عندي له</h3><p>يسألُ المبتدئُ، غيرُ المثقلِ بالقواعد، سؤالاً من البساطةِ بحيث ينقضُ ثلاثين عاماً من المسلَّمات: ولِمَ يمضي الخطُّ هكذا؟ وربما لم أجد جواباً سوى العادة. وطلابي يمنعون حرفتي أن تتحجّر.</p><blockquote>"أُعلِّمُ كي لا أنقطعَ عن التعلّم."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'The Good Workshop: Climate Not Curriculum',title_ar:'الورشة الجيدة: مناخ لا منهج',body_en:`<p>A good workshop is not a curriculum; it is a climate. You cannot schedule inspiration, but you can build the weather in which it tends to appear.</p><h3>Growing Conditions, Not Rules</h3><p>I worry less about the sequence of exercises and more about safety, honesty, and permission to fail. In the right atmosphere, students teach themselves things I could never have planned. My real job is to tend the room.</p><blockquote>"You cannot teach creativity. You can only create the weather where it grows."</blockquote>`,body_ar:`<p>الورشةُ الجيدةُ ليست منهجاً بل مناخاً؛ لا يُجدوَلُ الإلهام، لكن يُهيَّأُ الجوُّ الذي يهبطُ فيه.</p><h3>مناخٌ لا منهج</h3><p>أقلقُ على تسلسلِ التمارينِ أقلَّ مما أقلقُ على الأمانِ والصدقِ وإذنِ الإخفاق. وفي الجوِّ الصالحِ يُعلّمُ الطلابُ أنفسَهم ما لم أكن لأُخطّطَ له؛ فعملي أن أعتنيَ بالغرفة.</p><blockquote>"لا يُعلَّمُ الإبداع، وإنما يُهيَّأُ الطقسُ الذي ينبتُ فيه."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'The Gifted Student Who Failed',title_ar:'الطالب الموهوب الذي فشل',body_en:`<p>The most gifted student I ever had also failed most completely, and teaching me why became one of the great lessons of my life.</p><h3>Talent Is Not Enough</h3><p>His hand was extraordinary and his discipline was nothing. He mistook ease for accomplishment and never learned to struggle, so the first real obstacle broke him. Talent opens a door; only work walks you through it.</p><blockquote>"Talent is a loan. Discipline is the only way to keep it."</blockquote>`,body_ar:`<p>أنبغُ من علّمتُ كان أشدَّهم إخفاقاً، وصار فهمي للسببِ من أكبرِ دروسِ عمري.</p><h3>الموهبةُ عاريةٌ تُستردّ</h3><p>كانت يدُه خارقةً وانضباطُه لا شيء؛ حسِبَ السهولةَ إنجازاً فلم يتعلّم الكفاح، فكسرَه أولُ عائقٍ حقيقي. الموهبةُ تفتحُ الباب، ولا يعبرُ به إلا الدأب.</p><blockquote>"الموهبةُ عارية، ولا يحفظُها إلا الدأب."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Teaching Children Art',title_ar:'تعليم الأطفال الفن',body_en:`<p>Teaching children is not teaching a smaller version of adult art. Children already have what adults spend years trying to recover: fearlessness.</p><h3>Protecting the Fearlessness</h3><p>My job with a child is not to add rules but to guard the boldness they arrive with, while gently offering skill. Teach too much technique too early and you trade a fearless artist for a careful one. That is a bad trade.</p><blockquote>"Adults learn to draw. Children must be helped not to forget how."</blockquote>`,body_ar:`<p>تعليمُ الأطفالِ ليس تعليمَ نسخةٍ مصغّرةٍ من فنِّ الكبار؛ فالطفلُ يملكُ سلفاً ما يقضي الكبارُ العمرَ في استعادته: ألّا يخاف.</p><h3>لا تُطفئوا جسارةَ الصغار</h3><p>مهمّتي معه ألّا أُضيفَ قيداً بل أن أحرسَ جُرأةً جاء بها، وأُقدّمَ المهارةَ برفق. علّمْ تقنيةً أكثرَ من اللازمِ مبكّراً تُبادِلْ فناناً جسوراً بآخرَ حذر، وتلك مقايضةٌ خاسرة.</p><blockquote>"يتعلّمُ الكبارُ الرسم، ويُعانُ الصغارُ كي لا ينسَوه."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Private Lessons: Depth Without Width',title_ar:'الدروس الخاصة: عمق بدون عرض',body_en:`<p>A private lesson is a luxury and a danger. All that focused attention can accelerate a student — or smother them.</p><h3>Depth Without Width</h3><p>One-to-one, I can tailor everything to a single person, going deeper than any class allows. But without peers, a student loses the friction and comparison that also teach. So I bring the wider world in deliberately, lest depth become a bubble.</p><blockquote>"Private lessons give depth. Never let the depth become isolation."</blockquote>`,body_ar:`<p>الدرسُ الخاصُّ نعمةٌ وخطرٌ معاً؛ فكلُّ ذلك الانتباهِ المركّزِ قد يُسرِعُ بالطالبِ أو يخنقُه.</p><h3>عمقٌ بلا عرض</h3><p>فرداً لفردٍ أُفصّلُ كلَّ شيءٍ على مقاسِ إنسانٍ واحد، فأذهبُ أعمقَ مما يُتيحُ صف. لكن الطالبَ بلا أقرانٍ يفقدُ الاحتكاكَ والمقارنةَ وهما يُعلّمان؛ فأُدخِلُ العالمَ الأوسعَ عمداً كي لا يصيرَ العمقُ فقاعة.</p><blockquote>"يمنحُ الدرسُ الخاصُّ عمقاً، فلا تدعِ العمقَ يصيرُ عزلة."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Online Courses: What Works and What Does Not',title_ar:'الدورات الإلكترونية: ما ينجح وما لا ينجح',body_en:`<p>Online teaching forced me to discover what of my craft could survive a screen, and what could not. The answer surprised me.</p><h3>What Travels Through a Camera</h3><p>Knowledge, demonstration, and feedback cross the internet easily. But the smell of turpentine, the pressure of a hand guiding yours, the energy of a shared room — these do not. I design online courses around their real strength and stop pretending they replace presence.</p><blockquote>"Online teaches the mind well. The body still needs to be in the room."</blockquote>`,body_ar:`<p>أجبرني التعليمُ عن بُعدٍ أن أكتشفَ ما ينجو من حرفتي عبر شاشةٍ وما لا ينجو، وفاجأني الجواب.</p><h3>ما يعبرُ عبر الكاميرا</h3><p>تعبرُ المعرفةُ والعرضُ والتغذيةُ الراجعةُ بيسر. أما رائحةُ التربنتينِ وضغطُ يدٍ تُوجّهُ يدَك وطاقةُ غرفةٍ مشتركةٍ فلا تعبر. فأُصمّمُ الدوراتِ حول قوّتها الحقيقيةِ وأكفُّ عن ادّعاءِ أنها تُغني عن الحضور.</p><blockquote>"يُعلَّمُ العقلُ عن بُعد، ويبقى الجسدُ محتاجاً أن يكونَ في الغرفة."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Masterclass: When the Advanced Learn',title_ar:'الماستر كلاس: حين يتعلم المتقدمون',body_en:`<p>A masterclass is the strangest teaching of all: helping people who are already good become something they cannot yet name.</p><h3>Unteaching the Advanced</h3><p>Beginners need habits; advanced artists often need to lose a few. My work here is less about adding skill and more about removing the crutches that once helped and now limit. Sometimes the highest teaching is giving permission to break a rule they mastered.</p><blockquote>"For the advanced, I do not add. I help them let go."</blockquote>`,body_ar:`<p>الماستر كلاس أغربُ التعليم: أن تُعينَ من هم مُجيدون سلفاً على بلوغِ ما لا يُحسِنون تسميتَه بعد.</p><h3>أن تُعينَهم على الإفلات</h3><p>يحتاجُ المبتدئُ عاداتٍ يبنيها، ويحتاجُ المتقدّمُ أن يتخلّى عن بعضها. وعملي ههنا إزالةُ العكّازاتِ التي أعانت يوماً وصارت قيداً. وربما كان أعلى التعليمِ إذناً بكسرِ قاعدةٍ أتقنوها.</p><blockquote>"للمتقدّمين لا أُضيف، وإنما أُعينُهم على أن يُفلِتوا."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'When the Student Surpasses the Teacher',title_ar:'حين يتجاوز الطالب أستاذه',body_en:`<p>The proudest and most bittersweet day of a teacher's life is when a student surpasses you. I have learned to run toward that day, not from it.</p><h3>The Point of Teaching</h3><p>A teacher afraid of being outgrown will, consciously or not, keep students small. But the entire purpose is to be exceeded — to launch someone past where you could reach. Their flight is not my loss; it is my whole work made visible.</p><blockquote>"A teacher who is never surpassed has failed at the only goal that mattered."</blockquote>`,body_ar:`<p>أفخرُ أيامِ المعلّمِ وأشدُّها مرارةً حلوةً يومَ يتجاوزُه تلميذُه. وتعلّمتُ أن أركضَ نحو ذلك اليومِ لا منه.</p><h3>الغايةُ أن تُتجاوَز</h3><p>المعلّمُ الذي يخافُ أن يُتجاوَزَ سيُبقي طلابَه صغاراً، شاء أم أبى. والغرضُ كلُّه أن يُتجاوَز: أن تُطلِقَ أحداً إلى ما وراءَ ما تبلغُه أنت. وطيرانُهم ليس خسارتي، بل أثري وقد صار مرئياً.</p><blockquote>"معلّمٌ لم يُتجاوَزْ قط، أخفقَ في الغايةِ الوحيدةِ التي كانت تعني."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Thirty Years in Art Education: What Changed',title_ar:'ثلاثون عاماً في تعليم الفن: ما تغيّر',body_en:`<p>Thirty years in art education have changed almost everything about how I teach, except the thing that matters most.</p><h3>New Tools, Same Human</h3><p>Slides became screens, references became infinite, AI arrived at the door. Yet a student still learns the same way they always have: by trying, failing, being seen, and daring again. The technology of teaching changes constantly; the courage it must nurture never does.</p><blockquote>"Everything about how I teach has changed. Why I teach has not moved an inch."</blockquote>`,body_ar:`<p>ثلاثون عاماً في تعليمِ الفنِّ بدّلت كلَّ شيءٍ تقريباً في كيفيةِ تعليمي، إلا الأهمَّ.</p><h3>أدواتٌ جديدةٌ والإنسانُ هو هو</h3><p>صارت الشرائحُ شاشاتٍ، وصارت المراجعُ لا تنفد، وطرقَ الذكاءُ الاصطناعيُّ الباب. ومع ذلك يتعلّمُ الطالبُ كما تعلّمَ دائماً: يُحاولُ ويُخفِقُ ويُرى ثم يجرؤُ ثانية. تتبدّلُ آلةُ التعليمِ أبداً، ولا تتبدّلُ الجرأةُ التي عليها أن ترعاها.</p><blockquote>"تبدّلَ كلُّ شيءٍ في كيف أُعلّم، وما تزحزحَ لماذا أُعلّم."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'The Fear of the Blank Page',title_ar:'الخوف من الصفحة الفارغة',body_en:`<p>The blank page terrifies every artist, from the first-day beginner to the thirty-year veteran. I have stopped trying to cure the fear and started teaching people to work with it.</p><h3>Befriending the Emptiness</h3><p>The terror comes from wanting the first mark to be perfect. So I teach students to make a deliberately bad first mark on purpose — to spoil the perfection and break the spell. Once the page is no longer pristine, the real work can begin.</p><blockquote>"The blank page is only frightening while it is still perfect. Ruin it, and it becomes yours."</blockquote>`,body_ar:`<p>تُرعِبُ الصفحةُ البيضاءُ كلَّ فنان، من مبتدئِ اليومِ الأولِ إلى مخضرمِ الثلاثين. وقد كففتُ عن محاولةِ شفاءِ الخوفِ وبدأتُ أُعلّمُ العملَ معه.</p><h3>مصالحةُ البياض</h3><p>يأتي الرعبُ من إرادةِ أن تكونَ العلامةُ الأولى تامّة. فأُعلّمُ الطلابَ أن يضعوا علامةً أولى رديئةً عن عمد، ليُفسِدوا الكمالَ ويكسروا التعويذة. وما إن تفقدَ الصفحةُ عذريّتَها حتى يبدأَ العملُ الحقيقي.</p><blockquote>"الصفحةُ البيضاءُ مخيفةٌ ما دامت تامّة؛ أفسِدْها تَصِرْ لك."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Feedback That Builds, Not Breaks',title_ar:'التغذية الراجعة التي تبني لا تهدم',body_en:`<p>The hardest skill I teach is not drawing; it is how to give and receive feedback that builds an artist instead of breaking one.</p><h3>Critique Is an Act of Care</h3><p>Cruelty disguised as honesty has ended more talents than any lack of skill. I teach critique that is specific, kind, and aimed at the work, never the person — and I teach students to hear it without collapsing. Feedback should leave someone hungrier, not smaller.</p><blockquote>"Good critique makes the artist want to work more, not disappear."</blockquote>`,body_ar:`<p>أعسرُ ما أُعلّمُه ليس الرسم، بل كيف تُعطي النقدَ وتتلقّاه فيبني فناناً ولا يكسره.</p><h3>نقدٌ يبني ولا يهدم</h3><p>قسوةٌ تلبسُ ثوبَ الصراحةِ أهلكت من المواهبِ ما لم يُهلِكْه العجز. أُعلّمُ نقداً محدّداً رحيماً موجّهاً إلى العملِ لا إلى صاحبه، وأُعلّمُ الطالبَ أن يسمعَه ولا ينهار.</p><blockquote>"النقدُ الصالحُ يزيدُ صاحبَه جوعاً لا انكماشاً."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Art School vs Self-Teaching',title_ar:'المدرسة الفنية مقابل التعلم الذاتي',body_en:`<p>Students often ask whether they need art school. My answer frustrates them: it depends entirely on what kind of person you are.</p><h3>Two Roads Up the Same Mountain</h3><p>School gives structure, community, and deadlines to those who need external order. Self-teaching gives freedom and pace to those with fierce internal discipline. Neither is nobler. The failure is choosing the road that fights your nature instead of serving it.</p><blockquote>"School or self-taught matters less than knowing honestly which one your character needs."</blockquote>`,body_ar:`<p>كثيراً ما يسألون: أنحتاجُ المدرسةَ الفنية؟ وجوابي يُحبِطُهم: يعتمدُ كلياً على أيِّ طبعٍ أنت.</p><h3>طريقانِ إلى قمّةٍ واحدة</h3><p>تمنحُ المدرسةُ بنيةً وصحبةً ومواعيدَ لمن يحتاجُ نظاماً من خارجِه. ويمنحُ التعلّمُ الذاتيُّ حريةً وإيقاعاً لمن يملكُ انضباطاً شرساً من داخله. ولا أنبلَ من الآخر؛ وإنما الخطأُ أن تختارَ طريقاً يُحاربُ طبعَك.</p><blockquote>"المدرسةُ أو التعلّمُ الذاتيُّ يهمُّ أقلَّ من أن تعرفَ بصدقٍ أيَّهما يحتاجُ طبعُك."</blockquote>`},
+  {cat_en:'Art Education',cat_ar:'تعليم الفن',title_en:'Building a Portfolio from Zero',title_ar:'بناء المحفظة من الصفر',body_en:`<p>A portfolio is not a collection of your best work. It is an argument about who you are as an artist — and most beginners build it backwards.</p><h3>Curation Over Accumulation</h3><p>Ten focused pieces that say one clear thing beat forty scattered ones that say nothing. I teach students to build a portfolio like a sentence, with a beginning, a voice, and an intention. What you leave out speaks as loudly as what you include.</p><blockquote>"A portfolio is not everything you can do. It is the one thing you want to be known for."</blockquote>`,body_ar:`<p>ليست المحفظةُ مجموعَ أحسنِ ما عملت، بل حجّةٌ عمّن تكونُ كفنان؛ وأكثرُ المبتدئين يبنونها بالمقلوب.</p><h3>الانتقاءُ فوق التكديس</h3><p>عشرُ قطعٍ مركّزةٍ تقولُ شيئاً واحداً واضحاً تغلبُ أربعين متناثرةً لا تقولُ شيئاً. أُعلّمُهم أن يبنوها كجملةٍ لها مبتدأٌ وصوتٌ ونيّة؛ وما تحذفُه ينطقُ بقدرِ ما تُدرِج.</p><blockquote>"المحفظةُ ليست كلَّ ما تقدرُ عليه، بل الشيءَ الذي تريدُ أن تُعرَفَ به."</blockquote>`}
+];
+</script>
+<script>
+var _jO=document.getElementById('jrn-overlay');
+var _jB=document.getElementById('jrn-body');
+var _jL=function(){return document.documentElement.getAttribute('data-lang')||'en';};
+function jrnOpen(idx){
+  var a=JRN_ARTICLES[idx];var L=_jL();
+  var be=a.body_en||'';var ba=a.body_ar||'';
+  if(!be && !ba){
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2><p class="jrn-empty">'+(L==='ar'?'المقال قيد الإعداد — سيُضاف قريباً':'Article coming soon — will be added via CMS')+'</p>';
+  } else {
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2>'+(L==='ar'?ba:be);
+  }
+  _jO.classList.add('open');_jO.scrollTop=0;document.body.style.overflow='hidden';
+}
+document.getElementById('jrn-close').addEventListener('click',function(){_jO.classList.remove('open');document.body.style.overflow='';});
+_jO.addEventListener('click',function(e){if(e.target===_jO){_jO.classList.remove('open');document.body.style.overflow='';}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){_jO.classList.remove('open');document.body.style.overflow='';}});
+</script>
+
+<script>
+/* ── Lazy Loading للخلفيات (CSS backgrounds لا تدعم loading="lazy") ──
+   أشرطة الصفحات تُحمَّل عند اقترابها من الشاشة؛
+   شرائح الهيرو تُحمَّل الأولى فوراً والبقية بعد اكتمال الصفحة. */
+(function(){
+  var lazyBg = document.querySelectorAll('[data-bg]');
+  if(!lazyBg.length) return;
+  function load(el){
+    var u = el.getAttribute('data-bg');
+    if(!u) return;
+    var img = new Image();
+    img.onload = function(){ el.style.backgroundImage = "url('" + u + "')"; el.removeAttribute('data-bg'); };
+    img.src = u;
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ load(e.target); io.unobserve(e.target); } });
+    }, {rootMargin:'300px 0px'});
+    lazyBg.forEach(function(el){ io.observe(el); });
+  } else {
+    lazyBg.forEach(load);
+  }
+  /* شرائح الهيرو المتبقية: حمّلها بهدوء بعد اكتمال التحميل */
+  window.addEventListener('load', function(){
+    setTimeout(function(){
+      document.querySelectorAll('.slide[data-bg]').forEach(load);
+    }, 400);
+  });
+})();
+</script>
+
+<script>
+/* حفظ اللغة + تمريرها عبر الروابط (يعمل حتى على file:// حيث يُعزل localStorage) */
+(function(){
+  var d=document.documentElement;
+  var g=document.getElementById("lang-glyph");
+  function cur(){return d.getAttribute("data-lang")||"en";}
+  if(g) g.textContent = cur()==="ar" ? "A" : "ض";
+  function save(){ try{ localStorage.setItem("aa_lang",cur()); }catch(e){} }
+  save();
+  try{ new MutationObserver(save).observe(d,{attributes:true,attributeFilter:["data-lang"]}); }catch(e){}
+  /* مرّر اللغة في كل رابط داخلي */
+  document.addEventListener("click",function(e){
+    var a=e.target.closest && e.target.closest("a[href]");
+    if(!a) return;
+    var h=a.getAttribute("href")||"";
+    if(/^(https?:|mailto:|tel:|#|javascript:)/i.test(h)) return;
+    if(a.target==="_blank") return;
+    var l=cur();
+    var hash=""; var base=h;
+    var hi=h.indexOf("#"); if(hi>=0){ base=h.slice(0,hi); hash=h.slice(hi); }
+    base=base.replace(/([?&])lang=(ar|en)&?/,"$1").replace(/[?&]$/,"");
+    base += (base.indexOf("?")>=0?"&":"?")+"lang="+l;
+    a.setAttribute("href",base+hash);
+  },true);
+})();
+</script>
+</body>
+</html>

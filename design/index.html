@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Brand identity, advertising, and visual design by Altayeb Amer.">
+<meta property="og:title" content="Visual Design — Altayeb Amer">
+<meta property="og:description" content="Brand identity, advertising, and visual design by Altayeb Amer.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>Visual Design & Advertising — Altayeb Amer</title>
+<link rel="canonical" href="https://altayebamer.com/design/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#050504">
+<meta name="author" content="Altayeb Amer">
+<meta property="og:site_name" content="Altayeb Amer">
+<meta property="og:url" content="https://altayebamer.com/design/">
+<meta property="og:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Altayeb Amer — Visual Artist, Dubai">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AE">
+<meta name="twitter:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta name="twitter:title" content="Visual Design & Advertising — Altayeb Amer">
+<meta name="twitter:description" content="Brand identity, advertising, and visual design by Altayeb Amer, Dubai.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&family=IBM+Plex+Arabic:wght@200;300&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+:root{--void:#050504;--gold:#C8A96E;--acc:#C9A96E;--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:auto}
+
+/* CURSOR */
+#cur{opacity:0;position:fixed;width:5px;height:5px;background:rgba(201,169,110,.7);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.ink-splash{position:fixed;border-radius:50%;pointer-events:none;z-index:9998;width:120px;height:120px;background:radial-gradient(circle,rgba(201,169,110,.18)0%,transparent 72%);transform:translate(-50%,-50%) scale(0);animation:splash .75s cubic-bezier(.15,1,.3,1) forwards}
+@keyframes splash{0%{transform:translate(-50%,-50%) scale(0);opacity:1}65%{opacity:.7;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.4)}}
+
+/* LANG BTN */
+#lang-btn{position:fixed;top:1.55rem;left:1.6rem;z-index:8000;width:40px;height:40px;border-radius:50%;border:1px solid transparent;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity .5s,border-color .4s;background:transparent}
+#lang-btn.near{opacity:.45;border-color:rgba(201,169,110,.2)}
+#lang-btn:hover{opacity:1!important;border-color:var(--acc)!important}
+#lang-btn span{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(201,169,110,.5);transition:color .4s;user-select:none}
+#lang-btn:hover span{color:var(--acc)}
+
+/* INK VEIL */
+#ink-veil{position:fixed;inset:0;z-index:8500;pointer-events:none;overflow:hidden}
+#ink-blob{position:absolute;border-radius:50%;background:var(--void);transform:translate(-50%,-50%) scale(0);will-change:transform}
+#ink-blob.grow{width:300vmax;height:300vmax;transform:translate(-50%,-50%) scale(1);transition:transform .95s cubic-bezier(.22,1,.36,1)}
+#ink-blob.shrink{transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.4,0,.6,1)}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:700;padding:1.6rem 2rem 1.6rem 5rem;display:flex;align-items:center;justify-content:flex-end;gap:1.6rem;background:linear-gradient(to bottom,rgba(5,5,4,.88)0%,transparent 100%)}
+nav a{font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.22em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+nav a:hover,nav a.active{color:var(--acc)}
+.nav-home{color:rgba(201,169,110,.45)!important}
+.nav-gallery{border:1px solid rgba(201,169,110,.3);padding:.3rem .85rem;transition:border-color .3s,color .3s!important}
+.nav-gallery:hover{border-color:var(--acc)!important}
+
+/* HERO */
+#hero{position:relative;height:100vh;min-height:600px;overflow:hidden;display:flex;align-items:flex-end}
+#hero-slides{position:absolute;inset:0}
+.hslide{position:absolute;inset:0;opacity:0;transition:opacity 1.4s ease}
+.hslide-bg{width:100%;height:100%;display:block}
+.hslide.active{opacity:1}
+.hero-ink{position:absolute;inset:0}
+.hero-ink::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,5,4,1)0%,rgba(5,5,4,.3)50%,transparent 100%)}
+.hero-content{position:relative;z-index:2;padding:0 0 5.5rem;width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 2rem}
+.hero-tag{font-family:'Cinzel',serif;font-size:.63rem;letter-spacing:.55em;text-transform:uppercase;color:rgba(201,169,110,.5);margin-bottom:1rem;display:block}
+.hero-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,7vw,6.5rem);font-weight:300;color:var(--ivory);line-height:1;margin-bottom:.4rem}
+.hero-h1-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(2.5rem,6vw,5.5rem);font-weight:200;color:var(--ivory);line-height:1.2;margin-bottom:.4rem;display:none}
+[data-lang="ar"] .hero-h1{display:none}[data-lang="ar"] .hero-h1-ar{display:block}
+.hero-rule{width:60px;height:1px;background:linear-gradient(to right,var(--acc),transparent);margin:1.4rem 0}
+[data-lang="ar"] .hero-rule{background:linear-gradient(to left,var(--acc),transparent)}
+.hero-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2vw,1.25rem);font-weight:300;font-style:italic;color:rgba(201,169,110,.65);max-width:560px}
+.hero-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.9rem,1.8vw,1.1rem);font-weight:200;color:rgba(201,169,110,.65);max-width:560px;display:none}
+[data-lang="ar"] .hero-phrase{display:none}[data-lang="ar"] .hero-phrase-ar{display:block}
+#hero-dots{position:absolute;bottom:1.8rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;z-index:3}
+.hdot{width:5px;height:5px;border-radius:50%;background:rgba(201,169,110,.25);transition:background .4s,transform .4s}
+.hdot.on{background:var(--acc);transform:scale(1.3)}
+.scroll-hint{position:absolute;bottom:2.5rem;right:2.5rem;z-index:3;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:.3}
+.scroll-hint span{font-family:'Cinzel',serif;font-size:.5rem;letter-spacing:.35em;text-transform:uppercase;color:var(--acc);writing-mode:vertical-rl}
+.scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--acc),transparent);animation:sp 2s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:.3}50%{opacity:.9}}
+
+/* BREATHS */
+.br-half{height:50vh;min-height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(201,169,110,.06)}
+.br-quarter{min-height:26vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-top:1px solid rgba(201,169,110,.05);padding:3rem 0}
+.br-half::before{content:'◈';position:absolute;font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(18rem,38vw,36rem);font-weight:200;color:rgba(201,169,110,.025);line-height:1;pointer-events:none;user-select:none;right:5%;top:50%;transform:translateY(-50%)}
+.q-stage{max-width:760px;padding:0 2rem;text-align:center;position:relative;z-index:1}
+.q-item{display:none;animation:qfade .8s ease}
+.q-item.vis{display:block}
+@keyframes qfade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.q-text{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.3vw,1.6rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.75;margin-bottom:1rem}
+.q-text-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(.95rem,2vw,1.3rem);font-weight:200;color:var(--ivory);line-height:2;margin-bottom:1rem;display:none}
+[data-lang="ar"] .q-text{display:none}[data-lang="ar"] .q-text-ar{display:block}
+.q-author{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.35em;text-transform:uppercase;color:rgba(201,169,110,.4)}
+.q-author-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.75rem;font-weight:200;color:rgba(201,169,110,.4);display:none}
+[data-lang="ar"] .q-author{display:none}[data-lang="ar"] .q-author-ar{display:block}
+.q-prog{display:flex;gap:.45rem;margin-top:1.4rem;justify-content:center}
+.qdot{width:3px;height:3px;border-radius:50%;background:rgba(201,169,110,.18);transition:background .4s,transform .3s}
+.qdot.on{background:var(--acc);transform:scale(1.6)}
+.br-quarter .q-text{font-size:clamp(.92rem,1.7vw,1.2rem)}
+.br-quarter .q-text-ar{font-size:clamp(.82rem,1.5vw,1.05rem)}
+
+/* BANDS — identical to index.html */
+.band{position:relative;width:100%;height:100vh;overflow:hidden;cursor:pointer}
+.band-cover{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(1) brightness(.32);transition:filter .7s ease}
+.band.clicked .band-cover{filter:grayscale(0) brightness(.52) saturate(.88)}
+.band-bloom{position:absolute;border-radius:50%;z-index:3;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,255,200,.45)0%,rgba(200,150,50,.22)35%,rgba(100,60,0,.08)65%,transparent 100%);transform:translate(-50%,-50%) scale(0);animation:bandBloom 2.5s cubic-bezier(.15,1,.3,1) forwards;width:300vmax;height:300vmax}
+@keyframes bandBloom{0%{transform:translate(-50%,-50%) scale(0);opacity:1}55%{transform:translate(-50%,-50%) scale(1);opacity:.85}100%{transform:translate(-50%,-50%) scale(1.05);opacity:0}}
+.band-ink{position:absolute;inset:0;z-index:4;pointer-events:none}
+.band-label{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center;transition:opacity .4s,transform .4s}
+.band.clicked .band-label{opacity:0;transform:translateY(-8px);pointer-events:none}
+.band-tag{font-family:'Cinzel',serif;font-size:.78rem;letter-spacing:.38em;color:var(--acc);text-transform:uppercase;margin-bottom:1rem}
+.band-title-en{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,3.2rem);font-weight:300;font-style:italic;color:var(--ivory);line-height:1.2;text-align:center}
+.band-title-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1.4rem,3vw,2.6rem);font-weight:200;color:var(--ivory);line-height:1.5;display:none;text-align:center}
+[data-lang="ar"] .band-title-en{display:none}[data-lang="ar"] .band-title-ar{display:block}
+.band-reveal{position:absolute;inset:0;z-index:11;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .5s ease .1s;padding:2rem;text-align:center}
+.band.clicked .band-reveal{opacity:1;pointer-events:auto}
+.band-phrase{font-family:'Cormorant Garamond',serif;font-size:clamp(1.05rem,1.9vw,1.28rem);font-style:italic;font-weight:300;color:rgba(240,235,225,.72);letter-spacing:.03em;max-width:480px;line-height:1.8;margin-bottom:2.5rem}
+.band-phrase-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:clamp(1rem,1.7vw,1.18rem);font-weight:200;color:rgba(240,235,225,.72);line-height:2;max-width:480px;display:none;text-align:center;margin-bottom:2.5rem}
+[data-lang="ar"] .band-phrase{display:none}[data-lang="ar"] .band-phrase-ar{display:block}
+.band-enter{font-family:'Cinzel',serif;font-size:.85rem;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;padding:1rem 3rem;border:1px solid currentColor;position:relative;overflow:hidden;transition:color .35s;display:inline-block}
+.band-enter::before{content:'';position:absolute;inset:0;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s ease}
+.band-enter:hover::before{transform:scaleX(1);transform-origin:left}
+.band-enter:hover{color:var(--void)}
+.band-enter span{position:relative;z-index:1}
+
+/* FINAL BREATH — identical mechanics to index.html */
+.br-sq{height:22vh;min-height:160px;display:flex;align-items:center;justify-content:center;border-top:1px solid rgba(201,169,110,.06)}
+.boxes-row{display:flex;gap:1.6rem;flex-wrap:wrap;justify-content:center}
+.sq{width:72px;height:72px;border:1px solid rgba(200,169,110,.22);display:flex;align-items:center;justify-content:center;cursor:auto;transition:border-color .5s}
+.sq:hover{border-color:rgba(200,169,110,.65)}
+.sq-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none}
+.sq-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .7s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .sq-word{display:none}[data-lang="ar"] .sq-word-ar{display:block}
+.sq:hover .sq-word,.sq:hover .sq-word-ar{opacity:1}
+#br-float{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.float-word{position:absolute;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;color:transparent;pointer-events:none;user-select:none;transition:color 1.4s ease;white-space:nowrap}
+.float-word.show{color:rgba(200,169,110,.4)}
+#br-swim{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.swim-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;border:1px solid rgba(200,169,110,.18);transition:border-color .5s,opacity .5s;opacity:.42}
+.swim-shape:hover{border-color:rgba(200,169,110,.7);opacity:1}
+.swim-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.swim-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .swim-word{display:none}[data-lang="ar"] .swim-word-ar{display:block}
+.swim-shape:hover .swim-word,.swim-shape:hover .swim-word-ar{opacity:1}
+#br-hover{height:22vh;min-height:160px;position:relative;overflow:hidden;border-top:1px solid rgba(200,169,110,.04)}
+.hover-shape{position:absolute;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity 1.5s,border-color .4s}
+.hover-shape.visible{opacity:.28}
+.hover-shape:hover{opacity:1!important}
+.hsh-word{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none}
+.hsh-word-ar{font-family:'IBM Plex Arabic',sans-serif;font-size:.66rem;font-weight:200;color:var(--gold);opacity:0;transition:opacity .6s;white-space:nowrap;pointer-events:none;display:none}
+[data-lang="ar"] .hsh-word{display:none}[data-lang="ar"] .hsh-word-ar{display:block}
+.hover-shape:hover .hsh-word,.hover-shape:hover .hsh-word-ar{opacity:1}
+
+/* FINAL + FOOTER — identical to index.html */
+#final{width:100%;padding:10rem 2rem 6rem;background:var(--void);display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
+#final::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 40% at 50% 60%,rgba(200,169,110,.028)0%,transparent 70%);pointer-events:none}
+#final-line{font-family:'Cormorant Garamond',serif;font-size:clamp(1.1rem,2.2vw,1.5rem);font-weight:300;font-style:italic;color:rgba(240,235,225,.45);letter-spacing:.05em;margin-bottom:4rem}
+#final-name{font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;color:var(--gold);letter-spacing:.08em;margin-bottom:1.8rem}
+#final-rule{width:100%;max-width:560px;height:1px;background:linear-gradient(to right,transparent,rgba(200,169,110,.38),transparent);margin-bottom:1.8rem}
+#final-links{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;justify-content:center}
+#final-links a{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.3em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+#final-links a:hover{color:var(--gold)}
+#final-links span{color:rgba(200,169,110,.2);font-size:.55rem}
+footer{padding:3rem 2rem;border-top:1px solid rgba(200,169,110,.08);text-align:center}
+.footer-top{margin-bottom:1.5rem}
+.footer-artist-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:rgba(200,169,110,.45);letter-spacing:.15em;margin-bottom:.3rem}
+.footer-title{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(200,169,110,.25)}
+.footer-copy{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;color:var(--ivory2);text-transform:uppercase;line-height:2}
+footer a{color:rgba(200,169,110,.45);text-decoration:none;transition:color .3s}
+footer a:hover{color:var(--gold)}
+
+/* BILINGUAL */
+.t-en{display:inline}.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body{direction:rtl}
+.ar-font{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  nav{padding:1.2rem 1.2rem 1.2rem 5rem;gap:1.2rem;overflow-x:auto}
+  nav a{font-size:.6rem}
+  .band{height:75vh;min-height:400px}
+  .band-title-en{font-size:clamp(1.5rem,6vw,2.2rem)}
+  .band-enter{font-size:.7rem;padding:.75rem 1.5rem;letter-spacing:.2em}
+  .sq{width:58px;height:58px}
+  .br-half{height:auto;padding:4rem 0}
+  .br-half::before{display:none}
+  .scroll-hint{display:none}
+}
+
+
+/* UNIFIED_PATCH_CSS */
+/* ============================================================
+   PATCH: Floating UI + Grayscale Slideshow + Float Words + Unified BG
+   Applies to all 8 specialty/home pages
+   ============================================================ */
+
+/* 1. UNIFIED DARK BACKGROUND — single color, no per-section repeat */
+body{background:#050504 !important}
+
+/* 2. SLIDESHOW / BAND COVER — grayscale default, color on hover/in-view only */
+.band-cover{
+  filter:grayscale(1) brightness(.32) !important;
+  transition:filter .8s ease !important;
+}
+.band:hover .band-cover,
+.band.clicked .band-cover,
+.band.in-view .band-cover{
+  filter:grayscale(0) brightness(.5) saturate(.9) !important;
+}
+
+/* 3. REMOVE BLUE BLOOM EFFECT — per agreed simplification */
+.band-bloom{display:none !important;animation:none !important}
+
+/* 4. FLOATING ACTION BUTTON — back to top */
+#fab-top{
+  position:fixed;bottom:24px;left:24px;z-index:600;
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(10,10,9,.7);backdrop-filter:blur(10px);
+  border:1px solid rgba(200,169,110,.35);
+  color:#C8A96E;font-size:1.05rem;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;opacity:0;transform:translateY(10px);
+  transition:opacity .35s ease,transform .35s ease,border-color .25s;
+  box-shadow:0 8px 24px -6px rgba(0,0,0,.5);
+}
+#fab-top.show{opacity:1;transform:translateY(0)}
+#fab-top:hover{border-color:#C8A96E;box-shadow:0 12px 32px -6px rgba(200,169,110,.25)}
+
+/* 5. FLOATING CAPSULE NAV */
+nav#nav{
+  border-radius:999px !important;
+  margin:14px auto 0 !important;
+  width:fit-content !important;
+  background:rgba(8,8,7,.55) !important;
+  backdrop-filter:blur(14px) saturate(140%);
+  border:1px solid rgba(200,169,110,.18) !important;
+  box-shadow:0 10px 30px -8px rgba(0,0,0,.55),0 1px 0 rgba(255,255,255,.04) inset;
+  position:fixed !important;top:14px;left:50%;transform:translateX(-50%);
+}
+
+/* 6. FLOATING CARDS — bands lift with layered shadow on hover */
+.band{transition:box-shadow .45s ease}
+.band:hover{box-shadow:0 24px 48px -12px rgba(0,0,0,.55),0 8px 16px -8px rgba(200,169,110,.18)}
+
+/* 7. STATEMENT SECTION — البيان الفني */
+.statement-sec{
+  min-height:50vh;display:flex;align-items:center;justify-content:center;
+  padding:4rem 1.5rem;background:#0a0a09;text-align:center;
+  border-top:1px solid rgba(200,169,110,.08);border-bottom:1px solid rgba(200,169,110,.08);
+}
+.statement-inner{max-width:760px}
+.statement-inner p{font-size:1.05rem;line-height:1.9;color:#F0EBE1;opacity:.85;margin-bottom:1rem}
+.statement-readmore{
+  display:inline-block;margin-top:1rem;padding:.7rem 2.2rem;
+  border:1px solid rgba(200,169,110,.4);border-radius:999px;
+  color:#C8A96E;font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.2em;
+  text-decoration:none;transition:.3s;
+}
+.statement-readmore:hover{background:#C8A96E;color:#050504}
+
+/* 8. BREATHER SIZE VARIANTS — break visual rhythm */
+.breather-half{min-height:42vh}
+.breather-quarter{min-height:24vh}
+
+/* 9. FLOATING WORDS + ART SHAPES — revives #br-float spirit, all pages */
+.float-stage{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.float-word{
+  position:absolute;color:rgba(200,169,110,.16);
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  white-space:nowrap;opacity:0;animation:floatWordSeq 18s ease-in-out infinite;
+}
+.float-shape{
+  position:absolute;color:rgba(200,169,110,.10);
+  opacity:0;animation:floatShapeSeq 22s ease-in-out infinite;
+}
+@keyframes floatWordSeq{
+  0%{opacity:0;transform:translate(0,0) scale(.92)}
+  10%{opacity:1}45%{opacity:1;transform:translate(18px,-26px) scale(1)}
+  60%{opacity:0}100%{opacity:0;transform:translate(18px,-26px) scale(1)}
+}
+@keyframes floatShapeSeq{
+  0%{opacity:0;transform:translate(0,0) rotate(0deg)}
+  15%{opacity:1}50%{opacity:1;transform:translate(-22px,30px) rotate(14deg)}
+  70%{opacity:0}100%{opacity:0;transform:translate(-22px,30px) rotate(14deg)}
+}
+@media(max-width:600px){.float-stage{display:none}}
+
+/* UNIFIED_PATCH_CSS */
+
+#lang-btn .lang-txt{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.15em;color:rgba(200,169,110,.55);text-transform:uppercase;margin-right:.35rem;transition:color .4s}
+#lang-btn:hover .lang-txt{color:var(--gold)}
+</style>
+
+<style>
+.jrn-section{padding:3rem 2rem 5rem;max-width:1200px;margin:0 auto}
+.jrn-title{font-size:1.4rem;color:var(--gold-l,#c8a96e);margin-bottom:.3rem;font-family:"IBM Plex Arabic",sans-serif}
+.jrn-rule{width:48px;height:1px;background:var(--gold-l,#c8a96e);opacity:.4;margin-bottom:2rem}
+.jrn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem}
+.jrn-card{border:1px solid rgba(200,169,110,.12);padding:1.5rem;cursor:pointer;transition:border-color .3s,transform .3s;background:rgba(0,0,0,.1)}
+.jrn-card:hover{border-color:rgba(200,169,110,.4);transform:translateY(-2px)}
+.jrn-num{font-size:.68rem;color:rgba(200,169,110,.4);margin-bottom:.4rem}
+.jrn-cat{font-size:.65rem;color:var(--gold-l,#c8a96e);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.jrn-card-title{font-size:.92rem;font-weight:600;color:#e8dcc8;line-height:1.4;margin-bottom:.6rem}
+.jrn-card-title .t-ar{font-family:"IBM Plex Arabic",sans-serif;font-size:.88rem}
+.jrn-link{font-size:.7rem;color:var(--gold-l,#c8a96e)}
+.jrn-overlay{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:9999;overflow-y:auto;display:none;padding:3rem 2rem}
+.jrn-overlay.open{display:block}
+.jrn-close{position:fixed;top:1.4rem;right:1.4rem;background:none;border:1px solid rgba(200,169,110,.3);color:#c8a96e;width:2rem;height:2rem;cursor:pointer;font-size:.9rem;z-index:10000}
+.jrn-body{max-width:640px;margin:0 auto;color:#e8dcc8;line-height:1.9}
+.jrn-body h2{font-size:1.4rem;color:#c8a96e;margin-bottom:1rem}
+.jrn-body h3{font-size:1rem;color:#c8a96e;margin:1.5rem 0 .5rem}
+.jrn-body p{margin-bottom:1rem;font-size:.9rem}
+.jrn-body blockquote{border-left:2px solid #c8a96e;padding-left:1rem;color:rgba(232,220,200,.65);font-style:italic;margin:1.3rem 0}
+.jrn-tag{font-size:.68rem;color:rgba(200,169,110,.5);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+.jrn-empty{color:rgba(200,169,110,.4);font-size:.82rem;font-style:italic;padding:1rem 0}
+
+/* restore visible cursor + correct affordances */
+a,button,summary,[role=button],.faq-q,.spec-item,.channel,.send-btn,.cta-btn,.wcell,.qbox{cursor:pointer}
+input,textarea,select{cursor:text}
+select{cursor:pointer}
+
+/* ═══ ARABIC TYPOGRAPHY FIX v2 ═══
+   العربية خط متّصل: لا تباعد حروف، ولا Uppercase، وخط عربي حقيقي.
+   الأرضية المطلقة max() تمنع أي نص عربي من النزول تحت حدّ المقروئية،
+   دون أن تُضخّم العناوين الكبيرة (1em يبقى كما هو إن كان أكبر).
+   Arabic: connected script — never letter-space; absolute floor via max(). */
+html[data-lang="ar"] .t-ar,
+html[data-lang="ar"] .ar-font,
+html[data-lang="ar"] [lang="ar"]{
+  font-family:'IBM Plex Arabic',system-ui,sans-serif !important;
+  letter-spacing:normal !important;
+  word-spacing:normal !important;
+  text-transform:none !important;
+  font-size:max(1.02rem,1em);
+  line-height:1.85;
+}
+/* عناصر الواجهة الصغيرة: أرضية أعلى قليلاً + وزن أوضح */
+html[data-lang="ar"] nav a,
+html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .band-tag,
+html[data-lang="ar"] .sec-title,html[data-lang="ar"] .section-title,
+html[data-lang="ar"] .works-title,html[data-lang="ar"] .connect-title,
+html[data-lang="ar"] .q-author,html[data-lang="ar"] .q-author-ar,
+html[data-lang="ar"] .footer-inner,html[data-lang="ar"] .jrn-cat,html[data-lang="ar"] .jrn-tag,
+html[data-lang="ar"] .stat-label,html[data-lang="ar"] .spec-note,html[data-lang="ar"] .offer-num,
+html[data-lang="ar"] .step-title,html[data-lang="ar"] .channel-name,html[data-lang="ar"] .form-label,
+html[data-lang="ar"] .cf-label,html[data-lang="ar"] .work-cap,html[data-lang="ar"] .mv-num{
+  font-size:max(1.02rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  line-height:1.8;
+}
+/* أزرار وروابط: مساحة نقر مريحة */
+html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+html[data-lang="ar"] .filter-btn,html[data-lang="ar"] .send-btn,
+html[data-lang="ar"] .works-all,html[data-lang="ar"] .specblock-visit,
+html[data-lang="ar"] .specblock-viewall,html[data-lang="ar"] .read-btn{
+  font-size:max(1.05rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  padding:.95rem 1.9rem;
+}
+html[data-lang="ar"] nav a{font-weight:400}
+/* شاشات كبيرة (٢٧ إنش فأكثر) */
+@media(min-width:1600px){
+  nav a{font-size:.78rem}
+  .cta,.cta-btn,.cv-btn,.band-enter,.statement-readmore,.send-btn{font-size:.72rem;padding:1rem 2rem}
+  html[data-lang="ar"] nav a{font-size:1.12rem !important}
+  html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .sec-title,
+  html[data-lang="ar"] .section-title,html[data-lang="ar"] .works-title{font-size:1.12rem !important}
+  html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+  html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+  html[data-lang="ar"] .send-btn,html[data-lang="ar"] .works-all,
+  html[data-lang="ar"] .specblock-visit,html[data-lang="ar"] .specblock-viewall{
+    font-size:1.18rem !important;padding:1.1rem 2.2rem;
+  }
+}
+
+/* عناوين عربية: سطر واحد متّزن، ولفٌّ أنيق عند الضرورة */
+[data-lang="ar"] .band-title-ar,
+[data-lang="ar"] .h1,[data-lang="ar"] h1,
+[data-lang="ar"] .cta-heading,[data-lang="ar"] .mv-title{
+  text-wrap:balance;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  max-width:22ch;
+  margin-inline:auto;
+}
+[data-lang="ar"] .band-title-ar{line-height:1.35}
+
+/* ── اسم الفنان بالعربية: خط خطّي كلاسيكي (مؤقت حتى وصول خط الثلث) ── */
+[data-lang="ar"] .name-ar{
+  font-family:'Aref Ruqaa','IBM Plex Arabic',serif !important;
+  font-weight:700;
+  letter-spacing:normal !important;
+  line-height:1.6;
+  font-size:1.15em;
+}
+/* عند توفّر صورة الاسم بخط الثلث: فعّل هذه الكتلة واحذف التي فوقها
+[data-lang="ar"] .name-ar{
+  font-size:0 !important;
+  display:inline-block;
+  width:clamp(180px,26vw,420px);
+  aspect-ratio:1000/300;
+  background:url('/images/brand/name-thuluth.svg') center/contain no-repeat;
+}
+*/
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+</style>
+</head>
+<body>
+<div id="cur"></div>
+<div id="ink-veil"><div id="ink-blob"></div></div>
+<div id="lang-btn"><span class="lang-txt t-en">AR</span><span class="lang-txt t-ar">EN</span><span id="lang-glyph">ض</span></div>
+
+<nav id="nav">
+  <a href="../index.html#hero" class="nav-home">
+    <span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span>
+  </a>
+  <a href="../about/index.html">
+    <span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span>
+  </a>
+  <a href="../journal/index.html">
+    <span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span>
+  </a>
+  <a href="../commission/index.html">
+    <span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span>
+  </a>
+  <a href="../contact/index.html">
+    <span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span>
+  </a>
+  <a href="../gallery/design/index.html" class="nav-gallery">
+    <span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span>
+  </a>
+  <a href="../statement/design/index.html" class="nav-statement">
+    <span class="t-en">Statement</span><span class="t-ar ar-font">البيان الفني</span>
+  </a>
+</nav>
+
+<!-- ══════ HERO ══════ -->
+<section id="hero">
+  <div id="hero-slides">
+    <div class="hslide active"><div class="hslide-bg" style="background:linear-gradient(135deg,#050a0a 0%,#0a1515 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(to right,#0a0505 0%,#150a0a 60%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050a 0%,#0a0a1a 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050a 0%,#0a0a1a 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050a 0%,#0a0a1a 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050a 0%,#0a0a1a 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    <div class="hslide"><div class="hslide-bg" style="background:linear-gradient(135deg,#05050a 0%,#0a0a1a 50%,#050504 100%);width:100%;height:100%;"></div></div>
+    
+  </div>
+  <div class="hero-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="scroll-hint">
+    <span class="t-en">Scroll</span><span class="t-ar ar-font">مرِّر</span>
+    <div class="scroll-line"></div>
+  </div>
+  <div id="hero-dots"><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div><div class="hdot"></div></div>
+  <div class="hero-content">
+    <div class="wrap">
+      <span class="hero-tag">
+        <span class="t-en">IV · Visual Design & Advertising</span>
+        <span class="t-ar ar-font">٤ · Visual Design & Advertising</span>
+      </span>
+      <h1 class="hero-h1">Visual Design<br>& Advertising</h1>
+      <h1 class="hero-h1-ar">التصميم المرئي<br>والدعاية</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-phrase">Twenty years of beauty that serves meaning — design is not how it looks, it is how it thinks.</p>
+      <p class="hero-phrase-ar">عشرون عاماً من الجمال الذي يخدم المعنى — التصميم ليس كيف يبدو، بل كيف يفكر.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════ BREATH — HALF — Specialty Quotes ══════ -->
+<div class="br-half" id="br-spec">
+  <div>
+    <div class="q-stage" id="qs-spec"></div>
+    <div class="q-prog" id="qp-spec"></div>
+  </div>
+</div>
+
+
+<!-- BAND 1 — I · Brand Identity -->
+<!-- STATEMENT_SECTION -->
+<section class="statement-sec"><div class="statement-inner"><p><span class="t-en">Visual design for Altayeb Amer balances function and beauty, where every element has its place and its meaning.</span><span class="t-ar">التصميم المرئي عند الطيب عامر يوازن بين الوظيفة والجمال، حيث كل عنصر له مكانه ومعناه.</span></p><a href="../statement/design/index.html" class="statement-readmore"><span class="t-en">Read the full statement</span><span class="t-ar">تتمة القراءة</span></a></div></section>
+<!-- STATEMENT_SECTION -->
+<section class="band" data-bi="0">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7013/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(135deg,rgba(5,5,4,.72)0%,rgba(5,5,4,.15)55%,rgba(5,5,4,.65)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">I · Brand Identity</span>
+      <span class="t-ar ar-font">١ · هوية العلامة التجارية</span>
+    </p>
+    <h2 class="band-title-en">Brand Identity<br>Design</h2>
+    <h2 class="band-title-ar">وجهُ العلامة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">A brand identity is not a logo — it is a promise made visible.</p>
+    <p class="band-phrase-ar">خطوطٌ قليلةٌ تحملُ عمرَ مؤسسةٍ كاملة.</p>
+    <a href="../gallery/design/index.html#brand" class="band-enter" style="color:#C9A96E">
+      <span>
+        <span class="t-en">Enter Brand Identity Gallery</span>
+        <span class="t-ar ar-font">معرض هوية العلامات التجارية</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — I · Brand Identity -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t1"></div>
+    <div class="q-prog" id="qp-t1"></div>
+  </div>
+</div>
+
+<!-- BAND 2 — II · Advertising -->
+<section class="band" data-bi="1">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7014/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:linear-gradient(to right,rgba(5,5,4,.75)0%,rgba(5,5,4,.1)65%,rgba(5,5,4,.58)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">II · Advertising</span>
+      <span class="t-ar ar-font">٢ · الإعلان</span>
+    </p>
+    <h2 class="band-title-en">Advertising<br>& Campaigns</h2>
+    <h2 class="band-title-ar">ثوانٍ تُقنِع</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Good advertising persuades without shouting — it enters the mind as a guest, not an intruder.</p>
+    <p class="band-phrase-ar">ثوانٍ معدوداتٌ لتقولَ ما يُقنِعُ ويبقى.</p>
+    <a href="../gallery/design/index.html#advertising" class="band-enter" style="color:#C9A96E">
+      <span>
+        <span class="t-en">Enter Advertising Gallery</span>
+        <span class="t-ar ar-font">معرض الإعلانات</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — II · Advertising -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t2"></div>
+    <div class="q-prog" id="qp-t2"></div>
+  </div>
+</div>
+
+<!-- BAND 3 — III · Editorial & Digital -->
+<section class="band" data-bi="2">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/7015/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">III · Editorial & Digital</span>
+      <span class="t-ar ar-font">٣ · التحريري والرقمي</span>
+    </p>
+    <h2 class="band-title-en">Editorial &<br>Digital Design</h2>
+    <h2 class="band-title-ar">نظامُ الصفحة</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">Editorial design is the architecture of reading — it decides where the eye goes and what it feels when it arrives.</p>
+    <p class="band-phrase-ar">نظامٌ خفيٌّ يجعلُ الصفحةَ تُقرأُ قبل أن تُفهَم.</p>
+    <a href="../gallery/design/index.html#editorial" class="band-enter" style="color:#C9A96E">
+      <span>
+        <span class="t-en">Enter Editorial Gallery</span>
+        <span class="t-ar ar-font">معرض التصميم التحريري</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — III · Editorial & Digital -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t3"></div>
+    <div class="q-prog" id="qp-t3"></div>
+  </div>
+</div>
+
+
+
+<!-- BAND 4 — IV · Packaging -->
+<section class="band" data-bi="3">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20008/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">IV · Packaging</span>
+      <span class="t-ar ar-font">٤ · تغليف</span>
+    </p>
+    <h2 class="band-title-en">Packaging<br>The Brand in the Hand</h2>
+    <h2 class="band-title-ar">العلامةُ في اليد</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">A box is a promise made in cardboard and ink — and the only design a customer truly holds.</p>
+    <p class="band-phrase-ar">العلبةُ وعدٌ يُقطَعُ بالورقِ والحبر، وهي التصميمُ الوحيدُ الذي يُمسِكُه الزبونُ حقاً.</p>
+    <a href="../gallery/design/index.html#packaging" class="band-enter" style="color:#C9A96E">
+      <span>
+        <span class="t-en">Enter Packaging Gallery</span>
+        <span class="t-ar ar-font">معرض التغليف</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — IV · Packaging -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t4"></div>
+    <div class="q-prog" id="qp-t4"></div>
+  </div>
+</div>
+
+<!-- BAND 5 — V · Web Design -->
+<section class="band" data-bi="4">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20009/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">V · Web Design</span>
+      <span class="t-ar ar-font">٥ · تصميم مواقع</span>
+    </p>
+    <h2 class="band-title-en">Web Design<br>Beauty That Guides</h2>
+    <h2 class="band-title-ar">جمالٌ يدلُّ الطريق</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">On a screen, beauty is not ornament — it is direction, and confusion is the only real ugliness.</p>
+    <p class="band-phrase-ar">على الشاشةِ ليس الجمالُ زينةً بل دلالة، والحيرةُ وحدَها هي القبح.</p>
+    <a href="../gallery/design/index.html#web" class="band-enter" style="color:#C9A96E">
+      <span>
+        <span class="t-en">Enter Web Design Gallery</span>
+        <span class="t-ar ar-font">معرض تصميم المواقع</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — V · Web Design -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t5"></div>
+    <div class="q-prog" id="qp-t5"></div>
+  </div>
+</div>
+
+<!-- BAND 6 — VI · Typography -->
+<section class="band" data-bi="5">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20010/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VI · Typography</span>
+      <span class="t-ar ar-font">٦ · الطباعة والخطوط</span>
+    </p>
+    <h2 class="band-title-en">Typography<br>The Voice of the Letter</h2>
+    <h2 class="band-title-ar">صوتُ الحرف</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">A typeface has a tone before a single word is read — I choose it the way a writer chooses a voice.</p>
+    <p class="band-phrase-ar">للخطِّ نبرةٌ قبل أن تُقرأ كلمة — أنتقيه كما ينتقي الكاتبُ صوتَه.</p>
+    <a href="../gallery/design/index.html#typography" class="band-enter" style="color:#C9A96E">
+      <span>
+        <span class="t-en">Enter Typography Gallery</span>
+        <span class="t-ar ar-font">معرض الطباعة والخطوط</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VI · Typography -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t6"></div>
+    <div class="q-prog" id="qp-t6"></div>
+  </div>
+</div>
+
+<!-- BAND 7 — VII · Motion Graphics -->
+<section class="band" data-bi="6">
+  <div class="band-cover" data-bg="https://picsum.photos/seed/20011/1600/1000" style="background-color:#0b0b0a"></div>
+  <div class="band-ink" style="background:radial-gradient(ellipse at center,rgba(5,5,4,.05)0%,rgba(5,5,4,.78)100%)"></div>
+  <div class="band-label">
+    <p class="band-tag">
+      <span class="t-en">VII · Motion Graphics</span>
+      <span class="t-ar ar-font">٧ · موشن غرافيك</span>
+    </p>
+    <h2 class="band-title-en">Motion Graphics<br>Design That Breathes</h2>
+    <h2 class="band-title-ar">تصميمٌ يتنفّس</h2>
+  </div>
+  <div class="band-reveal">
+    <p class="band-phrase">How a mark enters, pauses and settles says as much as its shape ever could.</p>
+    <p class="band-phrase-ar">كيف تدخلُ العلامةُ وتقفُ وتستقرُّ يقولُ بقدرِ ما يقولُ شكلُها.</p>
+    <a href="../gallery/design/index.html#motion" class="band-enter" style="color:#C9A96E">
+      <span>
+        <span class="t-en">Enter Motion Graphics Gallery</span>
+        <span class="t-ar ar-font">معرض الموشن غرافيك</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- BREATH QUARTER — VII · Motion Graphics -->
+<div class="br-quarter">
+  <div>
+    <div class="q-stage" id="qs-t7"></div>
+    <div class="q-prog" id="qp-t7"></div>
+  </div>
+</div>
+
+<!-- ══════ FINAL BREATH ══════ -->
+<div class="br-sq"><div class="boxes-row"></div></div>
+<div id="br-float"></div>
+<div id="br-swim"></div>
+<div id="br-hover"></div>
+
+<!-- ══════ FINAL ══════ -->
+<div id="final">
+  <p id="final-line">
+    <span class="t-en">One soul · Seven worlds · Infinite creation</span>
+    <span class="t-ar ar-font">روح واحدة · سبعة عوالم · إبداع لا نهاية له</span>
+  </p>
+  <p id="final-name"><span class="t-en">Altayeb Amer</span><span class="t-ar name-ar">الطيب عامر</span></p>
+  <div id="final-rule"></div>
+  <div id="final-links">
+    <a href="../index.html#hero"><span class="t-en">Home</span><span class="t-ar ar-font">الرئيسية</span></a>
+    <span>·</span>
+    <a href="../about/index.html"><span class="t-en">About</span><span class="t-ar ar-font">عن الفنان</span></a>
+    <span>·</span>
+    <a href="../journal/index.html"><span class="t-en">Journal</span><span class="t-ar ar-font">المجلة</span></a>
+    <span>·</span>
+    <a href="../commission/index.html"><span class="t-en">Commission</span><span class="t-ar ar-font">طلب عمل</span></a>
+    <span>·</span>
+    <a href="../contact/index.html"><span class="t-en">Contact</span><span class="t-ar ar-font">تواصل</span></a>
+    <span>·</span>
+    <a href="../gallery/index.html"><span class="t-en">Gallery</span><span class="t-ar ar-font">المعرض</span></a>
+  </div>
+</div>
+
+<!-- ══════ FOOTER ══════ -->
+<footer>
+  <div class="footer-top">
+    <p class="footer-artist-name">
+      <a href="../index.html#hero">
+        <span class="t-en">Altayeb Amer</span>
+        <span class="t-ar ar-font">الطيب عامر</span>
+      </a>
+    </p>
+    <p class="footer-title">
+      <span class="t-en">Creative Beyond · One Soul · Seven Worlds</span>
+      <span class="t-ar ar-font">كريتيف بيوند · روح واحدة · سبعة عوالم</span>
+    </p>
+  </div>
+  <p class="footer-copy">
+    <a href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">
+      <span class="t-en">Creative Beyond</span>
+      <span class="t-ar ar-font">كريتيف بيوند</span>
+    </a>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    <span class="t-en">Dubai</span><span class="t-ar ar-font">دبي</span>
+    <span style="color:rgba(200,169,110,.2)"> · </span>
+    © <span id="yr"></span>
+  </p>
+</footer>
+
+<script>
+// ── QUOTES DATA ──
+const Q_SPEC = [
+  ["Good design is a language everyone reads and no one hears.","التصميم الجيد لغة يقرأها الجميع ولا يسمعها أحد."],
+  ["Design is not decoration — it is a precise act of communication where every choice serves the message or undermines it.","التصميم ليس زينة — بل فعل تواصل دقيق حيث كل اختيار إما يخدم الرسالة أو يقوضها."],
+  ["Modernity in design lies not in tools — but in the clarity of vision behind them.","الحداثة في التصميم ليست في الأدوات — بل في وضوح الرؤية خلفها."],
+  ["Every era creates its own visual language — the designer's task is to speak it without an accent.","كل عصر يخلق لغته البصرية — ومهمة المصمم التكلم بها بلا لكنة."],
+  ["Modern arts are not an escape from the past — but a dialogue with it.","الفنون الحديثة ليست هروباً من الماضي — بل حواراً معه."],
+  ["A true artist can create with any tool — even light.","الفنان الحقيقي يستطيع الإبداع بأي أداة — حتى الضوء."],
+  ["Do not fear the impermanence of digital art — true art is not measured by its physical lifespan, but by its impact on the subconscious.","لا تخف من زوال العمل الرقمي — الفن الحقيقي لا يقاس بعمره المادي، بل بأثره في اللاوعي."]
+];
+const Q_T1 = [
+  ["A brand is not what you say about yourself — it is what remains in someone's memory after you leave the room.","العلامة التجارية ليست ما تقوله عن نفسك — بل ما يبقى في ذاكرة شخص ما بعد أن تغادر الغرفة."],
+  ["The logo is the smallest part of brand identity — and the most visible failure of it.","الشعار هو أصغر جزء من هوية العلامة التجارية — وأكثر إخفاقاتها وضوحاً."],
+  ["I design brand identities the way a calligrapher designs a letter — every element must earn its place.","أصمم الهويات التجارية كما يصمم الخطاط الحرف — كل عنصر يجب أن يستحق مكانه."],
+  ["A strong brand identity survives translation — across languages, cultures, and twenty years.","الهوية التجارية القوية تصمد أمام الترجمة — عبر اللغات والثقافات وعشرين عاماً."],
+  ["Typography in brand identity is not decoration — it is the brand's voice made visible.","الطباعة في الهوية التجارية ليست زخرفة — بل صوت العلامة مجسَّداً."],
+  ["The best brand identities feel inevitable — as if no other visual system was ever possible.","أفضل الهويات التجارية تبدو حتمية — كأن لا نظام بصري آخر كان ممكناً."],
+  ["Simplicity in brand design is not an absence of thought — it is the maximum compression of thought.","البساطة في التصميم التجاري ليست غياب التفكير — بل أقصى درجات ضغط الفكر."]
+];
+const Q_T2 = [
+  ["The best advertisement is the one the audience does not recognise as an advertisement.","أفضل إعلان هو الذي لا يتعرف عليه الجمهور كإعلان."],
+  ["Advertising that shouts is advertising that has given up on being interesting.","الإعلان الذي يصرخ هو إعلان استسلم لكونه مثيراً للاهتمام."],
+  ["Twenty years in advertising taught me that the audience always knows when you are lying — even if they cannot say why.","عشرون عاماً في الإعلان علّمتني أن الجمهور يعلم دائماً حين تكذب — حتى لو لم يستطع قول لماذا."],
+  ["The creative brief is not a constraint — it is the form that gives the idea its shape.","الموجز الإبداعي ليس قيداً — بل الشكل الذي يمنح الفكرة ملامحها."],
+  ["Visual art in advertising does not decorate the message — it IS the message.","الفن البصري في الإعلان لا يزين الرسالة — بل هو الرسالة."],
+  ["The best advertising campaigns feel like gifts to the audience — not demands on their attention.","أفضل الحملات الإعلانية تبدو كهدايا للجمهور — لا مطالب على انتباههم."],
+  ["In advertising, one image can do what a thousand words have tried and failed to do.","في الإعلان، صورة واحدة تستطيع ما حاولته ألف كلمة وأخفقت فيه."]
+];
+const Q_T3 = [
+  ["A well-designed page is one where the reader never notices the design — only the content.","الصفحة المصممة جيداً هي التي لا يلاحظ فيها القارئ التصميم — بل المحتوى فقط."],
+  ["White space in editorial design is not emptiness — it is breathing room for the idea.","المسافة البيضاء في التصميم التحريري ليست فراغاً — بل مساحة تنفس للفكرة."],
+  ["Typography is not the clothing of words — it is their tone of voice.","الطباعة ليست ملابس الكلمات — بل نبرة صوتها."],
+  ["Digital design has no physical constraints — which means the designer's internal constraints must be stronger.","التصميم الرقمي لا قيود مادية له — مما يعني أن القيود الداخلية للمصمم يجب أن تكون أقوى."],
+  ["The grid is not a prison — it is the rhythm that makes visual music possible.","الشبكة ليست سجناً — بل الإيقاع الذي يجعل الموسيقى البصرية ممكنة."],
+  ["A digital interface is a conversation — and like all conversations, it can be respectful or exhausting.","الواجهة الرقمية هي محادثة — وكأي محادثة، يمكن أن تكون محترمة أو مرهقة."],
+  ["Twenty years of design taught me that the best solution is almost always the simplest one that solves every problem.","عشرون عاماً من التصميم علّمتني أن أفضل حل هو دائماً تقريباً الأبسط الذي يحل كل مشكلة."]
+];
+
+// ── FINAL BREATH WORDS ──
+const B1E=["Form", "Grid", "Type", "Space", "Color", "Shape", "Line"], B1A=["شكل", "شبكة", "خط", "فضاء", "لون", "هيئة", "سطر"];
+const SWE=["Brand", "Voice", "Vision", "Message", "Clear", "Bold", "True"], SWA=["علامة", "صوت", "رؤية", "رسالة", "واضح", "جريء", "صادق"];
+const H6E=["Think", "Craft", "Solve", "Build", "Refine", "Trust", "Launch"], H6A=["فكّر", "اصنع", "حلّ", "ابنِ", "صقّل", "ثق", "أطلق"];
+
+// ── ENGINE ──
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+const cur=document.getElementById('cur');
+if(window.matchMedia('(pointer: coarse)').matches)cur.style.display='none';
+document.addEventListener('mousemove',e=>{cur.style.left=e.clientX+'px';cur.style.top=e.clientY+'px';cur.style.opacity='1';});
+function spawnSplash(x,y){const s=document.createElement('div');s.className='ink-splash';s.style.left=x+'px';s.style.top=y+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),850);}
+document.addEventListener('click',e=>{if(e.target.closest('#lang-btn'))return;spawnSplash(e.clientX,e.clientY);});
+document.addEventListener('touchend',e=>{if(e.target.closest('#lang-btn'))return;const t=e.changedTouches[0];spawnSplash(t.clientX,t.clientY);},{passive:true});
+
+/* LANG */
+const langBtn=document.getElementById('lang-btn'),langGlyph=document.getElementById('lang-glyph');
+const inkBlob=document.getElementById('ink-blob'),htmlEl=document.documentElement;
+let lang=(window.__AA_LANG||'en');
+const AR='الطيببعامرحروفية'.split('');
+function burst(ox,oy){for(let i=0;i<14;i++){const el=document.createElement('div');el.style.cssText=`position:fixed;z-index:9999;pointer-events:none;font-family:'IBM Plex Arabic',sans-serif;font-size:${.85+Math.random()}rem;color:rgba(200,169,110,.7);left:${ox}px;top:${oy}px;`;el.textContent=AR[Math.floor(Math.random()*AR.length)];const a=Math.random()*Math.PI*2,d=65+Math.random()*130;const dur=.5+Math.random()*.4;el.style.animation=`burstL ${dur}s ease forwards`;el.style.setProperty('--tx',Math.cos(a)*d+'px');el.style.setProperty('--ty',Math.sin(a)*d+'px');document.body.appendChild(el);setTimeout(()=>el.remove(),1000);}}
+document.addEventListener('mousemove',e=>{const r=langBtn.getBoundingClientRect();langBtn.classList.toggle('near',Math.hypot(e.clientX-(r.left+r.width/2),e.clientY-(r.top+r.height/2))<150);});
+langBtn.addEventListener('click',e=>{e.stopPropagation();const r=langBtn.getBoundingClientRect();const ox=r.left+r.width/2,oy=r.top+r.height/2;burst(ox,oy);inkBlob.style.left=ox+'px';inkBlob.style.top=oy+'px';inkBlob.style.transition='none';inkBlob.style.transform='translate(-50%,-50%) scale(0)';requestAnimationFrame(()=>requestAnimationFrame(()=>{inkBlob.classList.add('grow');setTimeout(()=>{lang=lang==='en'?'ar':'en';htmlEl.setAttribute('data-lang',lang);htmlEl.setAttribute('lang',lang);htmlEl.setAttribute('dir',lang==='ar'?'rtl':'ltr');langGlyph.textContent=lang==='en'?'ض':'A';inkBlob.classList.remove('grow');inkBlob.classList.add('shrink');setTimeout(()=>{inkBlob.classList.remove('shrink');inkBlob.style.transform='translate(-50%,-50%) scale(0)';},750);},480);}));});
+
+/* HERO SLIDESHOW */
+(function(){const slides=document.querySelectorAll('#hero-slides .hslide');const dots=document.querySelectorAll('#hero-dots .hdot');if(!slides.length)return;let idx=0;function goTo(n){slides[idx].classList.remove('active');dots[idx]&&dots[idx].classList.remove('on');idx=(n+slides.length)%slides.length;slides[idx].classList.add('active');dots[idx]&&dots[idx].classList.add('on');}const timer=setInterval(()=>goTo(idx+1),5500);document.getElementById('hero').addEventListener('click',e=>{if(e.target.closest('#hero-dots'))return;const r=document.getElementById('hero').getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';document.getElementById('hero').appendChild(b);setTimeout(()=>b.remove(),3100);clearInterval(timer);goTo(idx+1);});})();
+
+/* QUOTES ENGINE */
+function buildQ(stageId,progId,qArr){const stage=document.getElementById(stageId),prog=document.getElementById(progId);if(!stage||!prog)return;qArr.forEach((q,i)=>{const item=document.createElement('div');item.className='q-item'+(i===0?' vis':'');item.innerHTML=`<p class="q-text">"${q[0]}"</p><p class="q-text-ar">"${q[1]}"</p><p class="q-author">— Altayeb Amer</p><p class="q-author-ar ar-font">— الطيب عامر</p>`;stage.appendChild(item);const dot=document.createElement('div');dot.className='qdot'+(i===0?' on':'');prog.appendChild(dot);});let qi=0;const items=stage.querySelectorAll('.q-item'),qdots=prog.querySelectorAll('.qdot');const obs=new IntersectionObserver(entries=>{if(entries[0].isIntersecting){setInterval(()=>{items[qi].classList.remove('vis');qdots[qi].classList.remove('on');qi=(qi+1)%items.length;items[qi].classList.add('vis');qdots[qi].classList.add('on');},6500);obs.disconnect();}},{threshold:0.25});obs.observe(stage);}
+
+/* BANDS */
+document.querySelectorAll('.band').forEach(sec=>{sec.addEventListener('click',e=>{if(e.target.closest('.band-enter'))return;e.stopPropagation();const r=sec.getBoundingClientRect();const b=document.createElement('div');b.className='band-bloom';b.style.left=(e.clientX-r.left)+'px';b.style.top=(e.clientY-r.top)+'px';sec.appendChild(b);setTimeout(()=>b.remove(),2600);sec.classList.toggle('clicked');});});
+document.addEventListener('click',()=>document.querySelectorAll('.band.clicked').forEach(b=>b.classList.remove('clicked')));
+
+/* FINAL BREATH SQUARES */
+(function(){const row=document.querySelector('.boxes-row');if(!row)return;B1E.forEach((w,i)=>{const sq=document.createElement('div');sq.className='sq';sq.innerHTML=`<span class="sq-word">${w}</span><span class="sq-word-ar">${B1A[i]}</span>`;row.appendChild(sq);});})();
+
+/* FLOAT */
+(function(){const br=document.getElementById('br-float');if(!br)return;const getLang=()=>htmlEl.getAttribute('data-lang')||'en';const FW_EN=["Light","Depth","Form","Shadow","Ink","Space","Vision","Mark","Layer","Touch","Tone","Line","Soul","Flow","Void","Breath","Color","Time"];const FW_AR=["ضوء","عمق","شكل","ظل","حبر","فضاء","رؤية","أثر","طبقة","لمسة","درجة","خط","روح","انسياب","فراغ","نَفَس","لون","زمن"];const els=[];for(let i=0;i<18;i++){const el=document.createElement('div');el.className='float-word';el.style.cssText=`font-size:${.7+Math.random()*.85}rem;left:${5+Math.random()*88}%;top:${8+Math.random()*80}%;position:absolute;`;br.appendChild(el);els.push(el);}let wi=0;function showNext(){const words=getLang()==='ar'?FW_AR:FW_EN;els.forEach(e=>e.style.color='transparent');[...els].sort(()=>Math.random()-.5).slice(0,3+Math.floor(Math.random()*2)).forEach(e=>{e.textContent=words[wi%words.length];e.style.color='rgba(200,169,110,.4)';wi++;});}const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){setInterval(showNext,2200);showNext();obs.disconnect();}},{threshold:.2});obs.observe(br);})();
+
+/* SWIM */
+(function(){const br=document.getElementById('br-swim');if(!br)return;SWE.forEach((w,i)=>{const sh=document.createElement('div');sh.className='swim-shape';const sz=54+Math.floor(Math.random()*22);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${5+Math.random()*80}%;top:${10+Math.random()*70}%;position:absolute;transform:translate(-50%,-50%);${i%2===0?'border-radius:50%;':''}`;sh.innerHTML=`<span class="swim-word">${w}</span><span class="swim-word-ar">${SWA[i]}</span>`;br.appendChild(sh);const dx=(Math.random()-.5)*35,dy=(Math.random()-.5)*25,dur=8+Math.random()*6;sh.animate([{transform:'translate(-50%,-50%)'},{transform:`translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px))`},{transform:'translate(-50%,-50%)'}],{duration:dur*1000,iterations:Infinity,easing:'ease-in-out'});});})();
+
+/* HOVER */
+(function(){const br=document.getElementById('br-hover');if(!br)return;H6E.forEach((w,i)=>{const sh=document.createElement('div');sh.className='hover-shape';const sz=60+Math.floor(Math.random()*18);sh.style.cssText=`width:${sz}px;height:${sz}px;left:${8+Math.random()*78}%;top:${12+Math.random()*68}%;position:absolute;transform:translate(-50%,-50%);border:1px solid rgba(200,169,110,.28);${i%3===1?'border-radius:50%;':''}`;sh.innerHTML=`<span class="hsh-word">${w}</span><span class="hsh-word-ar">${H6A[i]}</span>`;br.appendChild(sh);});let rev=0;const allSh=br.querySelectorAll('.hover-shape');const obs=new IntersectionObserver(e=>{if(e[0].isIntersecting){function next(){if(rev>=allSh.length)return;allSh[rev].classList.add('visible');rev++;setTimeout(next,900+Math.random()*600);}next();obs.disconnect();}},{threshold:.15});obs.observe(br);})();
+
+
+const Q_T4 = [
+  ["A label sells once; great packaging makes them keep the box.","الملصقُ يبيعُ مرة، والتغليفُ البارعُ يجعلهم يُبقون العلبة."],
+  ["Design the ceremony of opening, not only the surface.","صمّمْ طقسَ الفتحِ لا السطحَ وحدَه."],
+  ["Weight and texture speak before any word is read.","الوزنُ والملمسُ ينطقان قبل أن تُقرأ كلمة."],
+  ["What is thrown away was never designed; it was decorated.","ما يُرمى لم يُصمَّم، وإنما زُيِّن."],
+  ["The shelf is the harshest gallery in the world.","الرفُّ أقسى معرضٍ في الدنيا."],
+  ["Constraint of material is the best editor a designer has.","قيدُ الخامةِ خيرُ محرّرٍ للمصمّم."],
+  ["A package is a handshake you can print.","التغليفُ مصافحةٌ تُطبَع."],
+];
+const Q_T5 = [
+  ["A site that must be explained has already failed.","موقعٌ يحتاجُ شرحاً فقد سقطَ قبل أن يُقرأ."],
+  ["Structure first, surface second — the grid decides before the colour does.","البنيةُ أولاً والسطحُ ثانياً؛ الشبكةُ تقرّرُ قبل اللون."],
+  ["Consistency is a promise you renew on every page.","الاتّساقُ وعدٌ تُجدّدُه في كلِّ صفحة."],
+  ["White space on a screen is the pause that makes the message audible.","الفراغُ على الشاشةِ وقفةٌ تُسمِعُ ما بعدها."],
+  ["Speed is a design decision, not an engineering afterthought.","السرعةُ قرارٌ تصميميٌّ لا أثرٌ هندسيٌّ لاحق."],
+  ["If it needs a tooltip, redraw it.","إن احتاج شرحاً فأعِدْ رسمَه."],
+  ["A layout should feel inevitable, as if no other arrangement existed.","ليبدُ التخطيطُ حتمياً، كأن لا ترتيبَ سواه."],
+];
+const Q_T6 = [
+  ["Bad typography shouts; good typography whispers so clearly you think you thought of it.","الرديئةُ تصيح، والجيدةُ تهمسُ بوضوحٍ يُوهِمُك أنك فكّرتَ بها."],
+  ["Arabic is a connected script: never pull its letters apart.","العربيةُ خطٌّ متّصل، فلا تُفرّقْ حروفَها."],
+  ["Spacing is ninety percent of the craft.","المسافاتُ تسعون في المئةِ من الصنعة."],
+  ["A page has a texture before it has a meaning.","للصفحةِ ملمسٌ قبل أن يكونَ لها معنى."],
+  ["Choose fewer weights and use them with conviction.","اخترْ أوزاناً أقلَّ واستعملها بيقين."],
+  ["The letter carries the culture even when the word is foreign.","يحملُ الحرفُ الثقافةَ ولو كانت الكلمةُ دخيلة."],
+  ["Type is the design nobody notices and everybody feels.","الطباعةُ تصميمٌ لا يلحظُه أحدٌ ويشعرُ به الجميع."],
+];
+const Q_T7 = [
+  ["A static logo has a shape; a moving one has a character.","للشعارِ الساكنِ شكل، وللمتحرّكِ طبع."],
+  ["Timing is the punctuation of motion.","التوقيتُ ترقيمُ الحركة."],
+  ["Ease is where the craft hides.","في التسارعِ والتباطؤِ تختبئُ الصنعة."],
+  ["If the animation explains nothing, it is decoration.","إن لم تشرحِ الحركةُ شيئاً فهي زخرفة."],
+  ["Borrow rhythm from calligraphy: speed of stroke, weight of beat.","استعِرِ الإيقاعَ من الخط: سرعةَ الضربةِ وثِقَلَ النبضة."],
+  ["Motion should end somewhere the eye wanted to rest.","لتنتهِ الحركةُ حيث أرادت العينُ أن تستريح."],
+  ["Three seconds is a whole essay if you compose it.","ثلاثُ ثوانٍ مقالٌ كامل إن أحسنتَ تأليفها."],
+];
+
+// ── BUILD QUOTES ──
+buildQ('qs-spec','qp-spec',Q_SPEC);
+buildQ('qs-t1','qp-t1',Q_T1);
+buildQ('qs-t2','qp-t2',Q_T2);
+buildQ('qs-t3','qp-t3',Q_T3);
+buildQ('qs-t4','qp-t4',Q_T4);
+buildQ('qs-t5','qp-t5',Q_T5);
+buildQ('qs-t6','qp-t6',Q_T6);
+buildQ('qs-t7','qp-t7',Q_T7);
+
+</script>
+
+<script>
+// UNIFIED_PATCH_JS
+// ============================================================
+// PATCH JS: FAB + grayscale-on-view + floating words/shapes
+// Plain var + string concat only — no nested template literals
+// ============================================================
+(function(){
+  // 1. Back to top FAB
+  var fab = document.createElement('button');
+  fab.id = 'fab-top';
+  fab.setAttribute('aria-label','back to top');
+  fab.innerHTML = '&#8593;';
+  fab.onclick = function(){ window.scrollTo({top:0,behavior:'smooth'}); };
+  document.body.appendChild(fab);
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480) fab.classList.add('show');
+    else fab.classList.remove('show');
+  });
+
+  // 2. Grayscale-to-color on scroll proximity for bands
+  var bands = document.querySelectorAll('.band');
+  if(bands.length && 'IntersectionObserver' in window){
+    var bandObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting) e.target.classList.add('in-view');
+        else e.target.classList.remove('in-view');
+      });
+    }, {threshold:.45});
+    bands.forEach(function(b){ bandObs.observe(b); });
+  }
+
+  // 3. Floating motivational words + art shapes
+  var WORDS_AR = ['إبداع','جمال','روح','حلم','إلهام','أصالة'];
+  var WORDS_EN = ['Create','Soul','Dream','Ink','Form','Light'];
+  var SHAPES = ['&#10022;','&#10023;','&#9678;','&#10070;','&#9670;','&#10038;'];
+
+  function buildFloatStage(container){
+    if(!container || container.querySelector('.float-stage')) return;
+    var stage = document.createElement('div');
+    stage.className = 'float-stage';
+    var count = 8;
+    for(var i=0;i<count;i++){
+      var useWord = (i % 2 === 0);
+      var el = document.createElement('span');
+      if(useWord){
+        el.className = 'float-word';
+        var pool = (i % 4 === 0) ? WORDS_AR : WORDS_EN;
+        el.textContent = pool[Math.floor(Math.random()*pool.length)];
+        el.style.fontSize = (Math.random()*1.1 + 1.1) + 'rem';
+      } else {
+        el.className = 'float-shape';
+        el.innerHTML = SHAPES[Math.floor(Math.random()*SHAPES.length)];
+        el.style.fontSize = (Math.random()*1.6 + 1.2) + 'rem';
+      }
+      el.style.left = (Math.random()*86 + 4) + '%';
+      el.style.top = (Math.random()*82 + 6) + '%';
+      el.style.animationDelay = (Math.random()*10) + 's';
+      el.style.animationDuration = (Math.random()*8 + 16) + 's';
+      stage.appendChild(el);
+    }
+    container.style.position = container.style.position || 'relative';
+    container.insertBefore(stage, container.firstChild);
+  }
+
+  var hosts = document.querySelectorAll('.breather, #br-float, #br-swim, #br-hover, .statement-sec');
+  hosts.forEach(function(h){ buildFloatStage(h); });
+})();
+
+// UNIFIED_PATCH_JS
+</script>
+
+<div class="jrn-overlay" id="jrn-overlay">
+  <button class="jrn-close" id="jrn-close">✕</button>
+  <div class="jrn-body" id="jrn-body"></div>
+</div>
+
+  <section class="jrn-section">
+    <h2 class="jrn-title"><span class="t-en">Journal — Design</span><span class="t-ar">مجلة — التصميم</span></h2>
+    <div class="jrn-rule"></div>
+    <div class="jrn-grid">
+      <div class="jrn-card" onclick="jrnOpen(0)">
+        <div class="jrn-num">I</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Logo That Took Seven Years</span><span class="t-ar">الشعار الذي استغرق سبع سنوات</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(1)">
+        <div class="jrn-num">II</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Ad That Angered Everyone and Sold the Most</span><span class="t-ar">الإعلان الذي أغضب الجميع وباع أكثر</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(2)">
+        <div class="jrn-num">III</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Typography: The Letters We Read Without Seeing</span><span class="t-ar">الطباعة: الحروف التي نقرأها دون أن نراها</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(3)">
+        <div class="jrn-num">IV</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Packaging as Art</span><span class="t-ar">التغليف كفن</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(4)">
+        <div class="jrn-num">V</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Web Design: Where Aesthetics Meet Function</span><span class="t-ar">تصميم المواقع: حيث تلتقي الجماليات والوظيفة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(5)">
+        <div class="jrn-num">VI</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">City Visual Identity</span><span class="t-ar">الهوية البصرية للمدن</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(6)">
+        <div class="jrn-num">VII</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Motion Graphics: When Design Moves</span><span class="t-ar">الموشن غرافيك: حين يتحرك التصميم</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(7)">
+        <div class="jrn-num">VIII</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Twenty Years in Advertising: What Changed</span><span class="t-ar">عشرون عاماً في الإعلان: ما تغيّر وما لم يتغيّر</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(8)">
+        <div class="jrn-num">IX</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Graphic Design Between East and West</span><span class="t-ar">التصميم الجرافيكي بين الشرق والغرب</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(9)">
+        <div class="jrn-num">X</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Visual Identity for Cultural Institutions</span><span class="t-ar">الهوية البصرية للمؤسسات الثقافية</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(10)">
+        <div class="jrn-num">XI</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Art of the Book Cover</span><span class="t-ar">فن تصميم أغلفة الكتب</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(11)">
+        <div class="jrn-num">XII</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">Color Theory in Practice</span><span class="t-ar">نظرية الألوان في الممارسة</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(12)">
+        <div class="jrn-num">XIII</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">The Grid: Order Beneath Creativity</span><span class="t-ar">الشبكة: النظام تحت الإبداع</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+      <div class="jrn-card" onclick="jrnOpen(13)">
+        <div class="jrn-num">XIV</div>
+        <div class="jrn-cat"><span class="t-en">Design</span><span class="t-ar">التصميم</span></div>
+        <div class="jrn-card-title"><span class="t-en">When Clients Say "Make It Pop"</span><span class="t-ar">حين يقول العميل اجعلها تتألق</span></div>
+        <span class="jrn-link"><span class="t-en">Read →</span><span class="t-ar">اقرأ →</span></span>
+      </div>
+    </div>
+  </section>
+<script>
+var JRN_ARTICLES=[
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'The Logo That Took Seven Years',title_ar:'الشعار الذي استغرق سبع سنوات',body_en:`<p>A client once asked why a logo should cost what it does — 'it is just a few lines.' I told him about a mark that took me seven years, though the final drawing took an afternoon.</p><h3>You Pay for the Years, Not the Afternoon</h3><p>The afternoon was easy because of three decades of calligraphy teaching my hand where a curve wants to breathe. Good design looks effortless because the effort is invisible.</p><blockquote>"Simplicity is expensive. It is everything complicated, finally taken away."</blockquote>`,body_ar:`<p>سألني عميلٌ: لِمَ يكلّفُ الشعارُ هذا كلَّه وما هو إلا خطوطٌ معدودة؟ فحدّثتُه عن علامةٍ استغرقتني سبعَ سنين، ولم يستغرق رسمُها الأخيرُ إلا أصيلَ يوم.</p><h3>الأجرُ على السنينِ لا على الساعة</h3><p>سَهُلَ ذلك الأصيلُ بفضلِ ما سبقه: ثلاثةِ عقودٍ من الخطِّ علّمت يدي أين يريدُ المنحنى أن يتنفّس، وآلافِ المسوّداتِ التي علّمتني ما أحذف.</p><blockquote>"البساطةُ باهظة؛ إنها كثرةٌ نُقّيت حتى صفت."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'The Ad That Angered Everyone and Sold the Most',title_ar:'الإعلان الذي أغضب الجميع وباع أكثر',body_en:`<p>The most successful campaign I ever designed also made half the room angry. I have learned not to fear that reaction — I have learned to read it.</p><h3>Indifference Is the Real Failure</h3><p>An ad that offends some and delights others has at least made contact; it is alive. The truly failed ad is the one nobody remembers an hour later. Strong work risks a strong response.</p><blockquote>"The opposite of love is not anger. In advertising, it is being ignored."</blockquote>`,body_ar:`<p>أنجحُ حملةٍ صمّمتُها أغضبت نصفَ من رآها. تعلّمتُ ألّا أخافَ ذلك الردَّ، بل أن أُحسِنَ قراءتَه.</p><h3>اللامبالاةُ هي السقوط</h3><p>إعلانٌ يُغضبُ قوماً ويُبهجُ آخرين قد لامسَ شيئاً؛ إنه حيّ. أما الساقطُ حقاً فما لا يذكرُه أحدٌ بعد ساعة. والعملُ القويُّ يُخاطرُ بردٍّ قويّ.</p><blockquote>"نقيضُ المحبةِ ليس الغضب؛ في الإعلانِ نقيضُها أن تُهمَل."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Typography: The Letters We Read Without Seeing',title_ar:'الطباعة: الحروف التي نقرأها دون أن نراها',body_en:`<p>Typography is the design most people never notice, which is exactly why it is the most powerful. We read the letters without ever seeing them.</p><h3>The Silent Voice of Type</h3><p>A typeface has a tone before a single word is read — trustworthy or playful, ancient or urgent. As a calligrapher I feel this in my bones: the shape of a letter is already speaking, and I choose it the way a writer chooses a voice.</p><blockquote>"Bad typography shouts. Good typography whispers so clearly you think you thought of it."</blockquote>`,body_ar:`<p>الطباعةُ أكثرُ تصميمٍ لا يلحظُه الناس، ولذلك هي أنفذُها. نقرأُ الحروفَ ولا نراها.</p><h3>للحرفِ نبرةٌ قبل أن يُقرأ</h3><p>للخطِّ الطباعيِّ مزاجٌ يوحي به قبل أن تُفَكَّ كلمةٌ واحدة: موثوقٌ أو مرح، عتيقٌ أو عجول. وبحُكمِ صنعتي في الخط، أنتقي شكلَ الحرفِ كما ينتقي الكاتبُ صوتَه.</p><blockquote>"الطباعةُ الرديئةُ تصيح، والجيدةُ تهمسُ بوضوحٍ يُوهِمُك أنك أنت من فكّرَ بها."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Packaging as Art',title_ar:'التغليف كفن',body_en:`<p>Packaging is the one piece of design a customer actually holds. It is art you can pick up, turn over, and decide to trust or not in two seconds.</p><h3>The Handshake of a Brand</h3><p>A box is a promise made in cardboard and ink. When I design one I think about touch, weight, the small ceremony of opening. Done right, packaging turns a transaction into a moment.</p><blockquote>"A label sells the product once. Great packaging makes them keep the box."</blockquote>`,body_ar:`<p>التغليفُ وحدَه ما يُمسِكُه الزبونُ بيده: فنٌّ تلتقطُه وتُقلّبُه، وتقرّرُ في ثانيتين أن تثقَ به أو لا.</p><h3>مصافحةُ العلامة</h3><p>العلبةُ وعدٌ يُقطَعُ بالورقِ والحبر. حين أُصمّمُ واحدةً أُفكّرُ في اللمسِ والوزنِ وطقسِ الفتحِ الصغير. وإن أُحسِنَ صارتِ المعاملةُ لحظةً تُذكَر.</p><blockquote>"الملصقُ يبيعُ المنتجَ مرة، والتغليفُ البارعُ يجعلُهم يُبقون العلبة."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Web Design: Where Aesthetics Meet Function',title_ar:'تصميم المواقع: حيث تلتقي الجماليات والوظيفة',body_en:`<p>Web design is the discipline where beauty is punished if it forgets its job. A gorgeous site that confuses the visitor has failed, no matter how it looks.</p><h3>Aesthetics in Service of the Path</h3><p>I design a page as a journey: where does the eye land, where does the hand want to click, where does doubt creep in? Good visual design here is invisible guidance — it makes the right action feel like the obvious one.</p><blockquote>"On the web, confusion is the only ugliness that matters."</blockquote>`,body_ar:`<p>تصميمُ المواقعِ حيث يُعاقَبُ الجمالُ إن نسيَ وظيفتَه؛ فموقعٌ بديعٌ يُحيّرُ زائرَه قد سقط مهما بدا.</p><h3>جمالٌ يدلُّ على الطريق</h3><p>أُصمّمُ الصفحةَ رحلةً: من أين تحطُّ العين، وأين تريدُ اليدُ أن تنقر، وأين يتسلّلُ التردّد؟ والتصميمُ الجيدُ ههنا هدايةٌ خفيّةٌ تجعلُ الصوابَ يبدو بديهياً.</p><blockquote>"على الشاشةِ قبحٌ واحدٌ يُحسَب: أن يحتارَ الزائر."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'City Visual Identity',title_ar:'الهوية البصرية للمدن',body_en:`<p>Designing a visual identity for a city is unlike any logo. A city is not a product — it is millions of stories that must all fit under one mark.</p><h3>A Symbol Wide Enough for Everyone</h3><p>The identity has to honor history without freezing it, and welcome the future without erasing the past. I search for a form abstract enough to hold a fisherman and a banker, a grandmother and a startup, all at once.</p><blockquote>"A city's mark must belong to people who will never agree on anything else."</blockquote>`,body_ar:`<p>تصميمُ هويةٍ لمدينةٍ لا يُشبِهُ شعاراً لمنتج؛ فالمدينةُ ليست سلعةً بل ملايينَ الحكاياتِ تحت علامةٍ واحدة.</p><h3>رمزٌ يتّسعُ للجميع</h3><p>على الهويةِ أن تُكرِمَ التاريخَ ولا تُجمّده، وأن ترحّبَ بالغدِ ولا تمحوَ الأمس. أبحثُ عن شكلٍ مجرّدٍ يتّسعُ لصيّادٍ ومصرفيٍّ وجدّةٍ وشركةٍ ناشئةٍ معاً.</p><blockquote>"علامةُ المدينةِ تخصُّ أُناساً لن يتّفقوا على شيءٍ آخر أبداً."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Motion Graphics: When Design Moves',title_ar:'الموشن غرافيك: حين يتحرك التصميم',body_en:`<p>Motion graphics taught me that design has a fourth dimension. A logo that lives on a screen is not a picture — it is a small performance with timing and rhythm.</p><h3>Design That Breathes</h3><p>How a mark enters, pauses, and settles says as much as its shape. I borrow from calligraphy here too: the speed of a stroke, the weight of a beat. In motion, even a still form can be given a heartbeat.</p><blockquote>"A static logo has a shape. A moving one has a personality."</blockquote>`,body_ar:`<p>علّمني الموشن غرافيك أن للتصميمِ بُعداً رابعاً؛ فالشعارُ على الشاشةِ ليس صورةً بل أداءً قصيراً له توقيتٌ وإيقاع.</p><h3>تصميمٌ يتنفّس</h3><p>كيف تدخلُ العلامةُ وأين تتوقّفُ وكيف تستقرُّ يقولُ بقدرِ ما يقولُ شكلُها. وأستعيرُ ههنا من الخط: سرعةَ الضربةِ وثِقَلَ النبضة؛ ففي الحركةِ يُمنَحُ الساكنُ قلباً.</p><blockquote>"للشعارِ الساكنِ شكل، وللمتحرّكِ طبع."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Twenty Years in Advertising: What Changed',title_ar:'عشرون عاماً في الإعلان: ما تغيّر وما لم يتغيّر',body_en:`<p>Twenty years in advertising taught me what changes and what never does. The tools reinvent themselves every few years; human attention does not.</p><h3>New Screens, Old Hearts</h3><p>We moved from print to banners to feeds to whatever is next, but the job is unchanged: earn a second of a distracted person's life and give them something true in return. Fashions in technique are loud; the fundamentals are quiet and permanent.</p><blockquote>"The medium keeps changing. The need to be honest in three seconds never does."</blockquote>`,body_ar:`<p>علّمتني عشرون سنةً في الإعلانِ ما يتبدّلُ وما لا يتبدّل: تُعيدُ الأدواتُ اختراعَ نفسِها كلَّ حين، ولا يتغيّرُ انتباهُ الإنسان.</p><h3>شاشاتٌ جديدةٌ وقلوبٌ قديمة</h3><p>انتقلنا من الورقِ إلى اللافتاتِ إلى الخلاصاتِ إلى ما سيأتي، والمهمّةُ هي هي: أن تكسبَ ثانيةً من عمرِ إنسانٍ مشغولٍ وتردَّ عليه بشيءٍ صادق.</p><blockquote>"تتبدّلُ الوسيلةُ أبداً، ولا تتبدّلُ الحاجةُ إلى الصدقِ في ثلاثِ ثوان."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Graphic Design Between East and West',title_ar:'التصميم الجرافيكي بين الشرق والغرب',body_en:`<p>Working between Eastern and Western design traditions is not a compromise; it is a conversation I get to host on every page.</p><h3>Two Grammars of Beauty</h3><p>Western design often prizes clarity and grid; our tradition prizes rhythm, ornament, and the horror of empty space filled with meaning. I do not blend them into mush — I let each speak, and place them where they sharpen one another.</p><blockquote>"I do not choose between East and West. I make them argue beautifully."</blockquote>`,body_ar:`<p>العملُ بين تقليدَي الشرقِ والغربِ ليس تسويةً بينهما، بل مجلسٌ أستضيفُه في كلِّ صفحة.</p><h3>نحوانِ للجمال</h3><p>يُثمّنُ الغربُ الوضوحَ والشبكة، ويُثمّنُ تقليدُنا الإيقاعَ والزخرفةَ وملءَ الفراغِ بالمعنى. ولا أمزجُهما حتى يذوبَ طعمُهما، بل أدعُ كلاً ينطقُ بلسانِه وأضعُهما حيث يشحذُ أحدُهما الآخر.</p><blockquote>"لا أختارُ بين المشرقِ والمغرب، وإنما أجعلُهما يتجادلانِ بجمال."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Visual Identity for Cultural Institutions',title_ar:'الهوية البصرية للمؤسسات الثقافية',body_en:`<p>Cultural institutions are the hardest clients and the most rewarding. A museum's identity must feel both timeless and alive, ancient and unafraid.</p><h3>Designing for Memory</h3><p>Unlike a product brand chasing this season, a cultural mark must survive decades and carry a community's sense of itself. I design these slowly, stripping away trend until only something durable and dignified remains.</p><blockquote>"A brand can be fashionable. An institution must be believable for a hundred years."</blockquote>`,body_ar:`<p>المؤسساتُ الثقافيةُ أعسرُ العملاءِ وأجزلُهم عطاء؛ فهويةُ المتحفِ عليها أن تبدوَ خالدةً وحيّةً في آن.</p><h3>تصميمٌ للذاكرة</h3><p>خلافاً لعلامةٍ تُطاردُ موسمَها، على العلامةِ الثقافيةِ أن تعيشَ عقوداً وتحملَ إحساسَ جماعةٍ بنفسها. أُصمّمُها على مهلٍ، أُقشّرُ الموضةَ حتى لا يبقى إلا متينٌ مهيب.</p><blockquote>"قد تكونُ العلامةُ عصرية، أما المؤسسةُ فعليها أن تُصدَّقَ مئةَ عام."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'The Art of the Book Cover',title_ar:'فن تصميم أغلفة الكتب',body_en:`<p>A book cover is a paradox: it must summarize a world in one image while promising there is far more inside. It is the smallest possible essay about the largest possible thing.</p><h3>The Door, Not the House</h3><p>My job is not to illustrate the plot but to set the emotional temperature — to make a stranger in a shop feel a pull they cannot explain. A great cover does not tell the story; it makes you need to.</p><blockquote>"A cover is a promise. The whole art is keeping it in one glance."</blockquote>`,body_ar:`<p>غلافُ الكتابِ مفارقة: عليه أن يُلخّصَ عالماً في صورةٍ ويَعِدَ بأن في الداخلِ أضعافَه. أصغرُ مقالٍ عن أكبرِ شيء.</p><h3>البابُ لا البيت</h3><p>ليست مهمّتي أن أشرحَ الحبكةَ بل أن أضبطَ حرارةَ الشعور: أن يُحسَّ غريبٌ في متجرٍ بجذبٍ لا يُفسّرُه. والغلافُ البارعُ لا يحكي القصة، بل يجعلُك تحتاجُها.</p><blockquote>"الغلافُ وعد، وكلُّ الصنعةِ أن تفيَ به في نظرةٍ واحدة."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'Color Theory in Practice',title_ar:'نظرية الألوان في الممارسة',body_en:`<p>Everyone learns color theory as a wheel on a wall. In practice, color is not a diagram — it is a mood, a memory, a decision that changes everything around it.</p><h3>Color Is Relationship</h3><p>No color is beautiful alone; it is beautiful beside its neighbor. A red is calm or violent depending entirely on what it touches. I stopped thinking about colors and started thinking about the conversations between them.</p><blockquote>"There are no beautiful colors. There are only beautiful combinations."</blockquote>`,body_ar:`<p>يتعلّمُ الجميعُ نظريةَ الألوانِ عجلةً على جدار. وفي الممارسةِ ليس اللونُ رسماً بيانياً، بل مزاجٌ وذاكرةٌ وقرارٌ يُغيّرُ ما حوله.</p><h3>اللونُ لا يُرى وحده</h3><p>ما من لونٍ جميلٍ بذاته، إنما يَجمُلُ بجاره. والأحمرُ هادئٌ أو عنيفٌ تبعاً لما يُلامسُه لا غير. فكففتُ عن التفكيرِ في الألوانِ وبدأتُ أُفكّرُ في المجاوراتِ بينها.</p><blockquote>"ليست عندنا ألوانٌ جميلة، بل مجاوراتٌ موفَّقة."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'The Grid: Order Beneath Creativity',title_ar:'الشبكة: النظام تحت الإبداع',body_en:`<p>Beneath almost every design people call 'creative' there is a rigid, invisible grid holding it up. Freedom in design is built on hidden order.</p><h3>Structure That Frees</h3><p>The grid is not a cage; it is the skeleton that lets the surface dance without collapsing. When I break the grid, I break it on purpose, from knowledge — and the break only works because the order was there to violate.</p><blockquote>"You must earn the right to break the grid by first obeying it completely."</blockquote>`,body_ar:`<p>تحت كلِّ تصميمٍ يُقالُ عنه مبدعٌ شبكةٌ صارمةٌ خفيّةٌ تسنُدُه؛ فالحريةُ في التصميمِ مبنيّةٌ على نظامٍ مستتر.</p><h3>نظامٌ يُطلِقُ اليد</h3><p>ليست الشبكةُ قفصاً بل هيكلاً يتيحُ للسطحِ أن يرقصَ ولا ينهار. وحين أكسرُها أكسرُها عن قصدٍ ومعرفة؛ ولا ينجحُ الكسرُ إلا لأن النظامَ كان هناك ليُنتهَك.</p><blockquote>"لا تستحقُّ كسرَ الشبكةِ إلا بعد أن تُطيعَها حتى تحفظَها."</blockquote>`},
+  {cat_en:'Design',cat_ar:'التصميم',title_en:'When Clients Say "Make It Pop"',title_ar:'حين يقول العميل اجعلها تتألق',body_en:`<p>Every designer eventually hears it: 'make it pop.' For years the phrase irritated me. Now I treat it as a puzzle worth solving.</p><h3>Translating the Client's Feeling</h3><p>'Make it pop' is not a design instruction; it is an emotion looking for words. My job is to translate that vague hunger into contrast, hierarchy, and focus. The client cannot name the fix, but they will know it instantly when they see it.</p><blockquote>"Clients do not describe solutions. They describe feelings. Translating is the job."</blockquote>`,body_ar:`<p>يسمعُها كلُّ مصمّمٍ آجلاً أو عاجلاً: «اجعلها تلفت». أزعجتني العبارةُ سنين، وصرتُ اليومَ أعُدُّها لغزاً يستحقُّ الحل.</p><h3>ترجمةُ ما لا يُقال</h3><p>ليست العبارةُ تعليماً تصميمياً بل إحساساً يبحثُ عن لفظ. ومهمّتي أن أُترجمَ ذلك الجوعَ الغامضَ إلى تباينٍ وتراتبٍ وتركيز؛ فالعميلُ لا يُسمّي الدواء، لكنه يعرفُه حين يراه.</p><blockquote>"لا يصفُ العملاءُ حلولاً، إنما يصفون مشاعر؛ والترجمةُ هي الصنعة."</blockquote>`}
+];
+</script>
+<script>
+var _jO=document.getElementById('jrn-overlay');
+var _jB=document.getElementById('jrn-body');
+var _jL=function(){return document.documentElement.getAttribute('data-lang')||'en';};
+function jrnOpen(idx){
+  var a=JRN_ARTICLES[idx];var L=_jL();
+  var be=a.body_en||'';var ba=a.body_ar||'';
+  if(!be && !ba){
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2><p class="jrn-empty">'+(L==='ar'?'المقال قيد الإعداد — سيُضاف قريباً':'Article coming soon — will be added via CMS')+'</p>';
+  } else {
+    _jB.innerHTML='<p class="jrn-tag">'+(L==='ar'?a.cat_ar:a.cat_en)+'</p><h2>'+(L==='ar'?a.title_ar:a.title_en)+'</h2>'+(L==='ar'?ba:be);
+  }
+  _jO.classList.add('open');_jO.scrollTop=0;document.body.style.overflow='hidden';
+}
+document.getElementById('jrn-close').addEventListener('click',function(){_jO.classList.remove('open');document.body.style.overflow='';});
+_jO.addEventListener('click',function(e){if(e.target===_jO){_jO.classList.remove('open');document.body.style.overflow='';}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){_jO.classList.remove('open');document.body.style.overflow='';}});
+</script>
+
+<script>
+/* ── Lazy Loading للخلفيات (CSS backgrounds لا تدعم loading="lazy") ──
+   أشرطة الصفحات تُحمَّل عند اقترابها من الشاشة؛
+   شرائح الهيرو تُحمَّل الأولى فوراً والبقية بعد اكتمال الصفحة. */
+(function(){
+  var lazyBg = document.querySelectorAll('[data-bg]');
+  if(!lazyBg.length) return;
+  function load(el){
+    var u = el.getAttribute('data-bg');
+    if(!u) return;
+    var img = new Image();
+    img.onload = function(){ el.style.backgroundImage = "url('" + u + "')"; el.removeAttribute('data-bg'); };
+    img.src = u;
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ load(e.target); io.unobserve(e.target); } });
+    }, {rootMargin:'300px 0px'});
+    lazyBg.forEach(function(el){ io.observe(el); });
+  } else {
+    lazyBg.forEach(load);
+  }
+  /* شرائح الهيرو المتبقية: حمّلها بهدوء بعد اكتمال التحميل */
+  window.addEventListener('load', function(){
+    setTimeout(function(){
+      document.querySelectorAll('.slide[data-bg]').forEach(load);
+    }, 400);
+  });
+})();
+</script>
+
+<script>
+/* حفظ اللغة + تمريرها عبر الروابط (يعمل حتى على file:// حيث يُعزل localStorage) */
+(function(){
+  var d=document.documentElement;
+  var g=document.getElementById("lang-glyph");
+  function cur(){return d.getAttribute("data-lang")||"en";}
+  if(g) g.textContent = cur()==="ar" ? "A" : "ض";
+  function save(){ try{ localStorage.setItem("aa_lang",cur()); }catch(e){} }
+  save();
+  try{ new MutationObserver(save).observe(d,{attributes:true,attributeFilter:["data-lang"]}); }catch(e){}
+  /* مرّر اللغة في كل رابط داخلي */
+  document.addEventListener("click",function(e){
+    var a=e.target.closest && e.target.closest("a[href]");
+    if(!a) return;
+    var h=a.getAttribute("href")||"";
+    if(/^(https?:|mailto:|tel:|#|javascript:)/i.test(h)) return;
+    if(a.target==="_blank") return;
+    var l=cur();
+    var hash=""; var base=h;
+    var hi=h.indexOf("#"); if(hi>=0){ base=h.slice(0,hi); hash=h.slice(hi); }
+    base=base.replace(/([?&])lang=(ar|en)&?/,"$1").replace(/[?&]$/,"");
+    base += (base.indexOf("?")>=0?"&":"?")+"lang="+l;
+    a.setAttribute("href",base+hash);
+  },true);
+})();
+</script>
+</body>
+</html>

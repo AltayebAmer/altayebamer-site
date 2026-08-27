@@ -1,0 +1,3824 @@
+[
+ {
+  "group": "calligraphy_handmade",
+  "file": "images/gallery/calligraphy/handmade/calligraphy_handmade_01.webp",
+  "placeholder": "https://picsum.photos/seed/5000/1600/1000",
+  "uses": 1,
+  "desc": "Handmade | اليدوي — 1"
+ },
+ {
+  "group": "calligraphy_handmade",
+  "file": "images/gallery/calligraphy/handmade/calligraphy_handmade_02.webp",
+  "placeholder": "https://picsum.photos/seed/5001/1600/1000",
+  "uses": 1,
+  "desc": "Handmade | اليدوي — 2"
+ },
+ {
+  "group": "calligraphy_handmade",
+  "file": "images/gallery/calligraphy/handmade/calligraphy_handmade_03.webp",
+  "placeholder": "https://picsum.photos/seed/5002/1600/1000",
+  "uses": 1,
+  "desc": "Handmade | اليدوي — 3"
+ },
+ {
+  "group": "calligraphy_handmade",
+  "file": "images/gallery/calligraphy/handmade/calligraphy_handmade_04.webp",
+  "placeholder": "https://picsum.photos/seed/5003/1600/1000",
+  "uses": 1,
+  "desc": "Handmade | اليدوي — 4"
+ },
+ {
+  "group": "calligraphy_handmade",
+  "file": "images/gallery/calligraphy/handmade/calligraphy_handmade_05.webp",
+  "placeholder": "https://picsum.photos/seed/5004/1600/1000",
+  "uses": 1,
+  "desc": "Handmade | اليدوي — 5"
+ },
+ {
+  "group": "calligraphy_handmade",
+  "file": "images/gallery/calligraphy/handmade/calligraphy_handmade_06.webp",
+  "placeholder": "https://picsum.photos/seed/5005/1600/1000",
+  "uses": 1,
+  "desc": "Handmade | اليدوي — 6"
+ },
+ {
+  "group": "calligraphy_handmade",
+  "file": "images/gallery/calligraphy/handmade/calligraphy_handmade_07.webp",
+  "placeholder": "https://picsum.photos/seed/5006/1600/1000",
+  "uses": 1,
+  "desc": "Handmade | اليدوي — 7"
+ },
+ {
+  "group": "calligraphy_digital",
+  "file": "images/gallery/calligraphy/digital/calligraphy_digital_01.webp",
+  "placeholder": "https://picsum.photos/seed/5007/1600/1000",
+  "uses": 1,
+  "desc": "Digital | الرقمي — 1"
+ },
+ {
+  "group": "calligraphy_digital",
+  "file": "images/gallery/calligraphy/digital/calligraphy_digital_02.webp",
+  "placeholder": "https://picsum.photos/seed/5008/1600/1000",
+  "uses": 1,
+  "desc": "Digital | الرقمي — 2"
+ },
+ {
+  "group": "calligraphy_digital",
+  "file": "images/gallery/calligraphy/digital/calligraphy_digital_03.webp",
+  "placeholder": "https://picsum.photos/seed/5009/1600/1000",
+  "uses": 1,
+  "desc": "Digital | الرقمي — 3"
+ },
+ {
+  "group": "calligraphy_digital",
+  "file": "images/gallery/calligraphy/digital/calligraphy_digital_04.webp",
+  "placeholder": "https://picsum.photos/seed/5010/1600/1000",
+  "uses": 1,
+  "desc": "Digital | الرقمي — 4"
+ },
+ {
+  "group": "calligraphy_digital",
+  "file": "images/gallery/calligraphy/digital/calligraphy_digital_05.webp",
+  "placeholder": "https://picsum.photos/seed/5011/1600/1000",
+  "uses": 1,
+  "desc": "Digital | الرقمي — 5"
+ },
+ {
+  "group": "calligraphy_digital",
+  "file": "images/gallery/calligraphy/digital/calligraphy_digital_06.webp",
+  "placeholder": "https://picsum.photos/seed/5012/1600/1000",
+  "uses": 1,
+  "desc": "Digital | الرقمي — 6"
+ },
+ {
+  "group": "calligraphy_digital",
+  "file": "images/gallery/calligraphy/digital/calligraphy_digital_07.webp",
+  "placeholder": "https://picsum.photos/seed/5013/1600/1000",
+  "uses": 1,
+  "desc": "Digital | الرقمي — 7"
+ },
+ {
+  "group": "calligraphy_ai",
+  "file": "images/gallery/calligraphy/ai/calligraphy_ai_01.webp",
+  "placeholder": "https://picsum.photos/seed/5014/1600/1000",
+  "uses": 1,
+  "desc": "AI Calligraphy | بالذكاء الاصطناعي — 1"
+ },
+ {
+  "group": "calligraphy_ai",
+  "file": "images/gallery/calligraphy/ai/calligraphy_ai_02.webp",
+  "placeholder": "https://picsum.photos/seed/5015/1600/1000",
+  "uses": 1,
+  "desc": "AI Calligraphy | بالذكاء الاصطناعي — 2"
+ },
+ {
+  "group": "calligraphy_ai",
+  "file": "images/gallery/calligraphy/ai/calligraphy_ai_03.webp",
+  "placeholder": "https://picsum.photos/seed/5016/1600/1000",
+  "uses": 1,
+  "desc": "AI Calligraphy | بالذكاء الاصطناعي — 3"
+ },
+ {
+  "group": "calligraphy_ai",
+  "file": "images/gallery/calligraphy/ai/calligraphy_ai_04.webp",
+  "placeholder": "https://picsum.photos/seed/5017/1600/1000",
+  "uses": 1,
+  "desc": "AI Calligraphy | بالذكاء الاصطناعي — 4"
+ },
+ {
+  "group": "calligraphy_ai",
+  "file": "images/gallery/calligraphy/ai/calligraphy_ai_05.webp",
+  "placeholder": "https://picsum.photos/seed/5018/1600/1000",
+  "uses": 1,
+  "desc": "AI Calligraphy | بالذكاء الاصطناعي — 5"
+ },
+ {
+  "group": "calligraphy_ai",
+  "file": "images/gallery/calligraphy/ai/calligraphy_ai_06.webp",
+  "placeholder": "https://picsum.photos/seed/5019/1600/1000",
+  "uses": 1,
+  "desc": "AI Calligraphy | بالذكاء الاصطناعي — 6"
+ },
+ {
+  "group": "calligraphy_ai",
+  "file": "images/gallery/calligraphy/ai/calligraphy_ai_07.webp",
+  "placeholder": "https://picsum.photos/seed/5020/1600/1000",
+  "uses": 1,
+  "desc": "AI Calligraphy | بالذكاء الاصطناعي — 7"
+ },
+ {
+  "group": "calligraphy_kufic",
+  "file": "images/gallery/calligraphy/kufic/calligraphy_kufic_01.webp",
+  "placeholder": "https://picsum.photos/seed/5021/1600/1000",
+  "uses": 1,
+  "desc": "Kufic Script | الخط الكوفي — 1"
+ },
+ {
+  "group": "calligraphy_kufic",
+  "file": "images/gallery/calligraphy/kufic/calligraphy_kufic_02.webp",
+  "placeholder": "https://picsum.photos/seed/5022/1600/1000",
+  "uses": 1,
+  "desc": "Kufic Script | الخط الكوفي — 2"
+ },
+ {
+  "group": "calligraphy_kufic",
+  "file": "images/gallery/calligraphy/kufic/calligraphy_kufic_03.webp",
+  "placeholder": "https://picsum.photos/seed/5023/1600/1000",
+  "uses": 1,
+  "desc": "Kufic Script | الخط الكوفي — 3"
+ },
+ {
+  "group": "calligraphy_kufic",
+  "file": "images/gallery/calligraphy/kufic/calligraphy_kufic_04.webp",
+  "placeholder": "https://picsum.photos/seed/5024/1600/1000",
+  "uses": 1,
+  "desc": "Kufic Script | الخط الكوفي — 4"
+ },
+ {
+  "group": "calligraphy_kufic",
+  "file": "images/gallery/calligraphy/kufic/calligraphy_kufic_05.webp",
+  "placeholder": "https://picsum.photos/seed/5025/1600/1000",
+  "uses": 1,
+  "desc": "Kufic Script | الخط الكوفي — 5"
+ },
+ {
+  "group": "calligraphy_kufic",
+  "file": "images/gallery/calligraphy/kufic/calligraphy_kufic_06.webp",
+  "placeholder": "https://picsum.photos/seed/5026/1600/1000",
+  "uses": 1,
+  "desc": "Kufic Script | الخط الكوفي — 6"
+ },
+ {
+  "group": "calligraphy_kufic",
+  "file": "images/gallery/calligraphy/kufic/calligraphy_kufic_07.webp",
+  "placeholder": "https://picsum.photos/seed/5027/1600/1000",
+  "uses": 1,
+  "desc": "Kufic Script | الخط الكوفي — 7"
+ },
+ {
+  "group": "calligraphy_thuluth",
+  "file": "images/gallery/calligraphy/thuluth/calligraphy_thuluth_01.webp",
+  "placeholder": "https://picsum.photos/seed/5028/1600/1000",
+  "uses": 1,
+  "desc": "Thuluth Script | خط الثلث — 1"
+ },
+ {
+  "group": "calligraphy_thuluth",
+  "file": "images/gallery/calligraphy/thuluth/calligraphy_thuluth_02.webp",
+  "placeholder": "https://picsum.photos/seed/5029/1600/1000",
+  "uses": 1,
+  "desc": "Thuluth Script | خط الثلث — 2"
+ },
+ {
+  "group": "calligraphy_thuluth",
+  "file": "images/gallery/calligraphy/thuluth/calligraphy_thuluth_03.webp",
+  "placeholder": "https://picsum.photos/seed/5030/1600/1000",
+  "uses": 1,
+  "desc": "Thuluth Script | خط الثلث — 3"
+ },
+ {
+  "group": "calligraphy_thuluth",
+  "file": "images/gallery/calligraphy/thuluth/calligraphy_thuluth_04.webp",
+  "placeholder": "https://picsum.photos/seed/5031/1600/1000",
+  "uses": 1,
+  "desc": "Thuluth Script | خط الثلث — 4"
+ },
+ {
+  "group": "calligraphy_thuluth",
+  "file": "images/gallery/calligraphy/thuluth/calligraphy_thuluth_05.webp",
+  "placeholder": "https://picsum.photos/seed/5032/1600/1000",
+  "uses": 1,
+  "desc": "Thuluth Script | خط الثلث — 5"
+ },
+ {
+  "group": "calligraphy_thuluth",
+  "file": "images/gallery/calligraphy/thuluth/calligraphy_thuluth_06.webp",
+  "placeholder": "https://picsum.photos/seed/5033/1600/1000",
+  "uses": 1,
+  "desc": "Thuluth Script | خط الثلث — 6"
+ },
+ {
+  "group": "calligraphy_thuluth",
+  "file": "images/gallery/calligraphy/thuluth/calligraphy_thuluth_07.webp",
+  "placeholder": "https://picsum.photos/seed/5034/1600/1000",
+  "uses": 1,
+  "desc": "Thuluth Script | خط الثلث — 7"
+ },
+ {
+  "group": "calligraphy_diwani",
+  "file": "images/gallery/calligraphy/diwani/calligraphy_diwani_01.webp",
+  "placeholder": "https://picsum.photos/seed/5035/1600/1000",
+  "uses": 1,
+  "desc": "Diwani Script | الخط الديواني — 1"
+ },
+ {
+  "group": "calligraphy_diwani",
+  "file": "images/gallery/calligraphy/diwani/calligraphy_diwani_02.webp",
+  "placeholder": "https://picsum.photos/seed/5036/1600/1000",
+  "uses": 1,
+  "desc": "Diwani Script | الخط الديواني — 2"
+ },
+ {
+  "group": "calligraphy_diwani",
+  "file": "images/gallery/calligraphy/diwani/calligraphy_diwani_03.webp",
+  "placeholder": "https://picsum.photos/seed/5037/1600/1000",
+  "uses": 1,
+  "desc": "Diwani Script | الخط الديواني — 3"
+ },
+ {
+  "group": "calligraphy_diwani",
+  "file": "images/gallery/calligraphy/diwani/calligraphy_diwani_04.webp",
+  "placeholder": "https://picsum.photos/seed/5038/1600/1000",
+  "uses": 1,
+  "desc": "Diwani Script | الخط الديواني — 4"
+ },
+ {
+  "group": "calligraphy_diwani",
+  "file": "images/gallery/calligraphy/diwani/calligraphy_diwani_05.webp",
+  "placeholder": "https://picsum.photos/seed/5039/1600/1000",
+  "uses": 1,
+  "desc": "Diwani Script | الخط الديواني — 5"
+ },
+ {
+  "group": "calligraphy_diwani",
+  "file": "images/gallery/calligraphy/diwani/calligraphy_diwani_06.webp",
+  "placeholder": "https://picsum.photos/seed/5040/1600/1000",
+  "uses": 1,
+  "desc": "Diwani Script | الخط الديواني — 6"
+ },
+ {
+  "group": "calligraphy_diwani",
+  "file": "images/gallery/calligraphy/diwani/calligraphy_diwani_07.webp",
+  "placeholder": "https://picsum.photos/seed/5041/1600/1000",
+  "uses": 1,
+  "desc": "Diwani Script | الخط الديواني — 7"
+ },
+ {
+  "group": "calligraphy_mixed",
+  "file": "images/gallery/calligraphy/mixed/calligraphy_mixed_01.webp",
+  "placeholder": "https://picsum.photos/seed/5042/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 1"
+ },
+ {
+  "group": "calligraphy_mixed",
+  "file": "images/gallery/calligraphy/mixed/calligraphy_mixed_02.webp",
+  "placeholder": "https://picsum.photos/seed/5043/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 2"
+ },
+ {
+  "group": "calligraphy_mixed",
+  "file": "images/gallery/calligraphy/mixed/calligraphy_mixed_03.webp",
+  "placeholder": "https://picsum.photos/seed/5044/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 3"
+ },
+ {
+  "group": "calligraphy_mixed",
+  "file": "images/gallery/calligraphy/mixed/calligraphy_mixed_04.webp",
+  "placeholder": "https://picsum.photos/seed/5045/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 4"
+ },
+ {
+  "group": "calligraphy_mixed",
+  "file": "images/gallery/calligraphy/mixed/calligraphy_mixed_05.webp",
+  "placeholder": "https://picsum.photos/seed/5046/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 5"
+ },
+ {
+  "group": "calligraphy_mixed",
+  "file": "images/gallery/calligraphy/mixed/calligraphy_mixed_06.webp",
+  "placeholder": "https://picsum.photos/seed/5047/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 6"
+ },
+ {
+  "group": "calligraphy_mixed",
+  "file": "images/gallery/calligraphy/mixed/calligraphy_mixed_07.webp",
+  "placeholder": "https://picsum.photos/seed/5048/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 7"
+ },
+ {
+  "group": "horses_ai_horses",
+  "file": "images/gallery/horses/ai-horses/horses_ai_horses_01.webp",
+  "placeholder": "https://picsum.photos/seed/5049/1600/1000",
+  "uses": 1,
+  "desc": "AI Horses | بالذكاء الاصطناعي — 1"
+ },
+ {
+  "group": "horses_ai_horses",
+  "file": "images/gallery/horses/ai-horses/horses_ai_horses_02.webp",
+  "placeholder": "https://picsum.photos/seed/5050/1600/1000",
+  "uses": 1,
+  "desc": "AI Horses | بالذكاء الاصطناعي — 2"
+ },
+ {
+  "group": "horses_ai_horses",
+  "file": "images/gallery/horses/ai-horses/horses_ai_horses_03.webp",
+  "placeholder": "https://picsum.photos/seed/5051/1600/1000",
+  "uses": 1,
+  "desc": "AI Horses | بالذكاء الاصطناعي — 3"
+ },
+ {
+  "group": "horses_ai_horses",
+  "file": "images/gallery/horses/ai-horses/horses_ai_horses_04.webp",
+  "placeholder": "https://picsum.photos/seed/5052/1600/1000",
+  "uses": 1,
+  "desc": "AI Horses | بالذكاء الاصطناعي — 4"
+ },
+ {
+  "group": "horses_ai_horses",
+  "file": "images/gallery/horses/ai-horses/horses_ai_horses_05.webp",
+  "placeholder": "https://picsum.photos/seed/5053/1600/1000",
+  "uses": 1,
+  "desc": "AI Horses | بالذكاء الاصطناعي — 5"
+ },
+ {
+  "group": "horses_ai_horses",
+  "file": "images/gallery/horses/ai-horses/horses_ai_horses_06.webp",
+  "placeholder": "https://picsum.photos/seed/5054/1600/1000",
+  "uses": 1,
+  "desc": "AI Horses | بالذكاء الاصطناعي — 6"
+ },
+ {
+  "group": "horses_ai_horses",
+  "file": "images/gallery/horses/ai-horses/horses_ai_horses_07.webp",
+  "placeholder": "https://picsum.photos/seed/5055/1600/1000",
+  "uses": 1,
+  "desc": "AI Horses | بالذكاء الاصطناعي — 7"
+ },
+ {
+  "group": "horses_oil",
+  "file": "images/gallery/horses/oil/horses_oil_01.webp",
+  "placeholder": "https://picsum.photos/seed/5056/1600/1000",
+  "uses": 1,
+  "desc": "Oil on Canvas | زيتي على قماش — 1"
+ },
+ {
+  "group": "horses_oil",
+  "file": "images/gallery/horses/oil/horses_oil_02.webp",
+  "placeholder": "https://picsum.photos/seed/5057/1600/1000",
+  "uses": 1,
+  "desc": "Oil on Canvas | زيتي على قماش — 2"
+ },
+ {
+  "group": "horses_oil",
+  "file": "images/gallery/horses/oil/horses_oil_03.webp",
+  "placeholder": "https://picsum.photos/seed/5058/1600/1000",
+  "uses": 1,
+  "desc": "Oil on Canvas | زيتي على قماش — 3"
+ },
+ {
+  "group": "horses_oil",
+  "file": "images/gallery/horses/oil/horses_oil_04.webp",
+  "placeholder": "https://picsum.photos/seed/5059/1600/1000",
+  "uses": 1,
+  "desc": "Oil on Canvas | زيتي على قماش — 4"
+ },
+ {
+  "group": "horses_oil",
+  "file": "images/gallery/horses/oil/horses_oil_05.webp",
+  "placeholder": "https://picsum.photos/seed/5060/1600/1000",
+  "uses": 1,
+  "desc": "Oil on Canvas | زيتي على قماش — 5"
+ },
+ {
+  "group": "horses_oil",
+  "file": "images/gallery/horses/oil/horses_oil_06.webp",
+  "placeholder": "https://picsum.photos/seed/5061/1600/1000",
+  "uses": 1,
+  "desc": "Oil on Canvas | زيتي على قماش — 6"
+ },
+ {
+  "group": "horses_oil",
+  "file": "images/gallery/horses/oil/horses_oil_07.webp",
+  "placeholder": "https://picsum.photos/seed/5062/1600/1000",
+  "uses": 1,
+  "desc": "Oil on Canvas | زيتي على قماش — 7"
+ },
+ {
+  "group": "horses_mixed",
+  "file": "images/gallery/horses/mixed/horses_mixed_01.webp",
+  "placeholder": "https://picsum.photos/seed/5063/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 1"
+ },
+ {
+  "group": "horses_mixed",
+  "file": "images/gallery/horses/mixed/horses_mixed_02.webp",
+  "placeholder": "https://picsum.photos/seed/5064/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 2"
+ },
+ {
+  "group": "horses_mixed",
+  "file": "images/gallery/horses/mixed/horses_mixed_03.webp",
+  "placeholder": "https://picsum.photos/seed/5065/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 3"
+ },
+ {
+  "group": "horses_mixed",
+  "file": "images/gallery/horses/mixed/horses_mixed_04.webp",
+  "placeholder": "https://picsum.photos/seed/5066/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 4"
+ },
+ {
+  "group": "horses_mixed",
+  "file": "images/gallery/horses/mixed/horses_mixed_05.webp",
+  "placeholder": "https://picsum.photos/seed/5067/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 5"
+ },
+ {
+  "group": "horses_mixed",
+  "file": "images/gallery/horses/mixed/horses_mixed_06.webp",
+  "placeholder": "https://picsum.photos/seed/5068/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 6"
+ },
+ {
+  "group": "horses_mixed",
+  "file": "images/gallery/horses/mixed/horses_mixed_07.webp",
+  "placeholder": "https://picsum.photos/seed/5069/1600/1000",
+  "uses": 1,
+  "desc": "Mixed Media | وسائط مختلطة — 7"
+ },
+ {
+  "group": "horses_sketch",
+  "file": "images/gallery/horses/sketch/horses_sketch_01.webp",
+  "placeholder": "https://picsum.photos/seed/5070/1600/1000",
+  "uses": 1,
+  "desc": "Sketch | رسم تخطيطي — 1"
+ },
+ {
+  "group": "horses_sketch",
+  "file": "images/gallery/horses/sketch/horses_sketch_02.webp",
+  "placeholder": "https://picsum.photos/seed/5071/1600/1000",
+  "uses": 1,
+  "desc": "Sketch | رسم تخطيطي — 2"
+ },
+ {
+  "group": "horses_sketch",
+  "file": "images/gallery/horses/sketch/horses_sketch_03.webp",
+  "placeholder": "https://picsum.photos/seed/5072/1600/1000",
+  "uses": 1,
+  "desc": "Sketch | رسم تخطيطي — 3"
+ },
+ {
+  "group": "horses_sketch",
+  "file": "images/gallery/horses/sketch/horses_sketch_04.webp",
+  "placeholder": "https://picsum.photos/seed/5073/1600/1000",
+  "uses": 1,
+  "desc": "Sketch | رسم تخطيطي — 4"
+ },
+ {
+  "group": "horses_sketch",
+  "file": "images/gallery/horses/sketch/horses_sketch_05.webp",
+  "placeholder": "https://picsum.photos/seed/5074/1600/1000",
+  "uses": 1,
+  "desc": "Sketch | رسم تخطيطي — 5"
+ },
+ {
+  "group": "horses_sketch",
+  "file": "images/gallery/horses/sketch/horses_sketch_06.webp",
+  "placeholder": "https://picsum.photos/seed/5075/1600/1000",
+  "uses": 1,
+  "desc": "Sketch | رسم تخطيطي — 6"
+ },
+ {
+  "group": "horses_sketch",
+  "file": "images/gallery/horses/sketch/horses_sketch_07.webp",
+  "placeholder": "https://picsum.photos/seed/5076/1600/1000",
+  "uses": 1,
+  "desc": "Sketch | رسم تخطيطي — 7"
+ },
+ {
+  "group": "horses_watercolor",
+  "file": "images/gallery/horses/watercolor/horses_watercolor_01.webp",
+  "placeholder": "https://picsum.photos/seed/5077/1600/1000",
+  "uses": 1,
+  "desc": "Watercolor | ألوان مائية — 1"
+ },
+ {
+  "group": "horses_watercolor",
+  "file": "images/gallery/horses/watercolor/horses_watercolor_02.webp",
+  "placeholder": "https://picsum.photos/seed/5078/1600/1000",
+  "uses": 1,
+  "desc": "Watercolor | ألوان مائية — 2"
+ },
+ {
+  "group": "horses_watercolor",
+  "file": "images/gallery/horses/watercolor/horses_watercolor_03.webp",
+  "placeholder": "https://picsum.photos/seed/5079/1600/1000",
+  "uses": 1,
+  "desc": "Watercolor | ألوان مائية — 3"
+ },
+ {
+  "group": "horses_watercolor",
+  "file": "images/gallery/horses/watercolor/horses_watercolor_04.webp",
+  "placeholder": "https://picsum.photos/seed/5080/1600/1000",
+  "uses": 1,
+  "desc": "Watercolor | ألوان مائية — 4"
+ },
+ {
+  "group": "horses_watercolor",
+  "file": "images/gallery/horses/watercolor/horses_watercolor_05.webp",
+  "placeholder": "https://picsum.photos/seed/5081/1600/1000",
+  "uses": 1,
+  "desc": "Watercolor | ألوان مائية — 5"
+ },
+ {
+  "group": "horses_watercolor",
+  "file": "images/gallery/horses/watercolor/horses_watercolor_06.webp",
+  "placeholder": "https://picsum.photos/seed/5082/1600/1000",
+  "uses": 1,
+  "desc": "Watercolor | ألوان مائية — 6"
+ },
+ {
+  "group": "horses_watercolor",
+  "file": "images/gallery/horses/watercolor/horses_watercolor_07.webp",
+  "placeholder": "https://picsum.photos/seed/5083/1600/1000",
+  "uses": 1,
+  "desc": "Watercolor | ألوان مائية — 7"
+ },
+ {
+  "group": "horses_digital",
+  "file": "images/gallery/horses/digital/horses_digital_01.webp",
+  "placeholder": "https://picsum.photos/seed/5084/1600/1000",
+  "uses": 1,
+  "desc": "Digital Painting | رسم رقمي — 1"
+ },
+ {
+  "group": "horses_digital",
+  "file": "images/gallery/horses/digital/horses_digital_02.webp",
+  "placeholder": "https://picsum.photos/seed/5085/1600/1000",
+  "uses": 1,
+  "desc": "Digital Painting | رسم رقمي — 2"
+ },
+ {
+  "group": "horses_digital",
+  "file": "images/gallery/horses/digital/horses_digital_03.webp",
+  "placeholder": "https://picsum.photos/seed/5086/1600/1000",
+  "uses": 1,
+  "desc": "Digital Painting | رسم رقمي — 3"
+ },
+ {
+  "group": "horses_digital",
+  "file": "images/gallery/horses/digital/horses_digital_04.webp",
+  "placeholder": "https://picsum.photos/seed/5087/1600/1000",
+  "uses": 1,
+  "desc": "Digital Painting | رسم رقمي — 4"
+ },
+ {
+  "group": "horses_digital",
+  "file": "images/gallery/horses/digital/horses_digital_05.webp",
+  "placeholder": "https://picsum.photos/seed/5088/1600/1000",
+  "uses": 1,
+  "desc": "Digital Painting | رسم رقمي — 5"
+ },
+ {
+  "group": "horses_digital",
+  "file": "images/gallery/horses/digital/horses_digital_06.webp",
+  "placeholder": "https://picsum.photos/seed/5089/1600/1000",
+  "uses": 1,
+  "desc": "Digital Painting | رسم رقمي — 6"
+ },
+ {
+  "group": "horses_digital",
+  "file": "images/gallery/horses/digital/horses_digital_07.webp",
+  "placeholder": "https://picsum.photos/seed/5090/1600/1000",
+  "uses": 1,
+  "desc": "Digital Painting | رسم رقمي — 7"
+ },
+ {
+  "group": "horses_bronze",
+  "file": "images/gallery/horses/bronze/horses_bronze_01.webp",
+  "placeholder": "https://picsum.photos/seed/5091/1600/1000",
+  "uses": 1,
+  "desc": "Sculpture Study | دراسة نحتية — 1"
+ },
+ {
+  "group": "horses_bronze",
+  "file": "images/gallery/horses/bronze/horses_bronze_02.webp",
+  "placeholder": "https://picsum.photos/seed/5092/1600/1000",
+  "uses": 1,
+  "desc": "Sculpture Study | دراسة نحتية — 2"
+ },
+ {
+  "group": "horses_bronze",
+  "file": "images/gallery/horses/bronze/horses_bronze_03.webp",
+  "placeholder": "https://picsum.photos/seed/5093/1600/1000",
+  "uses": 1,
+  "desc": "Sculpture Study | دراسة نحتية — 3"
+ },
+ {
+  "group": "horses_bronze",
+  "file": "images/gallery/horses/bronze/horses_bronze_04.webp",
+  "placeholder": "https://picsum.photos/seed/5094/1600/1000",
+  "uses": 1,
+  "desc": "Sculpture Study | دراسة نحتية — 4"
+ },
+ {
+  "group": "horses_bronze",
+  "file": "images/gallery/horses/bronze/horses_bronze_05.webp",
+  "placeholder": "https://picsum.photos/seed/5095/1600/1000",
+  "uses": 1,
+  "desc": "Sculpture Study | دراسة نحتية — 5"
+ },
+ {
+  "group": "horses_bronze",
+  "file": "images/gallery/horses/bronze/horses_bronze_06.webp",
+  "placeholder": "https://picsum.photos/seed/5096/1600/1000",
+  "uses": 1,
+  "desc": "Sculpture Study | دراسة نحتية — 6"
+ },
+ {
+  "group": "horses_bronze",
+  "file": "images/gallery/horses/bronze/horses_bronze_07.webp",
+  "placeholder": "https://picsum.photos/seed/5097/1600/1000",
+  "uses": 1,
+  "desc": "Sculpture Study | دراسة نحتية — 7"
+ },
+ {
+  "group": "ai_abstract",
+  "file": "images/gallery/ai/abstract/ai_abstract_01.webp",
+  "placeholder": "https://picsum.photos/seed/5098/1600/1000",
+  "uses": 1,
+  "desc": "Abstract | تجريدي — 1"
+ },
+ {
+  "group": "ai_abstract",
+  "file": "images/gallery/ai/abstract/ai_abstract_02.webp",
+  "placeholder": "https://picsum.photos/seed/5099/1600/1000",
+  "uses": 1,
+  "desc": "Abstract | تجريدي — 2"
+ },
+ {
+  "group": "ai_abstract",
+  "file": "images/gallery/ai/abstract/ai_abstract_03.webp",
+  "placeholder": "https://picsum.photos/seed/5100/1600/1000",
+  "uses": 1,
+  "desc": "Abstract | تجريدي — 3"
+ },
+ {
+  "group": "ai_abstract",
+  "file": "images/gallery/ai/abstract/ai_abstract_04.webp",
+  "placeholder": "https://picsum.photos/seed/5101/1600/1000",
+  "uses": 1,
+  "desc": "Abstract | تجريدي — 4"
+ },
+ {
+  "group": "ai_abstract",
+  "file": "images/gallery/ai/abstract/ai_abstract_05.webp",
+  "placeholder": "https://picsum.photos/seed/5102/1600/1000",
+  "uses": 1,
+  "desc": "Abstract | تجريدي — 5"
+ },
+ {
+  "group": "ai_abstract",
+  "file": "images/gallery/ai/abstract/ai_abstract_06.webp",
+  "placeholder": "https://picsum.photos/seed/5103/1600/1000",
+  "uses": 1,
+  "desc": "Abstract | تجريدي — 6"
+ },
+ {
+  "group": "ai_abstract",
+  "file": "images/gallery/ai/abstract/ai_abstract_07.webp",
+  "placeholder": "https://picsum.photos/seed/5104/1600/1000",
+  "uses": 1,
+  "desc": "Abstract | تجريدي — 7"
+ },
+ {
+  "group": "ai_concept",
+  "file": "images/gallery/ai/concept/ai_concept_01.webp",
+  "placeholder": "https://picsum.photos/seed/5105/1600/1000",
+  "uses": 1,
+  "desc": "Concept Art | فن مفاهيمي — 1"
+ },
+ {
+  "group": "ai_concept",
+  "file": "images/gallery/ai/concept/ai_concept_02.webp",
+  "placeholder": "https://picsum.photos/seed/5106/1600/1000",
+  "uses": 1,
+  "desc": "Concept Art | فن مفاهيمي — 2"
+ },
+ {
+  "group": "ai_concept",
+  "file": "images/gallery/ai/concept/ai_concept_03.webp",
+  "placeholder": "https://picsum.photos/seed/5107/1600/1000",
+  "uses": 1,
+  "desc": "Concept Art | فن مفاهيمي — 3"
+ },
+ {
+  "group": "ai_concept",
+  "file": "images/gallery/ai/concept/ai_concept_04.webp",
+  "placeholder": "https://picsum.photos/seed/5108/1600/1000",
+  "uses": 1,
+  "desc": "Concept Art | فن مفاهيمي — 4"
+ },
+ {
+  "group": "ai_concept",
+  "file": "images/gallery/ai/concept/ai_concept_05.webp",
+  "placeholder": "https://picsum.photos/seed/5109/1600/1000",
+  "uses": 1,
+  "desc": "Concept Art | فن مفاهيمي — 5"
+ },
+ {
+  "group": "ai_concept",
+  "file": "images/gallery/ai/concept/ai_concept_06.webp",
+  "placeholder": "https://picsum.photos/seed/5110/1600/1000",
+  "uses": 1,
+  "desc": "Concept Art | فن مفاهيمي — 6"
+ },
+ {
+  "group": "ai_concept",
+  "file": "images/gallery/ai/concept/ai_concept_07.webp",
+  "placeholder": "https://picsum.photos/seed/5111/1600/1000",
+  "uses": 1,
+  "desc": "Concept Art | فن مفاهيمي — 7"
+ },
+ {
+  "group": "ai_calligraphy_fusion",
+  "file": "images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_01.webp",
+  "placeholder": "https://picsum.photos/seed/5112/1600/1000",
+  "uses": 1,
+  "desc": "AI × Calligraphy | دمج مع الخط العربي — 1"
+ },
+ {
+  "group": "ai_calligraphy_fusion",
+  "file": "images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_02.webp",
+  "placeholder": "https://picsum.photos/seed/5113/1600/1000",
+  "uses": 1,
+  "desc": "AI × Calligraphy | دمج مع الخط العربي — 2"
+ },
+ {
+  "group": "ai_calligraphy_fusion",
+  "file": "images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_03.webp",
+  "placeholder": "https://picsum.photos/seed/5114/1600/1000",
+  "uses": 1,
+  "desc": "AI × Calligraphy | دمج مع الخط العربي — 3"
+ },
+ {
+  "group": "ai_calligraphy_fusion",
+  "file": "images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_04.webp",
+  "placeholder": "https://picsum.photos/seed/5115/1600/1000",
+  "uses": 1,
+  "desc": "AI × Calligraphy | دمج مع الخط العربي — 4"
+ },
+ {
+  "group": "ai_calligraphy_fusion",
+  "file": "images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_05.webp",
+  "placeholder": "https://picsum.photos/seed/5116/1600/1000",
+  "uses": 1,
+  "desc": "AI × Calligraphy | دمج مع الخط العربي — 5"
+ },
+ {
+  "group": "ai_calligraphy_fusion",
+  "file": "images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_06.webp",
+  "placeholder": "https://picsum.photos/seed/5117/1600/1000",
+  "uses": 1,
+  "desc": "AI × Calligraphy | دمج مع الخط العربي — 6"
+ },
+ {
+  "group": "ai_calligraphy_fusion",
+  "file": "images/gallery/ai/calligraphy-fusion/ai_calligraphy_fusion_07.webp",
+  "placeholder": "https://picsum.photos/seed/5118/1600/1000",
+  "uses": 1,
+  "desc": "AI × Calligraphy | دمج مع الخط العربي — 7"
+ },
+ {
+  "group": "ai_portrait_ai",
+  "file": "images/gallery/ai/portrait-ai/ai_portrait_ai_01.webp",
+  "placeholder": "https://picsum.photos/seed/5119/1600/1000",
+  "uses": 1,
+  "desc": "AI Portraits | بورتريهات بالذكاء الاصطناعي — 1"
+ },
+ {
+  "group": "ai_portrait_ai",
+  "file": "images/gallery/ai/portrait-ai/ai_portrait_ai_02.webp",
+  "placeholder": "https://picsum.photos/seed/5120/1600/1000",
+  "uses": 1,
+  "desc": "AI Portraits | بورتريهات بالذكاء الاصطناعي — 2"
+ },
+ {
+  "group": "ai_portrait_ai",
+  "file": "images/gallery/ai/portrait-ai/ai_portrait_ai_03.webp",
+  "placeholder": "https://picsum.photos/seed/5121/1600/1000",
+  "uses": 1,
+  "desc": "AI Portraits | بورتريهات بالذكاء الاصطناعي — 3"
+ },
+ {
+  "group": "ai_portrait_ai",
+  "file": "images/gallery/ai/portrait-ai/ai_portrait_ai_04.webp",
+  "placeholder": "https://picsum.photos/seed/5122/1600/1000",
+  "uses": 1,
+  "desc": "AI Portraits | بورتريهات بالذكاء الاصطناعي — 4"
+ },
+ {
+  "group": "ai_portrait_ai",
+  "file": "images/gallery/ai/portrait-ai/ai_portrait_ai_05.webp",
+  "placeholder": "https://picsum.photos/seed/5123/1600/1000",
+  "uses": 1,
+  "desc": "AI Portraits | بورتريهات بالذكاء الاصطناعي — 5"
+ },
+ {
+  "group": "ai_portrait_ai",
+  "file": "images/gallery/ai/portrait-ai/ai_portrait_ai_06.webp",
+  "placeholder": "https://picsum.photos/seed/5124/1600/1000",
+  "uses": 1,
+  "desc": "AI Portraits | بورتريهات بالذكاء الاصطناعي — 6"
+ },
+ {
+  "group": "ai_portrait_ai",
+  "file": "images/gallery/ai/portrait-ai/ai_portrait_ai_07.webp",
+  "placeholder": "https://picsum.photos/seed/5125/1600/1000",
+  "uses": 1,
+  "desc": "AI Portraits | بورتريهات بالذكاء الاصطناعي — 7"
+ },
+ {
+  "group": "ai_surreal",
+  "file": "images/gallery/ai/surreal/ai_surreal_01.webp",
+  "placeholder": "https://picsum.photos/seed/5126/1600/1000",
+  "uses": 1,
+  "desc": "Surrealism | سريالي — 1"
+ },
+ {
+  "group": "ai_surreal",
+  "file": "images/gallery/ai/surreal/ai_surreal_02.webp",
+  "placeholder": "https://picsum.photos/seed/5127/1600/1000",
+  "uses": 1,
+  "desc": "Surrealism | سريالي — 2"
+ },
+ {
+  "group": "ai_surreal",
+  "file": "images/gallery/ai/surreal/ai_surreal_03.webp",
+  "placeholder": "https://picsum.photos/seed/5128/1600/1000",
+  "uses": 1,
+  "desc": "Surrealism | سريالي — 3"
+ },
+ {
+  "group": "ai_surreal",
+  "file": "images/gallery/ai/surreal/ai_surreal_04.webp",
+  "placeholder": "https://picsum.photos/seed/5129/1600/1000",
+  "uses": 1,
+  "desc": "Surrealism | سريالي — 4"
+ },
+ {
+  "group": "ai_surreal",
+  "file": "images/gallery/ai/surreal/ai_surreal_05.webp",
+  "placeholder": "https://picsum.photos/seed/5130/1600/1000",
+  "uses": 1,
+  "desc": "Surrealism | سريالي — 5"
+ },
+ {
+  "group": "ai_surreal",
+  "file": "images/gallery/ai/surreal/ai_surreal_06.webp",
+  "placeholder": "https://picsum.photos/seed/5131/1600/1000",
+  "uses": 1,
+  "desc": "Surrealism | سريالي — 6"
+ },
+ {
+  "group": "ai_surreal",
+  "file": "images/gallery/ai/surreal/ai_surreal_07.webp",
+  "placeholder": "https://picsum.photos/seed/5132/1600/1000",
+  "uses": 1,
+  "desc": "Surrealism | سريالي — 7"
+ },
+ {
+  "group": "ai_architecture",
+  "file": "images/gallery/ai/architecture/ai_architecture_01.webp",
+  "placeholder": "https://picsum.photos/seed/5133/1600/1000",
+  "uses": 1,
+  "desc": "AI Architecture | عمارة بالذكاء الاصطناعي — 1"
+ },
+ {
+  "group": "ai_architecture",
+  "file": "images/gallery/ai/architecture/ai_architecture_02.webp",
+  "placeholder": "https://picsum.photos/seed/5134/1600/1000",
+  "uses": 1,
+  "desc": "AI Architecture | عمارة بالذكاء الاصطناعي — 2"
+ },
+ {
+  "group": "ai_architecture",
+  "file": "images/gallery/ai/architecture/ai_architecture_03.webp",
+  "placeholder": "https://picsum.photos/seed/5135/1600/1000",
+  "uses": 1,
+  "desc": "AI Architecture | عمارة بالذكاء الاصطناعي — 3"
+ },
+ {
+  "group": "ai_architecture",
+  "file": "images/gallery/ai/architecture/ai_architecture_04.webp",
+  "placeholder": "https://picsum.photos/seed/5136/1600/1000",
+  "uses": 1,
+  "desc": "AI Architecture | عمارة بالذكاء الاصطناعي — 4"
+ },
+ {
+  "group": "ai_architecture",
+  "file": "images/gallery/ai/architecture/ai_architecture_05.webp",
+  "placeholder": "https://picsum.photos/seed/5137/1600/1000",
+  "uses": 1,
+  "desc": "AI Architecture | عمارة بالذكاء الاصطناعي — 5"
+ },
+ {
+  "group": "ai_architecture",
+  "file": "images/gallery/ai/architecture/ai_architecture_06.webp",
+  "placeholder": "https://picsum.photos/seed/5138/1600/1000",
+  "uses": 1,
+  "desc": "AI Architecture | عمارة بالذكاء الاصطناعي — 6"
+ },
+ {
+  "group": "ai_architecture",
+  "file": "images/gallery/ai/architecture/ai_architecture_07.webp",
+  "placeholder": "https://picsum.photos/seed/5139/1600/1000",
+  "uses": 1,
+  "desc": "AI Architecture | عمارة بالذكاء الاصطناعي — 7"
+ },
+ {
+  "group": "ai_experimental",
+  "file": "images/gallery/ai/experimental/ai_experimental_01.webp",
+  "placeholder": "https://picsum.photos/seed/5140/1600/1000",
+  "uses": 1,
+  "desc": "Experimental | تجريبي — 1"
+ },
+ {
+  "group": "ai_experimental",
+  "file": "images/gallery/ai/experimental/ai_experimental_02.webp",
+  "placeholder": "https://picsum.photos/seed/5141/1600/1000",
+  "uses": 1,
+  "desc": "Experimental | تجريبي — 2"
+ },
+ {
+  "group": "ai_experimental",
+  "file": "images/gallery/ai/experimental/ai_experimental_03.webp",
+  "placeholder": "https://picsum.photos/seed/5142/1600/1000",
+  "uses": 1,
+  "desc": "Experimental | تجريبي — 3"
+ },
+ {
+  "group": "ai_experimental",
+  "file": "images/gallery/ai/experimental/ai_experimental_04.webp",
+  "placeholder": "https://picsum.photos/seed/5143/1600/1000",
+  "uses": 1,
+  "desc": "Experimental | تجريبي — 4"
+ },
+ {
+  "group": "ai_experimental",
+  "file": "images/gallery/ai/experimental/ai_experimental_05.webp",
+  "placeholder": "https://picsum.photos/seed/5144/1600/1000",
+  "uses": 1,
+  "desc": "Experimental | تجريبي — 5"
+ },
+ {
+  "group": "ai_experimental",
+  "file": "images/gallery/ai/experimental/ai_experimental_06.webp",
+  "placeholder": "https://picsum.photos/seed/5145/1600/1000",
+  "uses": 1,
+  "desc": "Experimental | تجريبي — 6"
+ },
+ {
+  "group": "ai_experimental",
+  "file": "images/gallery/ai/experimental/ai_experimental_07.webp",
+  "placeholder": "https://picsum.photos/seed/5146/1600/1000",
+  "uses": 1,
+  "desc": "Experimental | تجريبي — 7"
+ },
+ {
+  "group": "design_brand",
+  "file": "images/gallery/design/brand/design_brand_01.webp",
+  "placeholder": "https://picsum.photos/seed/5147/1600/1000",
+  "uses": 1,
+  "desc": "Brand Identity | هوية بصرية — 1"
+ },
+ {
+  "group": "design_brand",
+  "file": "images/gallery/design/brand/design_brand_02.webp",
+  "placeholder": "https://picsum.photos/seed/5148/1600/1000",
+  "uses": 1,
+  "desc": "Brand Identity | هوية بصرية — 2"
+ },
+ {
+  "group": "design_brand",
+  "file": "images/gallery/design/brand/design_brand_03.webp",
+  "placeholder": "https://picsum.photos/seed/5149/1600/1000",
+  "uses": 1,
+  "desc": "Brand Identity | هوية بصرية — 3"
+ },
+ {
+  "group": "design_brand",
+  "file": "images/gallery/design/brand/design_brand_04.webp",
+  "placeholder": "https://picsum.photos/seed/5150/1600/1000",
+  "uses": 1,
+  "desc": "Brand Identity | هوية بصرية — 4"
+ },
+ {
+  "group": "design_brand",
+  "file": "images/gallery/design/brand/design_brand_05.webp",
+  "placeholder": "https://picsum.photos/seed/5151/1600/1000",
+  "uses": 1,
+  "desc": "Brand Identity | هوية بصرية — 5"
+ },
+ {
+  "group": "design_brand",
+  "file": "images/gallery/design/brand/design_brand_06.webp",
+  "placeholder": "https://picsum.photos/seed/5152/1600/1000",
+  "uses": 1,
+  "desc": "Brand Identity | هوية بصرية — 6"
+ },
+ {
+  "group": "design_brand",
+  "file": "images/gallery/design/brand/design_brand_07.webp",
+  "placeholder": "https://picsum.photos/seed/5153/1600/1000",
+  "uses": 1,
+  "desc": "Brand Identity | هوية بصرية — 7"
+ },
+ {
+  "group": "design_advertising",
+  "file": "images/gallery/design/advertising/design_advertising_01.webp",
+  "placeholder": "https://picsum.photos/seed/5154/1600/1000",
+  "uses": 1,
+  "desc": "Advertising | دعاية وإعلان — 1"
+ },
+ {
+  "group": "design_advertising",
+  "file": "images/gallery/design/advertising/design_advertising_02.webp",
+  "placeholder": "https://picsum.photos/seed/5155/1600/1000",
+  "uses": 1,
+  "desc": "Advertising | دعاية وإعلان — 2"
+ },
+ {
+  "group": "design_advertising",
+  "file": "images/gallery/design/advertising/design_advertising_03.webp",
+  "placeholder": "https://picsum.photos/seed/5156/1600/1000",
+  "uses": 1,
+  "desc": "Advertising | دعاية وإعلان — 3"
+ },
+ {
+  "group": "design_advertising",
+  "file": "images/gallery/design/advertising/design_advertising_04.webp",
+  "placeholder": "https://picsum.photos/seed/5157/1600/1000",
+  "uses": 1,
+  "desc": "Advertising | دعاية وإعلان — 4"
+ },
+ {
+  "group": "design_advertising",
+  "file": "images/gallery/design/advertising/design_advertising_05.webp",
+  "placeholder": "https://picsum.photos/seed/5158/1600/1000",
+  "uses": 1,
+  "desc": "Advertising | دعاية وإعلان — 5"
+ },
+ {
+  "group": "design_advertising",
+  "file": "images/gallery/design/advertising/design_advertising_06.webp",
+  "placeholder": "https://picsum.photos/seed/5159/1600/1000",
+  "uses": 1,
+  "desc": "Advertising | دعاية وإعلان — 6"
+ },
+ {
+  "group": "design_advertising",
+  "file": "images/gallery/design/advertising/design_advertising_07.webp",
+  "placeholder": "https://picsum.photos/seed/5160/1600/1000",
+  "uses": 1,
+  "desc": "Advertising | دعاية وإعلان — 7"
+ },
+ {
+  "group": "design_editorial",
+  "file": "images/gallery/design/editorial/design_editorial_01.webp",
+  "placeholder": "https://picsum.photos/seed/5161/1600/1000",
+  "uses": 1,
+  "desc": "Editorial | تصميم تحريري — 1"
+ },
+ {
+  "group": "design_editorial",
+  "file": "images/gallery/design/editorial/design_editorial_02.webp",
+  "placeholder": "https://picsum.photos/seed/5162/1600/1000",
+  "uses": 1,
+  "desc": "Editorial | تصميم تحريري — 2"
+ },
+ {
+  "group": "design_editorial",
+  "file": "images/gallery/design/editorial/design_editorial_03.webp",
+  "placeholder": "https://picsum.photos/seed/5163/1600/1000",
+  "uses": 1,
+  "desc": "Editorial | تصميم تحريري — 3"
+ },
+ {
+  "group": "design_editorial",
+  "file": "images/gallery/design/editorial/design_editorial_04.webp",
+  "placeholder": "https://picsum.photos/seed/5164/1600/1000",
+  "uses": 1,
+  "desc": "Editorial | تصميم تحريري — 4"
+ },
+ {
+  "group": "design_editorial",
+  "file": "images/gallery/design/editorial/design_editorial_05.webp",
+  "placeholder": "https://picsum.photos/seed/5165/1600/1000",
+  "uses": 1,
+  "desc": "Editorial | تصميم تحريري — 5"
+ },
+ {
+  "group": "design_editorial",
+  "file": "images/gallery/design/editorial/design_editorial_06.webp",
+  "placeholder": "https://picsum.photos/seed/5166/1600/1000",
+  "uses": 1,
+  "desc": "Editorial | تصميم تحريري — 6"
+ },
+ {
+  "group": "design_editorial",
+  "file": "images/gallery/design/editorial/design_editorial_07.webp",
+  "placeholder": "https://picsum.photos/seed/5167/1600/1000",
+  "uses": 1,
+  "desc": "Editorial | تصميم تحريري — 7"
+ },
+ {
+  "group": "design_packaging",
+  "file": "images/gallery/design/packaging/design_packaging_01.webp",
+  "placeholder": "https://picsum.photos/seed/5168/1600/1000",
+  "uses": 1,
+  "desc": "Packaging | تغليف — 1"
+ },
+ {
+  "group": "design_packaging",
+  "file": "images/gallery/design/packaging/design_packaging_02.webp",
+  "placeholder": "https://picsum.photos/seed/5169/1600/1000",
+  "uses": 1,
+  "desc": "Packaging | تغليف — 2"
+ },
+ {
+  "group": "design_packaging",
+  "file": "images/gallery/design/packaging/design_packaging_03.webp",
+  "placeholder": "https://picsum.photos/seed/5170/1600/1000",
+  "uses": 1,
+  "desc": "Packaging | تغليف — 3"
+ },
+ {
+  "group": "design_packaging",
+  "file": "images/gallery/design/packaging/design_packaging_04.webp",
+  "placeholder": "https://picsum.photos/seed/5171/1600/1000",
+  "uses": 1,
+  "desc": "Packaging | تغليف — 4"
+ },
+ {
+  "group": "design_packaging",
+  "file": "images/gallery/design/packaging/design_packaging_05.webp",
+  "placeholder": "https://picsum.photos/seed/5172/1600/1000",
+  "uses": 1,
+  "desc": "Packaging | تغليف — 5"
+ },
+ {
+  "group": "design_packaging",
+  "file": "images/gallery/design/packaging/design_packaging_06.webp",
+  "placeholder": "https://picsum.photos/seed/5173/1600/1000",
+  "uses": 1,
+  "desc": "Packaging | تغليف — 6"
+ },
+ {
+  "group": "design_packaging",
+  "file": "images/gallery/design/packaging/design_packaging_07.webp",
+  "placeholder": "https://picsum.photos/seed/5174/1600/1000",
+  "uses": 1,
+  "desc": "Packaging | تغليف — 7"
+ },
+ {
+  "group": "design_web",
+  "file": "images/gallery/design/web/design_web_01.webp",
+  "placeholder": "https://picsum.photos/seed/5175/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم مواقع — 1"
+ },
+ {
+  "group": "design_web",
+  "file": "images/gallery/design/web/design_web_02.webp",
+  "placeholder": "https://picsum.photos/seed/5176/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم مواقع — 2"
+ },
+ {
+  "group": "design_web",
+  "file": "images/gallery/design/web/design_web_03.webp",
+  "placeholder": "https://picsum.photos/seed/5177/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم مواقع — 3"
+ },
+ {
+  "group": "design_web",
+  "file": "images/gallery/design/web/design_web_04.webp",
+  "placeholder": "https://picsum.photos/seed/5178/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم مواقع — 4"
+ },
+ {
+  "group": "design_web",
+  "file": "images/gallery/design/web/design_web_05.webp",
+  "placeholder": "https://picsum.photos/seed/5179/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم مواقع — 5"
+ },
+ {
+  "group": "design_web",
+  "file": "images/gallery/design/web/design_web_06.webp",
+  "placeholder": "https://picsum.photos/seed/5180/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم مواقع — 6"
+ },
+ {
+  "group": "design_web",
+  "file": "images/gallery/design/web/design_web_07.webp",
+  "placeholder": "https://picsum.photos/seed/5181/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم مواقع — 7"
+ },
+ {
+  "group": "design_typography",
+  "file": "images/gallery/design/typography/design_typography_01.webp",
+  "placeholder": "https://picsum.photos/seed/5182/1600/1000",
+  "uses": 1,
+  "desc": "Typography | الطباعة والخطوط — 1"
+ },
+ {
+  "group": "design_typography",
+  "file": "images/gallery/design/typography/design_typography_02.webp",
+  "placeholder": "https://picsum.photos/seed/5183/1600/1000",
+  "uses": 1,
+  "desc": "Typography | الطباعة والخطوط — 2"
+ },
+ {
+  "group": "design_typography",
+  "file": "images/gallery/design/typography/design_typography_03.webp",
+  "placeholder": "https://picsum.photos/seed/5184/1600/1000",
+  "uses": 1,
+  "desc": "Typography | الطباعة والخطوط — 3"
+ },
+ {
+  "group": "design_typography",
+  "file": "images/gallery/design/typography/design_typography_04.webp",
+  "placeholder": "https://picsum.photos/seed/5185/1600/1000",
+  "uses": 1,
+  "desc": "Typography | الطباعة والخطوط — 4"
+ },
+ {
+  "group": "design_typography",
+  "file": "images/gallery/design/typography/design_typography_05.webp",
+  "placeholder": "https://picsum.photos/seed/5186/1600/1000",
+  "uses": 1,
+  "desc": "Typography | الطباعة والخطوط — 5"
+ },
+ {
+  "group": "design_typography",
+  "file": "images/gallery/design/typography/design_typography_06.webp",
+  "placeholder": "https://picsum.photos/seed/5187/1600/1000",
+  "uses": 1,
+  "desc": "Typography | الطباعة والخطوط — 6"
+ },
+ {
+  "group": "design_typography",
+  "file": "images/gallery/design/typography/design_typography_07.webp",
+  "placeholder": "https://picsum.photos/seed/5188/1600/1000",
+  "uses": 1,
+  "desc": "Typography | الطباعة والخطوط — 7"
+ },
+ {
+  "group": "design_motion",
+  "file": "images/gallery/design/motion/design_motion_01.webp",
+  "placeholder": "https://picsum.photos/seed/5189/1600/1000",
+  "uses": 1,
+  "desc": "Motion Graphics | موشن غرافيك — 1"
+ },
+ {
+  "group": "design_motion",
+  "file": "images/gallery/design/motion/design_motion_02.webp",
+  "placeholder": "https://picsum.photos/seed/5190/1600/1000",
+  "uses": 1,
+  "desc": "Motion Graphics | موشن غرافيك — 2"
+ },
+ {
+  "group": "design_motion",
+  "file": "images/gallery/design/motion/design_motion_03.webp",
+  "placeholder": "https://picsum.photos/seed/5191/1600/1000",
+  "uses": 1,
+  "desc": "Motion Graphics | موشن غرافيك — 3"
+ },
+ {
+  "group": "design_motion",
+  "file": "images/gallery/design/motion/design_motion_04.webp",
+  "placeholder": "https://picsum.photos/seed/5192/1600/1000",
+  "uses": 1,
+  "desc": "Motion Graphics | موشن غرافيك — 4"
+ },
+ {
+  "group": "design_motion",
+  "file": "images/gallery/design/motion/design_motion_05.webp",
+  "placeholder": "https://picsum.photos/seed/5193/1600/1000",
+  "uses": 1,
+  "desc": "Motion Graphics | موشن غرافيك — 5"
+ },
+ {
+  "group": "design_motion",
+  "file": "images/gallery/design/motion/design_motion_06.webp",
+  "placeholder": "https://picsum.photos/seed/5194/1600/1000",
+  "uses": 1,
+  "desc": "Motion Graphics | موشن غرافيك — 6"
+ },
+ {
+  "group": "design_motion",
+  "file": "images/gallery/design/motion/design_motion_07.webp",
+  "placeholder": "https://picsum.photos/seed/5195/1600/1000",
+  "uses": 1,
+  "desc": "Motion Graphics | موشن غرافيك — 7"
+ },
+ {
+  "group": "portrait_realistic",
+  "file": "images/gallery/portrait/realistic/portrait_realistic_01.webp",
+  "placeholder": "https://picsum.photos/seed/5196/1600/1000",
+  "uses": 1,
+  "desc": "Realistic | واقعي — 1"
+ },
+ {
+  "group": "portrait_realistic",
+  "file": "images/gallery/portrait/realistic/portrait_realistic_02.webp",
+  "placeholder": "https://picsum.photos/seed/5197/1600/1000",
+  "uses": 1,
+  "desc": "Realistic | واقعي — 2"
+ },
+ {
+  "group": "portrait_realistic",
+  "file": "images/gallery/portrait/realistic/portrait_realistic_03.webp",
+  "placeholder": "https://picsum.photos/seed/5198/1600/1000",
+  "uses": 1,
+  "desc": "Realistic | واقعي — 3"
+ },
+ {
+  "group": "portrait_realistic",
+  "file": "images/gallery/portrait/realistic/portrait_realistic_04.webp",
+  "placeholder": "https://picsum.photos/seed/5199/1600/1000",
+  "uses": 1,
+  "desc": "Realistic | واقعي — 4"
+ },
+ {
+  "group": "portrait_realistic",
+  "file": "images/gallery/portrait/realistic/portrait_realistic_05.webp",
+  "placeholder": "https://picsum.photos/seed/5200/1600/1000",
+  "uses": 1,
+  "desc": "Realistic | واقعي — 5"
+ },
+ {
+  "group": "portrait_realistic",
+  "file": "images/gallery/portrait/realistic/portrait_realistic_06.webp",
+  "placeholder": "https://picsum.photos/seed/5201/1600/1000",
+  "uses": 1,
+  "desc": "Realistic | واقعي — 6"
+ },
+ {
+  "group": "portrait_realistic",
+  "file": "images/gallery/portrait/realistic/portrait_realistic_07.webp",
+  "placeholder": "https://picsum.photos/seed/5202/1600/1000",
+  "uses": 1,
+  "desc": "Realistic | واقعي — 7"
+ },
+ {
+  "group": "portrait_expressive",
+  "file": "images/gallery/portrait/expressive/portrait_expressive_01.webp",
+  "placeholder": "https://picsum.photos/seed/5203/1600/1000",
+  "uses": 1,
+  "desc": "Expressive | تعبيري — 1"
+ },
+ {
+  "group": "portrait_expressive",
+  "file": "images/gallery/portrait/expressive/portrait_expressive_02.webp",
+  "placeholder": "https://picsum.photos/seed/5204/1600/1000",
+  "uses": 1,
+  "desc": "Expressive | تعبيري — 2"
+ },
+ {
+  "group": "portrait_expressive",
+  "file": "images/gallery/portrait/expressive/portrait_expressive_03.webp",
+  "placeholder": "https://picsum.photos/seed/5205/1600/1000",
+  "uses": 1,
+  "desc": "Expressive | تعبيري — 3"
+ },
+ {
+  "group": "portrait_expressive",
+  "file": "images/gallery/portrait/expressive/portrait_expressive_04.webp",
+  "placeholder": "https://picsum.photos/seed/5206/1600/1000",
+  "uses": 1,
+  "desc": "Expressive | تعبيري — 4"
+ },
+ {
+  "group": "portrait_expressive",
+  "file": "images/gallery/portrait/expressive/portrait_expressive_05.webp",
+  "placeholder": "https://picsum.photos/seed/5207/1600/1000",
+  "uses": 1,
+  "desc": "Expressive | تعبيري — 5"
+ },
+ {
+  "group": "portrait_expressive",
+  "file": "images/gallery/portrait/expressive/portrait_expressive_06.webp",
+  "placeholder": "https://picsum.photos/seed/5208/1600/1000",
+  "uses": 1,
+  "desc": "Expressive | تعبيري — 6"
+ },
+ {
+  "group": "portrait_expressive",
+  "file": "images/gallery/portrait/expressive/portrait_expressive_07.webp",
+  "placeholder": "https://picsum.photos/seed/5209/1600/1000",
+  "uses": 1,
+  "desc": "Expressive | تعبيري — 7"
+ },
+ {
+  "group": "portrait_cultural",
+  "file": "images/gallery/portrait/cultural/portrait_cultural_01.webp",
+  "placeholder": "https://picsum.photos/seed/5210/1600/1000",
+  "uses": 1,
+  "desc": "Cultural Identity | هوية ثقافية — 1"
+ },
+ {
+  "group": "portrait_cultural",
+  "file": "images/gallery/portrait/cultural/portrait_cultural_02.webp",
+  "placeholder": "https://picsum.photos/seed/5211/1600/1000",
+  "uses": 1,
+  "desc": "Cultural Identity | هوية ثقافية — 2"
+ },
+ {
+  "group": "portrait_cultural",
+  "file": "images/gallery/portrait/cultural/portrait_cultural_03.webp",
+  "placeholder": "https://picsum.photos/seed/5212/1600/1000",
+  "uses": 1,
+  "desc": "Cultural Identity | هوية ثقافية — 3"
+ },
+ {
+  "group": "portrait_cultural",
+  "file": "images/gallery/portrait/cultural/portrait_cultural_04.webp",
+  "placeholder": "https://picsum.photos/seed/5213/1600/1000",
+  "uses": 1,
+  "desc": "Cultural Identity | هوية ثقافية — 4"
+ },
+ {
+  "group": "portrait_cultural",
+  "file": "images/gallery/portrait/cultural/portrait_cultural_05.webp",
+  "placeholder": "https://picsum.photos/seed/5214/1600/1000",
+  "uses": 1,
+  "desc": "Cultural Identity | هوية ثقافية — 5"
+ },
+ {
+  "group": "portrait_cultural",
+  "file": "images/gallery/portrait/cultural/portrait_cultural_06.webp",
+  "placeholder": "https://picsum.photos/seed/5215/1600/1000",
+  "uses": 1,
+  "desc": "Cultural Identity | هوية ثقافية — 6"
+ },
+ {
+  "group": "portrait_cultural",
+  "file": "images/gallery/portrait/cultural/portrait_cultural_07.webp",
+  "placeholder": "https://picsum.photos/seed/5216/1600/1000",
+  "uses": 1,
+  "desc": "Cultural Identity | هوية ثقافية — 7"
+ },
+ {
+  "group": "portrait_charcoal",
+  "file": "images/gallery/portrait/charcoal/portrait_charcoal_01.webp",
+  "placeholder": "https://picsum.photos/seed/5217/1600/1000",
+  "uses": 1,
+  "desc": "Charcoal | فحم — 1"
+ },
+ {
+  "group": "portrait_charcoal",
+  "file": "images/gallery/portrait/charcoal/portrait_charcoal_02.webp",
+  "placeholder": "https://picsum.photos/seed/5218/1600/1000",
+  "uses": 1,
+  "desc": "Charcoal | فحم — 2"
+ },
+ {
+  "group": "portrait_charcoal",
+  "file": "images/gallery/portrait/charcoal/portrait_charcoal_03.webp",
+  "placeholder": "https://picsum.photos/seed/5219/1600/1000",
+  "uses": 1,
+  "desc": "Charcoal | فحم — 3"
+ },
+ {
+  "group": "portrait_charcoal",
+  "file": "images/gallery/portrait/charcoal/portrait_charcoal_04.webp",
+  "placeholder": "https://picsum.photos/seed/5220/1600/1000",
+  "uses": 1,
+  "desc": "Charcoal | فحم — 4"
+ },
+ {
+  "group": "portrait_charcoal",
+  "file": "images/gallery/portrait/charcoal/portrait_charcoal_05.webp",
+  "placeholder": "https://picsum.photos/seed/5221/1600/1000",
+  "uses": 1,
+  "desc": "Charcoal | فحم — 5"
+ },
+ {
+  "group": "portrait_charcoal",
+  "file": "images/gallery/portrait/charcoal/portrait_charcoal_06.webp",
+  "placeholder": "https://picsum.photos/seed/5222/1600/1000",
+  "uses": 1,
+  "desc": "Charcoal | فحم — 6"
+ },
+ {
+  "group": "portrait_charcoal",
+  "file": "images/gallery/portrait/charcoal/portrait_charcoal_07.webp",
+  "placeholder": "https://picsum.photos/seed/5223/1600/1000",
+  "uses": 1,
+  "desc": "Charcoal | فحم — 7"
+ },
+ {
+  "group": "portrait_oil_portrait",
+  "file": "images/gallery/portrait/oil-portrait/portrait_oil_portrait_01.webp",
+  "placeholder": "https://picsum.photos/seed/5224/1600/1000",
+  "uses": 1,
+  "desc": "Oil Portrait | زيتي — 1"
+ },
+ {
+  "group": "portrait_oil_portrait",
+  "file": "images/gallery/portrait/oil-portrait/portrait_oil_portrait_02.webp",
+  "placeholder": "https://picsum.photos/seed/5225/1600/1000",
+  "uses": 1,
+  "desc": "Oil Portrait | زيتي — 2"
+ },
+ {
+  "group": "portrait_oil_portrait",
+  "file": "images/gallery/portrait/oil-portrait/portrait_oil_portrait_03.webp",
+  "placeholder": "https://picsum.photos/seed/5226/1600/1000",
+  "uses": 1,
+  "desc": "Oil Portrait | زيتي — 3"
+ },
+ {
+  "group": "portrait_oil_portrait",
+  "file": "images/gallery/portrait/oil-portrait/portrait_oil_portrait_04.webp",
+  "placeholder": "https://picsum.photos/seed/5227/1600/1000",
+  "uses": 1,
+  "desc": "Oil Portrait | زيتي — 4"
+ },
+ {
+  "group": "portrait_oil_portrait",
+  "file": "images/gallery/portrait/oil-portrait/portrait_oil_portrait_05.webp",
+  "placeholder": "https://picsum.photos/seed/5228/1600/1000",
+  "uses": 1,
+  "desc": "Oil Portrait | زيتي — 5"
+ },
+ {
+  "group": "portrait_oil_portrait",
+  "file": "images/gallery/portrait/oil-portrait/portrait_oil_portrait_06.webp",
+  "placeholder": "https://picsum.photos/seed/5229/1600/1000",
+  "uses": 1,
+  "desc": "Oil Portrait | زيتي — 6"
+ },
+ {
+  "group": "portrait_oil_portrait",
+  "file": "images/gallery/portrait/oil-portrait/portrait_oil_portrait_07.webp",
+  "placeholder": "https://picsum.photos/seed/5230/1600/1000",
+  "uses": 1,
+  "desc": "Oil Portrait | زيتي — 7"
+ },
+ {
+  "group": "portrait_digital_portrait",
+  "file": "images/gallery/portrait/digital-portrait/portrait_digital_portrait_01.webp",
+  "placeholder": "https://picsum.photos/seed/5231/1600/1000",
+  "uses": 1,
+  "desc": "Digital Portrait | رقمي — 1"
+ },
+ {
+  "group": "portrait_digital_portrait",
+  "file": "images/gallery/portrait/digital-portrait/portrait_digital_portrait_02.webp",
+  "placeholder": "https://picsum.photos/seed/5232/1600/1000",
+  "uses": 1,
+  "desc": "Digital Portrait | رقمي — 2"
+ },
+ {
+  "group": "portrait_digital_portrait",
+  "file": "images/gallery/portrait/digital-portrait/portrait_digital_portrait_03.webp",
+  "placeholder": "https://picsum.photos/seed/5233/1600/1000",
+  "uses": 1,
+  "desc": "Digital Portrait | رقمي — 3"
+ },
+ {
+  "group": "portrait_digital_portrait",
+  "file": "images/gallery/portrait/digital-portrait/portrait_digital_portrait_04.webp",
+  "placeholder": "https://picsum.photos/seed/5234/1600/1000",
+  "uses": 1,
+  "desc": "Digital Portrait | رقمي — 4"
+ },
+ {
+  "group": "portrait_digital_portrait",
+  "file": "images/gallery/portrait/digital-portrait/portrait_digital_portrait_05.webp",
+  "placeholder": "https://picsum.photos/seed/5235/1600/1000",
+  "uses": 1,
+  "desc": "Digital Portrait | رقمي — 5"
+ },
+ {
+  "group": "portrait_digital_portrait",
+  "file": "images/gallery/portrait/digital-portrait/portrait_digital_portrait_06.webp",
+  "placeholder": "https://picsum.photos/seed/5236/1600/1000",
+  "uses": 1,
+  "desc": "Digital Portrait | رقمي — 6"
+ },
+ {
+  "group": "portrait_digital_portrait",
+  "file": "images/gallery/portrait/digital-portrait/portrait_digital_portrait_07.webp",
+  "placeholder": "https://picsum.photos/seed/5237/1600/1000",
+  "uses": 1,
+  "desc": "Digital Portrait | رقمي — 7"
+ },
+ {
+  "group": "portrait_commission",
+  "file": "images/gallery/portrait/commission/portrait_commission_01.webp",
+  "placeholder": "https://picsum.photos/seed/5238/1600/1000",
+  "uses": 1,
+  "desc": "Commissioned Works | أعمال بطلب خاص — 1"
+ },
+ {
+  "group": "portrait_commission",
+  "file": "images/gallery/portrait/commission/portrait_commission_02.webp",
+  "placeholder": "https://picsum.photos/seed/5239/1600/1000",
+  "uses": 1,
+  "desc": "Commissioned Works | أعمال بطلب خاص — 2"
+ },
+ {
+  "group": "portrait_commission",
+  "file": "images/gallery/portrait/commission/portrait_commission_03.webp",
+  "placeholder": "https://picsum.photos/seed/5240/1600/1000",
+  "uses": 1,
+  "desc": "Commissioned Works | أعمال بطلب خاص — 3"
+ },
+ {
+  "group": "portrait_commission",
+  "file": "images/gallery/portrait/commission/portrait_commission_04.webp",
+  "placeholder": "https://picsum.photos/seed/5241/1600/1000",
+  "uses": 1,
+  "desc": "Commissioned Works | أعمال بطلب خاص — 4"
+ },
+ {
+  "group": "portrait_commission",
+  "file": "images/gallery/portrait/commission/portrait_commission_05.webp",
+  "placeholder": "https://picsum.photos/seed/5242/1600/1000",
+  "uses": 1,
+  "desc": "Commissioned Works | أعمال بطلب خاص — 5"
+ },
+ {
+  "group": "portrait_commission",
+  "file": "images/gallery/portrait/commission/portrait_commission_06.webp",
+  "placeholder": "https://picsum.photos/seed/5243/1600/1000",
+  "uses": 1,
+  "desc": "Commissioned Works | أعمال بطلب خاص — 6"
+ },
+ {
+  "group": "portrait_commission",
+  "file": "images/gallery/portrait/commission/portrait_commission_07.webp",
+  "placeholder": "https://picsum.photos/seed/5244/1600/1000",
+  "uses": 1,
+  "desc": "Commissioned Works | أعمال بطلب خاص — 7"
+ },
+ {
+  "group": "education_calligraphy_workshop",
+  "file": "images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_01.webp",
+  "placeholder": "https://picsum.photos/seed/5245/1600/1000",
+  "uses": 1,
+  "desc": "Calligraphy Workshop | ورشة خط عربي — 1"
+ },
+ {
+  "group": "education_calligraphy_workshop",
+  "file": "images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_02.webp",
+  "placeholder": "https://picsum.photos/seed/5246/1600/1000",
+  "uses": 1,
+  "desc": "Calligraphy Workshop | ورشة خط عربي — 2"
+ },
+ {
+  "group": "education_calligraphy_workshop",
+  "file": "images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_03.webp",
+  "placeholder": "https://picsum.photos/seed/5247/1600/1000",
+  "uses": 1,
+  "desc": "Calligraphy Workshop | ورشة خط عربي — 3"
+ },
+ {
+  "group": "education_calligraphy_workshop",
+  "file": "images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_04.webp",
+  "placeholder": "https://picsum.photos/seed/5248/1600/1000",
+  "uses": 1,
+  "desc": "Calligraphy Workshop | ورشة خط عربي — 4"
+ },
+ {
+  "group": "education_calligraphy_workshop",
+  "file": "images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_05.webp",
+  "placeholder": "https://picsum.photos/seed/5249/1600/1000",
+  "uses": 1,
+  "desc": "Calligraphy Workshop | ورشة خط عربي — 5"
+ },
+ {
+  "group": "education_calligraphy_workshop",
+  "file": "images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_06.webp",
+  "placeholder": "https://picsum.photos/seed/5250/1600/1000",
+  "uses": 1,
+  "desc": "Calligraphy Workshop | ورشة خط عربي — 6"
+ },
+ {
+  "group": "education_calligraphy_workshop",
+  "file": "images/gallery/education/calligraphy-workshop/education_calligraphy_workshop_07.webp",
+  "placeholder": "https://picsum.photos/seed/5251/1600/1000",
+  "uses": 1,
+  "desc": "Calligraphy Workshop | ورشة خط عربي — 7"
+ },
+ {
+  "group": "education_painting_workshop",
+  "file": "images/gallery/education/painting-workshop/education_painting_workshop_01.webp",
+  "placeholder": "https://picsum.photos/seed/5252/1600/1000",
+  "uses": 1,
+  "desc": "Painting Workshop | ورشة رسم — 1"
+ },
+ {
+  "group": "education_painting_workshop",
+  "file": "images/gallery/education/painting-workshop/education_painting_workshop_02.webp",
+  "placeholder": "https://picsum.photos/seed/5253/1600/1000",
+  "uses": 1,
+  "desc": "Painting Workshop | ورشة رسم — 2"
+ },
+ {
+  "group": "education_painting_workshop",
+  "file": "images/gallery/education/painting-workshop/education_painting_workshop_03.webp",
+  "placeholder": "https://picsum.photos/seed/5254/1600/1000",
+  "uses": 1,
+  "desc": "Painting Workshop | ورشة رسم — 3"
+ },
+ {
+  "group": "education_painting_workshop",
+  "file": "images/gallery/education/painting-workshop/education_painting_workshop_04.webp",
+  "placeholder": "https://picsum.photos/seed/5255/1600/1000",
+  "uses": 1,
+  "desc": "Painting Workshop | ورشة رسم — 4"
+ },
+ {
+  "group": "education_painting_workshop",
+  "file": "images/gallery/education/painting-workshop/education_painting_workshop_05.webp",
+  "placeholder": "https://picsum.photos/seed/5256/1600/1000",
+  "uses": 1,
+  "desc": "Painting Workshop | ورشة رسم — 5"
+ },
+ {
+  "group": "education_painting_workshop",
+  "file": "images/gallery/education/painting-workshop/education_painting_workshop_06.webp",
+  "placeholder": "https://picsum.photos/seed/5257/1600/1000",
+  "uses": 1,
+  "desc": "Painting Workshop | ورشة رسم — 6"
+ },
+ {
+  "group": "education_painting_workshop",
+  "file": "images/gallery/education/painting-workshop/education_painting_workshop_07.webp",
+  "placeholder": "https://picsum.photos/seed/5258/1600/1000",
+  "uses": 1,
+  "desc": "Painting Workshop | ورشة رسم — 7"
+ },
+ {
+  "group": "education_ai_workshop",
+  "file": "images/gallery/education/ai-workshop/education_ai_workshop_01.webp",
+  "placeholder": "https://picsum.photos/seed/5259/1600/1000",
+  "uses": 1,
+  "desc": "AI Workshop | ورشة ذكاء اصطناعي — 1"
+ },
+ {
+  "group": "education_ai_workshop",
+  "file": "images/gallery/education/ai-workshop/education_ai_workshop_02.webp",
+  "placeholder": "https://picsum.photos/seed/5260/1600/1000",
+  "uses": 1,
+  "desc": "AI Workshop | ورشة ذكاء اصطناعي — 2"
+ },
+ {
+  "group": "education_ai_workshop",
+  "file": "images/gallery/education/ai-workshop/education_ai_workshop_03.webp",
+  "placeholder": "https://picsum.photos/seed/5261/1600/1000",
+  "uses": 1,
+  "desc": "AI Workshop | ورشة ذكاء اصطناعي — 3"
+ },
+ {
+  "group": "education_ai_workshop",
+  "file": "images/gallery/education/ai-workshop/education_ai_workshop_04.webp",
+  "placeholder": "https://picsum.photos/seed/5262/1600/1000",
+  "uses": 1,
+  "desc": "AI Workshop | ورشة ذكاء اصطناعي — 4"
+ },
+ {
+  "group": "education_ai_workshop",
+  "file": "images/gallery/education/ai-workshop/education_ai_workshop_05.webp",
+  "placeholder": "https://picsum.photos/seed/5263/1600/1000",
+  "uses": 1,
+  "desc": "AI Workshop | ورشة ذكاء اصطناعي — 5"
+ },
+ {
+  "group": "education_ai_workshop",
+  "file": "images/gallery/education/ai-workshop/education_ai_workshop_06.webp",
+  "placeholder": "https://picsum.photos/seed/5264/1600/1000",
+  "uses": 1,
+  "desc": "AI Workshop | ورشة ذكاء اصطناعي — 6"
+ },
+ {
+  "group": "education_ai_workshop",
+  "file": "images/gallery/education/ai-workshop/education_ai_workshop_07.webp",
+  "placeholder": "https://picsum.photos/seed/5265/1600/1000",
+  "uses": 1,
+  "desc": "AI Workshop | ورشة ذكاء اصطناعي — 7"
+ },
+ {
+  "group": "education_kids",
+  "file": "images/gallery/education/kids/education_kids_01.webp",
+  "placeholder": "https://picsum.photos/seed/5266/1600/1000",
+  "uses": 1,
+  "desc": "Kids Program | برنامج الأطفال — 1"
+ },
+ {
+  "group": "education_kids",
+  "file": "images/gallery/education/kids/education_kids_02.webp",
+  "placeholder": "https://picsum.photos/seed/5267/1600/1000",
+  "uses": 1,
+  "desc": "Kids Program | برنامج الأطفال — 2"
+ },
+ {
+  "group": "education_kids",
+  "file": "images/gallery/education/kids/education_kids_03.webp",
+  "placeholder": "https://picsum.photos/seed/5268/1600/1000",
+  "uses": 1,
+  "desc": "Kids Program | برنامج الأطفال — 3"
+ },
+ {
+  "group": "education_kids",
+  "file": "images/gallery/education/kids/education_kids_04.webp",
+  "placeholder": "https://picsum.photos/seed/5269/1600/1000",
+  "uses": 1,
+  "desc": "Kids Program | برنامج الأطفال — 4"
+ },
+ {
+  "group": "education_kids",
+  "file": "images/gallery/education/kids/education_kids_05.webp",
+  "placeholder": "https://picsum.photos/seed/5270/1600/1000",
+  "uses": 1,
+  "desc": "Kids Program | برنامج الأطفال — 5"
+ },
+ {
+  "group": "education_kids",
+  "file": "images/gallery/education/kids/education_kids_06.webp",
+  "placeholder": "https://picsum.photos/seed/5271/1600/1000",
+  "uses": 1,
+  "desc": "Kids Program | برنامج الأطفال — 6"
+ },
+ {
+  "group": "education_kids",
+  "file": "images/gallery/education/kids/education_kids_07.webp",
+  "placeholder": "https://picsum.photos/seed/5272/1600/1000",
+  "uses": 1,
+  "desc": "Kids Program | برنامج الأطفال — 7"
+ },
+ {
+  "group": "education_private",
+  "file": "images/gallery/education/private/education_private_01.webp",
+  "placeholder": "https://picsum.photos/seed/5273/1600/1000",
+  "uses": 1,
+  "desc": "Private Lessons | دروس خاصة — 1"
+ },
+ {
+  "group": "education_private",
+  "file": "images/gallery/education/private/education_private_02.webp",
+  "placeholder": "https://picsum.photos/seed/5274/1600/1000",
+  "uses": 1,
+  "desc": "Private Lessons | دروس خاصة — 2"
+ },
+ {
+  "group": "education_private",
+  "file": "images/gallery/education/private/education_private_03.webp",
+  "placeholder": "https://picsum.photos/seed/5275/1600/1000",
+  "uses": 1,
+  "desc": "Private Lessons | دروس خاصة — 3"
+ },
+ {
+  "group": "education_private",
+  "file": "images/gallery/education/private/education_private_04.webp",
+  "placeholder": "https://picsum.photos/seed/5276/1600/1000",
+  "uses": 1,
+  "desc": "Private Lessons | دروس خاصة — 4"
+ },
+ {
+  "group": "education_private",
+  "file": "images/gallery/education/private/education_private_05.webp",
+  "placeholder": "https://picsum.photos/seed/5277/1600/1000",
+  "uses": 1,
+  "desc": "Private Lessons | دروس خاصة — 5"
+ },
+ {
+  "group": "education_private",
+  "file": "images/gallery/education/private/education_private_06.webp",
+  "placeholder": "https://picsum.photos/seed/5278/1600/1000",
+  "uses": 1,
+  "desc": "Private Lessons | دروس خاصة — 6"
+ },
+ {
+  "group": "education_private",
+  "file": "images/gallery/education/private/education_private_07.webp",
+  "placeholder": "https://picsum.photos/seed/5279/1600/1000",
+  "uses": 1,
+  "desc": "Private Lessons | دروس خاصة — 7"
+ },
+ {
+  "group": "education_online",
+  "file": "images/gallery/education/online/education_online_01.webp",
+  "placeholder": "https://picsum.photos/seed/5280/1600/1000",
+  "uses": 1,
+  "desc": "Online Courses | دورات عن بعد — 1"
+ },
+ {
+  "group": "education_online",
+  "file": "images/gallery/education/online/education_online_02.webp",
+  "placeholder": "https://picsum.photos/seed/5281/1600/1000",
+  "uses": 1,
+  "desc": "Online Courses | دورات عن بعد — 2"
+ },
+ {
+  "group": "education_online",
+  "file": "images/gallery/education/online/education_online_03.webp",
+  "placeholder": "https://picsum.photos/seed/5282/1600/1000",
+  "uses": 1,
+  "desc": "Online Courses | دورات عن بعد — 3"
+ },
+ {
+  "group": "education_online",
+  "file": "images/gallery/education/online/education_online_04.webp",
+  "placeholder": "https://picsum.photos/seed/5283/1600/1000",
+  "uses": 1,
+  "desc": "Online Courses | دورات عن بعد — 4"
+ },
+ {
+  "group": "education_online",
+  "file": "images/gallery/education/online/education_online_05.webp",
+  "placeholder": "https://picsum.photos/seed/5284/1600/1000",
+  "uses": 1,
+  "desc": "Online Courses | دورات عن بعد — 5"
+ },
+ {
+  "group": "education_online",
+  "file": "images/gallery/education/online/education_online_06.webp",
+  "placeholder": "https://picsum.photos/seed/5285/1600/1000",
+  "uses": 1,
+  "desc": "Online Courses | دورات عن بعد — 6"
+ },
+ {
+  "group": "education_online",
+  "file": "images/gallery/education/online/education_online_07.webp",
+  "placeholder": "https://picsum.photos/seed/5286/1600/1000",
+  "uses": 1,
+  "desc": "Online Courses | دورات عن بعد — 7"
+ },
+ {
+  "group": "education_masterclass",
+  "file": "images/gallery/education/masterclass/education_masterclass_01.webp",
+  "placeholder": "https://picsum.photos/seed/5287/1600/1000",
+  "uses": 1,
+  "desc": "Masterclass | ماستر كلاس — 1"
+ },
+ {
+  "group": "education_masterclass",
+  "file": "images/gallery/education/masterclass/education_masterclass_02.webp",
+  "placeholder": "https://picsum.photos/seed/5288/1600/1000",
+  "uses": 1,
+  "desc": "Masterclass | ماستر كلاس — 2"
+ },
+ {
+  "group": "education_masterclass",
+  "file": "images/gallery/education/masterclass/education_masterclass_03.webp",
+  "placeholder": "https://picsum.photos/seed/5289/1600/1000",
+  "uses": 1,
+  "desc": "Masterclass | ماستر كلاس — 3"
+ },
+ {
+  "group": "education_masterclass",
+  "file": "images/gallery/education/masterclass/education_masterclass_04.webp",
+  "placeholder": "https://picsum.photos/seed/5290/1600/1000",
+  "uses": 1,
+  "desc": "Masterclass | ماستر كلاس — 4"
+ },
+ {
+  "group": "education_masterclass",
+  "file": "images/gallery/education/masterclass/education_masterclass_05.webp",
+  "placeholder": "https://picsum.photos/seed/5291/1600/1000",
+  "uses": 1,
+  "desc": "Masterclass | ماستر كلاس — 5"
+ },
+ {
+  "group": "education_masterclass",
+  "file": "images/gallery/education/masterclass/education_masterclass_06.webp",
+  "placeholder": "https://picsum.photos/seed/5292/1600/1000",
+  "uses": 1,
+  "desc": "Masterclass | ماستر كلاس — 6"
+ },
+ {
+  "group": "education_masterclass",
+  "file": "images/gallery/education/masterclass/education_masterclass_07.webp",
+  "placeholder": "https://picsum.photos/seed/5293/1600/1000",
+  "uses": 1,
+  "desc": "Masterclass | ماستر كلاس — 7"
+ },
+ {
+  "group": "photography_photography",
+  "file": "images/gallery/photography/photography/photography_photography_01.webp",
+  "placeholder": "https://picsum.photos/seed/5294/1600/1000",
+  "uses": 1,
+  "desc": "Photography | تصوير فوتوغرافي — 1"
+ },
+ {
+  "group": "photography_photography",
+  "file": "images/gallery/photography/photography/photography_photography_02.webp",
+  "placeholder": "https://picsum.photos/seed/5295/1600/1000",
+  "uses": 1,
+  "desc": "Photography | تصوير فوتوغرافي — 2"
+ },
+ {
+  "group": "photography_photography",
+  "file": "images/gallery/photography/photography/photography_photography_03.webp",
+  "placeholder": "https://picsum.photos/seed/5296/1600/1000",
+  "uses": 1,
+  "desc": "Photography | تصوير فوتوغرافي — 3"
+ },
+ {
+  "group": "photography_photography",
+  "file": "images/gallery/photography/photography/photography_photography_04.webp",
+  "placeholder": "https://picsum.photos/seed/5297/1600/1000",
+  "uses": 1,
+  "desc": "Photography | تصوير فوتوغرافي — 4"
+ },
+ {
+  "group": "photography_photography",
+  "file": "images/gallery/photography/photography/photography_photography_05.webp",
+  "placeholder": "https://picsum.photos/seed/5298/1600/1000",
+  "uses": 1,
+  "desc": "Photography | تصوير فوتوغرافي — 5"
+ },
+ {
+  "group": "photography_photography",
+  "file": "images/gallery/photography/photography/photography_photography_06.webp",
+  "placeholder": "https://picsum.photos/seed/5299/1600/1000",
+  "uses": 1,
+  "desc": "Photography | تصوير فوتوغرافي — 6"
+ },
+ {
+  "group": "photography_photography",
+  "file": "images/gallery/photography/photography/photography_photography_07.webp",
+  "placeholder": "https://picsum.photos/seed/5300/1600/1000",
+  "uses": 1,
+  "desc": "Photography | تصوير فوتوغرافي — 7"
+ },
+ {
+  "group": "photography_decor",
+  "file": "images/gallery/photography/decor/photography_decor_01.webp",
+  "placeholder": "https://picsum.photos/seed/5301/1600/1000",
+  "uses": 1,
+  "desc": "Interior & Decor | الديكور — 1"
+ },
+ {
+  "group": "photography_decor",
+  "file": "images/gallery/photography/decor/photography_decor_02.webp",
+  "placeholder": "https://picsum.photos/seed/5302/1600/1000",
+  "uses": 1,
+  "desc": "Interior & Decor | الديكور — 2"
+ },
+ {
+  "group": "photography_decor",
+  "file": "images/gallery/photography/decor/photography_decor_03.webp",
+  "placeholder": "https://picsum.photos/seed/5303/1600/1000",
+  "uses": 1,
+  "desc": "Interior & Decor | الديكور — 3"
+ },
+ {
+  "group": "photography_decor",
+  "file": "images/gallery/photography/decor/photography_decor_04.webp",
+  "placeholder": "https://picsum.photos/seed/5304/1600/1000",
+  "uses": 1,
+  "desc": "Interior & Decor | الديكور — 4"
+ },
+ {
+  "group": "photography_decor",
+  "file": "images/gallery/photography/decor/photography_decor_05.webp",
+  "placeholder": "https://picsum.photos/seed/5305/1600/1000",
+  "uses": 1,
+  "desc": "Interior & Decor | الديكور — 5"
+ },
+ {
+  "group": "photography_decor",
+  "file": "images/gallery/photography/decor/photography_decor_06.webp",
+  "placeholder": "https://picsum.photos/seed/5306/1600/1000",
+  "uses": 1,
+  "desc": "Interior & Decor | الديكور — 6"
+ },
+ {
+  "group": "photography_decor",
+  "file": "images/gallery/photography/decor/photography_decor_07.webp",
+  "placeholder": "https://picsum.photos/seed/5307/1600/1000",
+  "uses": 1,
+  "desc": "Interior & Decor | الديكور — 7"
+ },
+ {
+  "group": "photography_jewelry",
+  "file": "images/gallery/photography/jewelry/photography_jewelry_01.webp",
+  "placeholder": "https://picsum.photos/seed/5308/1600/1000",
+  "uses": 1,
+  "desc": "Jewelry Design | تصميم المجوهرات — 1"
+ },
+ {
+  "group": "photography_jewelry",
+  "file": "images/gallery/photography/jewelry/photography_jewelry_02.webp",
+  "placeholder": "https://picsum.photos/seed/5309/1600/1000",
+  "uses": 1,
+  "desc": "Jewelry Design | تصميم المجوهرات — 2"
+ },
+ {
+  "group": "photography_jewelry",
+  "file": "images/gallery/photography/jewelry/photography_jewelry_03.webp",
+  "placeholder": "https://picsum.photos/seed/5310/1600/1000",
+  "uses": 1,
+  "desc": "Jewelry Design | تصميم المجوهرات — 3"
+ },
+ {
+  "group": "photography_jewelry",
+  "file": "images/gallery/photography/jewelry/photography_jewelry_04.webp",
+  "placeholder": "https://picsum.photos/seed/5311/1600/1000",
+  "uses": 1,
+  "desc": "Jewelry Design | تصميم المجوهرات — 4"
+ },
+ {
+  "group": "photography_jewelry",
+  "file": "images/gallery/photography/jewelry/photography_jewelry_05.webp",
+  "placeholder": "https://picsum.photos/seed/5312/1600/1000",
+  "uses": 1,
+  "desc": "Jewelry Design | تصميم المجوهرات — 5"
+ },
+ {
+  "group": "photography_jewelry",
+  "file": "images/gallery/photography/jewelry/photography_jewelry_06.webp",
+  "placeholder": "https://picsum.photos/seed/5313/1600/1000",
+  "uses": 1,
+  "desc": "Jewelry Design | تصميم المجوهرات — 6"
+ },
+ {
+  "group": "photography_jewelry",
+  "file": "images/gallery/photography/jewelry/photography_jewelry_07.webp",
+  "placeholder": "https://picsum.photos/seed/5314/1600/1000",
+  "uses": 1,
+  "desc": "Jewelry Design | تصميم المجوهرات — 7"
+ },
+ {
+  "group": "photography_webdesign",
+  "file": "images/gallery/photography/webdesign/photography_webdesign_01.webp",
+  "placeholder": "https://picsum.photos/seed/5315/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم المواقع — 1"
+ },
+ {
+  "group": "photography_webdesign",
+  "file": "images/gallery/photography/webdesign/photography_webdesign_02.webp",
+  "placeholder": "https://picsum.photos/seed/5316/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم المواقع — 2"
+ },
+ {
+  "group": "photography_webdesign",
+  "file": "images/gallery/photography/webdesign/photography_webdesign_03.webp",
+  "placeholder": "https://picsum.photos/seed/5317/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم المواقع — 3"
+ },
+ {
+  "group": "photography_webdesign",
+  "file": "images/gallery/photography/webdesign/photography_webdesign_04.webp",
+  "placeholder": "https://picsum.photos/seed/5318/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم المواقع — 4"
+ },
+ {
+  "group": "photography_webdesign",
+  "file": "images/gallery/photography/webdesign/photography_webdesign_05.webp",
+  "placeholder": "https://picsum.photos/seed/5319/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم المواقع — 5"
+ },
+ {
+  "group": "photography_webdesign",
+  "file": "images/gallery/photography/webdesign/photography_webdesign_06.webp",
+  "placeholder": "https://picsum.photos/seed/5320/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم المواقع — 6"
+ },
+ {
+  "group": "photography_webdesign",
+  "file": "images/gallery/photography/webdesign/photography_webdesign_07.webp",
+  "placeholder": "https://picsum.photos/seed/5321/1600/1000",
+  "uses": 1,
+  "desc": "Web Design | تصميم المواقع — 7"
+ },
+ {
+  "group": "photography_backgrounds",
+  "file": "images/gallery/photography/backgrounds/photography_backgrounds_01.webp",
+  "placeholder": "https://picsum.photos/seed/5322/1600/1000",
+  "uses": 1,
+  "desc": "Background Design | تصميم الخلفيات — 1"
+ },
+ {
+  "group": "photography_backgrounds",
+  "file": "images/gallery/photography/backgrounds/photography_backgrounds_02.webp",
+  "placeholder": "https://picsum.photos/seed/5323/1600/1000",
+  "uses": 1,
+  "desc": "Background Design | تصميم الخلفيات — 2"
+ },
+ {
+  "group": "photography_backgrounds",
+  "file": "images/gallery/photography/backgrounds/photography_backgrounds_03.webp",
+  "placeholder": "https://picsum.photos/seed/5324/1600/1000",
+  "uses": 1,
+  "desc": "Background Design | تصميم الخلفيات — 3"
+ },
+ {
+  "group": "photography_backgrounds",
+  "file": "images/gallery/photography/backgrounds/photography_backgrounds_04.webp",
+  "placeholder": "https://picsum.photos/seed/5325/1600/1000",
+  "uses": 1,
+  "desc": "Background Design | تصميم الخلفيات — 4"
+ },
+ {
+  "group": "photography_backgrounds",
+  "file": "images/gallery/photography/backgrounds/photography_backgrounds_05.webp",
+  "placeholder": "https://picsum.photos/seed/5326/1600/1000",
+  "uses": 1,
+  "desc": "Background Design | تصميم الخلفيات — 5"
+ },
+ {
+  "group": "photography_backgrounds",
+  "file": "images/gallery/photography/backgrounds/photography_backgrounds_06.webp",
+  "placeholder": "https://picsum.photos/seed/5327/1600/1000",
+  "uses": 1,
+  "desc": "Background Design | تصميم الخلفيات — 6"
+ },
+ {
+  "group": "photography_backgrounds",
+  "file": "images/gallery/photography/backgrounds/photography_backgrounds_07.webp",
+  "placeholder": "https://picsum.photos/seed/5328/1600/1000",
+  "uses": 1,
+  "desc": "Background Design | تصميم الخلفيات — 7"
+ },
+ {
+  "group": "photography_3d",
+  "file": "images/gallery/photography/3d/photography_3d_01.webp",
+  "placeholder": "https://picsum.photos/seed/5329/1600/1000",
+  "uses": 1,
+  "desc": "3D Design | تصميم ثلاثي الأبعاد — 1"
+ },
+ {
+  "group": "photography_3d",
+  "file": "images/gallery/photography/3d/photography_3d_02.webp",
+  "placeholder": "https://picsum.photos/seed/5330/1600/1000",
+  "uses": 1,
+  "desc": "3D Design | تصميم ثلاثي الأبعاد — 2"
+ },
+ {
+  "group": "photography_3d",
+  "file": "images/gallery/photography/3d/photography_3d_03.webp",
+  "placeholder": "https://picsum.photos/seed/5331/1600/1000",
+  "uses": 1,
+  "desc": "3D Design | تصميم ثلاثي الأبعاد — 3"
+ },
+ {
+  "group": "photography_3d",
+  "file": "images/gallery/photography/3d/photography_3d_04.webp",
+  "placeholder": "https://picsum.photos/seed/5332/1600/1000",
+  "uses": 1,
+  "desc": "3D Design | تصميم ثلاثي الأبعاد — 4"
+ },
+ {
+  "group": "photography_3d",
+  "file": "images/gallery/photography/3d/photography_3d_05.webp",
+  "placeholder": "https://picsum.photos/seed/5333/1600/1000",
+  "uses": 1,
+  "desc": "3D Design | تصميم ثلاثي الأبعاد — 5"
+ },
+ {
+  "group": "photography_3d",
+  "file": "images/gallery/photography/3d/photography_3d_06.webp",
+  "placeholder": "https://picsum.photos/seed/5334/1600/1000",
+  "uses": 1,
+  "desc": "3D Design | تصميم ثلاثي الأبعاد — 6"
+ },
+ {
+  "group": "photography_3d",
+  "file": "images/gallery/photography/3d/photography_3d_07.webp",
+  "placeholder": "https://picsum.photos/seed/5335/1600/1000",
+  "uses": 1,
+  "desc": "3D Design | تصميم ثلاثي الأبعاد — 7"
+ },
+ {
+  "group": "photography_exhibition",
+  "file": "images/gallery/photography/exhibition/photography_exhibition_01.webp",
+  "placeholder": "https://picsum.photos/seed/5336/1600/1000",
+  "uses": 1,
+  "desc": "Exhibition Stand | أجنحة المعارض — 1"
+ },
+ {
+  "group": "photography_exhibition",
+  "file": "images/gallery/photography/exhibition/photography_exhibition_02.webp",
+  "placeholder": "https://picsum.photos/seed/5337/1600/1000",
+  "uses": 1,
+  "desc": "Exhibition Stand | أجنحة المعارض — 2"
+ },
+ {
+  "group": "photography_exhibition",
+  "file": "images/gallery/photography/exhibition/photography_exhibition_03.webp",
+  "placeholder": "https://picsum.photos/seed/5338/1600/1000",
+  "uses": 1,
+  "desc": "Exhibition Stand | أجنحة المعارض — 3"
+ },
+ {
+  "group": "photography_exhibition",
+  "file": "images/gallery/photography/exhibition/photography_exhibition_04.webp",
+  "placeholder": "https://picsum.photos/seed/5339/1600/1000",
+  "uses": 1,
+  "desc": "Exhibition Stand | أجنحة المعارض — 4"
+ },
+ {
+  "group": "photography_exhibition",
+  "file": "images/gallery/photography/exhibition/photography_exhibition_05.webp",
+  "placeholder": "https://picsum.photos/seed/5340/1600/1000",
+  "uses": 1,
+  "desc": "Exhibition Stand | أجنحة المعارض — 5"
+ },
+ {
+  "group": "photography_exhibition",
+  "file": "images/gallery/photography/exhibition/photography_exhibition_06.webp",
+  "placeholder": "https://picsum.photos/seed/5341/1600/1000",
+  "uses": 1,
+  "desc": "Exhibition Stand | أجنحة المعارض — 6"
+ },
+ {
+  "group": "photography_exhibition",
+  "file": "images/gallery/photography/exhibition/photography_exhibition_07.webp",
+  "placeholder": "https://picsum.photos/seed/5342/1600/1000",
+  "uses": 1,
+  "desc": "Exhibition Stand | أجنحة المعارض — 7"
+ },
+ {
+  "group": "calligraphy_band",
+  "file": "images/pages/calligraphy/band/calligraphy_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7000/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة calligraphy — 1"
+ },
+ {
+  "group": "calligraphy_band",
+  "file": "images/pages/calligraphy/band/calligraphy_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7001/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة calligraphy — 2"
+ },
+ {
+  "group": "calligraphy_band",
+  "file": "images/pages/calligraphy/band/calligraphy_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7002/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة calligraphy — 3"
+ },
+ {
+  "group": "calligraphy_band",
+  "file": "images/pages/calligraphy/band/calligraphy_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/7003/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة calligraphy — 4"
+ },
+ {
+  "group": "calligraphy_band",
+  "file": "images/pages/calligraphy/band/calligraphy_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/7004/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة calligraphy — 5"
+ },
+ {
+  "group": "calligraphy_band",
+  "file": "images/pages/calligraphy/band/calligraphy_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/7005/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة calligraphy — 6"
+ },
+ {
+  "group": "calligraphy_band",
+  "file": "images/pages/calligraphy/band/calligraphy_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/7006/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة calligraphy — 7"
+ },
+ {
+  "group": "horses_band",
+  "file": "images/pages/horses/band/horses_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7007/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة horses — 1"
+ },
+ {
+  "group": "horses_band",
+  "file": "images/pages/horses/band/horses_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7008/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة horses — 2"
+ },
+ {
+  "group": "horses_band",
+  "file": "images/pages/horses/band/horses_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7009/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة horses — 3"
+ },
+ {
+  "group": "ai_band",
+  "file": "images/pages/ai/band/ai_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7010/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة ai — 1"
+ },
+ {
+  "group": "ai_band",
+  "file": "images/pages/ai/band/ai_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7011/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة ai — 2"
+ },
+ {
+  "group": "ai_band",
+  "file": "images/pages/ai/band/ai_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7012/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة ai — 3"
+ },
+ {
+  "group": "design_band",
+  "file": "images/pages/design/band/design_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7013/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة design — 1"
+ },
+ {
+  "group": "design_band",
+  "file": "images/pages/design/band/design_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7014/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة design — 2"
+ },
+ {
+  "group": "design_band",
+  "file": "images/pages/design/band/design_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7015/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة design — 3"
+ },
+ {
+  "group": "portrait_band",
+  "file": "images/pages/portrait/band/portrait_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7016/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة portrait — 1"
+ },
+ {
+  "group": "portrait_band",
+  "file": "images/pages/portrait/band/portrait_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7017/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة portrait — 2"
+ },
+ {
+  "group": "portrait_band",
+  "file": "images/pages/portrait/band/portrait_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7018/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة portrait — 3"
+ },
+ {
+  "group": "education_band",
+  "file": "images/pages/education/band/education_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7019/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة education — 1"
+ },
+ {
+  "group": "education_band",
+  "file": "images/pages/education/band/education_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7020/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة education — 2"
+ },
+ {
+  "group": "education_band",
+  "file": "images/pages/education/band/education_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7021/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة education — 3"
+ },
+ {
+  "group": "photography_band",
+  "file": "images/pages/photography/band/photography_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7022/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة photography — 1"
+ },
+ {
+  "group": "photography_band",
+  "file": "images/pages/photography/band/photography_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7023/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة photography — 2"
+ },
+ {
+  "group": "photography_band",
+  "file": "images/pages/photography/band/photography_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7024/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة photography — 3"
+ },
+ {
+  "group": "photography_band",
+  "file": "images/pages/photography/band/photography_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/7025/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة photography — 4"
+ },
+ {
+  "group": "photography_band",
+  "file": "images/pages/photography/band/photography_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/7026/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة photography — 5"
+ },
+ {
+  "group": "photography_band",
+  "file": "images/pages/photography/band/photography_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/7027/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة photography — 6"
+ },
+ {
+  "group": "photography_band",
+  "file": "images/pages/photography/band/photography_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/7028/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة photography — 7"
+ },
+ {
+  "group": "index_hero",
+  "file": "images/pages/index/hero/index_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/7029/1600/1000",
+  "uses": 1,
+  "desc": "هيرو الرئيسية — شريحة 1"
+ },
+ {
+  "group": "index_hero",
+  "file": "images/pages/index/hero/index_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/7030/1600/1000",
+  "uses": 1,
+  "desc": "هيرو الرئيسية — شريحة 2"
+ },
+ {
+  "group": "index_hero",
+  "file": "images/pages/index/hero/index_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/7031/1600/1000",
+  "uses": 1,
+  "desc": "هيرو الرئيسية — شريحة 3"
+ },
+ {
+  "group": "index_hero",
+  "file": "images/pages/index/hero/index_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/7032/1600/1000",
+  "uses": 1,
+  "desc": "هيرو الرئيسية — شريحة 4"
+ },
+ {
+  "group": "index_hero",
+  "file": "images/pages/index/hero/index_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/7033/1600/1000",
+  "uses": 1,
+  "desc": "هيرو الرئيسية — شريحة 5"
+ },
+ {
+  "group": "index_hero",
+  "file": "images/pages/index/hero/index_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/7034/1600/1000",
+  "uses": 1,
+  "desc": "هيرو الرئيسية — شريحة 6"
+ },
+ {
+  "group": "index_hero",
+  "file": "images/pages/index/hero/index_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/7035/1600/1000",
+  "uses": 1,
+  "desc": "هيرو الرئيسية — شريحة 7"
+ },
+ {
+  "group": "index_band",
+  "file": "images/pages/index/band/index_band_01.webp",
+  "placeholder": "https://picsum.photos/seed/7036/1600/1000",
+  "uses": 1,
+  "desc": "شريط الرئيسية — 1"
+ },
+ {
+  "group": "index_band",
+  "file": "images/pages/index/band/index_band_02.webp",
+  "placeholder": "https://picsum.photos/seed/7037/1600/1000",
+  "uses": 1,
+  "desc": "شريط الرئيسية — 2"
+ },
+ {
+  "group": "index_band",
+  "file": "images/pages/index/band/index_band_03.webp",
+  "placeholder": "https://picsum.photos/seed/7038/1600/1000",
+  "uses": 1,
+  "desc": "شريط الرئيسية — 3"
+ },
+ {
+  "group": "index_band",
+  "file": "images/pages/index/band/index_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/7039/1600/1000",
+  "uses": 1,
+  "desc": "شريط الرئيسية — 4"
+ },
+ {
+  "group": "index_band",
+  "file": "images/pages/index/band/index_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/7040/1600/1000",
+  "uses": 1,
+  "desc": "شريط الرئيسية — 5"
+ },
+ {
+  "group": "index_band",
+  "file": "images/pages/index/band/index_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/7041/1600/1000",
+  "uses": 1,
+  "desc": "شريط الرئيسية — 6"
+ },
+ {
+  "group": "index_band",
+  "file": "images/pages/index/band/index_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/7042/1600/1000",
+  "uses": 1,
+  "desc": "شريط الرئيسية — 7"
+ },
+ {
+  "group": "statement_ai_hero",
+  "file": "images/statement/ai/statement_ai_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9000/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان ai — شريحة 1"
+ },
+ {
+  "group": "statement_ai_hero",
+  "file": "images/statement/ai/statement_ai_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9001/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان ai — شريحة 2"
+ },
+ {
+  "group": "statement_ai_hero",
+  "file": "images/statement/ai/statement_ai_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9002/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان ai — شريحة 3"
+ },
+ {
+  "group": "statement_ai_hero",
+  "file": "images/statement/ai/statement_ai_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9003/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان ai — شريحة 4"
+ },
+ {
+  "group": "statement_ai_hero",
+  "file": "images/statement/ai/statement_ai_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9004/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان ai — شريحة 5"
+ },
+ {
+  "group": "statement_ai_hero",
+  "file": "images/statement/ai/statement_ai_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9005/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان ai — شريحة 6"
+ },
+ {
+  "group": "statement_ai_hero",
+  "file": "images/statement/ai/statement_ai_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9006/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان ai — شريحة 7"
+ },
+ {
+  "group": "statement_calligraphy_hero",
+  "file": "images/statement/calligraphy/statement_calligraphy_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9007/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان calligraphy — شريحة 1"
+ },
+ {
+  "group": "statement_calligraphy_hero",
+  "file": "images/statement/calligraphy/statement_calligraphy_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9008/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان calligraphy — شريحة 2"
+ },
+ {
+  "group": "statement_calligraphy_hero",
+  "file": "images/statement/calligraphy/statement_calligraphy_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9009/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان calligraphy — شريحة 3"
+ },
+ {
+  "group": "statement_calligraphy_hero",
+  "file": "images/statement/calligraphy/statement_calligraphy_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9010/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان calligraphy — شريحة 4"
+ },
+ {
+  "group": "statement_calligraphy_hero",
+  "file": "images/statement/calligraphy/statement_calligraphy_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9011/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان calligraphy — شريحة 5"
+ },
+ {
+  "group": "statement_calligraphy_hero",
+  "file": "images/statement/calligraphy/statement_calligraphy_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9012/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان calligraphy — شريحة 6"
+ },
+ {
+  "group": "statement_calligraphy_hero",
+  "file": "images/statement/calligraphy/statement_calligraphy_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9013/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان calligraphy — شريحة 7"
+ },
+ {
+  "group": "statement_design_hero",
+  "file": "images/statement/design/statement_design_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9014/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان design — شريحة 1"
+ },
+ {
+  "group": "statement_design_hero",
+  "file": "images/statement/design/statement_design_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9015/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان design — شريحة 2"
+ },
+ {
+  "group": "statement_design_hero",
+  "file": "images/statement/design/statement_design_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9016/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان design — شريحة 3"
+ },
+ {
+  "group": "statement_design_hero",
+  "file": "images/statement/design/statement_design_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9017/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان design — شريحة 4"
+ },
+ {
+  "group": "statement_design_hero",
+  "file": "images/statement/design/statement_design_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9018/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان design — شريحة 5"
+ },
+ {
+  "group": "statement_design_hero",
+  "file": "images/statement/design/statement_design_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9019/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان design — شريحة 6"
+ },
+ {
+  "group": "statement_design_hero",
+  "file": "images/statement/design/statement_design_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9020/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان design — شريحة 7"
+ },
+ {
+  "group": "statement_education_hero",
+  "file": "images/statement/education/statement_education_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9021/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان education — شريحة 1"
+ },
+ {
+  "group": "statement_education_hero",
+  "file": "images/statement/education/statement_education_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9022/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان education — شريحة 2"
+ },
+ {
+  "group": "statement_education_hero",
+  "file": "images/statement/education/statement_education_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9023/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان education — شريحة 3"
+ },
+ {
+  "group": "statement_education_hero",
+  "file": "images/statement/education/statement_education_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9024/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان education — شريحة 4"
+ },
+ {
+  "group": "statement_education_hero",
+  "file": "images/statement/education/statement_education_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9025/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان education — شريحة 5"
+ },
+ {
+  "group": "statement_education_hero",
+  "file": "images/statement/education/statement_education_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9026/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان education — شريحة 6"
+ },
+ {
+  "group": "statement_education_hero",
+  "file": "images/statement/education/statement_education_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9027/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان education — شريحة 7"
+ },
+ {
+  "group": "statement_horses_hero",
+  "file": "images/statement/horses/statement_horses_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9028/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان horses — شريحة 1"
+ },
+ {
+  "group": "statement_horses_hero",
+  "file": "images/statement/horses/statement_horses_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9029/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان horses — شريحة 2"
+ },
+ {
+  "group": "statement_horses_hero",
+  "file": "images/statement/horses/statement_horses_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9030/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان horses — شريحة 3"
+ },
+ {
+  "group": "statement_horses_hero",
+  "file": "images/statement/horses/statement_horses_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9031/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان horses — شريحة 4"
+ },
+ {
+  "group": "statement_horses_hero",
+  "file": "images/statement/horses/statement_horses_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9032/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان horses — شريحة 5"
+ },
+ {
+  "group": "statement_horses_hero",
+  "file": "images/statement/horses/statement_horses_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9033/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان horses — شريحة 6"
+ },
+ {
+  "group": "statement_horses_hero",
+  "file": "images/statement/horses/statement_horses_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9034/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان horses — شريحة 7"
+ },
+ {
+  "group": "statement_photography_hero",
+  "file": "images/statement/photography/statement_photography_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9035/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان photography — شريحة 1"
+ },
+ {
+  "group": "statement_photography_hero",
+  "file": "images/statement/photography/statement_photography_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9036/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان photography — شريحة 2"
+ },
+ {
+  "group": "statement_photography_hero",
+  "file": "images/statement/photography/statement_photography_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9037/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان photography — شريحة 3"
+ },
+ {
+  "group": "statement_photography_hero",
+  "file": "images/statement/photography/statement_photography_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9038/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان photography — شريحة 4"
+ },
+ {
+  "group": "statement_photography_hero",
+  "file": "images/statement/photography/statement_photography_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9039/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان photography — شريحة 5"
+ },
+ {
+  "group": "statement_photography_hero",
+  "file": "images/statement/photography/statement_photography_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9040/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان photography — شريحة 6"
+ },
+ {
+  "group": "statement_photography_hero",
+  "file": "images/statement/photography/statement_photography_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9041/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان photography — شريحة 7"
+ },
+ {
+  "group": "statement_portrait_hero",
+  "file": "images/statement/portrait/statement_portrait_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9042/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان portrait — شريحة 1"
+ },
+ {
+  "group": "statement_portrait_hero",
+  "file": "images/statement/portrait/statement_portrait_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9043/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان portrait — شريحة 2"
+ },
+ {
+  "group": "statement_portrait_hero",
+  "file": "images/statement/portrait/statement_portrait_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9044/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان portrait — شريحة 3"
+ },
+ {
+  "group": "statement_portrait_hero",
+  "file": "images/statement/portrait/statement_portrait_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9045/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان portrait — شريحة 4"
+ },
+ {
+  "group": "statement_portrait_hero",
+  "file": "images/statement/portrait/statement_portrait_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9046/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان portrait — شريحة 5"
+ },
+ {
+  "group": "statement_portrait_hero",
+  "file": "images/statement/portrait/statement_portrait_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9047/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان portrait — شريحة 6"
+ },
+ {
+  "group": "statement_portrait_hero",
+  "file": "images/statement/portrait/statement_portrait_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9048/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان portrait — شريحة 7"
+ },
+ {
+  "group": "statement_main_hero",
+  "file": "images/statement/main/statement_main_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/9049/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان main — شريحة 1"
+ },
+ {
+  "group": "statement_main_hero",
+  "file": "images/statement/main/statement_main_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/9050/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان main — شريحة 2"
+ },
+ {
+  "group": "statement_main_hero",
+  "file": "images/statement/main/statement_main_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/9051/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان main — شريحة 3"
+ },
+ {
+  "group": "statement_main_hero",
+  "file": "images/statement/main/statement_main_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/9052/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان main — شريحة 4"
+ },
+ {
+  "group": "statement_main_hero",
+  "file": "images/statement/main/statement_main_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/9053/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان main — شريحة 5"
+ },
+ {
+  "group": "statement_main_hero",
+  "file": "images/statement/main/statement_main_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/9054/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان main — شريحة 6"
+ },
+ {
+  "group": "statement_main_hero",
+  "file": "images/statement/main/statement_main_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/9055/1600/1000",
+  "uses": 1,
+  "desc": "هيرو البيان main — شريحة 7"
+ },
+ {
+  "group": "about_portrait",
+  "file": "images/about/portrait/about_portrait_01.webp",
+  "placeholder": "BASE64#about_portrait#1",
+  "uses": 1,
+  "desc": "شريحة بورتريه — 1"
+ },
+ {
+  "group": "about_portrait",
+  "file": "images/about/portrait/about_portrait_02.webp",
+  "placeholder": "BASE64#about_portrait#2",
+  "uses": 1,
+  "desc": "شريحة بورتريه — 2"
+ },
+ {
+  "group": "about_portrait",
+  "file": "images/about/portrait/about_portrait_03.webp",
+  "placeholder": "BASE64#about_portrait#3",
+  "uses": 1,
+  "desc": "شريحة بورتريه — 3"
+ },
+ {
+  "group": "about_portrait",
+  "file": "images/about/portrait/about_portrait_04.webp",
+  "placeholder": "BASE64#about_portrait#4",
+  "uses": 1,
+  "desc": "شريحة بورتريه — 4"
+ },
+ {
+  "group": "about_portrait",
+  "file": "images/about/portrait/about_portrait_05.webp",
+  "placeholder": "BASE64#about_portrait#5",
+  "uses": 1,
+  "desc": "شريحة بورتريه — 5"
+ },
+ {
+  "group": "about_portrait",
+  "file": "images/about/portrait/about_portrait_06.webp",
+  "placeholder": "BASE64#about_portrait#6",
+  "uses": 1,
+  "desc": "شريحة بورتريه — 6"
+ },
+ {
+  "group": "about_portrait",
+  "file": "images/about/portrait/about_portrait_07.webp",
+  "placeholder": "BASE64#about_portrait#7",
+  "uses": 1,
+  "desc": "شريحة بورتريه — 7"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_01.webp",
+  "placeholder": "BASE64#about_workshop#1",
+  "uses": 1,
+  "desc": "صورة ورشة — 1"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_02.webp",
+  "placeholder": "BASE64#about_workshop#2",
+  "uses": 1,
+  "desc": "صورة ورشة — 2"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_03.webp",
+  "placeholder": "BASE64#about_workshop#3",
+  "uses": 1,
+  "desc": "صورة ورشة — 3"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_04.webp",
+  "placeholder": "BASE64#about_workshop#4",
+  "uses": 1,
+  "desc": "صورة ورشة — 4"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_05.webp",
+  "placeholder": "BASE64#about_workshop#5",
+  "uses": 1,
+  "desc": "صورة ورشة — 5"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_06.webp",
+  "placeholder": "BASE64#about_workshop#6",
+  "uses": 1,
+  "desc": "صورة ورشة — 6"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_07.webp",
+  "placeholder": "BASE64#about_workshop#7",
+  "uses": 1,
+  "desc": "صورة ورشة — 7"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_08.webp",
+  "placeholder": "BASE64#about_workshop#8",
+  "uses": 1,
+  "desc": "صورة ورشة — 8"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_09.webp",
+  "placeholder": "BASE64#about_workshop#9",
+  "uses": 1,
+  "desc": "صورة ورشة — 9"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_10.webp",
+  "placeholder": "BASE64#about_workshop#10",
+  "uses": 1,
+  "desc": "صورة ورشة — 10"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_11.webp",
+  "placeholder": "BASE64#about_workshop#11",
+  "uses": 1,
+  "desc": "صورة ورشة — 11"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_12.webp",
+  "placeholder": "BASE64#about_workshop#12",
+  "uses": 1,
+  "desc": "صورة ورشة — 12"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_13.webp",
+  "placeholder": "BASE64#about_workshop#13",
+  "uses": 1,
+  "desc": "صورة ورشة — 13"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_14.webp",
+  "placeholder": "BASE64#about_workshop#14",
+  "uses": 1,
+  "desc": "صورة ورشة — 14"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_15.webp",
+  "placeholder": "BASE64#about_workshop#15",
+  "uses": 1,
+  "desc": "صورة ورشة — 15"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_16.webp",
+  "placeholder": "BASE64#about_workshop#16",
+  "uses": 1,
+  "desc": "صورة ورشة — 16"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_17.webp",
+  "placeholder": "BASE64#about_workshop#17",
+  "uses": 1,
+  "desc": "صورة ورشة — 17"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_18.webp",
+  "placeholder": "BASE64#about_workshop#18",
+  "uses": 1,
+  "desc": "صورة ورشة — 18"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_19.webp",
+  "placeholder": "BASE64#about_workshop#19",
+  "uses": 1,
+  "desc": "صورة ورشة — 19"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_20.webp",
+  "placeholder": "BASE64#about_workshop#20",
+  "uses": 1,
+  "desc": "صورة ورشة — 20"
+ },
+ {
+  "group": "about_workshop",
+  "file": "images/about/workshop/about_workshop_21.webp",
+  "placeholder": "BASE64#about_workshop#21",
+  "uses": 1,
+  "desc": "صورة ورشة — 21"
+ },
+ {
+  "group": "calligraphy_shero",
+  "file": "images/gallery/calligraphy/_hero/calligraphy_shero_01.webp",
+  "placeholder": "https://picsum.photos/seed/12000/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري calligraphy — شريحة 1"
+ },
+ {
+  "group": "calligraphy_shero",
+  "file": "images/gallery/calligraphy/_hero/calligraphy_shero_02.webp",
+  "placeholder": "https://picsum.photos/seed/12001/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري calligraphy — شريحة 2"
+ },
+ {
+  "group": "calligraphy_shero",
+  "file": "images/gallery/calligraphy/_hero/calligraphy_shero_03.webp",
+  "placeholder": "https://picsum.photos/seed/12002/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري calligraphy — شريحة 3"
+ },
+ {
+  "group": "calligraphy_shero",
+  "file": "images/gallery/calligraphy/_hero/calligraphy_shero_04.webp",
+  "placeholder": "https://picsum.photos/seed/12003/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري calligraphy — شريحة 4"
+ },
+ {
+  "group": "calligraphy_shero",
+  "file": "images/gallery/calligraphy/_hero/calligraphy_shero_05.webp",
+  "placeholder": "https://picsum.photos/seed/12004/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري calligraphy — شريحة 5"
+ },
+ {
+  "group": "calligraphy_shero",
+  "file": "images/gallery/calligraphy/_hero/calligraphy_shero_06.webp",
+  "placeholder": "https://picsum.photos/seed/12005/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري calligraphy — شريحة 6"
+ },
+ {
+  "group": "calligraphy_shero",
+  "file": "images/gallery/calligraphy/_hero/calligraphy_shero_07.webp",
+  "placeholder": "https://picsum.photos/seed/12006/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري calligraphy — شريحة 7"
+ },
+ {
+  "group": "horses_shero",
+  "file": "images/gallery/horses/_hero/horses_shero_01.webp",
+  "placeholder": "https://picsum.photos/seed/12007/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري horses — شريحة 1"
+ },
+ {
+  "group": "horses_shero",
+  "file": "images/gallery/horses/_hero/horses_shero_02.webp",
+  "placeholder": "https://picsum.photos/seed/12008/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري horses — شريحة 2"
+ },
+ {
+  "group": "horses_shero",
+  "file": "images/gallery/horses/_hero/horses_shero_03.webp",
+  "placeholder": "https://picsum.photos/seed/12009/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري horses — شريحة 3"
+ },
+ {
+  "group": "horses_shero",
+  "file": "images/gallery/horses/_hero/horses_shero_04.webp",
+  "placeholder": "https://picsum.photos/seed/12010/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري horses — شريحة 4"
+ },
+ {
+  "group": "horses_shero",
+  "file": "images/gallery/horses/_hero/horses_shero_05.webp",
+  "placeholder": "https://picsum.photos/seed/12011/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري horses — شريحة 5"
+ },
+ {
+  "group": "horses_shero",
+  "file": "images/gallery/horses/_hero/horses_shero_06.webp",
+  "placeholder": "https://picsum.photos/seed/12012/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري horses — شريحة 6"
+ },
+ {
+  "group": "horses_shero",
+  "file": "images/gallery/horses/_hero/horses_shero_07.webp",
+  "placeholder": "https://picsum.photos/seed/12013/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري horses — شريحة 7"
+ },
+ {
+  "group": "ai_shero",
+  "file": "images/gallery/ai/_hero/ai_shero_01.webp",
+  "placeholder": "https://picsum.photos/seed/12014/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري ai — شريحة 1"
+ },
+ {
+  "group": "ai_shero",
+  "file": "images/gallery/ai/_hero/ai_shero_02.webp",
+  "placeholder": "https://picsum.photos/seed/12015/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري ai — شريحة 2"
+ },
+ {
+  "group": "ai_shero",
+  "file": "images/gallery/ai/_hero/ai_shero_03.webp",
+  "placeholder": "https://picsum.photos/seed/12016/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري ai — شريحة 3"
+ },
+ {
+  "group": "ai_shero",
+  "file": "images/gallery/ai/_hero/ai_shero_04.webp",
+  "placeholder": "https://picsum.photos/seed/12017/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري ai — شريحة 4"
+ },
+ {
+  "group": "ai_shero",
+  "file": "images/gallery/ai/_hero/ai_shero_05.webp",
+  "placeholder": "https://picsum.photos/seed/12018/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري ai — شريحة 5"
+ },
+ {
+  "group": "ai_shero",
+  "file": "images/gallery/ai/_hero/ai_shero_06.webp",
+  "placeholder": "https://picsum.photos/seed/12019/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري ai — شريحة 6"
+ },
+ {
+  "group": "ai_shero",
+  "file": "images/gallery/ai/_hero/ai_shero_07.webp",
+  "placeholder": "https://picsum.photos/seed/12020/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري ai — شريحة 7"
+ },
+ {
+  "group": "design_shero",
+  "file": "images/gallery/design/_hero/design_shero_01.webp",
+  "placeholder": "https://picsum.photos/seed/12021/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري design — شريحة 1"
+ },
+ {
+  "group": "design_shero",
+  "file": "images/gallery/design/_hero/design_shero_02.webp",
+  "placeholder": "https://picsum.photos/seed/12022/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري design — شريحة 2"
+ },
+ {
+  "group": "design_shero",
+  "file": "images/gallery/design/_hero/design_shero_03.webp",
+  "placeholder": "https://picsum.photos/seed/12023/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري design — شريحة 3"
+ },
+ {
+  "group": "design_shero",
+  "file": "images/gallery/design/_hero/design_shero_04.webp",
+  "placeholder": "https://picsum.photos/seed/12024/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري design — شريحة 4"
+ },
+ {
+  "group": "design_shero",
+  "file": "images/gallery/design/_hero/design_shero_05.webp",
+  "placeholder": "https://picsum.photos/seed/12025/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري design — شريحة 5"
+ },
+ {
+  "group": "design_shero",
+  "file": "images/gallery/design/_hero/design_shero_06.webp",
+  "placeholder": "https://picsum.photos/seed/12026/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري design — شريحة 6"
+ },
+ {
+  "group": "design_shero",
+  "file": "images/gallery/design/_hero/design_shero_07.webp",
+  "placeholder": "https://picsum.photos/seed/12027/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري design — شريحة 7"
+ },
+ {
+  "group": "portrait_shero",
+  "file": "images/gallery/portrait/_hero/portrait_shero_01.webp",
+  "placeholder": "https://picsum.photos/seed/12028/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري portrait — شريحة 1"
+ },
+ {
+  "group": "portrait_shero",
+  "file": "images/gallery/portrait/_hero/portrait_shero_02.webp",
+  "placeholder": "https://picsum.photos/seed/12029/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري portrait — شريحة 2"
+ },
+ {
+  "group": "portrait_shero",
+  "file": "images/gallery/portrait/_hero/portrait_shero_03.webp",
+  "placeholder": "https://picsum.photos/seed/12030/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري portrait — شريحة 3"
+ },
+ {
+  "group": "portrait_shero",
+  "file": "images/gallery/portrait/_hero/portrait_shero_04.webp",
+  "placeholder": "https://picsum.photos/seed/12031/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري portrait — شريحة 4"
+ },
+ {
+  "group": "portrait_shero",
+  "file": "images/gallery/portrait/_hero/portrait_shero_05.webp",
+  "placeholder": "https://picsum.photos/seed/12032/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري portrait — شريحة 5"
+ },
+ {
+  "group": "portrait_shero",
+  "file": "images/gallery/portrait/_hero/portrait_shero_06.webp",
+  "placeholder": "https://picsum.photos/seed/12033/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري portrait — شريحة 6"
+ },
+ {
+  "group": "portrait_shero",
+  "file": "images/gallery/portrait/_hero/portrait_shero_07.webp",
+  "placeholder": "https://picsum.photos/seed/12034/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري portrait — شريحة 7"
+ },
+ {
+  "group": "education_shero",
+  "file": "images/gallery/education/_hero/education_shero_01.webp",
+  "placeholder": "https://picsum.photos/seed/12035/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري education — شريحة 1"
+ },
+ {
+  "group": "education_shero",
+  "file": "images/gallery/education/_hero/education_shero_02.webp",
+  "placeholder": "https://picsum.photos/seed/12036/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري education — شريحة 2"
+ },
+ {
+  "group": "education_shero",
+  "file": "images/gallery/education/_hero/education_shero_03.webp",
+  "placeholder": "https://picsum.photos/seed/12037/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري education — شريحة 3"
+ },
+ {
+  "group": "education_shero",
+  "file": "images/gallery/education/_hero/education_shero_04.webp",
+  "placeholder": "https://picsum.photos/seed/12038/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري education — شريحة 4"
+ },
+ {
+  "group": "education_shero",
+  "file": "images/gallery/education/_hero/education_shero_05.webp",
+  "placeholder": "https://picsum.photos/seed/12039/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري education — شريحة 5"
+ },
+ {
+  "group": "education_shero",
+  "file": "images/gallery/education/_hero/education_shero_06.webp",
+  "placeholder": "https://picsum.photos/seed/12040/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري education — شريحة 6"
+ },
+ {
+  "group": "education_shero",
+  "file": "images/gallery/education/_hero/education_shero_07.webp",
+  "placeholder": "https://picsum.photos/seed/12041/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري education — شريحة 7"
+ },
+ {
+  "group": "photography_shero",
+  "file": "images/gallery/photography/_hero/photography_shero_01.webp",
+  "placeholder": "https://picsum.photos/seed/12042/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري photography — شريحة 1"
+ },
+ {
+  "group": "photography_shero",
+  "file": "images/gallery/photography/_hero/photography_shero_02.webp",
+  "placeholder": "https://picsum.photos/seed/12043/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري photography — شريحة 2"
+ },
+ {
+  "group": "photography_shero",
+  "file": "images/gallery/photography/_hero/photography_shero_03.webp",
+  "placeholder": "https://picsum.photos/seed/12044/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري photography — شريحة 3"
+ },
+ {
+  "group": "photography_shero",
+  "file": "images/gallery/photography/_hero/photography_shero_04.webp",
+  "placeholder": "https://picsum.photos/seed/12045/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري photography — شريحة 4"
+ },
+ {
+  "group": "photography_shero",
+  "file": "images/gallery/photography/_hero/photography_shero_05.webp",
+  "placeholder": "https://picsum.photos/seed/12046/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري photography — شريحة 5"
+ },
+ {
+  "group": "photography_shero",
+  "file": "images/gallery/photography/_hero/photography_shero_06.webp",
+  "placeholder": "https://picsum.photos/seed/12047/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري photography — شريحة 6"
+ },
+ {
+  "group": "photography_shero",
+  "file": "images/gallery/photography/_hero/photography_shero_07.webp",
+  "placeholder": "https://picsum.photos/seed/12048/1600/1000",
+  "uses": 1,
+  "desc": "هيرو غاليري photography — شريحة 7"
+ },
+ {
+  "group": "gallery_main_hero",
+  "file": "images/gallery/_main/gallery_main_hero_01.webp",
+  "placeholder": "https://picsum.photos/seed/14/1600/1000",
+  "uses": 1,
+  "desc": "هيرو المعرض العام — شريحة 1"
+ },
+ {
+  "group": "gallery_main_hero",
+  "file": "images/gallery/_main/gallery_main_hero_02.webp",
+  "placeholder": "https://picsum.photos/seed/967/1600/1000",
+  "uses": 1,
+  "desc": "هيرو المعرض العام — شريحة 2"
+ },
+ {
+  "group": "gallery_main_hero",
+  "file": "images/gallery/_main/gallery_main_hero_03.webp",
+  "placeholder": "https://picsum.photos/seed/640/1600/1000",
+  "uses": 1,
+  "desc": "هيرو المعرض العام — شريحة 3"
+ },
+ {
+  "group": "gallery_main_hero",
+  "file": "images/gallery/_main/gallery_main_hero_04.webp",
+  "placeholder": "https://picsum.photos/seed/995/1600/1000",
+  "uses": 1,
+  "desc": "هيرو المعرض العام — شريحة 4"
+ },
+ {
+  "group": "gallery_main_hero",
+  "file": "images/gallery/_main/gallery_main_hero_05.webp",
+  "placeholder": "https://picsum.photos/seed/404/1600/1000",
+  "uses": 1,
+  "desc": "هيرو المعرض العام — شريحة 5"
+ },
+ {
+  "group": "gallery_main_hero",
+  "file": "images/gallery/_main/gallery_main_hero_06.webp",
+  "placeholder": "https://picsum.photos/seed/732/1600/1000",
+  "uses": 1,
+  "desc": "هيرو المعرض العام — شريحة 6"
+ },
+ {
+  "group": "gallery_main_hero",
+  "file": "images/gallery/_main/gallery_main_hero_07.webp",
+  "placeholder": "https://picsum.photos/seed/505/1600/1000",
+  "uses": 1,
+  "desc": "هيرو المعرض العام — شريحة 7"
+ },
+ {
+  "group": "horses_band",
+  "file": "images/pages/horses/band/horses_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/20000/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة horses — 4"
+ },
+ {
+  "group": "horses_band",
+  "file": "images/pages/horses/band/horses_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/20001/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة horses — 5"
+ },
+ {
+  "group": "horses_band",
+  "file": "images/pages/horses/band/horses_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/20002/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة horses — 6"
+ },
+ {
+  "group": "horses_band",
+  "file": "images/pages/horses/band/horses_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/20003/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة horses — 7"
+ },
+ {
+  "group": "ai_band",
+  "file": "images/pages/ai/band/ai_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/20004/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة ai — 4"
+ },
+ {
+  "group": "ai_band",
+  "file": "images/pages/ai/band/ai_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/20005/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة ai — 5"
+ },
+ {
+  "group": "ai_band",
+  "file": "images/pages/ai/band/ai_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/20006/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة ai — 6"
+ },
+ {
+  "group": "ai_band",
+  "file": "images/pages/ai/band/ai_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/20007/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة ai — 7"
+ },
+ {
+  "group": "design_band",
+  "file": "images/pages/design/band/design_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/20008/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة design — 4"
+ },
+ {
+  "group": "design_band",
+  "file": "images/pages/design/band/design_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/20009/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة design — 5"
+ },
+ {
+  "group": "design_band",
+  "file": "images/pages/design/band/design_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/20010/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة design — 6"
+ },
+ {
+  "group": "design_band",
+  "file": "images/pages/design/band/design_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/20011/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة design — 7"
+ },
+ {
+  "group": "portrait_band",
+  "file": "images/pages/portrait/band/portrait_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/20012/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة portrait — 4"
+ },
+ {
+  "group": "portrait_band",
+  "file": "images/pages/portrait/band/portrait_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/20013/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة portrait — 5"
+ },
+ {
+  "group": "portrait_band",
+  "file": "images/pages/portrait/band/portrait_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/20014/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة portrait — 6"
+ },
+ {
+  "group": "portrait_band",
+  "file": "images/pages/portrait/band/portrait_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/20015/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة portrait — 7"
+ },
+ {
+  "group": "education_band",
+  "file": "images/pages/education/band/education_band_04.webp",
+  "placeholder": "https://picsum.photos/seed/20016/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة education — 4"
+ },
+ {
+  "group": "education_band",
+  "file": "images/pages/education/band/education_band_05.webp",
+  "placeholder": "https://picsum.photos/seed/20017/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة education — 5"
+ },
+ {
+  "group": "education_band",
+  "file": "images/pages/education/band/education_band_06.webp",
+  "placeholder": "https://picsum.photos/seed/20018/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة education — 6"
+ },
+ {
+  "group": "education_band",
+  "file": "images/pages/education/band/education_band_07.webp",
+  "placeholder": "https://picsum.photos/seed/20019/1600/1000",
+  "uses": 1,
+  "desc": "شريط صفحة education — 7"
+ }
+]

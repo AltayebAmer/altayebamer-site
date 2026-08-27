@@ -1,0 +1,11 @@
+services:
+  site:
+    build: .
+    container_name: altayebamer-test
+    ports:
+      - "8080:80"
+    # Live-mount the project so edits appear on refresh (no rebuild needed)
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped

@@ -1,0 +1,27 @@
+# Cloudflare Pages redirects
+
+# دخول مباشر لصفحات المعرض الفرعية بلا شرطة أخيرة
+/gallery/ai            /gallery/ai/index.html            200
+/gallery/horses        /gallery/horses/index.html        200
+/gallery/calligraphy   /gallery/calligraphy/index.html   200
+/gallery/portrait      /gallery/portrait/index.html      200
+/gallery/design        /gallery/design/index.html        200
+/gallery/education     /gallery/education/index.html     200
+/gallery/photography   /gallery/photography/index.html   200
+
+# قسم البيان الفني
+/statement/ai          /statement/ai/index.html          200
+/statement/horses      /statement/horses/index.html      200
+/statement/calligraphy /statement/calligraphy/index.html 200
+/statement/portrait    /statement/portrait/index.html    200
+/statement/design      /statement/design/index.html      200
+/statement/education   /statement/education/index.html   200
+/statement/photography /statement/photography/index.html 200
+
+# «الرحلة» لم تكن صفحة مستقلة قط — القصة في «عن الفنان»
+/journey     /about/   301
+/journey/*   /about/   301
+
+# اختصارات مريحة
+/cv      /cv-en.html   301
+/resume  /cv-en.html   301

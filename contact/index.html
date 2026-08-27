@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Altayeb Amer</title>
+<link rel="canonical" href="https://altayebamer.com/contact/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#050504">
+<meta name="author" content="Altayeb Amer">
+<meta property="og:site_name" content="Altayeb Amer">
+<meta property="og:url" content="https://altayebamer.com/contact/">
+<meta property="og:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Altayeb Amer — Visual Artist, Dubai">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AE">
+<meta name="twitter:image" content="https://altayebamer.com/assets/og-image.jpg">
+<meta name="twitter:title" content="Contact — Altayeb Amer">
+<meta name="twitter:description" content="Get in touch with Altayeb Amer for artworks, collaborations and enquiries.">
+<meta property="og:title" content="Contact — Altayeb Amer">
+<meta property="og:description" content="Get in touch with Altayeb Amer for artworks, collaborations and enquiries.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="Get in touch with Altayeb Amer for artworks, collaborations and enquiries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&family=IBM+Plex+Arabic:wght@200;300&display=swap" rel="stylesheet">
+<style>
+:root{--void:#050504;--gold:#C8A96E;--gold-dim:rgba(200,169,110,.35);--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:auto;min-height:100vh}
+
+/* CURSOR */
+#cur{opacity:0;position:fixed;width:5px;height:5px;background:rgba(200,169,110,.7);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+.ink-splash{position:fixed;border-radius:50%;pointer-events:none;z-index:9998;width:120px;height:120px;background:radial-gradient(circle,rgba(200,169,110,.22)0%,rgba(200,169,110,.08)45%,transparent 72%);transform:translate(-50%,-50%) scale(0);animation:splash .75s cubic-bezier(.15,1,.3,1) forwards}
+@keyframes splash{0%{transform:translate(-50%,-50%) scale(0);opacity:1}65%{transform:translate(-50%,-50%) scale(1);opacity:.7}100%{transform:translate(-50%,-50%) scale(1.4);opacity:0}}
+
+/* LANG */
+#lang-btn{position:fixed;top:1.55rem;left:1.6rem;z-index:8000;width:40px;height:40px;border-radius:50%;border:1px solid transparent;display:flex;align-items:center;justify-content:center;cursor:auto;opacity:0;transition:opacity .5s,border-color .4s;background:transparent}
+#lang-btn.near{opacity:.45;border-color:rgba(200,169,110,.2)}
+#lang-btn:hover{opacity:1!important;border-color:var(--gold)!important}
+#lang-btn span{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;color:rgba(200,169,110,.5);transition:color .4s;user-select:none}
+#lang-btn:hover span{color:var(--gold)}
+#ink-veil{position:fixed;inset:0;z-index:8500;pointer-events:none;overflow:hidden}
+#ink-blob{position:absolute;border-radius:50%;background:var(--void);transform:translate(-50%,-50%) scale(0);will-change:transform}
+#ink-blob.grow{width:300vmax;height:300vmax;transform:translate(-50%,-50%) scale(1);transition:transform .95s cubic-bezier(.22,1,.36,1)}
+#ink-blob.shrink{transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.4,0,.6,1)}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:700;padding:1.6rem 2.5rem 1.6rem 5.5rem;display:flex;align-items:center;justify-content:flex-end;gap:2.5rem;flex-wrap:nowrap;background:linear-gradient(to bottom,rgba(5,5,4,.8)0%,transparent 100%)}
+nav a{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:.25em;color:var(--ivory2);text-decoration:none;text-transform:uppercase;transition:color .3s;white-space:nowrap}
+nav a:hover,nav a.active{color:var(--gold)}
+
+/* PAGE */
+.page-wrap{max-width:1100px;margin:0 auto;padding:0 2rem}
+
+/* HERO HEADER */
+.contact-header{padding:10rem 0 5rem;text-align:center;position:relative}
+.contact-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 60%,rgba(200,169,110,.06)0%,transparent 70%);pointer-events:none}
+.page-tag{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.5em;text-transform:uppercase;color:rgba(200,169,110,.45);margin-bottom:1.5rem}
+.page-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,6vw,5rem);font-weight:300;color:var(--ivory);line-height:1.1;margin-bottom:1.2rem}
+[data-lang="ar"] .page-title{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+.page-rule{width:80px;height:1px;background:linear-gradient(to right,transparent,var(--gold),transparent);margin:0 auto 1.5rem}
+.page-sub{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;font-style:italic;color:rgba(200,169,110,.55);letter-spacing:.05em}
+
+/* CONTACT GRID */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;padding:4rem 0 6rem;align-items:start}
+
+/* FORM */
+.form-side{}
+.form-label{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.35em;text-transform:uppercase;color:rgba(200,169,110,.5);display:block;margin-bottom:.6rem}
+.form-group{margin-bottom:2rem;position:relative}
+.form-input,.form-textarea{
+  width:100%;background:transparent;border:none;border-bottom:1px solid rgba(200,169,110,.2);
+  padding:.75rem 0;color:var(--ivory);font-family:'Cormorant Garamond',serif;font-size:1.05rem;
+  font-weight:300;outline:none;transition:border-color .4s;resize:none;
+}
+[data-lang="ar"] .form-input,[data-lang="ar"] .form-textarea{font-family:'IBM Plex Arabic',sans-serif;font-size:.95rem;direction:rtl}
+.form-input::placeholder,.form-textarea::placeholder{color:rgba(240,235,225,.2);font-style:italic}
+.form-input:focus,.form-textarea:focus{border-bottom-color:var(--gold)}
+.form-input:focus + .form-line,.form-textarea:focus + .form-line{transform:scaleX(1)}
+.form-line{position:absolute;bottom:0;left:0;right:0;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .5s cubic-bezier(.4,0,.2,1)}
+.form-textarea{min-height:140px;line-height:1.7}
+
+.send-btn{
+  display:inline-flex;align-items:center;gap:1rem;
+  font-family:'Cinzel',serif;font-size:.8rem;letter-spacing:.35em;text-transform:uppercase;
+  color:var(--void);background:var(--gold);border:1px solid var(--gold);
+  padding:1rem 2.5rem;cursor:auto;transition:background .35s,color .35s;
+  position:relative;overflow:hidden;margin-top:.5rem;
+}
+.send-btn:hover{background:transparent;color:var(--gold)}
+.send-btn .arrow{font-size:.9rem;transition:transform .3s}
+.send-btn:hover .arrow{transform:translateX(5px)}
+
+.success-msg{
+  display:none;padding:1.2rem 1.5rem;border:1px solid rgba(200,169,110,.3);
+  font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;
+  color:var(--gold);background:rgba(200,169,110,.05);margin-top:1.5rem;
+}
+.success-msg.show{display:block}
+.error-msg{
+  display:none;padding:1.2rem 1.5rem;border:1px solid rgba(200,90,70,.35);
+  font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;
+  color:#c86a5a;background:rgba(200,90,70,.05);margin-top:1.5rem;
+}
+.error-msg.show{display:block}
+.send-btn[disabled]{opacity:.5;pointer-events:none}
+
+/* CONNECT SIDE */
+.connect-side{padding-top:.5rem}
+.connect-title{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.45em;text-transform:uppercase;color:rgba(200,169,110,.4);margin-bottom:2rem}
+
+.channel{
+  display:flex;align-items:center;gap:1.2rem;padding:1.5rem 0;
+  border-bottom:1px solid rgba(200,169,110,.1);cursor:auto;
+  text-decoration:none;color:var(--ivory);transition:all .35s;group;
+}
+.channel:last-child{border-bottom:none}
+.channel:hover{padding-left:.8rem}
+.channel-icon{
+  width:46px;height:46px;border:1px solid rgba(200,169,110,.25);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  transition:border-color .35s,background .35s;
+}
+.channel:hover .channel-icon{border-color:var(--gold);background:rgba(200,169,110,.08)}
+.channel-icon svg{width:20px;height:20px;fill:var(--gold)}
+.channel-body{}
+.channel-name{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem}
+.channel-desc{font-family:'Cormorant Garamond',serif;font-size:.95rem;font-style:italic;color:rgba(200,169,110,.55)}
+[data-lang="ar"] .channel-name,[data-lang="ar"] .channel-desc{font-family:'IBM Plex Arabic',sans-serif;font-style:normal;font-weight:200}
+
+/* DIVIDER */
+.divider{width:1px;background:linear-gradient(to bottom,transparent,rgba(200,169,110,.2),transparent);align-self:stretch}
+
+/* FOOTER */
+footer{border-top:1px solid rgba(200,169,110,.08);padding:2.5rem 0;margin-top:4rem}
+.footer-inner{display:flex;align-items:center;justify-content:center;gap:.5rem;flex-wrap:wrap;font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.3em;color:var(--ivory2);text-transform:uppercase}
+.footer-inner a{color:var(--ivory2);text-decoration:none;transition:color .3s}
+.footer-inner a:hover{color:var(--gold)}
+.footer-sep{color:rgba(200,169,110,.25)}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .contact-grid{grid-template-columns:1fr;gap:3rem}
+  .divider{display:none}
+  nav{padding:1.2rem 1.2rem 1.2rem 5rem;gap:1.5rem;overflow-x:auto}
+  nav a{font-size:.62rem}
+  .contact-header{padding:8rem 0 3rem}
+  .page-title{font-size:clamp(2.2rem,10vw,3.5rem)}
+}
+
+/* BILINGUAL */
+.t-en{display:inline}
+.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}
+[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body{direction:rtl}
+[data-lang="ar"] .t-ar{font-family:'IBM Plex Arabic',sans-serif;font-weight:200}
+
+/* restore visible cursor + correct affordances */
+a,button,summary,[role=button],.faq-q,.spec-item,.channel,.send-btn,.cta-btn,.wcell,.qbox{cursor:pointer}
+input,textarea,select{cursor:text}
+select{cursor:pointer}
+
+/* ═══ ARABIC TYPOGRAPHY FIX v2 ═══
+   العربية خط متّصل: لا تباعد حروف، ولا Uppercase، وخط عربي حقيقي.
+   الأرضية المطلقة max() تمنع أي نص عربي من النزول تحت حدّ المقروئية،
+   دون أن تُضخّم العناوين الكبيرة (1em يبقى كما هو إن كان أكبر).
+   Arabic: connected script — never letter-space; absolute floor via max(). */
+html[data-lang="ar"] .t-ar,
+html[data-lang="ar"] .ar-font,
+html[data-lang="ar"] [lang="ar"]{
+  font-family:'IBM Plex Arabic',system-ui,sans-serif !important;
+  letter-spacing:normal !important;
+  word-spacing:normal !important;
+  text-transform:none !important;
+  font-size:max(1.02rem,1em);
+  line-height:1.85;
+}
+/* عناصر الواجهة الصغيرة: أرضية أعلى قليلاً + وزن أوضح */
+html[data-lang="ar"] nav a,
+html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .band-tag,
+html[data-lang="ar"] .sec-title,html[data-lang="ar"] .section-title,
+html[data-lang="ar"] .works-title,html[data-lang="ar"] .connect-title,
+html[data-lang="ar"] .q-author,html[data-lang="ar"] .q-author-ar,
+html[data-lang="ar"] .footer-inner,html[data-lang="ar"] .jrn-cat,html[data-lang="ar"] .jrn-tag,
+html[data-lang="ar"] .stat-label,html[data-lang="ar"] .spec-note,html[data-lang="ar"] .offer-num,
+html[data-lang="ar"] .step-title,html[data-lang="ar"] .channel-name,html[data-lang="ar"] .form-label,
+html[data-lang="ar"] .cf-label,html[data-lang="ar"] .work-cap,html[data-lang="ar"] .mv-num{
+  font-size:max(1.02rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  line-height:1.8;
+}
+/* أزرار وروابط: مساحة نقر مريحة */
+html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+html[data-lang="ar"] .filter-btn,html[data-lang="ar"] .send-btn,
+html[data-lang="ar"] .works-all,html[data-lang="ar"] .specblock-visit,
+html[data-lang="ar"] .specblock-viewall,html[data-lang="ar"] .read-btn{
+  font-size:max(1.05rem,1em) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  font-weight:400;
+  padding:.95rem 1.9rem;
+}
+html[data-lang="ar"] nav a{font-weight:400}
+/* شاشات كبيرة (٢٧ إنش فأكثر) */
+@media(min-width:1600px){
+  nav a{font-size:.78rem}
+  .cta,.cta-btn,.cv-btn,.band-enter,.statement-readmore,.send-btn{font-size:.72rem;padding:1rem 2rem}
+  html[data-lang="ar"] nav a{font-size:1.12rem !important}
+  html[data-lang="ar"] .tag,html[data-lang="ar"] .page-tag,html[data-lang="ar"] .sec-title,
+  html[data-lang="ar"] .section-title,html[data-lang="ar"] .works-title{font-size:1.12rem !important}
+  html[data-lang="ar"] .cta,html[data-lang="ar"] .cta-btn,html[data-lang="ar"] .cv-btn,
+  html[data-lang="ar"] .band-enter,html[data-lang="ar"] .statement-readmore,
+  html[data-lang="ar"] .send-btn,html[data-lang="ar"] .works-all,
+  html[data-lang="ar"] .specblock-visit,html[data-lang="ar"] .specblock-viewall{
+    font-size:1.18rem !important;padding:1.1rem 2.2rem;
+  }
+}
+
+/* عناوين عربية: سطر واحد متّزن، ولفٌّ أنيق عند الضرورة */
+[data-lang="ar"] .band-title-ar,
+[data-lang="ar"] .h1,[data-lang="ar"] h1,
+[data-lang="ar"] .cta-heading,[data-lang="ar"] .mv-title{
+  text-wrap:balance;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  max-width:22ch;
+  margin-inline:auto;
+}
+[data-lang="ar"] .band-title-ar{line-height:1.35}
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+
+.hp-field{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+</style>
+</head>
+<body>
+<div id="cur"></div>
+<div id="ink-veil"><div id="ink-blob"></div></div>
+<div id="lang-btn"><span id="lang-glyph">ض</span></div>
+
+<nav id="nav">
+  <a href="../index.html"><span class="t-en">Home</span><span class="t-ar">الرئيسية</span></a>
+  <a href="../about/index.html"><span class="t-en">About</span><span class="t-ar">عن الفنان</span></a>
+  <a href="../journal/index.html"><span class="t-en">Journal</span><span class="t-ar">المجلة</span></a>
+  <a href="../commission/index.html"><span class="t-en">Commission</span><span class="t-ar">طلب عمل</span></a>
+  <a href="index.html" class="active"><span class="t-en">Contact</span><span class="t-ar">تواصل</span></a>
+</nav>
+
+<main class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="contact-header">
+    <p class="page-tag"><span class="t-en">Get in Touch</span><span class="t-ar">تواصل معنا</span></p>
+    <h1 class="page-title"><span class="t-en">Contact</span><span class="t-ar">تواصل</span></h1>
+    <div class="page-rule"></div>
+    <p class="page-sub">
+      <span class="t-en">Every great artwork begins with a conversation</span>
+      <span class="t-ar">كل عمل فني عظيم يبدأ بمحادثة</span>
+    </p>
+  </header>
+
+  <!-- GRID -->
+  <div class="contact-grid">
+
+    <!-- FORM -->
+    <div class="form-side">
+      <form id="contact-form" novalidate>
+
+        <div class="form-group">
+          <label class="form-label" for="email">
+            <span class="t-en">Your Email</span>
+            <span class="t-ar">بريدك الإلكتروني</span>
+          </label>
+          <input class="form-input" type="email" id="email" name="email"
+            placeholder="your@email.com" required autocomplete="email">
+          <div class="form-line"></div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="subject">
+            <span class="t-en">Subject</span>
+            <span class="t-ar">الموضوع</span>
+          </label>
+          <input class="form-input" type="text" id="subject" name="subject"
+            placeholder="Commission · Collaboration · Inquiry…" required>
+          <div class="form-line"></div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="message">
+            <span class="t-en">Message</span>
+            <span class="t-ar">رسالتك</span>
+          </label>
+          <textarea class="form-textarea" id="message" name="message" rows="6"
+            placeholder="Describe your vision, project, or question…" required></textarea>
+          <div class="form-line"></div>
+        </div>
+
+        <button type="submit" class="send-btn">
+          <span class="t-en">Send Message</span>
+          <span class="t-ar">إرسال</span>
+          <span class="arrow">→</span>
+        </button>
+
+        <div class="success-msg" id="success-msg">
+          <span class="t-en">✦ Your message has been sent. I will respond within 48 hours.</span>
+          <span class="t-ar">✦ تم إرسال رسالتك. سأردّ خلال ٤٨ ساعة.</span>
+        </div>
+
+        <div class="error-msg" id="error-msg">
+          <span class="t-en">Something went wrong. Please email info@AltayebAmer.com directly.</span>
+          <span class="t-ar">حدث خطأ. يُرجى المراسلة مباشرة على info@AltayebAmer.com.</span>
+        </div>
+
+      
+        <div class="hp-field" aria-hidden="true">
+          <label for="hp-company">Company</label>
+          <input type="text" id="hp-company" name="company" tabindex="-1" autocomplete="off">
+        </div>
+</form>
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- CHANNELS -->
+    <div class="connect-side">
+      <p class="connect-title">
+        <span class="t-en">Direct Channels</span>
+        <span class="t-ar">قنوات التواصل</span>
+      </p>
+
+      <!-- WhatsApp — number hidden, only used in href -->
+      <a class="channel" href="https://wa.me/971561122789" target="_blank" rel="noopener">
+        <div class="channel-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+        </div>
+        <div class="channel-body">
+          <p class="channel-name"><span class="t-en">WhatsApp</span><span class="t-ar">واتساب</span></p>
+          <p class="channel-desc">
+            <span class="t-en">Instant conversation · UAE</span>
+            <span class="t-ar">محادثة فورية · الإمارات</span>
+          </p>
+        </div>
+      </a>
+
+      <!-- Instagram -->
+      <a class="channel" href="https://www.instagram.com/Artist_Alt" target="_blank" rel="noopener">
+        <div class="channel-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </div>
+        <div class="channel-body">
+          <p class="channel-name">Instagram</p>
+          <p class="channel-desc">@Artist_Alt</p>
+        </div>
+      </a>
+
+      <!-- YouTube -->
+      <a class="channel" href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">
+        <div class="channel-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+          </svg>
+        </div>
+        <div class="channel-body">
+          <p class="channel-name">YouTube</p>
+          <p class="channel-desc">
+            <span class="t-en">Creative Beyond · Art Channel</span>
+            <span class="t-ar">كريتيف بيوند · قناة فنية</span>
+          </p>
+        </div>
+      </a>
+
+      <!-- Email -->
+      <a class="channel" href="mailto:info@AltayebAmer.com">
+        <div class="channel-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+        </div>
+        <div class="channel-body">
+          <p class="channel-name"><span class="t-en">Email</span><span class="t-ar">البريد الإلكتروني</span></p>
+          <p class="channel-desc">info@AltayebAmer.com</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="page-wrap">
+    <div class="footer-inner">
+      <a href="../index.html#top">
+        <span class="t-en">Altayeb Amer</span>
+        <span class="t-ar">الطيب عامر</span>
+      </a>
+      <span class="footer-sep">·</span>
+      <a href="https://m.youtube.com/@creativebeyondart" target="_blank" rel="noopener">Creative Beyond</a>
+      <span class="footer-sep">·</span>
+      <span class="t-en">Dubai</span>
+      <span class="t-ar">دبي</span>
+      <span class="footer-sep">·</span>
+      <span>© <span id="yr"></span></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Year
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+// Cursor
+const cur = document.getElementById('cur');
+// Cursor — hide on touch devices
+const isTouch = window.matchMedia('(pointer: coarse)').matches;
+if (isTouch) { cur.style.display = 'none'; }
+document.addEventListener('mousemove', e => {
+  cur.style.left = e.clientX + 'px'; cur.style.top = e.clientY + 'px';
+});
+function spawnSplash(x, y) {
+  const s = document.createElement('div'); s.className = 'ink-splash';
+  s.style.left = x + 'px'; s.style.top  = y + 'px';
+  document.body.appendChild(s); setTimeout(() => s.remove(), 850);
+}
+document.addEventListener('click', e => {
+  if (e.target.closest('#lang-btn')) return;
+  spawnSplash(e.clientX, e.clientY);
+});
+document.addEventListener('touchend', e => {
+  if (e.target.closest('#lang-btn')) return;
+  const t = e.changedTouches[0]; spawnSplash(t.clientX, t.clientY);
+}, {passive: true});
+
+// Lang
+const langBtn = document.getElementById('lang-btn'), langGlyph = document.getElementById('lang-glyph');
+const inkBlob = document.getElementById('ink-blob'), htmlEl = document.documentElement;
+let lang=(window.__AA_LANG||'en');
+document.addEventListener('mousemove', e => {
+  const r = langBtn.getBoundingClientRect();
+  langBtn.classList.toggle('near', Math.hypot(e.clientX-(r.left+r.width/2), e.clientY-(r.top+r.height/2)) < 150);
+});
+langBtn.addEventListener('click', e => {
+  e.stopPropagation();
+  const r = langBtn.getBoundingClientRect(); const ox = r.left+r.width/2, oy = r.top+r.height/2;
+  inkBlob.style.left = ox+'px'; inkBlob.style.top = oy+'px';
+  inkBlob.style.transition = 'none'; inkBlob.style.transform = 'translate(-50%,-50%) scale(0)';
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    inkBlob.classList.add('grow');
+    setTimeout(() => {
+      lang = lang === 'en' ? 'ar' : 'en';
+      htmlEl.setAttribute('data-lang', lang); htmlEl.setAttribute('lang', lang);
+      htmlEl.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+      langGlyph.textContent = lang === 'en' ? 'ض' : 'A';
+      inkBlob.classList.remove('grow'); inkBlob.classList.add('shrink');
+      setTimeout(() => { inkBlob.classList.remove('shrink'); inkBlob.style.transform = 'translate(-50%,-50%) scale(0)'; }, 750);
+    }, 480);
+  }));
+});
+
+// ===== Form handling: works today via mailto; upgrades to real async email =====
+// To deliver messages straight to your inbox WITHOUT any email client:
+//   1) Create a free form at https://formspree.io (send it to info@AltayebAmer.com)
+//   2) Put its ID below (e.g. "xayzwqkd"). Leave "" to keep the mailto fallback.
+var FORMSPREE_ID = "";
+var CONTACT_EMAIL = "info@AltayebAmer.com";
+
+function wireForm(form, buildSubject, buildBody){
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    // honeypot: hidden from people, tempting to bots — drop silently
+    if (form.company && String(form.company.value).trim()) return;
+    // email sanity check before anything else
+    var emailEl = form.querySelector('input[type=email]');
+    if (emailEl && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(emailEl.value).trim())){
+      emailEl.focus();
+      var eEl = form.querySelector('.error-msg');
+      if (eEl){
+        var een=eEl.querySelector('.t-en'), ear=eEl.querySelector('.t-ar');
+        if(een) een.textContent='That email address does not look right.';
+        if(ear) ear.textContent='يبدو أن البريد الإلكتروني غير صحيح.';
+        eEl.classList.add('show');
+      }
+      return;
+    }
+    // required-field check
+    for (var i=0;i<form.elements.length;i++){
+      var el=form.elements[i];
+      if (el.required && !String(el.value).trim()){ el.focus(); return; }
+    }
+    var isAr = document.documentElement.getAttribute('data-lang')==='ar';
+    var okEl = form.querySelector('.success-msg');
+    var errEl = form.querySelector('.error-msg');
+    var btn = form.querySelector('[type=submit]');
+    if (errEl) errEl.classList.remove('show');
+    if (okEl) okEl.classList.remove('show');
+
+    function showOk(sent){
+      if (!okEl) return;
+      var en=okEl.querySelector('.t-en'), ar=okEl.querySelector('.t-ar');
+      if (sent){
+        if(en) en.textContent='✦ Your message has been sent. I will respond within 48 hours.';
+        if(ar) ar.textContent='✦ تم إرسال رسالتك. سأردّ خلال ٤٨ ساعة.';
+      } else {
+        if(en) en.textContent='✦ Your email app is opening with your message ready — just press send.';
+        if(ar) ar.textContent='✦ يفتح تطبيق بريدك ورسالتك جاهزة — اضغط إرسال فقط.';
+      }
+      okEl.classList.add('show');
+    }
+
+    if (FORMSPREE_ID){
+      if (btn) btn.disabled=true;
+      fetch('https://formspree.io/f/'+FORMSPREE_ID, {
+        method:'POST', headers:{'Accept':'application/json'}, body:new FormData(form)
+      }).then(function(r){
+        if (btn) btn.disabled=false;
+        if (r.ok){ showOk(true); form.reset(); }
+        else if (errEl){ errEl.classList.add('show'); }
+      }).catch(function(){
+        if (btn) btn.disabled=false;
+        if (errEl) errEl.classList.add('show');
+      });
+    } else {
+      var data={};
+      Array.prototype.forEach.call(form.elements, function(el){
+        if (el.name && String(el.value).trim()) data[el.name]=String(el.value).trim();
+      });
+      window.location.href='mailto:'+CONTACT_EMAIL
+        +'?subject='+encodeURIComponent(buildSubject(data,isAr))
+        +'&body='+encodeURIComponent(buildBody(data,isAr));
+      showOk(false);
+      form.reset();
+    }
+  });
+}
+
+wireForm(
+  document.getElementById('contact-form'),
+  function(d){ return d.subject || 'Website Inquiry'; },
+  function(d){ return 'From: '+(d.email||'')+'\n\n'+(d.message||''); }
+);
+
+// Nav always visible on sub-pages
+document.getElementById('nav').style.opacity = '1';
+document.getElementById('nav').style.pointerEvents = 'auto';
+</script>
+
+<script>
+/* حفظ اللغة + تمريرها عبر الروابط (يعمل حتى على file:// حيث يُعزل localStorage) */
+(function(){
+  var d=document.documentElement;
+  var g=document.getElementById("lang-glyph");
+  function cur(){return d.getAttribute("data-lang")||"en";}
+  if(g) g.textContent = cur()==="ar" ? "A" : "ض";
+  function save(){ try{ localStorage.setItem("aa_lang",cur()); }catch(e){} }
+  save();
+  try{ new MutationObserver(save).observe(d,{attributes:true,attributeFilter:["data-lang"]}); }catch(e){}
+  /* مرّر اللغة في كل رابط داخلي */
+  document.addEventListener("click",function(e){
+    var a=e.target.closest && e.target.closest("a[href]");
+    if(!a) return;
+    var h=a.getAttribute("href")||"";
+    if(/^(https?:|mailto:|tel:|#|javascript:)/i.test(h)) return;
+    if(a.target==="_blank") return;
+    var l=cur();
+    var hash=""; var base=h;
+    var hi=h.indexOf("#"); if(hi>=0){ base=h.slice(0,hi); hash=h.slice(hi); }
+    base=base.replace(/([?&])lang=(ar|en)&?/,"$1").replace(/[?&]$/,"");
+    base += (base.indexOf("?")>=0?"&":"?")+"lang="+l;
+    a.setAttribute("href",base+hash);
+  },true);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — Altayeb Amer</title>
+<meta name="description" content="This page could not be found. Return to the work of visual artist Altayeb Amer.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#050504">
+<script>(function(){try{var q=(location.search.match(/[?&]lang=(ar|en)/)||[])[1];var l=q||localStorage.getItem("aa_lang")||"en";if(q){try{localStorage.setItem("aa_lang",l);}catch(e){}}window.__AA_LANG=l;var d=document.documentElement;d.setAttribute("data-lang",l);d.setAttribute("lang",l);d.setAttribute("dir",l==="ar"?"rtl":"ltr");}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Cinzel:wght@300;400&family=IBM+Plex+Arabic:wght@200;300&display=swap" rel="stylesheet">
+<style>
+:root{--void:#050504;--gold:#C8A96E;--ivory:#F0EBE1;--ivory2:#555250}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px}
+body{background:var(--void);color:var(--ivory);font-family:'Cormorant Garamond',serif;
+min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem;text-align:center}
+.t-en{display:inline}.t-ar{display:none}
+[data-lang="ar"] .t-en{display:none}[data-lang="ar"] .t-ar{display:inline}
+[data-lang="ar"] body,[data-lang="ar"] .num{font-family:'IBM Plex Arabic',sans-serif}
+.num{font-family:'Cinzel',serif;font-size:clamp(4rem,14vw,8rem);font-weight:300;color:var(--gold);
+letter-spacing:.12em;line-height:1;opacity:.85}
+h1{font-size:clamp(1.3rem,3.4vw,1.9rem);font-weight:300;font-style:italic;margin-top:1.6rem;color:var(--ivory)}
+p.msg{color:var(--ivory2);margin-top:1rem;font-size:1.05rem;line-height:1.9;max-width:34rem}
+.rule{width:120px;height:1px;margin:2.2rem auto;
+background:linear-gradient(to right,transparent,rgba(200,169,110,.55),transparent)}
+nav.links{display:flex;flex-wrap:wrap;gap:1.6rem;justify-content:center}
+nav.links a{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;
+color:var(--ivory2);text-decoration:none;transition:color .3s;padding:.4rem}
+nav.links a:hover,nav.links a:focus-visible{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.001ms!important}}
+</style>
+<style id="aa-a11y">
+/* المؤشر المخصّص زينة — أعِد المؤشر الطبيعي حيث لا مؤشر دقيق، ولمن يفضّل تقليل الحركة */
+@media (hover:none),(pointer:coarse){html body{cursor:auto!important}html body *{cursor:auto}
+#cur,.ink-splash{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;
+animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+#cur,.ink-splash{display:none!important}}
+:focus-visible{outline:2px solid #C8A96E;outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+  <div class="num">404</div>
+  <h1><span class="t-en">This page has wandered off the canvas.</span><span class="t-ar">هذه الصفحة خرجت عن حدود اللوحة.</span></h1>
+  <p class="msg">
+    <span class="t-en">The page you are looking for was moved, renamed, or never existed. The work, however, is all still here.</span>
+    <span class="t-ar">الصفحة التي تبحث عنها نُقلت أو غُيّر اسمها أو لم تكن موجودة أصلاً. أما الأعمال، فما زالت كلها هنا.</span>
+  </p>
+  <div class="rule"></div>
+  <nav class="links">
+    <a href="/"><span class="t-en">Home</span><span class="t-ar">الرئيسية</span></a>
+    <a href="/statement/"><span class="t-en">Statement</span><span class="t-ar">البيان الفني</span></a>
+    <a href="/gallery/"><span class="t-en">Gallery</span><span class="t-ar">المعرض</span></a>
+    <a href="/journal/"><span class="t-en">Journal</span><span class="t-ar">المجلة</span></a>
+    <a href="/about/"><span class="t-en">About</span><span class="t-ar">عن الفنان</span></a>
+    <a href="/contact/"><span class="t-en">Contact</span><span class="t-ar">تواصل</span></a>
+  </nav>
+</main>
+<button id="lang-btn" type="button" aria-label="Switch language"
+  style="position:fixed;top:1.4rem;inset-inline-start:1.5rem;width:40px;height:40px;border-radius:50%;
+  border:1px solid rgba(200,169,110,.25);background:rgba(5,5,4,.5);color:rgba(200,169,110,.85);
+  font-family:'Cormorant Garamond',serif;font-style:italic;cursor:pointer;font-size:1rem">ع</button>
+<script>
+(function(){
+  var b=document.getElementById('lang-btn'),d=document.documentElement;
+  function paint(){var ar=d.getAttribute('data-lang')==='ar';b.textContent=ar?'EN':'ع';
+    b.setAttribute('aria-label',ar?'Switch to English':'التبديل إلى العربية');}
+  paint();
+  b.addEventListener('click',function(){
+    var n=d.getAttribute('data-lang')==='ar'?'en':'ar';
+    d.setAttribute('data-lang',n);d.setAttribute('lang',n);d.setAttribute('dir',n==='ar'?'rtl':'ltr');
+    try{localStorage.setItem('aa_lang',n);}catch(e){}
+    paint();
+  });
+})();
+</script>
+</body>
+</html>
