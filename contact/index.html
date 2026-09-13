@@ -542,6 +542,32 @@ function wireForm(form){
       okEl.classList.add('show');
     }
 
+    /* الـWorker يرسل سبب الرفض؛ عرضه أنفع للزائر من رسالة عامة تدفعه
+       إلى مراسلة بريد مباشرةً — وهو نقض لغرض النموذج. */
+    function showErr(code){
+      if (!errEl) return;
+      var M = {
+        email:         ['That email address does not look right.',
+                        'يبدو أن البريد الإلكتروني غير صحيح.'],
+        subject:       ['Please add a short subject.',
+                        'اكتب موضوعاً قصيراً.'],
+        message_short: ['Your message is too short — please write at least ten characters.',
+                        'رسالتك قصيرة جداً — اكتب عشرة أحرف على الأقل.'],
+        message_long:  ['That message is too long. Please shorten it a little.',
+                        'الرسالة طويلة جداً. اختصرها قليلاً.']
+      };
+      var t = M[code] || ['Something went wrong. Please email info@AltayebAmer.com directly.',
+                          'حدث خطأ ما. يرجى مراسلة info@AltayebAmer.com مباشرةً.'];
+      var en = errEl.querySelector('.t-en'), ar = errEl.querySelector('.t-ar');
+      if (en) en.textContent = t[0];
+      if (ar) ar.textContent = t[1];
+      errEl.classList.add('show');
+      var focusMap = { email:'email', subject:'subject',
+                       message_short:'message', message_long:'message' };
+      var el = document.getElementById(focusMap[code]);
+      if (el) el.focus();
+    }
+
     if (btn) btn.disabled = true;
 
     var payload = {
@@ -560,11 +586,11 @@ function wireForm(form){
       return r.json().catch(function(){ return { ok:false }; });
     }).then(function(d){
       if (btn) btn.disabled = false;
-      if (d && d.ok){ showOk(); form.reset(); }
-      else if (errEl){ errEl.classList.add('show'); }
+      if (d && d.ok){ showOk(); form.reset(); return; }
+      showErr(d && d.error);
     }).catch(function(){
       if (btn) btn.disabled = false;
-      if (errEl) errEl.classList.add('show');
+      showErr('network');
     });
   });
 }
