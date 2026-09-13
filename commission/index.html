@@ -240,10 +240,16 @@ animation-iteration-count:1!important;transition-duration:.001ms!important;scrol
 
 .hp-field{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 
-.foot-support{max-width:640px;margin:0 auto 26px;text-align:center;
-  border:1px solid var(--gold-dim);border-radius:14px;padding:18px 20px}
-.foot-support h3{font-size:.95rem;letter-spacing:.08em;color:var(--gold);margin-bottom:.6rem}
-.foot-support p{font-size:.85rem;line-height:1.9;color:rgba(240,235,225,.62);margin:0}
+.foot-sites{max-width:720px;margin:0 auto 26px;text-align:center}
+.foot-sites h3{font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+.foot-sites>p{font-size:.82rem;line-height:1.9;color:rgba(240,235,225,.5);margin:0 0 1rem}
+.foot-sites-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.foot-sites-row a{display:flex;flex-direction:column;gap:2px;min-width:132px;
+  border:1px solid var(--gold-dim);border-radius:12px;padding:11px 16px;
+  text-decoration:none;transition:border-color .3s,background .3s}
+.foot-sites-row a:hover{border-color:var(--gold);background:rgba(200,169,110,.06)}
+.foot-sites-row b{font-weight:600;font-size:.82rem;color:var(--gold);letter-spacing:.04em}
+.foot-sites-row span{font-size:.7rem;color:rgba(240,235,225,.45)}
 </style>
 </head>
 <body>
@@ -438,9 +444,15 @@ animation-iteration-count:1!important;transition-duration:.001ms!important;scrol
 
 <footer>
   <!-- support:begin -->
-  <section class="foot-support">
-    <h3><span class="t-en">❤ Support — pay it forward</span><span class="t-ar ar-font">❤ ادعمنا — «رد المعروف»</span></h3>
-    <p><span class="t-en">This gallery is free to browse, with no ads between you and the work. Sharing it with someone who would enjoy it, or commissioning a piece, is what keeps it that way.</span><span class="t-ar ar-font">تصفّح المعرض مجاني، وبلا إعلانات تحول بينك وبين العمل. مشاركته مع من يقدّره، أو تكليفي بعمل، هو ما يُبقيه كذلك.</span></p>
+  <section class="foot-sites">
+    <h3><span class="t-en">Also designed by Altayeb Amer</span><span class="t-ar ar-font">من تصميم الطيب عامر أيضاً</span></h3>
+    <p><span class="t-en">Digital projects I design and build — free to use, and more to come.</span><span class="t-ar ar-font">مشاريع رقمية أصمّمها وأبنيها — مجانية الاستخدام، وغيرها قادم.</span></p>
+    <div class="foot-sites-row">
+      <a href="https://007.gallery" target="_blank" rel="noopener"><b>007.gallery</b><span class="t-en">Image tools</span><span class="t-ar ar-font">أدوات الصور</span></a>
+      <a href="https://awraqna.com" target="_blank" rel="noopener"><b>أوراقنا</b><span class="t-en">Printable worksheets</span><span class="t-ar ar-font">أوراق عمل للطباعة</span></a>
+      <a href="https://mawlidi.com" target="_blank" rel="noopener"><b>مَوْلِدي</b><span class="t-en">Lunar birthdays</span><span class="t-ar ar-font">الميلاد القمري</span></a>
+      <a href="https://qurankarem.org" target="_blank" rel="noopener"><b>القرآن الكريم</b><span class="t-en">Digital Quran</span><span class="t-ar ar-font">مصحف رقمي</span></a>
+    </div>
   </section>
   <!-- support:end -->
 
